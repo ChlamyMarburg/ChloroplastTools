@@ -1,0 +1,61 @@
+LOCUS       pME_Cp_0_05-06_007_OC3'2_v2        2122 bp    DNA     circular UNA 30-APR-2024
+DEFINITION  Lvl_0_3'Con2_operon_version-2 , only compatible with the new
+            overhangs.
+ACCESSION   urn.local...79w-hdu3i4v
+VERSION     urn.local...79w-hdu3i4v
+KEYWORDS    .
+SOURCE      
+  ORGANISM  .
+FEATURES             Location/Qualifiers
+     terminator      66..123
+                     /standard_name="Terminator"
+     promoter        complement(127..146)
+                     /standard_name="Seq rv"
+     rep_origin      complement(318..906)
+                     /note="pMB1"
+     terminator      complement(1089..1183)
+                     /standard_name="Terminator"
+     CDS             complement(1204..1863)
+                     /standard_name="cat"
+     promoter        2018..2043
+                     /standard_name="Seq"
+     terminator      2047..2090
+                     /standard_name="Terminator"
+ORIGIN      
+        1 ggtctcggct taaaatggga gacgagactg agaccactca tcgcgactag tagcggccgc
+       61 tgcagtccgg caaaaaaggg caaggtgtca ccaccctgcc ctttttcttt aaaaccgaaa
+      121 agattacttc gcgttatgca ggcttcctcg ctcactgact cgctgcgctc ggtcgttcgg
+      181 ctgcggcgag cggtatcagc tcactcaaag gcggtaatac ggttatccac agaatcaggg
+      241 gataacgcag gaaagaacat gtgagcaaaa ggccagcaaa aggccaggaa ccgtaaaaag
+      301 gccgcgttgc tggcgttttt ccacaggctc cgcccccctg acgagcatca caaaaatcga
+      361 cgctcaagtc agaggtggcg aaacccgaca ggactataaa gataccaggc gtttccccct
+      421 ggaagctccc tcgtgcgctc tcctgttccg accctgccgc ttaccggata cctgtccgcc
+      481 tttctccctt cgggaagcgt ggcgctttct catagctcac gctgtaggta tctcagttcg
+      541 gtgtaggtcg ttcgctccaa gctgggctgt gtgcacgaac cccccgttca gcccgaccgc
+      601 tgcgccttat ccggtaacta tcgtcttgag tccaacccgg taagacacga cttatcgcca
+      661 ctggcagcag ccactggtaa caggattagc agagcgaggt atgtaggcgg tgctacagag
+      721 ttcttgaagt ggtggcctaa ctacggctac actagaagaa cagtatttgg tatctgcgct
+      781 ctgctgaagc cagttacctt cggaaaaaga gttggtagct cttgatccgg caaacaaacc
+      841 accgctggta gcggtggttt ttttgtttgc aagcagcaga ttacgcgcag aaaaaaagga
+      901 tctcaagaag atcctttgat cttttctacg gggtctgacg ctcagtggaa cgaaaactca
+      961 cgttaaggga ttttggtcat gagattatca aaaaggatct tcacctagat ccttttaaat
+     1021 taaaaatgaa gttttaaatc aatctaaagt atatatgagt aaacttggtc tgacagctcg
+     1081 aggcttggat tctcaccaat aaaaaacgcc cggcggcaac cgagcgttct gaacaaatcc
+     1141 agatggagtt ctgaggtcat tactggatct atcaacagga gtccaagcga gctcgatatc
+     1201 aaattacgcc ccgccctgcc actcatcgca gtactgttgt aattcattaa gcattctgcc
+     1261 gacatggaag ccatcacaaa cggcatgatg aacctgaatc gccagcggca tcagcacctt
+     1321 gtcgccttgc gtataatatt tgcccatggt gaaaacgggg gcgaagaagt tgtccatatt
+     1381 ggccacgttt aaatcaaaac tggtgaaact cacccaggga ttggctgaaa cgaaaaacat
+     1441 attctcaata aaccctttag ggaaataggc caggttttca ccgtaacacg ccacatcttg
+     1501 cgaatatatg tgtagaaact gccggaaatc gtcgtggtat tcactccaga gcgatgaaaa
+     1561 cgtttcagtt tgctcatgga aaacggtgta acaagggtga acactatccc atatcaccag
+     1621 ctcaccgtct ttcattgcca tacgaaattc cggatgagca ttcatcaggc gggcaagaat
+     1681 gtgaataaag gccggataaa acttgtgctt atttttcttt acggtcttta aaaaggccgt
+     1741 aatatccagc tgaacggtct ggttataggt acattgagca actgactgaa atgcctcaaa
+     1801 atgttcttta cgatgccatt gggatatatc aacggtggta tatccagtga tttttttctc
+     1861 cattttagct tccttagctc ctgaaaatct cgataactca aaaaatacgc ccggtagtga
+     1921 tcttatttca ttatggtgaa agttggaacc tcttacgtgc ccgatcaact cgagtgccac
+     1981 ctgacgtcta agaaaccatt attatcatga cattaaccta taaaaatagg cgtatcacga
+     2041 ggcagaattt cagataaaaa aaatccttag ctttcgctaa ggatgatttc tggaattcgc
+     2101 ggccgcttct agagcgatga gt
+//
