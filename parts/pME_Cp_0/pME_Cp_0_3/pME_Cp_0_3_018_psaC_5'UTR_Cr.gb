@@ -1,0 +1,72 @@
+LOCUS       pME_Cp_0_3_018_psaC_5'UTR_Cr        2297 bp    DNA     circular UNA 19-APR-2024
+DEFINITION  psaC 5'UTR Chlamydomonas reinhardtii.
+ACCESSION   urn.local...5hw-hdu3fcu
+VERSION     urn.local...5hw-hdu3fcu
+KEYWORDS    .
+SOURCE      
+  ORGANISM  .
+COMMENT     ##pME_Standard-START##                                             
+            Box               :: Cp-3-5'UTR                                    
+            Antibiotic        :: Cam                                           
+            Created by        :: MCB                                           
+            Lvl               :: 0                                             
+            Position          :: B9                                            
+            Part type (Lvl 0) :: 3 - 5'UTR                                     
+            Toolbox           :: Chloroplasts                                  
+            ##pME_Standard-END##
+FEATURES             Location/Qualifiers
+     5'UTR           12..199
+                     /standard_name="psaC 5'UTR Chlamy"
+                     /modified_by="chotelt"
+                     /label="psaC 5'UTR Cr"
+     terminator      241..298
+                     /standard_name="Terminator"
+     rep_origin      complement(493..1081)
+                     /note="pMB1"
+     terminator      complement(1264..1358)
+                     /standard_name="Terminator"
+     CDS             complement(1379..2038)
+                     /standard_name="cat"
+     terminator      2222..2265
+                     /standard_name="Terminator"
+ORIGIN      
+        1 ggtctcgtac ttggaccaaa agcagtcatt caaatatagg tatgaggaga gaaatatatg
+       61 cgccgcaagg cgcactgcca ctgcttaata taaatacctt gtttaaagtc gattctcaat
+      121 cttctttttg atatggagat gacatattta gcacaacgca aaaatatagc atctttaaaa
+      181 attaacttaa aatttaaata atgtgagacc actcatcgcg actagtagcg gccgctgcag
+      241 tccggcaaaa aagggcaagg tgtcaccacc ctgccctttt tctttaaaac cgaaaagatt
+      301 acttcgcgtt atgcaggctt cctcgctcac tgactcgctg cgctcggtcg ttcggctgcg
+      361 gcgagcggta tcagctcact caaaggcggt aatacggtta tccacagaat caggggataa
+      421 cgcaggaaag aacatgtgag caaaaggcca gcaaaaggcc aggaaccgta aaaaggccgc
+      481 gttgctggcg tttttccaca ggctccgccc ccctgacgag catcacaaaa atcgacgctc
+      541 aagtcagagg tggcgaaacc cgacaggact ataaagatac caggcgtttc cccctggaag
+      601 ctccctcgtg cgctctcctg ttccgaccct gccgcttacc ggatacctgt ccgcctttct
+      661 cccttcggga agcgtggcgc tttctcatag ctcacgctgt aggtatctca gttcggtgta
+      721 ggtcgttcgc tccaagctgg gctgtgtgca cgaacccccc gttcagcccg accgctgcgc
+      781 cttatccggt aactatcgtc ttgagtccaa cccggtaaga cacgacttat cgccactggc
+      841 agcagccact ggtaacagga ttagcagagc gaggtatgta ggcggtgcta cagagttctt
+      901 gaagtggtgg cctaactacg gctacactag aagaacagta tttggtatct gcgctctgct
+      961 gaagccagtt accttcggaa aaagagttgg tagctcttga tccggcaaac aaaccaccgc
+     1021 tggtagcggt ggtttttttg tttgcaagca gcagattacg cgcagaaaaa aaggatctca
+     1081 agaagatcct ttgatctttt ctacggggtc tgacgctcag tggaacgaaa actcacgtta
+     1141 agggattttg gtcatgagat tatcaaaaag gatcttcacc tagatccttt taaattaaaa
+     1201 atgaagtttt aaatcaatct aaagtatata tgagtaaact tggtctgaca gctcgaggct
+     1261 tggattctca ccaataaaaa acgcccggcg gcaaccgagc gttctgaaca aatccagatg
+     1321 gagttctgag gtcattactg gatctatcaa caggagtcca agcgagctcg atatcaaatt
+     1381 acgccccgcc ctgccactca tcgcagtact gttgtaattc attaagcatt ctgccgacat
+     1441 ggaagccatc acaaacggca tgatgaacct gaatcgccag cggcatcagc accttgtcgc
+     1501 cttgcgtata atatttgccc atggtgaaaa cgggggcgaa gaagttgtcc atattggcca
+     1561 cgtttaaatc aaaactggtg aaactcaccc agggattggc tgaaacgaaa aacatattct
+     1621 caataaaccc tttagggaaa taggccaggt tttcaccgta acacgccaca tcttgcgaat
+     1681 atatgtgtag aaactgccgg aaatcgtcgt ggtattcact ccagagcgat gaaaacgttt
+     1741 cagtttgctc atggaaaacg gtgtaacaag ggtgaacact atcccatatc accagctcac
+     1801 cgtctttcat tgccatacga aattccggat gagcattcat caggcgggca agaatgtgaa
+     1861 taaaggccgg ataaaacttg tgcttatttt tctttacggt ctttaaaaag gccgtaatat
+     1921 ccagctgaac ggtctggtta taggtacatt gagcaactga ctgaaatgcc tcaaaatgtt
+     1981 ctttacgatg ccattgggat atatcaacgg tggtatatcc agtgattttt ttctccattt
+     2041 tagcttcctt agctcctgaa aatctcgata actcaaaaaa tacgcccggt agtgatctta
+     2101 tttcattatg gtgaaagttg gaacctctta cgtgcccgat caactcgagt gccacctgac
+     2161 gtctaagaaa ccattattat catgacatta acctataaaa ataggcgtat cacgaggcag
+     2221 aatttcagat aaaaaaaatc cttagctttc gctaaggatg atttctggaa ttcgcggccg
+     2281 cttctagagc gatgagt
+//

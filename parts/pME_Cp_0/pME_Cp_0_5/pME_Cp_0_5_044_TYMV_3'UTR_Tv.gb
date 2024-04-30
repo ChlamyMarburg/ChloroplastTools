@@ -1,0 +1,71 @@
+LOCUS       pME_Cp_0_5_044_TYMV_3'UTR_Tv        2216 bp    DNA     circular UNA 19-APR-2024
+DEFINITION  Turnip yellow mosaic virus 3'UTR.
+ACCESSION   urn.local...6j0-hdu3hg4
+VERSION     urn.local...6j0-hdu3hg4
+KEYWORDS    .
+SOURCE      
+  ORGANISM  .
+COMMENT     ##pME_Standard-START##                                             
+            Box               :: Cp-5-3'UTR                                    
+            Antibiotic        :: Cam                                           
+            Created by        :: MCB                                           
+            Lvl               :: 0                                             
+            Position          :: E8                                            
+            Part type (Lvl 0) :: 5 - 3'UTR                                     
+            Toolbox           :: Chloroplasts                                  
+            Validated         :: false                                         
+            ##pME_Standard-END##
+FEATURES             Location/Qualifiers
+     3'UTR           14..118
+                     /standard_name="PTGS supressor 3'UTR TYMV"
+                     /modified_by="chotelt"
+                     /label="TYMV 3'UTR "
+     terminator      160..217
+                     /standard_name="Terminator"
+     rep_origin      complement(412..1000)
+                     /note="pMB1"
+     terminator      1183..1277
+                     /standard_name="Terminator"
+     CDS             complement(1298..1957)
+                     /standard_name="cat"
+     terminator      2141..2184
+                     /standard_name="Terminator"
+ORIGIN      
+        1 ggtctcggct taagttctcg atctttaaaa tcgttagctc gccagttagc gaggtctgtc
+       61 cccacacgac agataatcgg gtgcaactcc cgcccctttt ccgagggtca tcggaacccg
+      121 cttgagacca ctcatcgcga ctagtagcgg ccgctgcagt ccggcaaaaa agggcaaggt
+      181 gtcaccaccc tgcccttttt ctttaaaacc gaaaagatta cttcgcgtta tgcaggcttc
+      241 ctcgctcact gactcgctgc gctcggtcgt tcggctgcgg cgagcggtat cagctcactc
+      301 aaaggcggta atacggttat ccacagaatc aggggataac gcaggaaaga acatgtgagc
+      361 aaaaggccag caaaaggcca ggaaccgtaa aaaggccgcg ttgctggcgt ttttccacag
+      421 gctccgcccc cctgacgagc atcacaaaaa tcgacgctca agtcagaggt ggcgaaaccc
+      481 gacaggacta taaagatacc aggcgtttcc ccctggaagc tccctcgtgc gctctcctgt
+      541 tccgaccctg ccgcttaccg gatacctgtc cgcctttctc ccttcgggaa gcgtggcgct
+      601 ttctcatagc tcacgctgta ggtatctcag ttcggtgtag gtcgttcgct ccaagctggg
+      661 ctgtgtgcac gaaccccccg ttcagcccga ccgctgcgcc ttatccggta actatcgtct
+      721 tgagtccaac ccggtaagac acgacttatc gccactggca gcagccactg gtaacaggat
+      781 tagcagagcg aggtatgtag gcggtgctac agagttcttg aagtggtggc ctaactacgg
+      841 ctacactaga agaacagtat ttggtatctg cgctctgctg aagccagtta ccttcggaaa
+      901 aagagttggt agctcttgat ccggcaaaca aaccaccgct ggtagcggtg gtttttttgt
+      961 ttgcaagcag cagattacgc gcagaaaaaa aggatctcaa gaagatcctt tgatcttttc
+     1021 tacggggtct gacgctcagt ggaacgaaaa ctcacgttaa gggattttgg tcatgagatt
+     1081 atcaaaaagg atcttcacct agatcctttt aaattaaaaa tgaagtttta aatcaatcta
+     1141 aagtatatat gagtaaactt ggtctgacag ctcgaggctt ggattctcac caataaaaaa
+     1201 cgcccggcgg caaccgagcg ttctgaacaa atccagatgg agttctgagg tcattactgg
+     1261 atctatcaac aggagtccaa gcgagctcga tatcaaatta cgccccgccc tgccactcat
+     1321 cgcagtactg ttgtaattca ttaagcattc tgccgacatg gaagccatca caaacggcat
+     1381 gatgaacctg aatcgccagc ggcatcagca ccttgtcgcc ttgcgtataa tatttgccca
+     1441 tggtgaaaac gggggcgaag aagttgtcca tattggccac gtttaaatca aaactggtga
+     1501 aactcaccca gggattggct gaaacgaaaa acatattctc aataaaccct ttagggaaat
+     1561 aggccaggtt ttcaccgtaa cacgccacat cttgcgaata tatgtgtaga aactgccgga
+     1621 aatcgtcgtg gtattcactc cagagcgatg aaaacgtttc agtttgctca tggaaaacgg
+     1681 tgtaacaagg gtgaacacta tcccatatca ccagctcacc gtctttcatt gccatacgaa
+     1741 attccggatg agcattcatc aggcgggcaa gaatgtgaat aaaggccgga taaaacttgt
+     1801 gcttattttt ctttacggtc tttaaaaagg ccgtaatatc cagctgaacg gtctggttat
+     1861 aggtacattg agcaactgac tgaaatgcct caaaatgttc tttacgatgc cattgggata
+     1921 tatcaacggt ggtatatcca gtgatttttt tctccatttt agcttcctta gctcctgaaa
+     1981 atctcgataa ctcaaaaaat acgcccggta gtgatcttat ttcattatgg tgaaagttgg
+     2041 aacctcttac gtgcccgatc aactcgagtg ccacctgacg tctaagaaac cattattatc
+     2101 atgacattaa cctataaaaa taggcgtatc acgaggcaga atttcagata aaaaaaatcc
+     2161 ttagctttcg ctaaggatga tttctggaat tcgcggccgc ttctagagcg atgagt
+//

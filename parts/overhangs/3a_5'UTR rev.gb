@@ -1,0 +1,21 @@
+LOCUS       3a_5'UTR_rev              17 bp    DNA     linear   UNA 07-MAR-2023
+DEFINITION  Overhang for PCR of LVL 0 Parts .
+ACCESSION   urn.local...a1-hdqbtlv
+VERSION     urn.local...a1-hdqbtlv
+KEYWORDS    .
+SOURCE      
+  ORGANISM  .
+FEATURES             Location/Qualifiers
+     misc_feature    1..4
+                     /Original_Bases="AATG"
+                     /label="AATG"
+                     /note="Geneious type: Editing History Replacement"
+     unsure          9
+                     /created_by="Daniel"
+                     /label="N"
+     unsure          16..17
+                     /created_by="Daniel"
+                     /label="N"
+ORIGIN      
+        1 ccattgaggg agacgaa
+//

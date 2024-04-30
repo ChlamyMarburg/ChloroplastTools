@@ -1,0 +1,21 @@
+LOCUS       3b_n-tag_fwd              18 bp    DNA     linear   UNA 07-MAR-2023
+DEFINITION  Overhang for PCR of LVL 0 Parts + 1bp Spacer.
+ACCESSION   urn.local...9v-hdqbtlv
+VERSION     urn.local...9v-hdqbtlv
+KEYWORDS    .
+SOURCE      
+  ORGANISM  .
+FEATURES             Location/Qualifiers
+     unsure          1..2
+                     /created_by="Daniel"
+                     /label="N"
+     unsure          9
+                     /created_by="Daniel"
+                     /label="N"
+     misc_feature    14..17
+                     /Original_Bases="TACTAGA"
+                     /label="TACTAGA"
+                     /note="Geneious type: Editing History Replacement"
+ORIGIN      
+        1 aacgtctcgc tcgccatg
+//

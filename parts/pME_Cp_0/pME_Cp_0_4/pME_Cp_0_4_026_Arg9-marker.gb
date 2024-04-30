@@ -1,0 +1,91 @@
+LOCUS       pME_Cp_0_4_026_Arg9-marker        3486 bp    DNA     circular UNA 21-FEB-2024
+DEFINITION  N-Acetyl Ornithine Aminotransferase, allows recovery of arginine
+            auxotroph.
+ACCESSION   urn.local...6al-hdu3gr9
+VERSION     urn.local...6al-hdu3gr9
+KEYWORDS    .
+SOURCE      
+  ORGANISM  .
+COMMENT     ##pME_Standard-START##                                             
+            Box               :: Cp-4-CDS                                      
+            Antibiotic        :: Cam                                           
+            Created by        :: RI                                            
+            Lvl               :: 0                                             
+            Position          :: C8                                            
+            Part type (Lvl 0) :: 4 - CDS                                       
+            Toolbox           :: Chloroplasts                                  
+            ##pME_Standard-END##
+FEATURES             Location/Qualifiers
+     CDS             12..1388
+                     /standard_name="Arg9"
+     terminator      1430..1487
+                     /standard_name="Terminator"
+     rep_origin      complement(1682..2270)
+                     /note="pMB1"
+     terminator      complement(2453..2547)
+                     /standard_name="Terminator"
+     CDS             complement(2568..3227)
+                     /standard_name="cat"
+     terminator      3411..3454
+                     /standard_name="Terminator"
+ORIGIN      
+        1 ggtctcgaat ggcacaatta caacaacatc aaggtcgtgc agctgcagct caacctaaac
+       61 gtgctcgtca attagctgtt gctcctcgtg ctgcattaac attcaaccct gcttcattat
+      121 tcaaaggttt aacttcaagt aaaccaacac ctaaagatgc agctttcact aaacaagtta
+      181 ttgctgatga atctaaatat gttttacaaa catatggtcg tgctccagtt gtaatttctc
+      241 acggtaaagg tgctaaaatg tgggacgtag aaggtaaaga atatattgat atggctgcag
+      301 gtattgcagt taatgcatta ggtcactcag attcacaatg gtatgcagct ttagtagaac
+      361 aagctgaaaa attagctcat acatcaaatt tataccacac acaaccacaa gttgaattag
+      421 caaaacgttt agtagaaaat agtttcgcag acaaagcttt cttttgtaat acaggtacag
+      481 aagcaaatga aggtgctatt aaattcgctc gtaaatgggc tcgtgtacgt gctggtattg
+      541 acccatatga tggtggtgca gtagctccat atgaattagt atcatttaca tcatgttttc
+      601 acggtcgtac aatgggtgct ttagcattaa catataaaga acaatataaa acaccattct
+      661 atccaatgat gcctggtcat caattagcag aatataataa cttagaaagt gcagctgcag
+      721 ttattaaaaa aggtaaaaca gcagctgttt ttgtagaacc tgttcaaggt gaaggtggtg
+      781 ttacaccatc tacacaagca tttttaaaag gtttacgtca attatgtgat gaagctggtg
+      841 ctttattagt atttgatgaa gtacaatgtg gtttaggtcg tacaggtaaa ttatggggtc
+      901 accaattatt cggtgtagaa ccagacatga tgacattagc taaaccatta gctggtggtt
+      961 tacctattgg tacagtttta ttaaaacaac acgttgctga tgtaatgaaa cctggtgatc
+     1021 acggtagtac atttgcaggt aatcctttag tatgtcatgt agcttgttca gtatttgata
+     1081 ttattaactc accagctttt ttagctgcag ttgaagctaa aggtgaacgt ttacgtgctg
+     1141 gtttacgtcg tacaatggct ggtaaccctc atgtacaaga agttcgtggt gttggtttat
+     1201 tagttggtgt acaattagat atgatggcag gtccagtagt tgatgcagct cgtgatatgg
+     1261 gtgttatggc aattactgca ggtaaaggtg atgttattcg tttagttcca cctttagtag
+     1321 ttacagacgc tgaaattgat actgcttgtg aagttttagc tgcagcttta aataaagttg
+     1381 ctccaaaagc tttgagacca ctcatcgcga ctagtagcgg ccgctgcagt ccggcaaaaa
+     1441 agggcaaggt gtcaccaccc tgcccttttt ctttaaaacc gaaaagatta cttcgcgtta
+     1501 tgcaggcttc ctcgctcact gactcgctgc gctcggtcgt tcggctgcgg cgagcggtat
+     1561 cagctcactc aaaggcggta atacggttat ccacagaatc aggggataac gcaggaaaga
+     1621 acatgtgagc aaaaggccag caaaaggcca ggaaccgtaa aaaggccgcg ttgctggcgt
+     1681 ttttccacag gctccgcccc cctgacgagc atcacaaaaa tcgacgctca agtcagaggt
+     1741 ggcgaaaccc gacaggacta taaagatacc aggcgtttcc ccctggaagc tccctcgtgc
+     1801 gctctcctgt tccgaccctg ccgcttaccg gatacctgtc cgcctttctc ccttcgggaa
+     1861 gcgtggcgct ttctcatagc tcacgctgta ggtatctcag ttcggtgtag gtcgttcgct
+     1921 ccaagctggg ctgtgtgcac gaaccccccg ttcagcccga ccgctgcgcc ttatccggta
+     1981 actatcgtct tgagtccaac ccggtaagac acgacttatc gccactggca gcagccactg
+     2041 gtaacaggat tagcagagcg aggtatgtag gcggtgctac agagttcttg aagtggtggc
+     2101 ctaactacgg ctacactaga agaacagtat ttggtatctg cgctctgctg aagccagtta
+     2161 ccttcggaaa aagagttggt agctcttgat ccggcaaaca aaccaccgct ggtagcggtg
+     2221 gtttttttgt ttgcaagcag cagattacgc gcagaaaaaa aggatctcaa gaagatcctt
+     2281 tgatcttttc tacggggtct gacgctcagt ggaacgaaaa ctcacgttaa gggattttgg
+     2341 tcatgagatt atcaaaaagg atcttcacct agatcctttt aaattaaaaa tgaagtttta
+     2401 aatcaatcta aagtatatat gagtaaactt ggtctgacag ctcgaggctt ggattctcac
+     2461 caataaaaaa cgcccggcgg caaccgagcg ttctgaacaa atccagatgg agttctgagg
+     2521 tcattactgg atctatcaac aggagtccaa gcgagctcga tatcaaatta cgccccgccc
+     2581 tgccactcat cgcagtactg ttgtaattca ttaagcattc tgccgacatg gaagccatca
+     2641 caaacggcat gatgaacctg aatcgccagc ggcatcagca ccttgtcgcc ttgcgtataa
+     2701 tatttgccca tggtgaaaac gggggcgaag aagttgtcca tattggccac gtttaaatca
+     2761 aaactggtga aactcaccca gggattggct gaaacgaaaa acatattctc aataaaccct
+     2821 ttagggaaat aggccaggtt ttcaccgtaa cacgccacat cttgcgaata tatgtgtaga
+     2881 aactgccgga aatcgtcgtg gtattcactc cagagcgatg aaaacgtttc agtttgctca
+     2941 tggaaaacgg tgtaacaagg gtgaacacta tcccatatca ccagctcacc gtctttcatt
+     3001 gccatacgaa attccggatg agcattcatc aggcgggcaa gaatgtgaat aaaggccgga
+     3061 taaaacttgt gcttattttt ctttacggtc tttaaaaagg ccgtaatatc cagctgaacg
+     3121 gtctggttat aggtacattg agcaactgac tgaaatgcct caaaatgttc tttacgatgc
+     3181 cattgggata tatcaacggt ggtatatcca gtgatttttt tctccatttt agcttcctta
+     3241 gctcctgaaa atctcgataa ctcaaaaaat acgcccggta gtgatcttat ttcattatgg
+     3301 tgaaagttgg aacctcttac gtgcccgatc aactcgagtg ccacctgacg tctaagaaac
+     3361 cattattatc atgacattaa cctataaaaa taggcgtatc acgaggcaga atttcagata
+     3421 aaaaaaatcc ttagctttcg ctaaggatga tttctggaat tcgcggccgc ttctagagcg
+     3481 atgagt
+//

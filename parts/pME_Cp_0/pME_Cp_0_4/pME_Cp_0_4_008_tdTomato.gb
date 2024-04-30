@@ -1,0 +1,91 @@
+LOCUS       pME_Cp_0_4_008_tdTomato        3534 bp    DNA     circular UNA 21-FEB-2024
+DEFINITION  tdTomato reporter gene codon opt. for Cr.
+ACCESSION   urn.local...6ae-hdu3gr9
+VERSION     urn.local...6ae-hdu3gr9
+KEYWORDS    .
+SOURCE      
+  ORGANISM  .
+COMMENT     ##pME_Standard-START##                                             
+            Box               :: Cp-4-CDS                                      
+            Antibiotic        :: Cam                                           
+            Created by        :: RI                                            
+            Lvl               :: 0                                             
+            Position          :: A8                                            
+            Part type (Lvl 0) :: 4 - CDS                                       
+            Toolbox           :: Chloroplasts                                  
+            Codon usage       :: Chlamydomonas reinhardtii                     
+            ##pME_Standard-END##
+FEATURES             Location/Qualifiers
+     CDS             12..1436
+                     /standard_name="tdTomato"
+     terminator      1478..1535
+                     /standard_name="Terminator"
+     rep_origin      complement(1730..2318)
+                     /note="pMB1"
+     terminator      2501..2595
+                     /standard_name="Terminator"
+     CDS             complement(2616..3275)
+                     /standard_name="cat"
+     terminator      3459..3502
+                     /standard_name="Terminator"
+ORIGIN      
+        1 ggtctcgaat ggtttcaaaa ggtgaagaag taattaaaga attcatgcgt tttaaagtac
+       61 gtatggaagg ttctatgaat ggtcatgaat ttgaaattga aggtgaaggt gaaggtcgtc
+      121 catatgaagg tacacaaaca gcaaaattaa aagttactaa aggtggtcca ttaccattcg
+      181 cttgggatat tttaagtcca caatttatgt acggttcaaa agcttatgta aaacatccag
+      241 cagacattcc agattataaa aaattaagtt ttccagaagg ttttaaatgg gaacgtgtaa
+      301 tgaatttcga agatggtggt ttagttacag ttactcaaga ctcaagttta caagatggta
+      361 cattaattta taaagttaaa atgcgtggta ctaattttcc acctgatggt ccagttatgc
+      421 aaaaaaaaac tatgggttgg gaagcaagta cagaacgttt atatccacgt gatggtgttt
+      481 taaaaggtga aattcaccaa gcattaaaat taaaagatgg tggtcactat ttagttgaat
+      541 ttaaaacaat ttatatggca aaaaaacctg tacaattacc tggttattac tatgttgata
+      601 ctaaattaga cattacttct cacaatgaag attacactat tgtagaacaa tatgaacgta
+      661 gtgaaggtcg tcaccattta tttttaggtc acggtactgg ttctacaggt tcaggttcat
+      721 ctggtactgc ttcaagtgaa gataataaca tggcagtaat taaagaattt atgcgtttta
+      781 aagtacgtat ggaaggttct atgaatggtc atgaattcga aattgaaggt gaaggtgaag
+      841 gtcgtccata tgaaggtact caaactgcaa aattaaaagt aactaaaggt ggtccattac
+      901 ctttcgcatg ggatatttta tcaccacaat tcatgtatgg ttctaaagct tatgttaaac
+      961 atccagctga tattcctgat tataaaaaat taagttttcc agaaggtttc aaatgggaac
+     1021 gtgtaatgaa ttttgaagat ggtggtttag ttacagtaac tcaagattca tctttacaag
+     1081 atggtacttt aatttataaa gttaaaatgc gtggtacaaa cttcccacct gatggtcctg
+     1141 ttatgcaaaa aaaaacaatg ggttgggaag cttctactga acgtttatac ccacgtgacg
+     1201 gtgtattaaa aggtgaaatt catcaagctt taaaattaaa agatggtggt cactatttag
+     1261 ttgaatttaa aacaatttac atggctaaaa aacctgttca attacctggt tattactatg
+     1321 tagatacaaa attagacatt acatcacata atgaagatta cacaattgtt gaacaatacg
+     1381 aacgttcaga aggtcgtcac catttattct tatatggtat ggacgaatta tacaaagctt
+     1441 tgagaccact catcgcgact agtagcggcc gctgcagtcc ggcaaaaaag ggcaaggtgt
+     1501 caccaccctg ccctttttct ttaaaaccga aaagattact tcgcgttatg caggcttcct
+     1561 cgctcactga ctcgctgcgc tcggtcgttc ggctgcggcg agcggtatca gctcactcaa
+     1621 aggcggtaat acggttatcc acagaatcag gggataacgc aggaaagaac atgtgagcaa
+     1681 aaggccagca aaaggccagg aaccgtaaaa aggccgcgtt gctggcgttt ttccacaggc
+     1741 tccgcccccc tgacgagcat cacaaaaatc gacgctcaag tcagaggtgg cgaaacccga
+     1801 caggactata aagataccag gcgtttcccc ctggaagctc cctcgtgcgc tctcctgttc
+     1861 cgaccctgcc gcttaccgga tacctgtccg cctttctccc ttcgggaagc gtggcgcttt
+     1921 ctcatagctc acgctgtagg tatctcagtt cggtgtaggt cgttcgctcc aagctgggct
+     1981 gtgtgcacga accccccgtt cagcccgacc gctgcgcctt atccggtaac tatcgtcttg
+     2041 agtccaaccc ggtaagacac gacttatcgc cactggcagc agccactggt aacaggatta
+     2101 gcagagcgag gtatgtaggc ggtgctacag agttcttgaa gtggtggcct aactacggct
+     2161 acactagaag aacagtattt ggtatctgcg ctctgctgaa gccagttacc ttcggaaaaa
+     2221 gagttggtag ctcttgatcc ggcaaacaaa ccaccgctgg tagcggtggt ttttttgttt
+     2281 gcaagcagca gattacgcgc agaaaaaaag gatctcaaga agatcctttg atcttttcta
+     2341 cggggtctga cgctcagtgg aacgaaaact cacgttaagg gattttggtc atgagattat
+     2401 caaaaaggat cttcacctag atccttttaa attaaaaatg aagttttaaa tcaatctaaa
+     2461 gtatatatga gtaaacttgg tctgacagct cgaggcttgg attctcacca ataaaaaacg
+     2521 cccggcggca accgagcgtt ctgaacaaat ccagatggag ttctgaggtc attactggat
+     2581 ctatcaacag gagtccaagc gagctcgata tcaaattacg ccccgccctg ccactcatcg
+     2641 cagtactgtt gtaattcatt aagcattctg ccgacatgga agccatcaca aacggcatga
+     2701 tgaacctgaa tcgccagcgg catcagcacc ttgtcgcctt gcgtataata tttgcccatg
+     2761 gtgaaaacgg gggcgaagaa gttgtccata ttggccacgt ttaaatcaaa actggtgaaa
+     2821 ctcacccagg gattggctga aacgaaaaac atattctcaa taaacccttt agggaaatag
+     2881 gccaggtttt caccgtaaca cgccacatct tgcgaatata tgtgtagaaa ctgccggaaa
+     2941 tcgtcgtggt attcactcca gagcgatgaa aacgtttcag tttgctcatg gaaaacggtg
+     3001 taacaagggt gaacactatc ccatatcacc agctcaccgt ctttcattgc catacgaaat
+     3061 tccggatgag cattcatcag gcgggcaaga atgtgaataa aggccggata aaacttgtgc
+     3121 ttatttttct ttacggtctt taaaaaggcc gtaatatcca gctgaacggt ctggttatag
+     3181 gtacattgag caactgactg aaatgcctca aaatgttctt tacgatgcca ttgggatata
+     3241 tcaacggtgg tatatccagt gatttttttc tccattttag cttccttagc tcctgaaaat
+     3301 ctcgataact caaaaaatac gcccggtagt gatcttattt cattatggtg aaagttggaa
+     3361 cctcttacgt gcccgatcaa ctcgagtgcc acctgacgtc taagaaacca ttattatcat
+     3421 gacattaacc tataaaaata ggcgtatcac gaggcagaat ttcagataaa aaaaatcctt
+     3481 agctttcgct aaggatgatt tctggaattc gcggccgctt ctagagcgat gagt
+//

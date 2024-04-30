@@ -1,0 +1,21 @@
+LOCUS       5a_c-tag_rev              17 bp    DNA     linear   UNA 07-MAR-2023
+DEFINITION  Overhang for PCR of LVL 0 Parts.
+ACCESSION   urn.local...9t-hdqbtlv
+VERSION     urn.local...9t-hdqbtlv
+KEYWORDS    .
+SOURCE      
+  ORGANISM  .
+FEATURES             Location/Qualifiers
+     misc_feature    <1..>4
+                     /Source="referenceToDocument: urn:local:.:37o-hdqbttb"
+                     /label="Hibit-cterm (concatenated sequence 2)"
+                     /note="Geneious type: Concatenated sequence"
+     unsure          complement(9)
+                     /created_by="Daniel"
+                     /label="N"
+     unsure          complement(16..17)
+                     /created_by="Daniel"
+                     /label="N"
+ORIGIN      
+        1 ggtatgaggg agacgaa
+//

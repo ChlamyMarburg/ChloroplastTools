@@ -1,0 +1,74 @@
+LOCUS       pME_Cp_0_2_035_rrn16_short_Prom_Nt        2173 bp    DNA     circular UNA 29-APR-2024
+DEFINITION  Prrn16 short promoter Nicotiana tabacum.
+ACCESSION   urn.local...55g-hdu3dgm
+VERSION     urn.local...55g-hdu3dgm
+KEYWORDS    .
+SOURCE      
+  ORGANISM  .
+COMMENT     ##pME_Standard-START##                                             
+            Box               :: Cp-2-Prom                                     
+            Antibiotic        :: Cam                                           
+            Created by        :: MCB                                           
+            Lvl               :: 0                                             
+            Position          :: D8                                            
+            Part type (Lvl 0) :: 2 - Promoter                                  
+            Toolbox           :: Chloroplasts                                  
+            ##pME_Standard-END##
+FEATURES             Location/Qualifiers
+     promoter        5..68
+                     /standard_name="Prrn16"
+                     /modified_by="chotelt"
+                     /label="rrn16_Nt promoter (short)"
+     promoter        32..37
+                     /standard_name="-35"
+     promoter        56..61
+                     /standard_name="-10"
+     terminator      110..167
+                     /standard_name="Terminator"
+     rep_origin      complement(362..950)
+                     /note="pMB1"
+     terminator      1133..1227
+                     /standard_name="Terminator"
+     CDS             complement(1248..1907)
+                     /standard_name="cat"
+     terminator      2091..2134
+                     /standard_name="Terminator"
+ORIGIN      
+        1 ggagatgaga atggataaga ggctcgtggg attgacgtga gggggcaggg atggctatat
+       61 ttctgggata cttgagacca ctcatcgcga ctagtagcgg ccgctgcagt ccggcaaaaa
+      121 agggcaaggt gtcaccaccc tgcccttttt ctttaaaacc gaaaagatta cttcgcgtta
+      181 tgcaggcttc ctcgctcact gactcgctgc gctcggtcgt tcggctgcgg cgagcggtat
+      241 cagctcactc aaaggcggta atacggttat ccacagaatc aggggataac gcaggaaaga
+      301 acatgtgagc aaaaggccag caaaaggcca ggaaccgtaa aaaggccgcg ttgctggcgt
+      361 ttttccacag gctccgcccc cctgacgagc atcacaaaaa tcgacgctca agtcagaggt
+      421 ggcgaaaccc gacaggacta taaagatacc aggcgtttcc ccctggaagc tccctcgtgc
+      481 gctctcctgt tccgaccctg ccgcttaccg gatacctgtc cgcctttctc ccttcgggaa
+      541 gcgtggcgct ttctcatagc tcacgctgta ggtatctcag ttcggtgtag gtcgttcgct
+      601 ccaagctggg ctgtgtgcac gaaccccccg ttcagcccga ccgctgcgcc ttatccggta
+      661 actatcgtct tgagtccaac ccggtaagac acgacttatc gccactggca gcagccactg
+      721 gtaacaggat tagcagagcg aggtatgtag gcggtgctac agagttcttg aagtggtggc
+      781 ctaactacgg ctacactaga agaacagtat ttggtatctg cgctctgctg aagccagtta
+      841 ccttcggaaa aagagttggt agctcttgat ccggcaaaca aaccaccgct ggtagcggtg
+      901 gtttttttgt ttgcaagcag cagattacgc gcagaaaaaa aggatctcaa gaagatcctt
+      961 tgatcttttc tacggggtct gacgctcagt ggaacgaaaa ctcacgttaa gggattttgg
+     1021 tcatgagatt atcaaaaagg atcttcacct agatcctttt aaattaaaaa tgaagtttta
+     1081 aatcaatcta aagtatatat gagtaaactt ggtctgacag ctcgaggctt ggattctcac
+     1141 caataaaaaa cgcccggcgg caaccgagcg ttctgaacaa atccagatgg agttctgagg
+     1201 tcattactgg atctatcaac aggagtccaa gcgagctcga tatcaaatta cgccccgccc
+     1261 tgccactcat cgcagtactg ttgtaattca ttaagcattc tgccgacatg gaagccatca
+     1321 caaacggcat gatgaacctg aatcgccagc ggcatcagca ccttgtcgcc ttgcgtataa
+     1381 tatttgccca tggtgaaaac gggggcgaag aagttgtcca tattggccac gtttaaatca
+     1441 aaactggtga aactcaccca gggattggct gaaacgaaaa acatattctc aataaaccct
+     1501 ttagggaaat aggccaggtt ttcaccgtaa cacgccacat cttgcgaata tatgtgtaga
+     1561 aactgccgga aatcgtcgtg gtattcactc cagagcgatg aaaacgtttc agtttgctca
+     1621 tggaaaacgg tgtaacaagg gtgaacacta tcccatatca ccagctcacc gtctttcatt
+     1681 gccatacgaa attccggatg agcattcatc aggcgggcaa gaatgtgaat aaaggccgga
+     1741 taaaacttgt gcttattttt ctttacggtc tttaaaaagg ccgtaatatc cagctgaacg
+     1801 gtctggttat aggtacattg agcaactgac tgaaatgcct caaaatgttc tttacgatgc
+     1861 cattgggata tatcaacggt ggtatatcca gtgatttttt tctccatttt agcttcctta
+     1921 gctcctgaaa atctcgataa ctcaaaaaat acgcccggta gtgatcttat ttcattatgg
+     1981 tgaaagttgg aacctcttac gtgcccgatc aactcgagtg ccacctgacg tctaagaaac
+     2041 cattattatc atgacattaa cctataaaaa taggcgtatc acgaggcaga atttcagata
+     2101 aaaaaaatcc ttagctttcg ctaaggatga tttctggaat tcgcggccgc ttctagagcg
+     2161 atgagtggtc tcg
+//

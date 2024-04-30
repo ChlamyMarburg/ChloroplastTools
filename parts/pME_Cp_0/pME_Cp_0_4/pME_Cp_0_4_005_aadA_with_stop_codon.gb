@@ -1,0 +1,91 @@
+LOCUS       pME_Cp_0_4_005_aadA_with_stop_codon        2980 bp    DNA     circular UNA 19-APR-2024
+DEFINITION  aadA gene confering resistance to spectinomycin/streptomycin.
+ACCESSION   urn.local...6ab-hdu3gr9
+VERSION     urn.local...6ab-hdu3gr9
+KEYWORDS    .
+SOURCE      
+  ORGANISM  .
+COMMENT     ##pME_Standard-START##                                             
+            Box               :: Cp-4-CDS                                      
+            Antibiotic        :: Cam                                           
+            Created by        :: RI                                            
+            Lvl               :: 0                                             
+            Position          :: A5                                            
+            Part type (Lvl 0) :: 4 - CDS                                       
+            Toolbox           :: Chloroplasts                                  
+            Codon usage       :: ?                                             
+            ##pME_Standard-END##
+FEATURES             Location/Qualifiers
+     CDS             <12..881
+                     /note="aadA"
+                     /translation="MAMRTPEELSNLIKDLIEQYTPEVKMSMAREAVIAEVSTQLSEV
+                     VGVIERHLEPTLLAVHLYGSAVDGGLKPHSDIDLLVTVTVRLDETTRRALINDLLETS
+                     ASPGESEILRAVEVTIVVHDDIIPWRYPAKRELQFGEWQRNDILAGIFEPATIDIDLA
+                     ILLTKAREHSVALVGPAAEELFDPVPEQDLFEALNETLTLWNSPPDWAGDERNVVLTL
+                     SRIWYSAVTGKIAPKDVAADWAMERLPAQYQPVILEARQAYLGQEDRLASRADQLEEF
+                     VHYVKGEITKVVGK*"
+                     /codon_start=1
+                     /transl_table=11
+                     /standard_name="aadA"
+     terminator      924..981
+                     /standard_name="Terminator"
+     rep_origin      complement(1176..1764)
+                     /note="pMB1"
+     terminator      1947..2041
+                     /standard_name="Terminator"
+     CDS             complement(2062..2721)
+                     /standard_name="cat"
+     terminator      2905..2948
+                     /standard_name="Terminator"
+ORIGIN      
+        1 ggtctcgaat ggcaatgcgt actccagaag aacttagtaa tcttattaaa gatttaattg
+       61 aacaatacac tccagaagtg aaaatgtcca tggctcgtga agcggttatc gccgaagtat
+      121 cgactcaact atcagaggta gttggcgtca tcgagcgcca tctcgaaccg acgttgctgg
+      181 ccgtacattt gtacggctcc gcagtggatg gcggcctgaa gccacacagt gatattgatt
+      241 tgctggttac ggtgaccgta aggcttgatg aaacaacgcg gcgagctttg atcaacgacc
+      301 ttttggaaac ttcggcttcc cctggagaga gcgagattct ccgcgctgta gaagtcacca
+      361 ttgttgtgca cgacgacatc attccgtggc gttatccagc taagcgcgaa ctgcaatttg
+      421 gagaatggca gcgcaatgac attcttgcag gtatcttcga gccagccacg atcgacattg
+      481 atctggctat cttgctgaca aaagcaagag aacatagcgt tgccttggta ggtccagcgg
+      541 cggaggaact ctttgatccg gttcctgaac aggatctatt tgaggcgcta aatgaaacct
+      601 taacgctatg gaactcgccg cccgactggg ctggcgatga gcgaaatgta gtgcttacgt
+      661 tgtcccgcat ttggtacagc gcagtaaccg gcaaaatcgc gccgaaggat gtcgctgccg
+      721 actgggcaat ggagcgcctg ccggcccagt atcagcccgt catacttgaa gctaggcagg
+      781 cttatcttgg acaagaagat cgcttggcct cgcgcgcaga tcagttggaa gaatttgttc
+      841 actacgtgaa aggcgagatc actaaggtag ttggcaaata aggctttgag accactcatc
+      901 gcgactagta gcggccgctg cagtccggca aaaaagggca aggtgtcacc accctgccct
+      961 ttttctttaa aaccgaaaag attacttcgc gttatgcagg cttcctcgct cactgactcg
+     1021 ctgcgctcgg tcgttcggct gcggcgagcg gtatcagctc actcaaaggc ggtaatacgg
+     1081 ttatccacag aatcagggga taacgcagga aagaacatgt gagcaaaagg ccagcaaaag
+     1141 gccaggaacc gtaaaaaggc cgcgttgctg gcgtttttcc acaggctccg cccccctgac
+     1201 gagcatcaca aaaatcgacg ctcaagtcag aggtggcgaa acccgacagg actataaaga
+     1261 taccaggcgt ttccccctgg aagctccctc gtgcgctctc ctgttccgac cctgccgctt
+     1321 accggatacc tgtccgcctt tctcccttcg ggaagcgtgg cgctttctca tagctcacgc
+     1381 tgtaggtatc tcagttcggt gtaggtcgtt cgctccaagc tgggctgtgt gcacgaaccc
+     1441 cccgttcagc ccgaccgctg cgccttatcc ggtaactatc gtcttgagtc caacccggta
+     1501 agacacgact tatcgccact ggcagcagcc actggtaaca ggattagcag agcgaggtat
+     1561 gtaggcggtg ctacagagtt cttgaagtgg tggcctaact acggctacac tagaagaaca
+     1621 gtatttggta tctgcgctct gctgaagcca gttaccttcg gaaaaagagt tggtagctct
+     1681 tgatccggca aacaaaccac cgctggtagc ggtggttttt ttgtttgcaa gcagcagatt
+     1741 acgcgcagaa aaaaaggatc tcaagaagat cctttgatct tttctacggg gtctgacgct
+     1801 cagtggaacg aaaactcacg ttaagggatt ttggtcatga gattatcaaa aaggatcttc
+     1861 acctagatcc ttttaaatta aaaatgaagt tttaaatcaa tctaaagtat atatgagtaa
+     1921 acttggtctg acagctcgag gcttggattc tcaccaataa aaaacgcccg gcggcaaccg
+     1981 agcgttctga acaaatccag atggagttct gaggtcatta ctggatctat caacaggagt
+     2041 ccaagcgagc tcgatatcaa attacgcccc gccctgccac tcatcgcagt actgttgtaa
+     2101 ttcattaagc attctgccga catggaagcc atcacaaacg gcatgatgaa cctgaatcgc
+     2161 cagcggcatc agcaccttgt cgccttgcgt ataatatttg cccatggtga aaacgggggc
+     2221 gaagaagttg tccatattgg ccacgtttaa atcaaaactg gtgaaactca cccagggatt
+     2281 ggctgaaacg aaaaacatat tctcaataaa ccctttaggg aaataggcca ggttttcacc
+     2341 gtaacacgcc acatcttgcg aatatatgtg tagaaactgc cggaaatcgt cgtggtattc
+     2401 actccagagc gatgaaaacg tttcagtttg ctcatggaaa acggtgtaac aagggtgaac
+     2461 actatcccat atcaccagct caccgtcttt cattgccata cgaaattccg gatgagcatt
+     2521 catcaggcgg gcaagaatgt gaataaaggc cggataaaac ttgtgcttat ttttctttac
+     2581 ggtctttaaa aaggccgtaa tatccagctg aacggtctgg ttataggtac attgagcaac
+     2641 tgactgaaat gcctcaaaat gttctttacg atgccattgg gatatatcaa cggtggtata
+     2701 tccagtgatt tttttctcca ttttagcttc cttagctcct gaaaatctcg ataactcaaa
+     2761 aaatacgccc ggtagtgatc ttatttcatt atggtgaaag ttggaacctc ttacgtgccc
+     2821 gatcaactcg agtgccacct gacgtctaag aaaccattat tatcatgaca ttaacctata
+     2881 aaaataggcg tatcacgagg cagaatttca gataaaaaaa atccttagct ttcgctaagg
+     2941 atgatttctg gaattcgcgg ccgcttctag agcgatgagt
+//

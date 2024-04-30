@@ -1,0 +1,69 @@
+LOCUS       pME_Cp_0_3b_012_psaC_tm-4AA_Cr        2124 bp    DNA     circular UNA 21-FEB-2024
+DEFINITION  translation modulator (tm) for AA position 2-5 of a CDS. Sequence
+            taken from the psaC gene of the C. reinhardtii chloroplast.
+ACCESSION   urn.local...5we-hdu3fxv
+VERSION     urn.local...5we-hdu3fxv
+KEYWORDS    .
+SOURCE      
+  ORGANISM  .
+COMMENT     ##pME_Standard-START##                                             
+            Box               :: Cp-Tags                                       
+            Antibiotic        :: Cam                                           
+            Created by        :: JF                                            
+            Lvl               :: 0                                             
+            Position          :: B3                                            
+            Part type (Lvl 0) :: 3b- Tag                                       
+            Toolbox           :: Chloroplasts                                  
+            Validated         :: true                                          
+            ##pME_Standard-END##
+FEATURES             Location/Qualifiers
+     regulatory      13..24
+                     /standard_name="psaC ramp"
+     terminator      68..125
+                     /standard_name="Terminator"
+     rep_origin      complement(320..908)
+                     /note="pMB1"
+     terminator      1091..1185
+                     /standard_name="Terminator"
+     CDS             complement(1206..1865)
+                     /standard_name="cat"
+     terminator      2049..2092
+                     /standard_name="Terminator"
+ORIGIN      
+        1 ggtctcgcca tggctcatat cgttggaatg tgagaccact catcgcgact agtagcggcc
+       61 gctgcagtcc ggcaaaaaag ggcaaggtgt caccaccctg ccctttttct ttaaaaccga
+      121 aaagattact tcgcgttatg caggcttcct cgctcactga ctcgctgcgc tcggtcgttc
+      181 ggctgcggcg agcggtatca gctcactcaa aggcggtaat acggttatcc acagaatcag
+      241 gggataacgc aggaaagaac atgtgagcaa aaggccagca aaaggccagg aaccgtaaaa
+      301 aggccgcgtt gctggcgttt ttccacaggc tccgcccccc tgacgagcat cacaaaaatc
+      361 gacgctcaag tcagaggtgg cgaaacccga caggactata aagataccag gcgtttcccc
+      421 ctggaagctc cctcgtgcgc tctcctgttc cgaccctgcc gcttaccgga tacctgtccg
+      481 cctttctccc ttcgggaagc gtggcgcttt ctcatagctc acgctgtagg tatctcagtt
+      541 cggtgtaggt cgttcgctcc aagctgggct gtgtgcacga accccccgtt cagcccgacc
+      601 gctgcgcctt atccggtaac tatcgtcttg agtccaaccc ggtaagacac gacttatcgc
+      661 cactggcagc agccactggt aacaggatta gcagagcgag gtatgtaggc ggtgctacag
+      721 agttcttgaa gtggtggcct aactacggct acactagaag aacagtattt ggtatctgcg
+      781 ctctgctgaa gccagttacc ttcggaaaaa gagttggtag ctcttgatcc ggcaaacaaa
+      841 ccaccgctgg tagcggtggt ttttttgttt gcaagcagca gattacgcgc agaaaaaaag
+      901 gatctcaaga agatcctttg atcttttcta cggggtctga cgctcagtgg aacgaaaact
+      961 cacgttaagg gattttggtc atgagattat caaaaaggat cttcacctag atccttttaa
+     1021 attaaaaatg aagttttaaa tcaatctaaa gtatatatga gtaaacttgg tctgacagct
+     1081 cgaggcttgg attctcacca ataaaaaacg cccggcggca accgagcgtt ctgaacaaat
+     1141 ccagatggag ttctgaggtc attactggat ctatcaacag gagtccaagc gagctcgata
+     1201 tcaaattacg ccccgccctg ccactcatcg cagtactgtt gtaattcatt aagcattctg
+     1261 ccgacatgga agccatcaca aacggcatga tgaacctgaa tcgccagcgg catcagcacc
+     1321 ttgtcgcctt gcgtataata tttgcccatg gtgaaaacgg gggcgaagaa gttgtccata
+     1381 ttggccacgt ttaaatcaaa actggtgaaa ctcacccagg gattggctga aacgaaaaac
+     1441 atattctcaa taaacccttt agggaaatag gccaggtttt caccgtaaca cgccacatct
+     1501 tgcgaatata tgtgtagaaa ctgccggaaa tcgtcgtggt attcactcca gagcgatgaa
+     1561 aacgtttcag tttgctcatg gaaaacggtg taacaagggt gaacactatc ccatatcacc
+     1621 agctcaccgt ctttcattgc catacgaaat tccggatgag cattcatcag gcgggcaaga
+     1681 atgtgaataa aggccggata aaacttgtgc ttatttttct ttacggtctt taaaaaggcc
+     1741 gtaatatcca gctgaacggt ctggttatag gtacattgag caactgactg aaatgcctca
+     1801 aaatgttctt tacgatgcca ttgggatata tcaacggtgg tatatccagt gatttttttc
+     1861 tccattttag cttccttagc tcctgaaaat ctcgataact caaaaaatac gcccggtagt
+     1921 gatcttattt cattatggtg aaagttggaa cctcttacgt gcccgatcaa ctcgagtgcc
+     1981 acctgacgtc taagaaacca ttattatcat gacattaacc tataaaaata ggcgtatcac
+     2041 gaggcagaat ttcagataaa aaaaatcctt agctttcgct aaggatgatt tctggaattc
+     2101 gcggccgctt ctagagcgat gagt
+//

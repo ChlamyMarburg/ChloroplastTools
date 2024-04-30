@@ -1,0 +1,80 @@
+LOCUS       pME_Cp_0_4_001_Nanoluc        2619 bp    DNA     circular UNA 21-FEB-2024
+DEFINITION  Nanoluc luciferase reporter gene, codon optimized for Cr.
+ACCESSION   urn.local...6aa-hdu3gr9
+VERSION     urn.local...6aa-hdu3gr9
+KEYWORDS    .
+SOURCE      
+  ORGANISM  .
+COMMENT     ##pME_Standard-START##                                             
+            Box               :: Cp-4-CDS                                      
+            Antibiotic        :: Cam                                           
+            Created by        :: RI                                            
+            Fusion tag        :: no                                            
+            Part type (Lvl1)  :: -                                             
+            Lvl               :: 0                                             
+            Position          :: A1                                            
+            Part type (Lvl 0) :: 4 - CDS                                       
+            Toolbox           :: Chloroplasts                                  
+            Publication       :: https://doi.org/10.1021/cb3002478             
+            Codon usage       :: Chlamydomonas reinhardtii                     
+            Validated         :: false                                         
+            ##pME_Standard-END##
+FEATURES             Location/Qualifiers
+     CDS             12..521
+                     /standard_name="NanoLuc"
+     terminator      563..620
+                     /standard_name="Terminator"
+     rep_origin      complement(815..1403)
+                     /note="pMB1"
+     terminator      1586..1680
+                     /standard_name="Terminator"
+     CDS             complement(1701..2360)
+                     /standard_name="cat"
+     terminator      2544..2587
+                     /standard_name="Terminator"
+ORIGIN      
+        1 ggtctcgaat ggttttcact ttagaagact tcgtaggtga ctggcgtcaa acagcaggtt
+       61 ataatttaga ccaagtttta gaacaaggtg gtgtatcaag tttattccaa aatttaggtg
+      121 tttctgttac tccaattcaa cgtatcgtat taagtggtga aaatggtctt aaaattgaca
+      181 tccatgttat tattccttat gaaggtcttt caggtgacca aatgggtcaa attgaaaaaa
+      241 tttttaaagt agtttatcct gtagatgacc atcactttaa agtaatttta cactatggta
+      301 ctttagtaat tgatggcgtt acacctaata tgattgacta ctttggtcgt ccttatgaag
+      361 gtattgctgt ttttgatggt aaaaaaatca cagttacagg tacattatgg aatggtaata
+      421 aaattattga cgaacgttta atcaatcctg atggttcatt attattccgt gttacaatta
+      481 atggtgttac aggttggcgt ctttgtgaac gtatccttgc tgctttgaga ccactcatcg
+      541 cgactagtag cggccgctgc agtccggcaa aaaagggcaa ggtgtcacca ccctgccctt
+      601 tttctttaaa accgaaaaga ttacttcgcg ttatgcaggc ttcctcgctc actgactcgc
+      661 tgcgctcggt cgttcggctg cggcgagcgg tatcagctca ctcaaaggcg gtaatacggt
+      721 tatccacaga atcaggggat aacgcaggaa agaacatgtg agcaaaaggc cagcaaaagg
+      781 ccaggaaccg taaaaaggcc gcgttgctgg cgtttttcca caggctccgc ccccctgacg
+      841 agcatcacaa aaatcgacgc tcaagtcaga ggtggcgaaa cccgacagga ctataaagat
+      901 accaggcgtt tccccctgga agctccctcg tgcgctctcc tgttccgacc ctgccgctta
+      961 ccggatacct gtccgccttt ctcccttcgg gaagcgtggc gctttctcat agctcacgct
+     1021 gtaggtatct cagttcggtg taggtcgttc gctccaagct gggctgtgtg cacgaacccc
+     1081 ccgttcagcc cgaccgctgc gccttatccg gtaactatcg tcttgagtcc aacccggtaa
+     1141 gacacgactt atcgccactg gcagcagcca ctggtaacag gattagcaga gcgaggtatg
+     1201 taggcggtgc tacagagttc ttgaagtggt ggcctaacta cggctacact agaagaacag
+     1261 tatttggtat ctgcgctctg ctgaagccag ttaccttcgg aaaaagagtt ggtagctctt
+     1321 gatccggcaa acaaaccacc gctggtagcg gtggtttttt tgtttgcaag cagcagatta
+     1381 cgcgcagaaa aaaaggatct caagaagatc ctttgatctt ttctacgggg tctgacgctc
+     1441 agtggaacga aaactcacgt taagggattt tggtcatgag attatcaaaa aggatcttca
+     1501 cctagatcct tttaaattaa aaatgaagtt ttaaatcaat ctaaagtata tatgagtaaa
+     1561 cttggtctga cagctcgagg cttggattct caccaataaa aaacgcccgg cggcaaccga
+     1621 gcgttctgaa caaatccaga tggagttctg aggtcattac tggatctatc aacaggagtc
+     1681 caagcgagct cgatatcaaa ttacgccccg ccctgccact catcgcagta ctgttgtaat
+     1741 tcattaagca ttctgccgac atggaagcca tcacaaacgg catgatgaac ctgaatcgcc
+     1801 agcggcatca gcaccttgtc gccttgcgta taatatttgc ccatggtgaa aacgggggcg
+     1861 aagaagttgt ccatattggc cacgtttaaa tcaaaactgg tgaaactcac ccagggattg
+     1921 gctgaaacga aaaacatatt ctcaataaac cctttaggga aataggccag gttttcaccg
+     1981 taacacgcca catcttgcga atatatgtgt agaaactgcc ggaaatcgtc gtggtattca
+     2041 ctccagagcg atgaaaacgt ttcagtttgc tcatggaaaa cggtgtaaca agggtgaaca
+     2101 ctatcccata tcaccagctc accgtctttc attgccatac gaaattccgg atgagcattc
+     2161 atcaggcggg caagaatgtg aataaaggcc ggataaaact tgtgcttatt tttctttacg
+     2221 gtctttaaaa aggccgtaat atccagctga acggtctggt tataggtaca ttgagcaact
+     2281 gactgaaatg cctcaaaatg ttctttacga tgccattggg atatatcaac ggtggtatat
+     2341 ccagtgattt ttttctccat tttagcttcc ttagctcctg aaaatctcga taactcaaaa
+     2401 aatacgcccg gtagtgatct tatttcatta tggtgaaagt tggaacctct tacgtgcccg
+     2461 atcaactcga gtgccacctg acgtctaaga aaccattatt atcatgacat taacctataa
+     2521 aaataggcgt atcacgaggc agaatttcag ataaaaaaaa tccttagctt tcgctaagga
+     2581 tgatttctgg aattcgcggc cgcttctaga gcgatgagt
+//

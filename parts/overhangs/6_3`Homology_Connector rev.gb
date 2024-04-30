@@ -1,0 +1,26 @@
+LOCUS       6_3`Homology/Connector_rev          32 bp    DNA     linear   UNA 07-MAR-2023
+DEFINITION  Overhang for PCR of LVL 0 Parts.
+ACCESSION   urn.local...9w-hdqbtlv
+VERSION     urn.local...9w-hdqbtlv
+KEYWORDS    .
+SOURCE      
+  ORGANISM  .
+FEATURES             Location/Qualifiers
+     misc_feature    <1..32
+                     /Original_Bases
+                     /label
+                     /note="Geneious type: Editing History Insertion"
+     unsure          complement(1..4)
+                     /created_by="Daniel"
+                     /label="LVL2 Fusion Site"
+     unsure          complement(12..>13)
+                     /created_by="Daniel"
+                     /label="3`Connector Overhang"
+     misc_feature    <20..>30
+                     /Source="referenceToDocument: urn:local:.:37v-hdqbtte"
+                     /label="Entry digested by BsmBI - GFP-Part PCR Product
+                     (digested by AarI) Fragment 2 (concatenated sequence 2)"
+                     /note="Geneious type: Concatenated sequence"
+ORIGIN      
+        1 nnnnggagac gagactgaga tatgcaggtg tt
+//

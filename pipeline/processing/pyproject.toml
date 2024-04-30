@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "Dataprocessing Pipeline"
+version = "1.0"
+description = "Automatic data processing after experiment runs"
+authors = ["Cedric K. Brinkmann <cedric.marburg@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10.5"
+pandas = "^1.4.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

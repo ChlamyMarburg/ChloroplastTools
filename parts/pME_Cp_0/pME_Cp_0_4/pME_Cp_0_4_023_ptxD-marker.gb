@@ -1,0 +1,85 @@
+LOCUS       pME_Cp_0_4_023_ptxD-marker        3147 bp    DNA     circular UNA 21-FEB-2024
+DEFINITION  phosphite oxidoreductase gene, allows growth on phosphite for
+            selection.
+ACCESSION   urn.local...6aj-hdu3gr9
+VERSION     urn.local...6aj-hdu3gr9
+KEYWORDS    .
+SOURCE      
+  ORGANISM  .
+COMMENT     ##pME_Standard-START##                                             
+            Box               :: Cp-4-CDS                                      
+            Antibiotic        :: Cam                                           
+            Created by        :: RI                                            
+            Lvl               :: 0                                             
+            Position          :: C5                                            
+            Part type (Lvl 0) :: 4 - CDS                                       
+            Toolbox           :: Chloroplasts                                  
+            ##pME_Standard-END##
+FEATURES             Location/Qualifiers
+     CDS             12..1049
+                     /standard_name="ptxD-marker"
+     terminator      1091..1148
+                     /standard_name="Terminator"
+     rep_origin      complement(1343..1931)
+                     /note="pMB1"
+     terminator      complement(2114..2208)
+                     /standard_name="Terminator"
+     CDS             complement(2229..2888)
+                     /standard_name="cat"
+     terminator      3072..3115
+                     /standard_name="Terminator"
+ORIGIN      
+        1 ggtctcgaat gttaccaaaa ttagtaatta ctcaccgtgt tcacgacgaa attttacaat
+       61 tattagctcc acactgtgaa ttaatgacaa accaaactga ttctacttta acacgtgaag
+      121 aaattttacg tcgttgtcgt gacgcacaag ctatgatggc tttcatgcca gatcgtgttg
+      181 atgctgattt cttacaagct tgtccagaat tacgtgtagt tggttgtgct ttaaaaggtt
+      241 tcgataactt cgatgttgat gcttgtactg ctcgtggtgt atggttaaca ttcgtaccag
+      301 atttattaac agtaccaaca gctgaattag ctattggttt agctgtaggt ttaggtcgtc
+      361 acttacgtgc tgctgatgct ttcgtacgtt caggtgaatt ccaaggttgg caaccacaat
+      421 tctatggtac tggtttagat aacgctactg taggtatttt aggtatgggt gctattggtt
+      481 tagctatggc tgaccgttta caaggttggg gtgctacttt acaatatcac gaagctaaag
+      541 ctttagatac tcaaacagaa caacgtttag gtttacgtca agtagcttgt tcagaattat
+      601 ttgcttcttc tgatttcatt ttattagctt taccattaaa cgctgatact caacacttag
+      661 taaacgctga attattagct ttagttcgtc caggtgcttt attagttaac ccatgtcgtg
+      721 gttcagtagt agatgaagct gctgtattag ctgctttaga acgtggtcaa ttaggtggtt
+      781 acgctgctga tgtttttgaa atggaagatt gggctcgtgc tgaccgtcca cgtttaattg
+      841 accctgcttt attagctcac ccaaacactt tatttacacc acacattggt tcagctgttc
+      901 gtgctgttcg tttagaaatt gaacgttgtg ctgctcaaaa cattattcaa gtattagctg
+      961 gtgctcgtcc aattaacgct gctaaccgtt taccaaaagc tgaacctgct gcttgtggtt
+     1021 cttacccata cgatgttcca gattacgctg ctttgagacc actcatcgcg actagtagcg
+     1081 gccgctgcag tccggcaaaa aagggcaagg tgtcaccacc ctgccctttt tctttaaaac
+     1141 cgaaaagatt acttcgcgtt atgcaggctt cctcgctcac tgactcgctg cgctcggtcg
+     1201 ttcggctgcg gcgagcggta tcagctcact caaaggcggt aatacggtta tccacagaat
+     1261 caggggataa cgcaggaaag aacatgtgag caaaaggcca gcaaaaggcc aggaaccgta
+     1321 aaaaggccgc gttgctggcg tttttccaca ggctccgccc ccctgacgag catcacaaaa
+     1381 atcgacgctc aagtcagagg tggcgaaacc cgacaggact ataaagatac caggcgtttc
+     1441 cccctggaag ctccctcgtg cgctctcctg ttccgaccct gccgcttacc ggatacctgt
+     1501 ccgcctttct cccttcggga agcgtggcgc tttctcatag ctcacgctgt aggtatctca
+     1561 gttcggtgta ggtcgttcgc tccaagctgg gctgtgtgca cgaacccccc gttcagcccg
+     1621 accgctgcgc cttatccggt aactatcgtc ttgagtccaa cccggtaaga cacgacttat
+     1681 cgccactggc agcagccact ggtaacagga ttagcagagc gaggtatgta ggcggtgcta
+     1741 cagagttctt gaagtggtgg cctaactacg gctacactag aagaacagta tttggtatct
+     1801 gcgctctgct gaagccagtt accttcggaa aaagagttgg tagctcttga tccggcaaac
+     1861 aaaccaccgc tggtagcggt ggtttttttg tttgcaagca gcagattacg cgcagaaaaa
+     1921 aaggatctca agaagatcct ttgatctttt ctacggggtc tgacgctcag tggaacgaaa
+     1981 actcacgtta agggattttg gtcatgagat tatcaaaaag gatcttcacc tagatccttt
+     2041 taaattaaaa atgaagtttt aaatcaatct aaagtatata tgagtaaact tggtctgaca
+     2101 gctcgaggct tggattctca ccaataaaaa acgcccggcg gcaaccgagc gttctgaaca
+     2161 aatccagatg gagttctgag gtcattactg gatctatcaa caggagtcca agcgagctcg
+     2221 atatcaaatt acgccccgcc ctgccactca tcgcagtact gttgtaattc attaagcatt
+     2281 ctgccgacat ggaagccatc acaaacggca tgatgaacct gaatcgccag cggcatcagc
+     2341 accttgtcgc cttgcgtata atatttgccc atggtgaaaa cgggggcgaa gaagttgtcc
+     2401 atattggcca cgtttaaatc aaaactggtg aaactcaccc agggattggc tgaaacgaaa
+     2461 aacatattct caataaaccc tttagggaaa taggccaggt tttcaccgta acacgccaca
+     2521 tcttgcgaat atatgtgtag aaactgccgg aaatcgtcgt ggtattcact ccagagcgat
+     2581 gaaaacgttt cagtttgctc atggaaaacg gtgtaacaag ggtgaacact atcccatatc
+     2641 accagctcac cgtctttcat tgccatacga aattccggat gagcattcat caggcgggca
+     2701 agaatgtgaa taaaggccgg ataaaacttg tgcttatttt tctttacggt ctttaaaaag
+     2761 gccgtaatat ccagctgaac ggtctggtta taggtacatt gagcaactga ctgaaatgcc
+     2821 tcaaaatgtt ctttacgatg ccattgggat atatcaacgg tggtatatcc agtgattttt
+     2881 ttctccattt tagcttcctt agctcctgaa aatctcgata actcaaaaaa tacgcccggt
+     2941 agtgatctta tttcattatg gtgaaagttg gaacctctta cgtgcccgat caactcgagt
+     3001 gccacctgac gtctaagaaa ccattattat catgacatta acctataaaa ataggcgtat
+     3061 cacgaggcag aatttcagat aaaaaaaatc cttagctttc gctaaggatg atttctggaa
+     3121 ttcgcggccg cttctagagc gatgagt
+//

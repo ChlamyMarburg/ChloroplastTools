@@ -1,0 +1,69 @@
+LOCUS       pME_Cp_0_5a_001_Strep-tag        2136 bp    DNA     circular UNA 21-FEB-2024
+DEFINITION  Strep-tag in C-terminal.
+ACCESSION   urn.local...6yi-hdu3hpd
+VERSION     urn.local...6yi-hdu3hpd
+KEYWORDS    .
+SOURCE      
+  ORGANISM  .
+COMMENT     ##pME_Standard-START##                                             
+            Box               :: Cp-Tags                                       
+            Antibiotic        :: Cam                                           
+            Created by        :: Tanguy Chotel                                 
+            Lvl               :: 0                                             
+            Position          :: G1                                            
+            Part type (Lvl 0) :: 5a- tag                                       
+            Toolbox           :: Chloroplasts                                  
+            Codon usage       :: Chlamydomonas reinhardtii                     
+            Validated         :: true                                          
+            ##pME_Standard-END##
+FEATURES             Location/Qualifiers
+     CDS             8..42
+                     /standard_name="Strep-tag"
+     terminator      80..137
+                     /standard_name="Terminator"
+     rep_origin      complement(332..920)
+                     /note="pMB1"
+     terminator      1103..1197
+                     /standard_name="Terminator"
+     CDS             complement(1218..1877)
+                     /standard_name="cat"
+     terminator      2061..2104
+                     /standard_name="Terminator"
+ORIGIN      
+        1 ggtctcggct ttatggagcc acccgcagtt cgagaagggg tatgagacca ctcatcgcga
+       61 ctagtagcgg ccgctgcagt ccggcaaaaa agggcaaggt gtcaccaccc tgcccttttt
+      121 ctttaaaacc gaaaagatta cttcgcgtta tgcaggcttc ctcgctcact gactcgctgc
+      181 gctcggtcgt tcggctgcgg cgagcggtat cagctcactc aaaggcggta atacggttat
+      241 ccacagaatc aggggataac gcaggaaaga acatgtgagc aaaaggccag caaaaggcca
+      301 ggaaccgtaa aaaggccgcg ttgctggcgt ttttccacag gctccgcccc cctgacgagc
+      361 atcacaaaaa tcgacgctca agtcagaggt ggcgaaaccc gacaggacta taaagatacc
+      421 aggcgtttcc ccctggaagc tccctcgtgc gctctcctgt tccgaccctg ccgcttaccg
+      481 gatacctgtc cgcctttctc ccttcgggaa gcgtggcgct ttctcatagc tcacgctgta
+      541 ggtatctcag ttcggtgtag gtcgttcgct ccaagctggg ctgtgtgcac gaaccccccg
+      601 ttcagcccga ccgctgcgcc ttatccggta actatcgtct tgagtccaac ccggtaagac
+      661 acgacttatc gccactggca gcagccactg gtaacaggat tagcagagcg aggtatgtag
+      721 gcggtgctac agagttcttg aagtggtggc ctaactacgg ctacactaga agaacagtat
+      781 ttggtatctg cgctctgctg aagccagtta ccttcggaaa aagagttggt agctcttgat
+      841 ccggcaaaca aaccaccgct ggtagcggtg gtttttttgt ttgcaagcag cagattacgc
+      901 gcagaaaaaa aggatctcaa gaagatcctt tgatcttttc tacggggtct gacgctcagt
+      961 ggaacgaaaa ctcacgttaa gggattttgg tcatgagatt atcaaaaagg atcttcacct
+     1021 agatcctttt aaattaaaaa tgaagtttta aatcaatcta aagtatatat gagtaaactt
+     1081 ggtctgacag ctcgaggctt ggattctcac caataaaaaa cgcccggcgg caaccgagcg
+     1141 ttctgaacaa atccagatgg agttctgagg tcattactgg atctatcaac aggagtccaa
+     1201 gcgagctcga tatcaaatta cgccccgccc tgccactcat cgcagtactg ttgtaattca
+     1261 ttaagcattc tgccgacatg gaagccatca caaacggcat gatgaacctg aatcgccagc
+     1321 ggcatcagca ccttgtcgcc ttgcgtataa tatttgccca tggtgaaaac gggggcgaag
+     1381 aagttgtcca tattggccac gtttaaatca aaactggtga aactcaccca gggattggct
+     1441 gaaacgaaaa acatattctc aataaaccct ttagggaaat aggccaggtt ttcaccgtaa
+     1501 cacgccacat cttgcgaata tatgtgtaga aactgccgga aatcgtcgtg gtattcactc
+     1561 cagagcgatg aaaacgtttc agtttgctca tggaaaacgg tgtaacaagg gtgaacacta
+     1621 tcccatatca ccagctcacc gtctttcatt gccatacgaa attccggatg agcattcatc
+     1681 aggcgggcaa gaatgtgaat aaaggccgga taaaacttgt gcttattttt ctttacggtc
+     1741 tttaaaaagg ccgtaatatc cagctgaacg gtctggttat aggtacattg agcaactgac
+     1801 tgaaatgcct caaaatgttc tttacgatgc cattgggata tatcaacggt ggtatatcca
+     1861 gtgatttttt tctccatttt agcttcctta gctcctgaaa atctcgataa ctcaaaaaat
+     1921 acgcccggta gtgatcttat ttcattatgg tgaaagttgg aacctcttac gtgcccgatc
+     1981 aactcgagtg ccacctgacg tctaagaaac cattattatc atgacattaa cctataaaaa
+     2041 taggcgtatc acgaggcaga atttcagata aaaaaaatcc ttagctttcg ctaaggatga
+     2101 tttctggaat tcgcggccgc ttctagagcg atgagt
+//

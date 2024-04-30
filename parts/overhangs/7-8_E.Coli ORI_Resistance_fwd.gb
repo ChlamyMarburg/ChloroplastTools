@@ -1,0 +1,32 @@
+LOCUS       7-8_E.Coli_ORI+Resistance_fwd          17 bp    DNA     linear   UNA 07-MAR-2023
+DEFINITION  Overhang for PCR of LVL 0 Parts.
+ACCESSION   urn.local...9s-hdqbtlv
+VERSION     urn.local...9s-hdqbtlv
+KEYWORDS    .
+SOURCE      
+  ORGANISM  .
+FEATURES             Location/Qualifiers
+     unsure          1..2
+                     /created_by="Daniel"
+                     /label="N"
+     misc_feature    1..2
+                     /Original_Bases="NN"
+                     /label="NN"
+                     /note="Geneious type: Editing History Replacement"
+     unsure          9
+                     /created_by="Daniel"
+                     /label="N"
+     misc_feature    9
+                     /Original_Bases="N"
+                     /label="N"
+                     /note="Geneious type: Editing History Replacement"
+     unsure          14..>17
+                     /created_by="Daniel"
+                     /label="ORI Overhang"
+     misc_feature    14..17
+                     /Original_Bases="NNNN"
+                     /label="NNNN"
+                     /note="Geneious type: Editing History Replacement"
+ORIGIN      
+        1 aacgtctcgc tcgagac
+//

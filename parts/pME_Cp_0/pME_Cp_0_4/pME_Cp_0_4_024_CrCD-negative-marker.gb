@@ -1,0 +1,88 @@
+LOCUS       pME_Cp_0_4_024_CrCD-negative-marker        3387 bp    DNA     circular UNA 21-FEB-2024
+DEFINITION  Cytosine deaminase as a negative selectable marker.
+ACCESSION   urn.local...6ak-hdu3gr9
+VERSION     urn.local...6ak-hdu3gr9
+KEYWORDS    .
+SOURCE      
+  ORGANISM  .
+COMMENT     ##pME_Standard-START##                                             
+            Box               :: Cp-4-CDS                                      
+            Antibiotic        :: Cam                                           
+            Created by        :: RI                                            
+            Lvl               :: 0                                             
+            Position          :: C6                                            
+            Part type (Lvl 0) :: 4 - CDS                                       
+            Toolbox           :: Chloroplasts                                  
+            ##pME_Standard-END##
+FEATURES             Location/Qualifiers
+     CDS             12..1289
+                     /standard_name="CrCD-negative-marker"
+     terminator      1331..1388
+                     /standard_name="Terminator"
+     rep_origin      complement(1583..2171)
+                     /note="pMB1"
+     terminator      complement(2354..2448)
+                     /standard_name="Terminator"
+     CDS             complement(2469..3128)
+                     /standard_name="cat"
+     terminator      3312..3355
+                     /standard_name="Terminator"
+ORIGIN      
+        1 ggtctcgaat gtctaacaac gctttacaaa caattattaa cgctcgttta ccaggtgaag
+       61 aaggtttatg gcaaattcac ttacaagacg gtaaaatttc agctattgat gctcaatctg
+      121 gtgtaatgcc aattactgaa aactctttag atgctgaaca aggtttagtt attccaccat
+      181 tcgttgaacc acacattcac ttagatacta cacaaacagc tggtcaacca aactggaacc
+      241 aatcaggtac tttatttgaa ggtattgagc gttgggctga acgtaaagct ttattaacac
+      301 acgacgacgt taaacaacgt gcttggcaaa cattaaaatg gcaaattgct aacggtattc
+      361 aacacgtacg tactcacgta gacgtttctg atgctacttt aacagcttta aaagctatgt
+      421 tagaagttaa acaagaagta gctccatgga ttgacttaca aattgctgct ttcccacaag
+      481 aaggtatttt atcataccca aacggtgaag ctttattaga agaagcttta cgtttaggtg
+      541 ctgatgttgt tggtgctatt ccacacttcg aatttacacg tgaatatggt gttgaatctt
+      601 tacacaaaac atttgcttta gctcaaaaat atgatcgttt aattgatgtt cactgtgacg
+      661 aaattgatga cgaacaatca cgtttcgttg aaacagtagc tgctttagct caccacgaag
+      721 gtatgggtgc tcgtgttact gcttcacaca ctacagctat gcactcttac aacggtgctt
+      781 acacttctcg tttattccgt ttattaaaaa tgtctggtat taacttcgtt gctaacccat
+      841 tagtaaacat tcacttacaa ggtcgtttcg atacttaccc aaaacgtcgt ggtattacac
+      901 gtgttaaaga aatgttagaa tcaggtatta atgtttgttt tggtcacgac gacgtttgtg
+      961 gtccttggta ccctttaggt actgctaaca tgttacaagt tttacacatg ggtttacacg
+     1021 tatgtcaatt aatgggttac ggtcaaatta acgacggttt aaacttaatt actcaccact
+     1081 ctgctcgtac tttaaactta caagactacg gtattgctgc tggtaactca gctaacttaa
+     1141 ttattttacc agctgaaaac ggtttcgatg ctttacgtcg tcaagttcca gtacgttact
+     1201 cagttcgtgg tggtaaagtt attgcttcaa ctcaaccagc tcaaacaact gtttatttag
+     1261 aacaaccaga agctattgac tacaaacgtg ctttgagacc actcatcgcg actagtagcg
+     1321 gccgctgcag tccggcaaaa aagggcaagg tgtcaccacc ctgccctttt tctttaaaac
+     1381 cgaaaagatt acttcgcgtt atgcaggctt cctcgctcac tgactcgctg cgctcggtcg
+     1441 ttcggctgcg gcgagcggta tcagctcact caaaggcggt aatacggtta tccacagaat
+     1501 caggggataa cgcaggaaag aacatgtgag caaaaggcca gcaaaaggcc aggaaccgta
+     1561 aaaaggccgc gttgctggcg tttttccaca ggctccgccc ccctgacgag catcacaaaa
+     1621 atcgacgctc aagtcagagg tggcgaaacc cgacaggact ataaagatac caggcgtttc
+     1681 cccctggaag ctccctcgtg cgctctcctg ttccgaccct gccgcttacc ggatacctgt
+     1741 ccgcctttct cccttcggga agcgtggcgc tttctcatag ctcacgctgt aggtatctca
+     1801 gttcggtgta ggtcgttcgc tccaagctgg gctgtgtgca cgaacccccc gttcagcccg
+     1861 accgctgcgc cttatccggt aactatcgtc ttgagtccaa cccggtaaga cacgacttat
+     1921 cgccactggc agcagccact ggtaacagga ttagcagagc gaggtatgta ggcggtgcta
+     1981 cagagttctt gaagtggtgg cctaactacg gctacactag aagaacagta tttggtatct
+     2041 gcgctctgct gaagccagtt accttcggaa aaagagttgg tagctcttga tccggcaaac
+     2101 aaaccaccgc tggtagcggt ggtttttttg tttgcaagca gcagattacg cgcagaaaaa
+     2161 aaggatctca agaagatcct ttgatctttt ctacggggtc tgacgctcag tggaacgaaa
+     2221 actcacgtta agggattttg gtcatgagat tatcaaaaag gatcttcacc tagatccttt
+     2281 taaattaaaa atgaagtttt aaatcaatct aaagtatata tgagtaaact tggtctgaca
+     2341 gctcgaggct tggattctca ccaataaaaa acgcccggcg gcaaccgagc gttctgaaca
+     2401 aatccagatg gagttctgag gtcattactg gatctatcaa caggagtcca agcgagctcg
+     2461 atatcaaatt acgccccgcc ctgccactca tcgcagtact gttgtaattc attaagcatt
+     2521 ctgccgacat ggaagccatc acaaacggca tgatgaacct gaatcgccag cggcatcagc
+     2581 accttgtcgc cttgcgtata atatttgccc atggtgaaaa cgggggcgaa gaagttgtcc
+     2641 atattggcca cgtttaaatc aaaactggtg aaactcaccc agggattggc tgaaacgaaa
+     2701 aacatattct caataaaccc tttagggaaa taggccaggt tttcaccgta acacgccaca
+     2761 tcttgcgaat atatgtgtag aaactgccgg aaatcgtcgt ggtattcact ccagagcgat
+     2821 gaaaacgttt cagtttgctc atggaaaacg gtgtaacaag ggtgaacact atcccatatc
+     2881 accagctcac cgtctttcat tgccatacga aattccggat gagcattcat caggcgggca
+     2941 agaatgtgaa taaaggccgg ataaaacttg tgcttatttt tctttacggt ctttaaaaag
+     3001 gccgtaatat ccagctgaac ggtctggtta taggtacatt gagcaactga ctgaaatgcc
+     3061 tcaaaatgtt ctttacgatg ccattgggat atatcaacgg tggtatatcc agtgattttt
+     3121 ttctccattt tagcttcctt agctcctgaa aatctcgata actcaaaaaa tacgcccggt
+     3181 agtgatctta tttcattatg gtgaaagttg gaacctctta cgtgcccgat caactcgagt
+     3241 gccacctgac gtctaagaaa ccattattat catgacatta acctataaaa ataggcgtat
+     3301 cacgaggcag aatttcagat aaaaaaaatc cttagctttc gctaaggatg atttctggaa
+     3361 ttcgcggccg cttctagagc gatgagt
+//
