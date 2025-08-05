@@ -1,29 +1,84 @@
-LOCUS       pME_Cp_0_2-3_005_Placeholder        3135 bp    DNA     circular UNA 30-APR-2024
-DEFINITION  Golden Gate/Type IIS Cloning ligation product.
+LOCUS       pME_G_0_2-3_005_Placeholder        3135 bp    DNA     circular UNA 05-AUG-2025
+DEFINITION  Encodes a sfGFP cassette in the Promoter + 5'UTR position used for
+            placeholder cloning.
 ACCESSION   urn.local...4n-b8obh2l
 VERSION     urn.local...4n-b8obh2l
 KEYWORDS    .
 SOURCE      
-  ORGANISM  .
+  ORGANISM  synthetic DNA construct.
 FEATURES             Location/Qualifiers
-     promoter        19..148
+     source          1..3135
+                     /mol_type="other DNA"
+                     /organism="synthetic DNA construct"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+     misc_feature    8..11
+                     /standard_name="promoter overhang"
+     regulatory      19..148
+                     /note="Geneious type: promoter"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
                      /standard_name="BBa_J72163 GlpT Promoter"
-     RBS             149..184
+     misc_feature    149..184
+                     /note="Geneious type: RBS"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
                      /standard_name="sfGFP Ribosome Binding Site"
      CDS             185..901
+                     /gene="sfGFP"
+                     /product="superfolder GFP"
+                     /codon_start=1
+                     /transl_table=1
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
                      /standard_name="sfGFP"
-     terminator      902..1030
+     regulatory      902..1030
+                     /note="Geneious type: terminator"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
                      /standard_name="BBa_B0015 Terminator"
-     terminator      1079..1136
-                     /standard_name="Terminator"
+     misc_feature    complement(1038..1041)
+                     /standard_name="5'UTR overhang"
+     regulatory      1079..1136
+                     /note="Geneious type: terminator"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="his operon terminator"
      rep_origin      complement(1331..1919)
-                     /note="pMB1"
-     terminator      2102..2196
-                     /standard_name="Terminator"
+     regulatory      complement(2102..2196)
+                     /note="Geneious type: terminator"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="lambda t0 terminator"
      CDS             complement(2217..2876)
+                     /gene="CmR"
+                     /product="chloramphenicol acetyltransferase"
+                     /codon_start=1
+                     /transl_table=1
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="CmR"
+     misc_feature    2238
+                     /note="Geneious type: Editing History Replacement"
+                     /standard_name="A"
+     misc_feature    2442
+                     /note="Geneious type: Editing History Replacement"
+                     /standard_name="A"
+     misc_feature    2565
+                     /note="Geneious type: Editing History Replacement"
+                     /standard_name="C"
+     regulatory      complement(2877..2980)
+                     /note="Geneious type: promoter"
+                     /note="Promoter for chloramphenicol acetyl transferase"
+                     /regulatory_class="promoter"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
                      /standard_name="cat"
-     terminator      3060..3103
-                     /standard_name="Terminator"
+     regulatory      complement(3060..3103)
+                     /note="Geneious type: terminator"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="bacterial terminator"
 ORIGIN      
         1 agtctcggga gtgagaccga aagtgaaacg tgatttcatg cgtcattttg aacattttgt
        61 aaatcttatt taataatgtg tgcggcaatt cacatttaat ttatgaatgt tttcttaaca
@@ -62,12 +117,12 @@ ORIGIN
      2041 gaagttttaa atcaatctaa agtatatatg agtaaacttg gtctgacagc tcgaggcttg
      2101 gattctcacc aataaaaaac gcccggcggc aaccgagcgt tctgaacaaa tccagatgga
      2161 gttctgaggt cattactgga tctatcaaca ggagtccaag cgagctcgat atcaaattac
-     2221 gccccgccct gccactcatc gcagtactgt tgtaattcat taagcattct gccgacatgg
+     2221 gccccgccct gccactcgtc gcagtactgt tgtaattcat taagcattct gccgacatgg
      2281 aagccatcac aaacggcatg atgaacctga atcgccagcg gcatcagcac cttgtcgcct
      2341 tgcgtataat atttgcccat ggtgaaaacg ggggcgaaga agttgtccat attggccacg
-     2401 tttaaatcaa aactggtgaa actcacccag ggattggctg aaacgaaaaa catattctca
+     2401 tttaaatcaa aactggtgaa actcacccag ggattggctg atacgaaaaa catattctca
      2461 ataaaccctt tagggaaata ggccaggttt tcaccgtaac acgccacatc ttgcgaatat
-     2521 atgtgtagaa actgccggaa atcgtcgtgg tattcactcc agagcgatga aaacgtttca
+     2521 atgtgtagaa actgccggaa atcgtcgtgg tattcactcc agagtgatga aaacgtttca
      2581 gtttgctcat ggaaaacggt gtaacaaggg tgaacactat cccatatcac cagctcaccg
      2641 tctttcattg ccatacgaaa ttccggatga gcattcatca ggcgggcaag aatgtgaata
      2701 aaggccggat aaaacttgtg cttatttttc tttacggtct ttaaaaaggc cgtaatatcc

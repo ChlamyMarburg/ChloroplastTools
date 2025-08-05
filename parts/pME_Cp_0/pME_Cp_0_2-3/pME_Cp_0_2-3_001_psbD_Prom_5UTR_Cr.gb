@@ -1,35 +1,66 @@
-LOCUS       pME_Cp_0_2-3_001_psbD_Prom+5UTR_Cr        2615 bp    DNA     circular UNA 19-APR-2024
-DEFINITION  psbD Promoter + 5'UTR Fusion Chlamydomonas reinhardtii.
-ACCESSION   urn.local...5eq-hdu3e0v
-VERSION     urn.local...5eq-hdu3e0v
+LOCUS       pME_Cp_0_2-3_001_psbD_Prom+5UTR_Cr        2615 bp    DNA     circular UNA 05-AUG-2025
+DEFINITION  psbD Promoter + 5'UTR Chlamydomonas reinhardtii.
+ACCESSION   urn.local...h92-i80ecsh
+VERSION     urn.local...h92-i80ecsh
 KEYWORDS    .
-SOURCE      
-  ORGANISM  .
-COMMENT     ##pME_Standard-START##                                             
-            Box               :: Cp-2-3-P+5'                                   
-            Antibiotic        :: Cam                                           
-            Created by        :: RI                                            
-            Lvl               :: 0                                             
-            Position          :: A1                                            
-            Part type (Lvl 0) :: 2 - Promoter                                  
-            Toolbox           :: Chloroplasts                                  
-            Validated         :: false                                         
-            ##pME_Standard-END##
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct.
 FEATURES             Location/Qualifiers
+     source          1..2615
+                     /mol_type="other DNA"
+                     /organism="synthetic DNA construct"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+     misc_feature    8..11
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="promoter overhang"
      misc_feature    12..517
-                     /standard_name="psbD promotor + 5'UTR"
-                     /modified_by="chotelt"
-                     /note="Geneious type: Promoter + 5'UTR"
-     terminator      559..616
-                     /standard_name="Terminator"
+                     /standard_name="psbD promoter + 5'UTR "
+     regulatory      387..442
+                     /note="Geneious type: promoter"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="psbD promoter Chlamy"
+     5'UTR           443..517
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="psbD 5'UTR Chlamy"
+     misc_feature    complement(518..521)
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="5'UTR overhang"
+     regulatory      559..616
+                     /note="Geneious type: terminator"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="his operon terminator"
      rep_origin      complement(811..1399)
-                     /note="pMB1"
-     terminator      1582..1676
-                     /standard_name="Terminator"
+     regulatory      complement(1582..1676)
+                     /note="Geneious type: terminator"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="lambda t0 terminator"
      CDS             complement(1697..2356)
+                     /gene="CmR"
+                     /product="chloramphenicol acetyltransferase"
+                     /codon_start=1
+                     /transl_table=1
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="CmR"
+     regulatory      complement(2357..2460)
+                     /note="Geneious type: promoter"
+                     /note="Promoter for chloramphenicol acetyl transferase"
+                     /regulatory_class="promoter"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
                      /standard_name="cat"
-     terminator      2540..2583
-                     /standard_name="Terminator"
+     regulatory      complement(2540..2583)
+                     /note="Geneious type: terminator"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="bacterial terminator"
 ORIGIN      
         1 ggtctcggga gccaggcaat tgtcactggc gtcatagtat atcaatattg taacagattg
        61 acacccttta agtaaacatt ttttttagga ttcatatgaa attaaatgga tatttggtac
@@ -59,13 +90,13 @@ ORIGIN
      1501 gatcctttta aattaaaaat gaagttttaa atcaatctaa agtatatatg agtaaacttg
      1561 gtctgacagc tcgaggcttg gattctcacc aataaaaaac gcccggcggc aaccgagcgt
      1621 tctgaacaaa tccagatgga gttctgaggt cattactgga tctatcaaca ggagtccaag
-     1681 cgagctcgat atcaaattac gccccgccct gccactcatc gcagtactgt tgtaattcat
+     1681 cgagctcgat atcaaattac gccccgccct gccactcgtc gcagtactgt tgtaattcat
      1741 taagcattct gccgacatgg aagccatcac aaacggcatg atgaacctga atcgccagcg
      1801 gcatcagcac cttgtcgcct tgcgtataat atttgcccat ggtgaaaacg ggggcgaaga
      1861 agttgtccat attggccacg tttaaatcaa aactggtgaa actcacccag ggattggctg
-     1921 aaacgaaaaa catattctca ataaaccctt tagggaaata ggccaggttt tcaccgtaac
+     1921 atacgaaaaa catattctca ataaaccctt tagggaaata ggccaggttt tcaccgtaac
      1981 acgccacatc ttgcgaatat atgtgtagaa actgccggaa atcgtcgtgg tattcactcc
-     2041 agagcgatga aaacgtttca gtttgctcat ggaaaacggt gtaacaaggg tgaacactat
+     2041 agagtgatga aaacgtttca gtttgctcat ggaaaacggt gtaacaaggg tgaacactat
      2101 cccatatcac cagctcaccg tctttcattg ccatacgaaa ttccggatga gcattcatca
      2161 ggcgggcaag aatgtgaata aaggccggat aaaacttgtg cttatttttc tttacggtct
      2221 ttaaaaaggc cgtaatatcc agctgaacgg tctggttata ggtacattga gcaactgact
