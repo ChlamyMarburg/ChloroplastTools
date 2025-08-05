@@ -1,0 +1,102 @@
+LOCUS       pME_G_E_004_UAV_mScarlet-I        3106 bp    DNA     circular UNA 05-AUG-2025
+DEFINITION  Universal acceptor vector with mScarlet-I placeholder BsmBI
+            compatible for lvl0 assembly.
+ACCESSION   urn.local...er-c2dp9ce
+VERSION     urn.local...er-c2dp9ce
+KEYWORDS    .
+SOURCE      
+  ORGANISM  synthetic DNA construct.
+FEATURES             Location/Qualifiers
+     source          1..3106
+                     /mol_type="other DNA"
+                     /organism="synthetic DNA construct"
+     regulatory      15..144
+                     /note="Geneious type: promoter"
+                     /note="GlpT promoter"
+                     /standard_name="BBa_J72163 GlpT Promoter"
+     misc_feature    145..180
+                     /note="Geneious type: RBS"
+                     /standard_name="Ribosome Binding Site"
+     CDS             181..873
+                     /gene="mScarlet-I"
+                     /product="mScarlet-I"
+                     /codon_start=1
+                     /standard_name="mScarlet-I"
+     regulatory      877..1005
+                     /note="Geneious type: terminator"
+                     /standard_name="BBa_B0015 Terminator"
+     regulatory      1050..1107
+                     /note="Geneious type: terminator"
+                     /note="This putative transcriptin terminator from the E. 
+                     coli his operon has a 2-bp deletion introduced during
+                     synthesis. Its efficiency has not been determined."
+                     /standard_name="his operon terminator"
+     rep_origin      complement(1302..1890)
+     regulatory      complement(2073..2167)
+                     /note="Geneious type: terminator"
+                     /note="transcription terminator from phage lambda"
+                     /standard_name="lambda t0 terminator"
+     CDS             complement(2188..2847)
+                     /codon_start=1
+                     /gene="cat"
+                     /product="chloramphenicol acetyltransferase"
+                     /note="confers resistance to chloramphenicol"
+                     /standard_name="CmR"
+     regulatory      complement(3031..3074)
+                     /note="Geneious type: terminator"
+                     /note="putative bacterial transcription terminator"
+                     /standard_name="bacterial terminator"
+ORIGIN      
+        1 ggtctcgtga gacggaaagt gaaacgtgat ttcatgcgtc attttgaaca ttttgtaaat
+       61 cttatttaat aatgtgtgcg gcaattcaca tttaatttat gaatgttttc ttaacatcgc
+      121 ggcaactcaa gaaacggcag gttcggatct tagctactag agaaagagga gaaatactag
+      181 atgcgtaaag gcgaagcagt gatcaaagaa tttatgcgct tcaaagttca catggaaggt
+      241 tctatgaacg gccacgaatt tgaaattgaa ggtgaaggcg aaggtcgtcc atacgaaggt
+      301 actcaaaccg caaaactgaa agttaccaaa ggtggtccac tgccattttc ttgggatatt
+      361 ctgtctccac aatttatgta cggttctcgt gcatttatca aacacccagc agatattcca
+      421 gactactaca aacaatcttt tccggaaggt ttcaaatggg aacgtgttat gaattttgaa
+      481 gatggtggtg cagttacggt tacccaagat acctctctgg aagatggtac tctgatctac
+      541 aaagttaaac tgcgtggtac taactttcca ccagatggtc cagttatgca gaaaaaaacc
+      601 atgggttggg aagcatctac cgaacgtctg tacccagaag atggcgttct gaaaggtgat
+      661 atcaaaatgg cactgcgtct gaaagatggc ggtcgttacc tggcagattt caaaaccacc
+      721 tacaaagcga aaaaaccagt tcaaatgcca ggtgcataca acgttgatcg taaactggat
+      781 attaccagcc acaacgaaga ttacaccgtt gttgaacaat acgaacgttc tgaaggccgt
+      841 cactctaccg gtggtatgga tgaactgtac aaataaccag gcatcaaata aaacgaaagg
+      901 ctcagtcgaa agactgggcc tttcgtttta tctgttgttt gtcggtgaac gctctctact
+      961 agagtcacac tggctcacct tcgggtgggc ctttctgcgt ttatacgtct catgagacca
+     1021 ctcatcgcga ctagtagcgg ccgctgcagt ccggcaaaaa agggcaaggt gtcaccaccc
+     1081 tgcccttttt ctttaaaacc gaaaagatta cttcgcgtta tgcaggcttc ctcgctcact
+     1141 gactcgctgc gctcggtcgt tcggctgcgg cgagcggtat cagctcactc aaaggcggta
+     1201 atacggttat ccacagaatc aggggataac gcaggaaaga acatgtgagc aaaaggccag
+     1261 caaaaggcca ggaaccgtaa aaaggccgcg ttgctggcgt ttttccatag gctccgcccc
+     1321 cctgacgagc atcacaaaaa tcgacgctca agtcagaggt ggcgaaaccc gacaggacta
+     1381 taaagatacc aggcgtttcc ccctggaagc tccctcgtgc gctctcctgt tccgaccctg
+     1441 ccgcttaccg gatacctgtc cgcctttctc ccttcgggaa gcgtggcgct ttctcatagc
+     1501 tcacgctgta ggtatctcag ttcggtgtag gtcgttcgct ccaagctggg ctgtgtgcac
+     1561 gaaccccccg ttcagcccga ccgctgcgcc ttatccggta actatcgtct tgagtccaac
+     1621 ccggtaagac acgacttatc gccactggca gcagccactg gtaacaggat tagcagagcg
+     1681 aggtatgtag gcggtgctac agagttcttg aagtggtggc ctaactacgg ctacactaga
+     1741 agaacagtat ttggtatctg cgctctgctg aagccagtta ccttcggaaa aagagttggt
+     1801 agctcttgat ccggcaaaca aaccaccgct ggtagcggtg gtttttttgt ttgcaagcag
+     1861 cagattacgc gcagaaaaaa aggatctcaa gaagatcctt tgatcttttc tacggggtct
+     1921 gacgctcagt ggaacgaaaa ctcacgttaa gggattttgg tcatgagatt atcaaaaagg
+     1981 atcttcacct agatcctttt aaattaaaaa tgaagtttta aatcaatcta aagtatatat
+     2041 gagtaaactt ggtctgacag ctcgaggctt ggattctcac caataaaaaa cgcccggcgg
+     2101 caaccgagcg ttctgaacaa atccagatgg agttctgagg tcattactgg atctatcaac
+     2161 aggagtccaa gcgagctcga tatcaaatta cgccccgccc tgccactcgt cgcagtactg
+     2221 ttgtaattca ttaagcattc tgccgacatg gaagccatca caaacggcat gatgaacctg
+     2281 aatcgccagc ggcatcagca ccttgtcgcc ttgcgtataa tatttgccca tggtgaaaac
+     2341 gggggcgaag aagttgtcca tattggccac gtttaaatca aaactggtga aactcaccca
+     2401 gggattggct gatacgaaaa acatattctc aataaaccct ttagggaaat aggccaggtt
+     2461 ttcaccgtaa cacgccacat cttgcgaata tatgtgtaga aactgccgga aatcgtcgtg
+     2521 gtattcactc cagagtgatg aaaacgtttc agtttgctca tggaaaacgg tgtaacaagg
+     2581 gtgaacacta tcccatatca ccagctcacc gtctttcatt gccatacgaa attccggatg
+     2641 agcattcatc aggcgggcaa gaatgtgaat aaaggccgga taaaacttgt gcttattttt
+     2701 ctttacggtc tttaaaaagg ccgtaatatc cagctgaacg gtctggttat aggtacattg
+     2761 agcaactgac tgaaatgcct caaaatgttc tttacgatgc cattgggata tatcaacggt
+     2821 ggtatatcca gtgatttttt tctccatttt agcttcctta gctcctgaaa atctcgataa
+     2881 ctcaaaaaat acgcccggta gtgatcttat ttcattatgg tgaaagttgg aacctcttac
+     2941 gtgcccgatc aactcgagtg ccacctgacg tctaagaaac cattattatc atgacattaa
+     3001 cctataaaaa taggcgtatc acgaggcaga atttcagata aaaaaaatcc ttagctttcg
+     3061 ctaaggatga tttctggaat tcgcggccgc ttctagagcg atgagt
+//
