@@ -1,45 +1,63 @@
-LOCUS       pME_Cp_0_2_077_Synthetic_promoter_21        2155 bp    DNA     circular UNA 29-APR-2024
-DEFINITION  Psyn21 promoter based on Prrn16 Chlamydomonas reinhardtii.
-ACCESSION   urn.local...562-hdu3dgm
-VERSION     urn.local...562-hdu3dgm
+LOCUS       pME_Cp_0_2_077_Synthetic_promoter_21        2155 bp    DNA     circular UNA 05-AUG-2025
+DEFINITION  Synthetic promoter 21 based on Chlamydomonas rrn16 promoter .
+ACCESSION   urn.local...hbx-i80ecsm
+VERSION     urn.local...hbx-i80ecsm
 KEYWORDS    .
-SOURCE      
-  ORGANISM  .
-COMMENT     ##pME_Standard-START##                                             
-            Box               :: Cp-2-Prom                                     
-            Antibiotic        :: Cam                                           
-            Created by        :: MCB                                           
-            Lvl               :: 0                                             
-            Position          :: I5                                            
-            Part type (Lvl 0) :: 2 - Promoter                                  
-            Toolbox           :: Chloroplasts                                  
-            ##pME_Standard-END##
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct.
 FEATURES             Location/Qualifiers
-     promoter        <16..57
-                     /standard_name="rrnS promoter Chlamy (copy)"
-                     /modified_by="chotelt"
-                     /label="Synthetic Promoter 21"
-     promoter        23..28
+     source          1..2155
+                     /mol_type="other DNA"
+                     /organism="synthetic DNA construct"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+     regulatory      12..57
+                     /note="Geneious type: promoter"
+                     /standard_name="Synthetic promoter 21"
+     regulatory      23..28
+                     /note="Geneious type: promoter"
                      /standard_name="-35"
-     promoter        46..51
+     regulatory      46..51
+                     /note="Geneious type: promoter"
                      /standard_name="-10"
-     terminator      99..156
-                     /standard_name="Terminator"
+     regulatory      99..156
+                     /note="Geneious type: terminator"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="his operon terminator"
      rep_origin      complement(351..939)
-                     /note="pMB1"
-     terminator      complement(1122..1216)
-                     /standard_name="Terminator"
+     regulatory      complement(1122..1216)
+                     /note="Geneious type: terminator"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="lambda t0 terminator"
      CDS             complement(1237..1896)
+                     /gene="CmR"
+                     /product="chloramphenicol acetyltransferase"
+                     /codon_start=1
+                     /transl_table=1
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="CmR"
+     regulatory      complement(1897..2000)
+                     /note="Geneious type: promoter"
+                     /note="Promoter for chloramphenicol acetyl transferase"
+                     /regulatory_class="promoter"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
                      /standard_name="cat"
-     terminator      2080..2123
-                     /standard_name="Terminator"
+     regulatory      complement(2080..2123)
+                     /note="Geneious type: terminator"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="bacterial terminator"
 ORIGIN      
         1 ggtctcggga gttttatttt tattgacatt ttttttattt tttcataaat ttttttgtac
        61 ttgagaccac tcatcgcgac tagtagcggc cgctgcagtc cggcaaaaaa gggcaaggtg
       121 tcaccaccct gccctttttc tttaaaaccg aaaagattac ttcgcgttat gcaggcttcc
       181 tcgctcactg actcgctgcg ctcggtcgtt cggctgcggc gagcggtatc agctcactca
       241 aaggcggtaa tacggttatc cacagaatca ggggataacg caggaaagaa catgtgagca
-      301 aaaggccagc aaaaggccag gaaccgtaaa aaggccgcgt tgctggcgtt tttccacagg
+      301 aaaggccagc aaaaggccag gaaccgtaaa aaggccgcgt tgctggcgtt tttccatagg
       361 ctccgccccc ctgacgagca tcacaaaaat cgacgctcaa gtcagaggtg gcgaaacccg
       421 acaggactat aaagatacca ggcgtttccc cctggaagct ccctcgtgcg ctctcctgtt
       481 ccgaccctgc cgcttaccgg atacctgtcc gcctttctcc cttcgggaag cgtggcgctt
@@ -54,13 +72,13 @@ ORIGIN
      1021 tcaaaaagga tcttcaccta gatcctttta aattaaaaat gaagttttaa atcaatctaa
      1081 agtatatatg agtaaacttg gtctgacagc tcgaggcttg gattctcacc aataaaaaac
      1141 gcccggcggc aaccgagcgt tctgaacaaa tccagatgga gttctgaggt cattactgga
-     1201 tctatcaaca ggagtccaag cgagctcgat atcaaattac gccccgccct gccactcatc
+     1201 tctatcaaca ggagtccaag cgagctcgat atcaaattac gccccgccct gccactcgtc
      1261 gcagtactgt tgtaattcat taagcattct gccgacatgg aagccatcac aaacggcatg
      1321 atgaacctga atcgccagcg gcatcagcac cttgtcgcct tgcgtataat atttgcccat
      1381 ggtgaaaacg ggggcgaaga agttgtccat attggccacg tttaaatcaa aactggtgaa
-     1441 actcacccag ggattggctg aaacgaaaaa catattctca ataaaccctt tagggaaata
+     1441 actcacccag ggattggctg atacgaaaaa catattctca ataaaccctt tagggaaata
      1501 ggccaggttt tcaccgtaac acgccacatc ttgcgaatat atgtgtagaa actgccggaa
-     1561 atcgtcgtgg tattcactcc agagcgatga aaacgtttca gtttgctcat ggaaaacggt
+     1561 atcgtcgtgg tattcactcc agagtgatga aaacgtttca gtttgctcat ggaaaacggt
      1621 gtaacaaggg tgaacactat cccatatcac cagctcaccg tctttcattg ccatacgaaa
      1681 ttccggatga gcattcatca ggcgggcaag aatgtgaata aaggccggat aaaacttgtg
      1741 cttatttttc tttacggtct ttaaaaaggc cgtaatatcc agctgaacgg tctggttata

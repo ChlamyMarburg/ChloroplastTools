@@ -1,37 +1,31 @@
-LOCUS       pME_Cp_0_2_080_tRNA_Glu2_promoter_Cr        2165 bp    DNA     circular UNA 29-APR-2024
-DEFINITION  PtrnE promoter Chlamydomonas reinhardtii.
-ACCESSION   urn.local...565-hdu3dgm
-VERSION     urn.local...565-hdu3dgm
+LOCUS       pME_Cp_0_2_080_tRNA_Glu2_promoter_Cr        2165 bp    DNA     circular UNA 05-AUG-2025
+DEFINITION  tRNA Glu2 promoter Chlamydomonas reinhardtii.
+ACCESSION   urn.local...hb5-i80ecsk
+VERSION     urn.local...hb5-i80ecsk
 KEYWORDS    .
-SOURCE      
-  ORGANISM  .
-COMMENT     ##pME_Standard-START##                                             
-            Box               :: Cp-2-Prom                                     
-            Antibiotic        :: Cam                                           
-            Created by        :: MCB                                           
-            Lvl               :: 0                                             
-            Position          :: I8                                            
-            Part type (Lvl 0) :: 2 - Promoter                                  
-            Toolbox           :: Chloroplasts                                  
-            ##pME_Standard-END##
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct.
 FEATURES             Location/Qualifiers
-     promoter        12..67
+     regulatory      12..67
+                     /note="Geneious type: promoter"
                      /standard_name="tRNA Glu2 promoter Chlamy"
-                     /modified_by="chotelt"
-                     /label="tRNA Glu promoter "
-     promoter        33..38
+     regulatory      33..38
+                     /note="Geneious type: promoter"
                      /standard_name="-35"
-     promoter        56..61
+     regulatory      56..61
+                     /note="Geneious type: promoter"
                      /standard_name="-10"
-     terminator      109..166
+     regulatory      109..166
+                     /note="Geneious type: terminator"
                      /standard_name="Terminator"
      rep_origin      complement(361..949)
-                     /note="pMB1"
-     terminator      complement(1132..1226)
+     regulatory      complement(1132..1226)
+                     /note="Geneious type: terminator"
                      /standard_name="Terminator"
      CDS             complement(1247..1906)
                      /standard_name="cat"
-     terminator      2090..2133
+     regulatory      2090..2133
+                     /note="Geneious type: terminator"
                      /standard_name="Terminator"
 ORIGIN      
         1 ggtctcggga gcaactaagt gtacattaaa aattgacaat tcaatttttt ttaattataa
@@ -55,12 +49,12 @@ ORIGIN
      1081 atcaatctaa agtatatatg agtaaacttg gtctgacagc tcgaggcttg gattctcacc
      1141 aataaaaaac gcccggcggc aaccgagcgt tctgaacaaa tccagatgga gttctgaggt
      1201 cattactgga tctatcaaca ggagtccaag cgagctcgat atcaaattac gccccgccct
-     1261 gccactcatc gcagtactgt tgtaattcat taagcattct gccgacatgg aagccatcac
+     1261 gccactcgtc gcagtactgt tgtaattcat taagcattct gccgacatgg aagccatcac
      1321 aaacggcatg atgaacctga atcgccagcg gcatcagcac cttgtcgcct tgcgtataat
      1381 atttgcccat ggtgaaaacg ggggcgaaga agttgtccat attggccacg tttaaatcaa
-     1441 aactggtgaa actcacccag ggattggctg aaacgaaaaa catattctca ataaaccctt
+     1441 aactggtgaa actcacccag ggattggctg atacgaaaaa catattctca ataaaccctt
      1501 tagggaaata ggccaggttt tcaccgtaac acgccacatc ttgcgaatat atgtgtagaa
-     1561 actgccggaa atcgtcgtgg tattcactcc agagcgatga aaacgtttca gtttgctcat
+     1561 actgccggaa atcgtcgtgg tattcactcc agagtgatga aaacgtttca gtttgctcat
      1621 ggaaaacggt gtaacaaggg tgaacactat cccatatcac cagctcaccg tctttcattg
      1681 ccatacgaaa ttccggatga gcattcatca ggcgggcaag aatgtgaata aaggccggat
      1741 aaaacttgtg cttatttttc tttacggtct ttaaaaaggc cgtaatatcc agctgaacgg
