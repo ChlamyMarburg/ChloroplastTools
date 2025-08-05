@@ -12,6 +12,11 @@ FEATURES             Location/Qualifiers
                      /organism="synthetic DNA construct"
                      /note="Derived using Geneious Prime 2025.1.3 'Annotate
                      from Database' based on nucleotide similarity"
+     misc_feature    1..4
+                     /function="promoter overhang for lvl1 assembly"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="promoter overhang"
      regulatory      12..141
                      /note="Geneious type: promoter"
                      /note="Derived using Geneious Prime 2025.1.3 'Annotate
@@ -35,7 +40,7 @@ FEATURES             Location/Qualifiers
                      /note="Derived using Geneious Prime 2025.1.3 'Annotate
                      from Database' based on nucleotide similarity"
                      /standard_name="BBa_B0015 Terminator"
-     misc_feature    1055..1058
+     misc_feature    complement(1031..1034)
                      /function="promoter overhang for lvl1 assembly"
                      /note="Derived using Geneious Prime 2025.1.3 'Annotate
                      from Database' based on nucleotide similarity"
@@ -71,11 +76,6 @@ FEATURES             Location/Qualifiers
                      /note="Derived using Geneious Prime 2025.1.3 'Annotate
                      from Database' based on nucleotide similarity"
                      /standard_name="bacterial terminator"
-     misc_feature    3126..3129
-                     /function="promoter overhang for lvl1 assembly"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
-                     /standard_name="promoter overhang"
 ORIGIN      
         1 ggagtgagac cgaaagtgaa acgtgatttc atgcgtcatt ttgaacattt tgtaaatctt
        61 atttaataat gtgtgcggca attcacattt aatttatgaa tgttttctta acatcgcggc

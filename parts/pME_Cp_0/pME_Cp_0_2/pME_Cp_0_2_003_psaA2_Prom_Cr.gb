@@ -11,6 +11,11 @@ FEATURES             Location/Qualifiers
                      /organism="synthetic DNA construct"
                      /note="Derived using Geneious Prime 2025.1.3 'Annotate
                      from Database' based on nucleotide similarity"
+     misc_feature    8..11
+                     /function="promoter overhang for lvl1 assembly"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="promoter overhang"
      regulatory      12..72
                      /note="Geneious type: promoter"
                      /standard_name="psaA2 promoter Chlamy"
@@ -20,6 +25,11 @@ FEATURES             Location/Qualifiers
      regulatory      62..67
                      /note="Geneious type: promoter"
                      /standard_name="-10"
+     misc_feature    complement(73..76)
+                     /function="promoter overhang for lvl1 assembly"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="promoter overhang"
      regulatory      114..171
                      /note="Geneious type: terminator"
                      /note="Derived using Geneious Prime 2025.1.3 'Annotate
