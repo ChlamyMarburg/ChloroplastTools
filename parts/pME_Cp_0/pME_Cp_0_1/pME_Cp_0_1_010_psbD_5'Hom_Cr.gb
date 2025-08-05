@@ -1,24 +1,111 @@
-LOCUS       pME_Cp_0_1_010_psbD_5'Hom_Cr        4446 bp    DNA     circular UNA 19-APR-2024
-DEFINITION  psbD 5'Homology Chlamydomonas reinhardtii.
-ACCESSION   urn.local...4yy-hdu3bpt
-VERSION     urn.local...4yy-hdu3bpt
+LOCUS       pME_Cp_0_1_010_psbD_5'Hom_Cr        4446 bp    DNA     circular UNA 05-AUG-2025
+DEFINITION  5' Homology region of the psbD locus of Chlamydomonas reinhardtii
+            chloroplast CC-125.
+ACCESSION   urn.local...h8h-i80ecsh
+VERSION     urn.local...h8h-i80ecsh
 KEYWORDS    .
-SOURCE      
-  ORGANISM  .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct.
 FEATURES             Location/Qualifiers
-     5'_Homology     23..2348
-                     /standard_name="psbD_5'Homology"
-     terminator      2390..2447
-                     /standard_name="Terminator"
+     source          1..4446
+                     /mol_type="other DNA"
+                     /organism="synthetic DNA construct"
+     misc_feature    8..11
+                     /function="5'connector overhang used for lvl1 assembly"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="5`connector overhang"
+     misc_feature    23..2348
+                     /standard_name="5'Homology psbD locus"
+     gene            complement(70..1005)
+                     /locus_tag="ChreCp019"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="psaA_exon2"
+     mRNA            complement(70..1005)
+                     /locus_tag="ChreCp019"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="psaA_exon2"
+     CDS             complement(<717..>896)
+                     /product="photosystem I P700 chlorophyll a apoprotein A1"
+                     /transl_table=11
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /codon_start=2
+                     /standard_name="psaA_exon2"
+     3'UTR           complement(998..1085)
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="psbD 3'UTR Chlamy"
+     gene            complement(998..2219)
+                     /locus_tag="ChreCp064"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="psbD"
+     mRNA            complement(998..2219)
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="psbD"
+     CDS             complement(1086..2144)
+                     /codon_start=1
+                     /locus_tag="ChreCp064"
+                     /product="photosystem II protein D2"
+                     /protein_id="NP_958420.1"
+                     /transl_table=11
+                     /translation="MTIAIGTYQEKRTWFDDADDWLRQDRFVFVGWSGLLLFPCAYFA
+                     LGGWLTGTTFVTSWYTHGLATSYLEGCNFLTAAVSTPANSMAHSLLFVWGPEAQGDFT
+                     RWCQLGGLWAFVALHGAFGLIGFMLRQFEIARSVNLRPYNAIAFSAPIAVFVSVFLIY
+                     PLGQSGWFFAPSFGVAAIFRFILFFQGFHNWTLNPFHMMGVAGVLGAALLCAIHGATV
+                     ENTLFEDGDGANTFRAFNPTQAEETYSMVTANRFWSQIFGVAFSNKRWLHFFMLLVPV
+                     TGLWMSAIGVVGLALNLRAYDFVSQEIRAAEDPEFETFYTKNILLNEGIRAWMAAQDQ
+                     PHERLVFPEEVLPRGNAL"
+                     /standard_name="psbD"
+     5'UTR           complement(2145..2219)
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="psbD 5'UTR Chlamy"
+     regulatory      complement(2220..2275)
+                     /note="Geneious type: promoter"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="psbD promoter Chlamy"
+     misc_feature    complement(2349..2352)
+                     /function="promoter overhang for lvl1 assembly"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="5' connector overhang rev"
+     regulatory      2390..2447
+                     /note="Geneious type: terminator"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="his operon terminator"
      rep_origin      complement(2642..3230)
-                     /note="pMB1"
-     terminator      3413..3507
-                     /standard_name="Terminator"
+     regulatory      complement(3413..3507)
+                     /note="Geneious type: terminator"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="lambda t0 terminator"
      CDS             complement(3528..4187)
+                     /gene="CmR"
+                     /product="chloramphenicol acetyltransferase"
+                     /codon_start=1
+                     /transl_table=1
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="CmR"
+     regulatory      complement(4188..4291)
+                     /note="Geneious type: promoter"
+                     /note="Promoter for chloramphenicol acetyl transferase"
+                     /regulatory_class="promoter"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
                      /standard_name="cat"
-                     /modified_by="chotelt"
-     terminator      4371..4414
-                     /standard_name="Terminator"
+     regulatory      complement(4371..4414)
+                     /note="Geneious type: terminator"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="bacterial terminator"
 ORIGIN      
         1 ggtctcgaac acgtctcgaa caggtttgga ataataaaaa tcgaaaaaaa gaattcactc
        61 aaagaaaaaa acgtttgact ttaatttcgg ataaactgca taaaatttat agtttctaca
@@ -64,7 +151,7 @@ ORIGIN
      2461 tgcaggcttc ctcgctcact gactcgctgc gctcggtcgt tcggctgcgg cgagcggtat
      2521 cagctcactc aaaggcggta atacggttat ccacagaatc aggggataac gcaggaaaga
      2581 acatgtgagc aaaaggccag caaaaggcca ggaaccgtaa aaaggccgcg ttgctggcgt
-     2641 ttttccacag gctccgcccc cctgacgagc atcacaaaaa tcgacgctca agtcagaggt
+     2641 ttttccatag gctccgcccc cctgacgagc atcacaaaaa tcgacgctca agtcagaggt
      2701 ggcgaaaccc gacaggacta taaagatacc aggcgtttcc ccctggaagc tccctcgtgc
      2761 gctctcctgt tccgaccctg ccgcttaccg gatacctgtc cgcctttctc ccttcgggaa
      2821 gcgtggcgct ttctcatagc tcacgctgta ggtatctcag ttcggtgtag gtcgttcgct
@@ -79,12 +166,12 @@ ORIGIN
      3361 aatcaatcta aagtatatat gagtaaactt ggtctgacag ctcgaggctt ggattctcac
      3421 caataaaaaa cgcccggcgg caaccgagcg ttctgaacaa atccagatgg agttctgagg
      3481 tcattactgg atctatcaac aggagtccaa gcgagctcga tatcaaatta cgccccgccc
-     3541 tgccactcat cgcagtactg ttgtaattca ttaagcattc tgccgacatg gaagccatca
+     3541 tgccactcgt cgcagtactg ttgtaattca ttaagcattc tgccgacatg gaagccatca
      3601 caaacggcat gatgaacctg aatcgccagc ggcatcagca ccttgtcgcc ttgcgtataa
      3661 tatttgccca tggtgaaaac gggggcgaag aagttgtcca tattggccac gtttaaatca
-     3721 aaactggtga aactcaccca gggattggct gaaacgaaaa acatattctc aataaaccct
+     3721 aaactggtga aactcaccca gggattggct gatacgaaaa acatattctc aataaaccct
      3781 ttagggaaat aggccaggtt ttcaccgtaa cacgccacat cttgcgaata tatgtgtaga
-     3841 aactgccgga aatcgtcgtg gtattcactc cagagcgatg aaaacgtttc agtttgctca
+     3841 aactgccgga aatcgtcgtg gtattcactc cagagtgatg aaaacgtttc agtttgctca
      3901 tggaaaacgg tgtaacaagg gtgaacacta tcccatatca ccagctcacc gtctttcatt
      3961 gccatacgaa attccggatg agcattcatc aggcgggcaa gaatgtgaat aaaggccgga
      4021 taaaacttgt gcttattttt ctttacggtc tttaaaaagg ccgtaatatc cagctgaacg

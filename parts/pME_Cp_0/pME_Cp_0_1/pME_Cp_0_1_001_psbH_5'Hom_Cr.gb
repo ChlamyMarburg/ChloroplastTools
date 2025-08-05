@@ -1,40 +1,51 @@
-LOCUS       pME_Cp_0_1_001_psbH_5'Hom_Cr        2831 bp    DNA     circular UNA 19-APR-2024
-DEFINITION  psbH 5'Homology Chlamydomonas reinhardtii.
-ACCESSION   urn.local...4yu-hdu3bpt
-VERSION     urn.local...4yu-hdu3bpt
+LOCUS       pME_Cp_0_1_001_psbH_5'Hom_Cr        2831 bp    DNA     circular UNA 05-AUG-2025
+DEFINITION  5' Homology region of the psbH locus of Chlamydomonas reinhardtii
+            chloroplast CC-125.
+ACCESSION   urn.local...h8k-i80ecsh
+VERSION     urn.local...h8k-i80ecsh
 KEYWORDS    .
-SOURCE      
-  ORGANISM  .
-COMMENT     ##pME_Standard-START##                                             
-            Box               :: Cp-6/1-Con                                    
-            Antibiotic        :: Cam                                           
-            Created by        :: René Inckemann                                
-            Lvl               :: 0                                             
-            Position          :: A1                                            
-            Part type (Lvl 0) :: 1 - 5'-Connector                              
-            Toolbox           :: Chloroplasts                                  
-            Codon usage       :: Chlamydomonas reinhardtii                     
-            Validated         :: true                                          
-            ##pME_Standard-END##
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct.
 FEATURES             Location/Qualifiers
-     5'_Homology     23..733
+     source          1..2831
+                     /mol_type="other DNA"
+                     /organism="synthetic DNA construct"
+     misc_feature    8..11
+                     /function="5'connector overhang used for lvl1 assembly"
+                     /standard_name="5`connector overhang"
+     misc_feature    19..22
+                     /function="lvl2 fusion site"
+                     /standard_name="lvl2 fusion site"
+     misc_feature    23..733
+                     /function="5' Homology psbH locus; used for recombination
+                     into the chloroplast of Chlamydomonas reinhardtii CC-125"
                      /standard_name="5'Homology psbH locus"
-     terminator      775..832
-                     /standard_name="Terminator"
+     misc_feature    complement(734..737)
+                     /function="promoter overhang for lvl1 assembly"
+                     /standard_name="5' connector overhang rev"
+     regulatory      775..832
+                     /note="Geneious type: terminator"
+                     /standard_name="his operon terminator"
      rep_origin      complement(1027..1615)
-                     /note="pMB1"
-     terminator      1798..1892
-                     /standard_name="Terminator"
+     regulatory      complement(1798..1892)
+                     /note="Geneious type: terminator"
+                     /standard_name="lambda t0 terminator"
      CDS             complement(1913..2572)
-                     /standard_name="cat"
-     promoter        complement(2573..2676)
-                     /note="Promoter for chloramphenicol acetyl transferase"
-                     /note="Derived using Geneious Prime 2021.0.3 'Annotate
+                     /gene="CmR"
+                     /product="chloramphenicol acetyltransferase"
+                     /codon_start=1
+                     /transl_table=1
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
                      from Database' based on nucleotide similarity"
+                     /standard_name="CmR"
+     regulatory      complement(2573..2676)
+                     /note="Geneious type: promoter"
+                     /note="Promoter for chloramphenicol acetyl transferase"
                      /regulatory_class="promoter"
                      /standard_name="cat"
-     terminator      2756..2799
-                     /standard_name="Terminator"
+     regulatory      complement(2756..2799)
+                     /note="Geneious type: terminator"
+                     /standard_name="bacterial terminator"
 ORIGIN      
         1 ggtctcgaac acgtctcgaa cagaattgtc aatttttaat gtacacttag ttgaaagtgc
        61 ccctgtcccc ttggccatat ttaacagaag ttatttataa cgcagctgtt ttttggagtc
@@ -68,12 +79,12 @@ ORIGIN
      1741 ttttaaatca atctaaagta tatatgagta aacttggtct gacagctcga ggcttggatt
      1801 ctcaccaata aaaaacgccc ggcggcaacc gagcgttctg aacaaatcca gatggagttc
      1861 tgaggtcatt actggatcta tcaacaggag tccaagcgag ctcgatatca aattacgccc
-     1921 cgccctgcca ctcatcgcag tactgttgta attcattaag cattctgccg acatggaagc
+     1921 cgccctgcca ctcgtcgcag tactgttgta attcattaag cattctgccg acatggaagc
      1981 catcacaaac ggcatgatga acctgaatcg ccagcggcat cagcaccttg tcgccttgcg
      2041 tataatattt gcccatggtg aaaacggggg cgaagaagtt gtccatattg gccacgttta
-     2101 aatcaaaact ggtgaaactc acccagggat tggctgaaac gaaaaacata ttctcaataa
+     2101 aatcaaaact ggtgaaactc acccagggat tggctgatac gaaaaacata ttctcaataa
      2161 accctttagg gaaataggcc aggttttcac cgtaacacgc cacatcttgc gaatatatgt
-     2221 gtagaaactg ccggaaatcg tcgtggtatt cactccagag cgatgaaaac gtttcagttt
+     2221 gtagaaactg ccggaaatcg tcgtggtatt cactccagag tgatgaaaac gtttcagttt
      2281 gctcatggaa aacggtgtaa caagggtgaa cactatccca tatcaccagc tcaccgtctt
      2341 tcattgccat acgaaattcc ggatgagcat tcatcaggcg ggcaagaatg tgaataaagg
      2401 ccggataaaa cttgtgctta tttttcttta cggtctttaa aaaggccgta atatccagct
