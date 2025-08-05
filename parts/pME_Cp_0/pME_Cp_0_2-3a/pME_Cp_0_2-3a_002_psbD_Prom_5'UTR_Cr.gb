@@ -1,76 +1,107 @@
-LOCUS       pME_Cp_0_2-3a_002_psbD_Prom+5'UTR_Cr        2623 bp    DNA     circular UNA 21-FEB-2024
-DEFINITION  psbD Promoter + 5'UTR Fusion Chlamydomonas reinhardtii.
-ACCESSION   urn.local...5gh-hdu3eva
-VERSION     urn.local...5gh-hdu3eva
+LOCUS       pME_Cp_0_2-3a_002_psbD_Prom+5'UTR_Cr        2615 bp    DNA     circular UNA 05-AUG-2025
+DEFINITION  psbD promoter + 5'UTR Chlamydomonas reinhardtii 2-3a.
+ACCESSION   urn.local...heh-i80ecsq
+VERSION     urn.local...heh-i80ecsq
 KEYWORDS    .
-SOURCE      
-  ORGANISM  .
-COMMENT     ##pME_Standard-START##                                             
-            Box               :: Cp-2-3-P+5'                                   
-            Antibiotic        :: Cam                                           
-            Created by        :: RI                                            
-            Lvl               :: 0                                             
-            Position          :: E2                                            
-            Part type (Lvl 0) :: 2 - Promoter                                  
-            Toolbox           :: Chloroplasts                                  
-            ##pME_Standard-END##
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct.
 FEATURES             Location/Qualifiers
-     misc_feature    12..525
-                     /standard_name="psbD prom and Utr"
-                     /note="Geneious type: Promoter + 5'UTR"
-     terminator      567..624
-                     /standard_name="Terminator"
-     rep_origin      complement(819..1407)
-                     /note="pMB1"
-     terminator      1590..1684
-                     /standard_name="Terminator"
-     CDS             complement(1705..2364)
+     source          1..2615
+                     /mol_type="other DNA"
+                     /organism="synthetic DNA construct"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+     misc_feature    8..11
+                     /standard_name="promoter overhang"
+     misc_feature    12..517
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="psbD promoter + 5'UTR "
+     regulatory      387..442
+                     /note="Geneious type: promoter"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="psbD promoter Chlamy"
+     5'UTR           443..517
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="psbD 5'UTR Chlamy"
+     misc_feature    complement(518..521)
+                     /standard_name="5'UTR overhang"
+     regulatory      559..616
+                     /note="Geneious type: terminator"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="his operon terminator"
+     rep_origin      complement(811..1399)
+     regulatory      complement(1582..1676)
+                     /note="Geneious type: terminator"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="lambda t0 terminator"
+     CDS             complement(1697..2356)
+                     /gene="CmR"
+                     /product="chloramphenicol acetyltransferase"
+                     /codon_start=1
+                     /transl_table=1
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="CmR"
+     regulatory      complement(2357..2460)
+                     /note="Geneious type: promoter"
+                     /note="Promoter for chloramphenicol acetyl transferase"
+                     /regulatory_class="promoter"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
                      /standard_name="cat"
-     terminator      2548..2591
-                     /standard_name="Terminator"
+     regulatory      complement(2540..2583)
+                     /note="Geneious type: terminator"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="bacterial terminator"
 ORIGIN      
         1 ggtctcggga gccaggcaat tgtcactggc gtcatagtat atcaatattg taacagattg
-       61 acacccttta agtaaacatt ttttttgagt catatggagt catatgaaat taaatggata
-      121 tttggtacat ttaattccac aaaaatgtcc aatacttaaa atacaaaatt aaaagtatta
-      181 gttgtaaact tgactaacat tttaaatttt aaattttttc ctaattatat attttacttg
-      241 caaaatttat aaaaatttta tgcattttta tatcataata ataaaacctt tattcatggt
-      301 ttataatata ataattgtga tgactatgca caaagcagtt ctagtcccat atatataact
-      361 atatataacc cgtttaaaga tttatttaaa aatatgtgtg taaaaaatgc ttatttttaa
-      421 ttttatttta tataagttat aatattaaat acacaatgat taaaattaaa taataataaa
-      481 tttaacgtaa cgatgagttg tttttttatt ttggagatac acgcaccatt gagaccactc
-      541 atcgcgacta gtagcggccg ctgcagtccg gcaaaaaagg gcaaggtgtc accaccctgc
-      601 cctttttctt taaaaccgaa aagattactt cgcgttatgc aggcttcctc gctcactgac
-      661 tcgctgcgct cggtcgttcg gctgcggcga gcggtatcag ctcactcaaa ggcggtaata
-      721 cggttatcca cagaatcagg ggataacgca ggaaagaaca tgtgagcaaa aggccagcaa
-      781 aaggccagga accgtaaaaa ggccgcgttg ctggcgtttt tccacaggct ccgcccccct
-      841 gacgagcatc acaaaaatcg acgctcaagt cagaggtggc gaaacccgac aggactataa
-      901 agataccagg cgtttccccc tggaagctcc ctcgtgcgct ctcctgttcc gaccctgccg
-      961 cttaccggat acctgtccgc ctttctccct tcgggaagcg tggcgctttc tcatagctca
-     1021 cgctgtaggt atctcagttc ggtgtaggtc gttcgctcca agctgggctg tgtgcacgaa
-     1081 ccccccgttc agcccgaccg ctgcgcctta tccggtaact atcgtcttga gtccaacccg
-     1141 gtaagacacg acttatcgcc actggcagca gccactggta acaggattag cagagcgagg
-     1201 tatgtaggcg gtgctacaga gttcttgaag tggtggccta actacggcta cactagaaga
-     1261 acagtatttg gtatctgcgc tctgctgaag ccagttacct tcggaaaaag agttggtagc
-     1321 tcttgatccg gcaaacaaac caccgctggt agcggtggtt tttttgtttg caagcagcag
-     1381 attacgcgca gaaaaaaagg atctcaagaa gatcctttga tcttttctac ggggtctgac
-     1441 gctcagtgga acgaaaactc acgttaaggg attttggtca tgagattatc aaaaaggatc
-     1501 ttcacctaga tccttttaaa ttaaaaatga agttttaaat caatctaaag tatatatgag
-     1561 taaacttggt ctgacagctc gaggcttgga ttctcaccaa taaaaaacgc ccggcggcaa
-     1621 ccgagcgttc tgaacaaatc cagatggagt tctgaggtca ttactggatc tatcaacagg
-     1681 agtccaagcg agctcgatat caaattacgc cccgccctgc cactcatcgc agtactgttg
-     1741 taattcatta agcattctgc cgacatggaa gccatcacaa acggcatgat gaacctgaat
-     1801 cgccagcggc atcagcacct tgtcgccttg cgtataatat ttgcccatgg tgaaaacggg
-     1861 ggcgaagaag ttgtccatat tggccacgtt taaatcaaaa ctggtgaaac tcacccaggg
-     1921 attggctgaa acgaaaaaca tattctcaat aaacccttta gggaaatagg ccaggttttc
-     1981 accgtaacac gccacatctt gcgaatatat gtgtagaaac tgccggaaat cgtcgtggta
-     2041 ttcactccag agcgatgaaa acgtttcagt ttgctcatgg aaaacggtgt aacaagggtg
-     2101 aacactatcc catatcacca gctcaccgtc tttcattgcc atacgaaatt ccggatgagc
-     2161 attcatcagg cgggcaagaa tgtgaataaa ggccggataa aacttgtgct tatttttctt
-     2221 tacggtcttt aaaaaggccg taatatccag ctgaacggtc tggttatagg tacattgagc
-     2281 aactgactga aatgcctcaa aatgttcttt acgatgccat tgggatatat caacggtggt
-     2341 atatccagtg atttttttct ccattttagc ttccttagct cctgaaaatc tcgataactc
-     2401 aaaaaatacg cccggtagtg atcttatttc attatggtga aagttggaac ctcttacgtg
-     2461 cccgatcaac tcgagtgcca cctgacgtct aagaaaccat tattatcatg acattaacct
-     2521 ataaaaatag gcgtatcacg aggcagaatt tcagataaaa aaaatcctta gctttcgcta
-     2581 aggatgattt ctggaattcg cggccgcttc tagagcgatg agt
+       61 acacccttta agtaaacatt ttttttagga ttcatatgaa attaaatgga tatttggtac
+      121 atttaattcc acaaaaatgt ccaatactta aaatacaaaa ttaaaagtat tagttgtaaa
+      181 cttgactaac attttaaatt ttaaattttt tcctaattat atattttact tgcaaaattt
+      241 ataaaaattt tatgcatttt tatatcataa taataaaacc tttattcatg gtttataata
+      301 taataattgt gatgactatg cacaaagcag ttctagtccc atatatataa ctatatataa
+      361 cccgtttaaa gatttattta aaaatatgtg tgtaaaaaat gcttattttt aattttattt
+      421 tatataagtt ataatattaa atacacaatg attaaaatta aataataata aatttaacgt
+      481 aacgatgagt tgttttttta ttttggagat acacgcacca ttgagaccac tcatcgcgac
+      541 tagtagcggc cgctgcagtc cggcaaaaaa gggcaaggtg tcaccaccct gccctttttc
+      601 tttaaaaccg aaaagattac ttcgcgttat gcaggcttcc tcgctcactg actcgctgcg
+      661 ctcggtcgtt cggctgcggc gagcggtatc agctcactca aaggcggtaa tacggttatc
+      721 cacagaatca ggggataacg caggaaagaa catgtgagca aaaggccagc aaaaggccag
+      781 gaaccgtaaa aaggccgcgt tgctggcgtt tttccacagg ctccgccccc ctgacgagca
+      841 tcacaaaaat cgacgctcaa gtcagaggtg gcgaaacccg acaggactat aaagatacca
+      901 ggcgtttccc cctggaagct ccctcgtgcg ctctcctgtt ccgaccctgc cgcttaccgg
+      961 atacctgtcc gcctttctcc cttcgggaag cgtggcgctt tctcatagct cacgctgtag
+     1021 gtatctcagt tcggtgtagg tcgttcgctc caagctgggc tgtgtgcacg aaccccccgt
+     1081 tcagcccgac cgctgcgcct tatccggtaa ctatcgtctt gagtccaacc cggtaagaca
+     1141 cgacttatcg ccactggcag cagccactgg taacaggatt agcagagcga ggtatgtagg
+     1201 cggtgctaca gagttcttga agtggtggcc taactacggc tacactagaa gaacagtatt
+     1261 tggtatctgc gctctgctga agccagttac cttcggaaaa agagttggta gctcttgatc
+     1321 cggcaaacaa accaccgctg gtagcggtgg tttttttgtt tgcaagcagc agattacgcg
+     1381 cagaaaaaaa ggatctcaag aagatccttt gatcttttct acggggtctg acgctcagtg
+     1441 gaacgaaaac tcacgttaag ggattttggt catgagatta tcaaaaagga tcttcaccta
+     1501 gatcctttta aattaaaaat gaagttttaa atcaatctaa agtatatatg agtaaacttg
+     1561 gtctgacagc tcgaggcttg gattctcacc aataaaaaac gcccggcggc aaccgagcgt
+     1621 tctgaacaaa tccagatgga gttctgaggt cattactgga tctatcaaca ggagtccaag
+     1681 cgagctcgat atcaaattac gccccgccct gccactcgtc gcagtactgt tgtaattcat
+     1741 taagcattct gccgacatgg aagccatcac aaacggcatg atgaacctga atcgccagcg
+     1801 gcatcagcac cttgtcgcct tgcgtataat atttgcccat ggtgaaaacg ggggcgaaga
+     1861 agttgtccat attggccacg tttaaatcaa aactggtgaa actcacccag ggattggctg
+     1921 atacgaaaaa catattctca ataaaccctt tagggaaata ggccaggttt tcaccgtaac
+     1981 acgccacatc ttgcgaatat atgtgtagaa actgccggaa atcgtcgtgg tattcactcc
+     2041 agagtgatga aaacgtttca gtttgctcat ggaaaacggt gtaacaaggg tgaacactat
+     2101 cccatatcac cagctcaccg tctttcattg ccatacgaaa ttccggatga gcattcatca
+     2161 ggcgggcaag aatgtgaata aaggccggat aaaacttgtg cttatttttc tttacggtct
+     2221 ttaaaaaggc cgtaatatcc agctgaacgg tctggttata ggtacattga gcaactgact
+     2281 gaaatgcctc aaaatgttct ttacgatgcc attgggatat atcaacggtg gtatatccag
+     2341 tgattttttt ctccatttta gcttccttag ctcctgaaaa tctcgataac tcaaaaaata
+     2401 cgcccggtag tgatcttatt tcattatggt gaaagttgga acctcttacg tgcccgatca
+     2461 actcgagtgc cacctgacgt ctaagaaacc attattatca tgacattaac ctataaaaat
+     2521 aggcgtatca cgaggcagaa tttcagataa aaaaaatcct tagctttcgc taaggatgat
+     2581 ttctggaatt cgcggccgct tctagagcga tgagt
 //

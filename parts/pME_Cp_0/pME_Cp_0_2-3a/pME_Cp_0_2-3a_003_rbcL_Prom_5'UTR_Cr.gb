@@ -1,35 +1,66 @@
-LOCUS       pME_Cp_0_2-3a_003_rbcL_Prom+5'UTR_Cr        2298 bp    DNA     circular UNA 19-APR-2024
-DEFINITION  rbcL Promoter + 5'UTR Fusion Chlamydomonas reinhardtii.
-ACCESSION   urn.local...5gi-hdu3eva
-VERSION     urn.local...5gi-hdu3eva
+LOCUS       pME_Cp_0_2-3a_003_rbcL_Prom+5'UTR_Cr        2298 bp    DNA     circular UNA 05-AUG-2025
+DEFINITION  rbcL Promoter + 5'UTR Chlamydomonas reinhardtii 2-3a.
+ACCESSION   urn.local...hef-i80ecsq
+VERSION     urn.local...hef-i80ecsq
 KEYWORDS    .
-SOURCE      
-  ORGANISM  .
-COMMENT     ##pME_Standard-START##                                             
-            Box               :: Cp-2-3-P+5'                                   
-            Antibiotic        :: Cam                                           
-            Created by        :: RI                                            
-            Lvl               :: 0                                             
-            Position          :: E3                                            
-            Part type (Lvl 0) :: 2 - Promoter                                  
-            Toolbox           :: Chloroplasts                                  
-            ##pME_Standard-END##
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct.
 FEATURES             Location/Qualifiers
-     misc_feature    13..200
-                     /standard_name="5'UTR rbcl"
-                     /modified_by="chotelt"
-                     /label="Promoter + 5'UTR rbcl"
-                     /note="Geneious type: Promoter + 5'UTR"
-     terminator      242..299
-                     /standard_name="Terminator"
+     misc_feature    8..11
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="promoter overhang"
+     misc_feature    12..200
+                     /standard_name="rbcL promoter + 5'UTR"
+     regulatory      50..108
+                     /note="Geneious type: promoter"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="rbcL promoter Chlamy"
+     5'UTR           109..200
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="rbcL 5'UTR Chlamy"
+     misc_feature    complement(201..204)
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="5'UTR overhang"
+     regulatory      242..299
+                     /note="Geneious type: terminator"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="his operon terminator"
      rep_origin      complement(494..1082)
-                     /note="pMB1"
-     terminator      1265..1359
-                     /standard_name="Terminator"
+     regulatory      complement(1265..1359)
+                     /note="Geneious type: terminator"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="lambda t0 terminator"
      CDS             complement(1380..2039)
+                     /gene="CmR"
+                     /product="chloramphenicol acetyltransferase"
+                     /codon_start=1
+                     /transl_table=1
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="CmR"
+     source          1459..2298
+                     /mol_type="other DNA"
+                     /organism="synthetic DNA construct"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+     regulatory      complement(2040..2143)
+                     /note="Geneious type: promoter"
+                     /note="Promoter for chloramphenicol acetyl transferase"
+                     /regulatory_class="promoter"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
                      /standard_name="cat"
-     terminator      2223..2266
-                     /standard_name="Terminator"
+     regulatory      complement(2223..2266)
+                     /note="Geneious type: terminator"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="bacterial terminator"
 ORIGIN      
         1 ggtctcggga gcatatacct aaaggccctt tctatgctcg actgataaga caagtacata
        61 aatttgctag tttacattat tttttatttc taaatatata atatatttaa atgtatttaa
@@ -54,12 +85,12 @@ ORIGIN
      1201 aatgaagttt taaatcaatc taaagtatat atgagtaaac ttggtctgac agctcgaggc
      1261 ttggattctc accaataaaa aacgcccggc ggcaaccgag cgttctgaac aaatccagat
      1321 ggagttctga ggtcattact ggatctatca acaggagtcc aagcgagctc gatatcaaat
-     1381 tacgccccgc cctgccactc atcgcagtac tgttgtaatt cattaagcat tctgccgaca
+     1381 tacgccccgc cctgccactc gtcgcagtac tgttgtaatt cattaagcat tctgccgaca
      1441 tggaagccat cacaaacggc atgatgaacc tgaatcgcca gcggcatcag caccttgtcg
      1501 ccttgcgtat aatatttgcc catggtgaaa acgggggcga agaagttgtc catattggcc
-     1561 acgtttaaat caaaactggt gaaactcacc cagggattgg ctgaaacgaa aaacatattc
+     1561 acgtttaaat caaaactggt gaaactcacc cagggattgg ctgatacgaa aaacatattc
      1621 tcaataaacc ctttagggaa ataggccagg ttttcaccgt aacacgccac atcttgcgaa
-     1681 tatatgtgta gaaactgccg gaaatcgtcg tggtattcac tccagagcga tgaaaacgtt
+     1681 tatatgtgta gaaactgccg gaaatcgtcg tggtattcac tccagagtga tgaaaacgtt
      1741 tcagtttgct catggaaaac ggtgtaacaa gggtgaacac tatcccatat caccagctca
      1801 ccgtctttca ttgccatacg aaattccgga tgagcattca tcaggcgggc aagaatgtga
      1861 ataaaggccg gataaaactt gtgcttattt ttctttacgg tctttaaaaa ggccgtaata
