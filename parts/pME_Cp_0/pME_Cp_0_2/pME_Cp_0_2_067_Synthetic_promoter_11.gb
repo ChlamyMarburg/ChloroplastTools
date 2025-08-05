@@ -32,16 +32,35 @@ FEATURES             Location/Qualifiers
                      /standard_name="promoter overhang"
      regulatory      99..156
                      /note="Geneious type: terminator"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
                      /standard_name="Terminator"
      rep_origin      complement(351..939)
      regulatory      complement(1122..1216)
                      /note="Geneious type: terminator"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
                      /standard_name="Terminator"
      CDS             complement(1237..1896)
+                     /gene="CmR"
+                     /product="chloramphenicol acetyltransferase"
+                     /codon_start=1
+                     /transl_table=1
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="CmR"
+     regulatory      complement(1897..2000)
+                     /note="Geneious type: promoter"
+                     /note="Promoter for chloramphenicol acetyl transferase"
+                     /regulatory_class="promoter"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
                      /standard_name="cat"
-     regulatory      2080..2123
+     regulatory      complement(2080..2123)
                      /note="Geneious type: terminator"
-                     /standard_name="Terminator"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="bacterial terminator"
 ORIGIN      
         1 ggtctcggga gaaaataaaa atttgacaaa aaaataatat ttacataaat taaaaactac
        61 ttgagaccac tcatcgcgac tagtagcggc cgctgcagtc cggcaaaaaa gggcaaggtg
