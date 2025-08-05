@@ -1,0 +1,17 @@
+LOCUS       5b_3'UTR_rev              17 bp    DNA     linear   UNA 05-AUG-2025
+DEFINITION  Overhang for PCR of LVL 0 Parts.
+ACCESSION   urn.local...h85-i80ecsf
+VERSION     urn.local...h85-i80ecsf
+KEYWORDS    .
+SOURCE      
+  ORGANISM  .
+FEATURES             Location/Qualifiers
+     misc_feature    complement(1..4)
+                     /standard_name="5b 3'UTR overhang"
+     misc_feature    complement(9)
+                     /standard_name="N"
+     misc_feature    complement(16..17)
+                     /standard_name="N"
+ORIGIN      
+        1 cgcttgaggg agacgaa
+//

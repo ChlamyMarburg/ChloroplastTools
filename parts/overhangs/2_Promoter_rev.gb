@@ -1,0 +1,17 @@
+LOCUS       2_Promoter_rev            17 bp    DNA     linear   UNA 05-AUG-2025
+DEFINITION  Overhang for PCR of LVL 0 Parts.
+ACCESSION   urn.local...h7q-i80ecsf
+VERSION     urn.local...h7q-i80ecsf
+KEYWORDS    .
+SOURCE      
+  ORGANISM  .
+FEATURES             Location/Qualifiers
+     misc_feature    complement(1..4)
+                     /standard_name="promoter overhang"
+     misc_feature    complement(9)
+                     /standard_name="N"
+     misc_feature    complement(16..17)
+                     /standard_name="N"
+ORIGIN      
+        1 tacttgaggg agacgaa
+//

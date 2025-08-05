@@ -1,0 +1,19 @@
+LOCUS       5_3'UTR_fwd               19 bp    DNA     linear   UNA 05-AUG-2025
+DEFINITION  Overhang for PCR of LVL 0 Parts - 2bp for stop codon.
+ACCESSION   urn.local...h82-i80ecsf
+VERSION     urn.local...h82-i80ecsf
+KEYWORDS    .
+SOURCE      
+  ORGANISM  .
+FEATURES             Location/Qualifiers
+     misc_feature    1..2
+                     /standard_name="N"
+     misc_feature    9
+                     /standard_name="N"
+     misc_feature    14..17
+                     /standard_name="3'UTR overhang"
+     misc_feature    17..19
+                     /standard_name="stop codon"
+ORIGIN      
+        1 aacgtctcgc tcggcttaa
+//

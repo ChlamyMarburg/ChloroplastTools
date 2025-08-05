@@ -1,0 +1,19 @@
+LOCUS       3b_N-tag_fwd              18 bp    DNA     linear   UNA 05-AUG-2025
+DEFINITION  Overhang for PCR of LVL 0 Parts - 1bp Spacer for start codon.
+ACCESSION   urn.local...h80-i80ecsf
+VERSION     urn.local...h80-i80ecsf
+KEYWORDS    .
+SOURCE      
+  ORGANISM  .
+FEATURES             Location/Qualifiers
+     misc_feature    1..2
+                     /standard_name="N"
+     misc_feature    9
+                     /standard_name="N"
+     misc_feature    14..17
+                     /standard_name="3b N-tag overhang"
+     misc_feature    18
+                     /standard_name="1bp spacer"
+ORIGIN      
+        1 aacgtctcgc tcgccatg
+//

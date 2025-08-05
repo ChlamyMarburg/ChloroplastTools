@@ -1,0 +1,22 @@
+LOCUS       5a_C-tag_fwd              19 bp    DNA     linear   UNA 05-AUG-2025
+DEFINITION  Overhang for PCR of LVL 0 Parts - 2bp to prevent frameshift
+            (Leucin).
+ACCESSION   urn.local...h7s-i80ecsf
+VERSION     urn.local...h7s-i80ecsf
+KEYWORDS    .
+SOURCE      
+  ORGANISM  .
+FEATURES             Location/Qualifiers
+     misc_feature    1..2
+                     /standard_name="N"
+     misc_feature    9
+                     /standard_name="N"
+     misc_feature    14..17
+                     /standard_name="5a C-tag overhang"
+     misc_feature    17..19
+                     /function="fusion creates Leucin allowing for C-tag
+                     translation"
+                     /standard_name="Leucin"
+ORIGIN      
+        1 aacgtctcgc tcggcttta
+//

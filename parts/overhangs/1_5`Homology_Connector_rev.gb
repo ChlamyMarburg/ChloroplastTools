@@ -1,0 +1,17 @@
+LOCUS       1_5`Homology_Connector_rev          21 bp    DNA     linear   UNA 05-AUG-2025
+DEFINITION  Overhang for PCR of LVL 0 Parts.
+ACCESSION   urn.local...h7n-i80ecsf
+VERSION     urn.local...h7n-i80ecsf
+KEYWORDS    .
+SOURCE      
+  ORGANISM  .
+FEATURES             Location/Qualifiers
+     misc_feature    complement(1..4)
+                     /standard_name="5' connector overhang"
+     misc_feature    complement(9..12)
+                     /standard_name="N"
+     misc_feature    complement(20..21)
+                     /standard_name="N"
+ORIGIN      
+        1 ggagtgagat atgcaggtgt t
+//
