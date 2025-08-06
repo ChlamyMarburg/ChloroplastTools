@@ -1,35 +1,41 @@
-LOCUS       pME_Cp_0_5_020_psaC_3'UTR_Cr        2291 bp    DNA     circular UNA 19-APR-2024
+LOCUS       pME_Cp_0_5_020_psaC_3'UTR_Cr        2291 bp    DNA     circular UNA 06-AUG-2025
 DEFINITION  psaC 3'UTR Chlamydomonas reinhardtii.
-ACCESSION   urn.local...6ij-hdu3hg4
-VERSION     urn.local...6ij-hdu3hg4
+ACCESSION   urn.local...hae-i80ecsi
+VERSION     urn.local...hae-i80ecsi
 KEYWORDS    .
-SOURCE      
-  ORGANISM  .
-COMMENT     ##pME_Standard-START##                                             
-            Box               :: Cp-5-3'UTR                                    
-            Antibiotic        :: Cam                                           
-            Created by        :: MCB                                           
-            Lvl               :: 0                                             
-            Position          :: C2                                            
-            Part type (Lvl 0) :: 5 - 3'UTR                                     
-            Toolbox           :: Chloroplasts                                  
-            Validated         :: false                                         
-            ##pME_Standard-END##
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct.
 FEATURES             Location/Qualifiers
+     source          1..2291
+                     /organism="synthetic DNA construct"
+                     /mol_type="other DNA"
+     misc_feature    8..11
+                     /standard_name="3'UTR overhang"
      3'UTR           14..>193
-                     /standard_name="psaC 3'UTR Chlamy"
-                     /modified_by="chotelt"
-                     /label="psaC 3'UTR Cr"
-     terminator      235..292
-                     /standard_name="Terminator"
+                     /standard_name="psaC 3'UTR Cr"
+     misc_feature    complement(194..197)
+                     /standard_name="3'UTR overhang"
+     regulatory      235..292
+                     /note="Geneious type: terminator"
+                     /standard_name="his operon terminator"
      rep_origin      complement(487..1075)
-                     /note="pMB1"
-     terminator      complement(1258..1352)
-                     /standard_name="Terminator"
+     regulatory      complement(1258..1352)
+                     /note="Geneious type: terminator"
+                     /standard_name="lambda t0 terminator"
      CDS             complement(1373..2032)
+                     /gene="CmR"
+                     /product="chloramphenicol acetyltransferase"
+                     /codon_start=1
+                     /transl_table=1
+                     /standard_name="CmR"
+     regulatory      complement(2033..2136)
+                     /note="Geneious type: promoter"
+                     /note="Promoter for chloramphenicol acetyl transferase"
+                     /regulatory_class="promoter"
                      /standard_name="cat"
-     terminator      2216..2259
-                     /standard_name="Terminator"
+     regulatory      complement(2216..2259)
+                     /note="Geneious type: terminator"
+                     /standard_name="bacterial terminator"
 ORIGIN      
         1 ggtctcggct taatttttta attcacttgg cgtttaaaaa acctttaaaa aagggagtat
        61 cttggtgaga tcctccataa attttaaatt aggtagcctc ttcctttggg tacatttatt
@@ -54,12 +60,12 @@ ORIGIN
      1201 ttttaaatca atctaaagta tatatgagta aacttggtct gacagctcga ggcttggatt
      1261 ctcaccaata aaaaacgccc ggcggcaacc gagcgttctg aacaaatcca gatggagttc
      1321 tgaggtcatt actggatcta tcaacaggag tccaagcgag ctcgatatca aattacgccc
-     1381 cgccctgcca ctcatcgcag tactgttgta attcattaag cattctgccg acatggaagc
+     1381 cgccctgcca ctcgtcgcag tactgttgta attcattaag cattctgccg acatggaagc
      1441 catcacaaac ggcatgatga acctgaatcg ccagcggcat cagcaccttg tcgccttgcg
      1501 tataatattt gcccatggtg aaaacggggg cgaagaagtt gtccatattg gccacgttta
-     1561 aatcaaaact ggtgaaactc acccagggat tggctgaaac gaaaaacata ttctcaataa
+     1561 aatcaaaact ggtgaaactc acccagggat tggctgatac gaaaaacata ttctcaataa
      1621 accctttagg gaaataggcc aggttttcac cgtaacacgc cacatcttgc gaatatatgt
-     1681 gtagaaactg ccggaaatcg tcgtggtatt cactccagag cgatgaaaac gtttcagttt
+     1681 gtagaaactg ccggaaatcg tcgtggtatt cactccagag tgatgaaaac gtttcagttt
      1741 gctcatggaa aacggtgtaa caagggtgaa cactatccca tatcaccagc tcaccgtctt
      1801 tcattgccat acgaaattcc ggatgagcat tcatcaggcg ggcaagaatg tgaataaagg
      1861 ccggataaaa cttgtgctta tttttcttta cggtctttaa aaaggccgta atatccagct

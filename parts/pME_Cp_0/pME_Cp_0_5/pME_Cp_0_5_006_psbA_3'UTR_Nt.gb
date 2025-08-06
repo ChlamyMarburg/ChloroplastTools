@@ -1,33 +1,41 @@
-LOCUS       pME_Cp_0_5_006_psbA_3'UTR_Nt        2204 bp    DNA     circular UNA 21-FEB-2024
+LOCUS       pME_Cp_0_5_006_psbA_3'UTR_Nt        2204 bp    DNA     circular UNA 06-AUG-2025
 DEFINITION  psbA 3'UTR Nicotiana tabacum.
-ACCESSION   urn.local...6i8-hdu3hg4
-VERSION     urn.local...6i8-hdu3hg4
+ACCESSION   urn.local...h9z-i80ecsi
+VERSION     urn.local...h9z-i80ecsi
 KEYWORDS    .
-SOURCE      
-  ORGANISM  .
-COMMENT     ##pME_Standard-START##                                             
-            Box               :: Cp-5-3'UTR                                    
-            Antibiotic        :: Cam                                           
-            Created by        :: MCB                                           
-            Lvl               :: 0                                             
-            Position          :: A6                                            
-            Part type (Lvl 0) :: 5 - 3'UTR                                     
-            Toolbox           :: Chloroplasts                                  
-            Validated         :: false                                         
-            ##pME_Standard-END##
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct.
 FEATURES             Location/Qualifiers
+     source          1..2204
+                     /organism="synthetic DNA construct"
+                     /mol_type="other DNA"
+     misc_feature    8..11
+                     /standard_name="3'UTR overhang"
      3'UTR           14..106
-                     /standard_name="psbA 3'UTR"
-     terminator      148..205
-                     /standard_name="Terminator"
+                     /standard_name="psbA 3'UTR Nt"
+     misc_feature    complement(107..110)
+                     /standard_name="3'UTR overhang"
+     regulatory      148..205
+                     /note="Geneious type: terminator"
+                     /standard_name="his operon terminator"
      rep_origin      complement(400..988)
-                     /note="pMB1"
-     terminator      1171..1265
-                     /standard_name="Terminator"
+     regulatory      complement(1171..1265)
+                     /note="Geneious type: terminator"
+                     /standard_name="lambda t0 terminator"
      CDS             complement(1286..1945)
+                     /gene="CmR"
+                     /product="chloramphenicol acetyltransferase"
+                     /codon_start=1
+                     /transl_table=1
+                     /standard_name="CmR"
+     regulatory      complement(1946..2049)
+                     /note="Geneious type: promoter"
+                     /note="Promoter for chloramphenicol acetyl transferase"
+                     /regulatory_class="promoter"
                      /standard_name="cat"
-     terminator      2129..2172
-                     /standard_name="Terminator"
+     regulatory      complement(2129..2172)
+                     /note="Geneious type: terminator"
+                     /standard_name="bacterial terminator"
 ORIGIN      
         1 ggtctcggct taatcctggc ctagtctata ggaggttttg aaaagaaagg agcaataatc
        61 attttcttgt tctatcaaga gggtgctatt gctcctttct ttttttcgct tgagaccact
@@ -50,13 +58,13 @@ ORIGIN
      1081 cttcacctag atccttttaa attaaaaatg aagttttaaa tcaatctaaa gtatatatga
      1141 gtaaacttgg tctgacagct cgaggcttgg attctcacca ataaaaaacg cccggcggca
      1201 accgagcgtt ctgaacaaat ccagatggag ttctgaggtc attactggat ctatcaacag
-     1261 gagtccaagc gagctcgata tcaaattacg ccccgccctg ccactcatcg cagtactgtt
+     1261 gagtccaagc gagctcgata tcaaattacg ccccgccctg ccactcgtcg cagtactgtt
      1321 gtaattcatt aagcattctg ccgacatgga agccatcaca aacggcatga tgaacctgaa
      1381 tcgccagcgg catcagcacc ttgtcgcctt gcgtataata tttgcccatg gtgaaaacgg
      1441 gggcgaagaa gttgtccata ttggccacgt ttaaatcaaa actggtgaaa ctcacccagg
-     1501 gattggctga aacgaaaaac atattctcaa taaacccttt agggaaatag gccaggtttt
+     1501 gattggctga tacgaaaaac atattctcaa taaacccttt agggaaatag gccaggtttt
      1561 caccgtaaca cgccacatct tgcgaatata tgtgtagaaa ctgccggaaa tcgtcgtggt
-     1621 attcactcca gagcgatgaa aacgtttcag tttgctcatg gaaaacggtg taacaagggt
+     1621 attcactcca gagtgatgaa aacgtttcag tttgctcatg gaaaacggtg taacaagggt
      1681 gaacactatc ccatatcacc agctcaccgt ctttcattgc catacgaaat tccggatgag
      1741 cattcatcag gcgggcaaga atgtgaataa aggccggata aaacttgtgc ttatttttct
      1801 ttacggtctt taaaaaggcc gtaatatcca gctgaacggt ctggttatag gtacattgag

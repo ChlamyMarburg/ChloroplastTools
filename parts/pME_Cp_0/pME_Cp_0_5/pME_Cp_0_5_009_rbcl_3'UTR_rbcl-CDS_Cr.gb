@@ -1,39 +1,47 @@
-LOCUS       pME_Cp_0_5_009_rbcl_3'UTR+rbcl-CDS_Cr        2518 bp    DNA     circular UNA 19-APR-2024
-DEFINITION  rbcl 3'UTR, contains part of the rubisco CDS, amplified from pSapI.
-ACCESSION   urn.local...6ia-hdu3hg4
-VERSION     urn.local...6ia-hdu3hg4
+LOCUS       pME_Cp_0_5_009_rbcl_3'UTR+rbcl-CDS_Cr        2518 bp    DNA     circular UNA 06-AUG-2025
+DEFINITION  rbcL 3'UTR + rbcL CDS Chlamydomonas reinhardtii.
+ACCESSION   urn.local...hal-i80ecsk
+VERSION     urn.local...hal-i80ecsk
 KEYWORDS    .
-SOURCE      
-  ORGANISM  .
-COMMENT     ##pME_Standard-START##                                             
-            Box               :: Cp-5-3'UTR                                    
-            Antibiotic        :: Cam                                           
-            Created by        :: MCB                                           
-            Lvl               :: 0                                             
-            Position          :: A9                                            
-            Part type (Lvl 0) :: 5 - 3'UTR                                     
-            Toolbox           :: Chloroplasts                                  
-            Validated         :: false                                         
-            ##pME_Standard-END##
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct.
 FEATURES             Location/Qualifiers
-     misc_feature    14..163
-                     /created_by="chotelt"
-                     /modified_by="chotelt"
-                     /label="rbcL CDS fragment"
-     3'UTR           14..420
-                     /created_by="chotelt"
-                     /modified_by="chotelt"
-                     /label="rbcL_3'UTR+rbcL-CDS-fragment"
-     terminator      462..519
-                     /standard_name="Terminator"
+     source          1..2518
+                     /organism="synthetic DNA construct"
+                     /mol_type="other DNA"
+     misc_feature    8..11
+                     /standard_name="3'UTR overhang"
+     CDS             <14..162
+                     /product="Ribulose-1,5-bisphosphat-carboxylase/oxygenase
+                     large subunit"
+                     /codon_start=3
+                     /transl_table=11
+                     /standard_name="rbcL"
+     3'UTR           163..420
+                     /standard_name="rbcL 3'UTR Cr"
+     misc_feature    complement(421..424)
+                     /standard_name="3'UTR overhang"
+     regulatory      462..519
+                     /note="Geneious type: terminator"
+                     /standard_name="his operon terminator"
      rep_origin      complement(714..1302)
-                     /note="pMB1"
-     terminator      1485..1579
-                     /standard_name="Terminator"
+     regulatory      complement(1485..1579)
+                     /note="Geneious type: terminator"
+                     /standard_name="lambda t0 terminator"
      CDS             complement(1600..2259)
+                     /gene="CmR"
+                     /product="chloramphenicol acetyltransferase"
+                     /codon_start=1
+                     /transl_table=1
+                     /standard_name="CmR"
+     regulatory      complement(2260..2363)
+                     /note="Geneious type: promoter"
+                     /note="Promoter for chloramphenicol acetyl transferase"
+                     /regulatory_class="promoter"
                      /standard_name="cat"
-     terminator      2443..2486
-                     /standard_name="Terminator"
+     regulatory      complement(2443..2486)
+                     /note="Geneious type: terminator"
+                     /standard_name="bacterial terminator"
 ORIGIN      
         1 ggtctcggct taagtactca agctcgtaac gaaggtcgtg accttgctcg tgaaggtggc
        61 gacgtaattc gttcagcttg taaatgatct ccagaacttg ctgctgcatg tgaagtttgg
@@ -62,12 +70,12 @@ ORIGIN
      1441 taaagtatat atgagtaaac ttggtctgac agctcgaggc ttggattctc accaataaaa
      1501 aacgcccggc ggcaaccgag cgttctgaac aaatccagat ggagttctga ggtcattact
      1561 ggatctatca acaggagtcc aagcgagctc gatatcaaat tacgccccgc cctgccactc
-     1621 atcgcagtac tgttgtaatt cattaagcat tctgccgaca tggaagccat cacaaacggc
+     1621 gtcgcagtac tgttgtaatt cattaagcat tctgccgaca tggaagccat cacaaacggc
      1681 atgatgaacc tgaatcgcca gcggcatcag caccttgtcg ccttgcgtat aatatttgcc
      1741 catggtgaaa acgggggcga agaagttgtc catattggcc acgtttaaat caaaactggt
-     1801 gaaactcacc cagggattgg ctgaaacgaa aaacatattc tcaataaacc ctttagggaa
+     1801 gaaactcacc cagggattgg ctgatacgaa aaacatattc tcaataaacc ctttagggaa
      1861 ataggccagg ttttcaccgt aacacgccac atcttgcgaa tatatgtgta gaaactgccg
-     1921 gaaatcgtcg tggtattcac tccagagcga tgaaaacgtt tcagtttgct catggaaaac
+     1921 gaaatcgtcg tggtattcac tccagagtga tgaaaacgtt tcagtttgct catggaaaac
      1981 ggtgtaacaa gggtgaacac tatcccatat caccagctca ccgtctttca ttgccatacg
      2041 aaattccgga tgagcattca tcaggcgggc aagaatgtga ataaaggccg gataaaactt
      2101 gtgcttattt ttctttacgg tctttaaaaa ggccgtaata tccagctgaa cggtctggtt

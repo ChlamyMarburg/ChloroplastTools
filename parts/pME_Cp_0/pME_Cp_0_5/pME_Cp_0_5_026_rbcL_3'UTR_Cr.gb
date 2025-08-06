@@ -1,35 +1,46 @@
-LOCUS       pME_Cp_0_5_026_rbcL_3'UTR_Cr        2178 bp    DNA     circular UNA 19-APR-2024
-DEFINITION  rbcL 3'UTR Chlamydomonas reinhardtii short from transcriptomics.
-ACCESSION   urn.local...6im-hdu3hg4
-VERSION     urn.local...6im-hdu3hg4
+LOCUS       pME_Cp_0_5_026_rbcL_3'UTR_Cr        2178 bp    DNA     circular UNA 06-AUG-2025
+DEFINITION  rbcL 3'UTR Chlamydomonas reinhardtii.
+ACCESSION   urn.local...ha8-i80ecsi
+VERSION     urn.local...ha8-i80ecsi
 KEYWORDS    .
-SOURCE      
-  ORGANISM  .
-COMMENT     ##pME_Standard-START##                                             
-            Box               :: Cp-5-3'UTR                                    
-            Antibiotic        :: Cam                                           
-            Created by        :: MCB                                           
-            Lvl               :: 0                                             
-            Position          :: C8                                            
-            Part type (Lvl 0) :: 5 - 3'UTR                                     
-            Toolbox           :: Chloroplasts                                  
-            Validated         :: false                                         
-            ##pME_Standard-END##
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct.
 FEATURES             Location/Qualifiers
+     source          1..2178
+                     /organism="synthetic DNA construct"
+                     /mol_type="other DNA"
+     misc_feature    8..11
+                     /standard_name="3'UTR overhang"
+     mRNA            <14..>80
+                     /standard_name="rbcL"
+     gene            <14..>80
+                     /locus_tag="ChreCp049"
+                     /standard_name="rbcL"
      3'UTR           14..>80
-                     /standard_name="rbcL 3'UTR Chlamy"
-                     /modified_by="chotelt"
-                     /label="rbcL 3'UTR Cr"
-     terminator      122..179
-                     /standard_name="Terminator"
+                     /standard_name="rbcL 3'UTR Cr"
+     misc_feature    complement(81..84)
+                     /standard_name="3'UTR overhang"
+     regulatory      122..179
+                     /note="Geneious type: terminator"
+                     /standard_name="his operon terminator"
      rep_origin      complement(374..962)
-                     /note="pMB1"
-     terminator      complement(1145..1239)
-                     /standard_name="Terminator"
+     regulatory      complement(1145..1239)
+                     /note="Geneious type: terminator"
+                     /standard_name="lambda t0 terminator"
      CDS             complement(1260..1919)
+                     /gene="CmR"
+                     /product="chloramphenicol acetyltransferase"
+                     /codon_start=1
+                     /transl_table=1
+                     /standard_name="CmR"
+     regulatory      complement(1920..2023)
+                     /note="Geneious type: promoter"
+                     /note="Promoter for chloramphenicol acetyl transferase"
+                     /regulatory_class="promoter"
                      /standard_name="cat"
-     terminator      2103..2146
-                     /standard_name="Terminator"
+     regulatory      complement(2103..2146)
+                     /note="Geneious type: terminator"
+                     /standard_name="bacterial terminator"
 ORIGIN      
         1 ggtctcggct taatttttat ttttcatgat gtttatgtga atagcataaa catcgttttt
        61 atttttatgg tgtttaggtt cgcttgagac cactcatcgc gactagtagc ggccgctgca
@@ -52,12 +63,12 @@ ORIGIN
      1081 aatgaagttt taaatcaatc taaagtatat atgagtaaac ttggtctgac agctcgaggc
      1141 ttggattctc accaataaaa aacgcccggc ggcaaccgag cgttctgaac aaatccagat
      1201 ggagttctga ggtcattact ggatctatca acaggagtcc aagcgagctc gatatcaaat
-     1261 tacgccccgc cctgccactc atcgcagtac tgttgtaatt cattaagcat tctgccgaca
+     1261 tacgccccgc cctgccactc gtcgcagtac tgttgtaatt cattaagcat tctgccgaca
      1321 tggaagccat cacaaacggc atgatgaacc tgaatcgcca gcggcatcag caccttgtcg
      1381 ccttgcgtat aatatttgcc catggtgaaa acgggggcga agaagttgtc catattggcc
-     1441 acgtttaaat caaaactggt gaaactcacc cagggattgg ctgaaacgaa aaacatattc
+     1441 acgtttaaat caaaactggt gaaactcacc cagggattgg ctgatacgaa aaacatattc
      1501 tcaataaacc ctttagggaa ataggccagg ttttcaccgt aacacgccac atcttgcgaa
-     1561 tatatgtgta gaaactgccg gaaatcgtcg tggtattcac tccagagcga tgaaaacgtt
+     1561 tatatgtgta gaaactgccg gaaatcgtcg tggtattcac tccagagtga tgaaaacgtt
      1621 tcagtttgct catggaaaac ggtgtaacaa gggtgaacac tatcccatat caccagctca
      1681 ccgtctttca ttgccatacg aaattccgga tgagcattca tcaggcgggc aagaatgtga
      1741 ataaaggccg gataaaactt gtgcttattt ttctttacgg tctttaaaaa ggccgtaata

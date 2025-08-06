@@ -1,35 +1,41 @@
-LOCUS       pME_Cp_0_5_044_TYMV_3'UTR_Tv        2216 bp    DNA     circular UNA 19-APR-2024
+LOCUS       pME_Cp_0_5_044_TYMV_3'UTR_Tv        2216 bp    DNA     circular UNA 06-AUG-2025
 DEFINITION  Turnip yellow mosaic virus 3'UTR.
-ACCESSION   urn.local...6j0-hdu3hg4
-VERSION     urn.local...6j0-hdu3hg4
+ACCESSION   urn.local...h9s-i80ecsi
+VERSION     urn.local...h9s-i80ecsi
 KEYWORDS    .
-SOURCE      
-  ORGANISM  .
-COMMENT     ##pME_Standard-START##                                             
-            Box               :: Cp-5-3'UTR                                    
-            Antibiotic        :: Cam                                           
-            Created by        :: MCB                                           
-            Lvl               :: 0                                             
-            Position          :: E8                                            
-            Part type (Lvl 0) :: 5 - 3'UTR                                     
-            Toolbox           :: Chloroplasts                                  
-            Validated         :: false                                         
-            ##pME_Standard-END##
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct.
 FEATURES             Location/Qualifiers
+     source          1..2216
+                     /organism="synthetic DNA construct"
+                     /mol_type="other DNA"
+     misc_feature    8..11
+                     /standard_name="3'UTR overhang"
      3'UTR           14..118
                      /standard_name="PTGS supressor 3'UTR TYMV"
-                     /modified_by="chotelt"
-                     /label="TYMV 3'UTR "
-     terminator      160..217
-                     /standard_name="Terminator"
+     misc_feature    complement(119..122)
+                     /standard_name="3'UTR overhang"
+     regulatory      160..217
+                     /note="Geneious type: terminator"
+                     /standard_name="his operon terminator"
      rep_origin      complement(412..1000)
-                     /note="pMB1"
-     terminator      1183..1277
-                     /standard_name="Terminator"
+     regulatory      complement(1183..1277)
+                     /note="Geneious type: terminator"
+                     /standard_name="lambda t0 terminator"
      CDS             complement(1298..1957)
+                     /gene="CmR"
+                     /product="chloramphenicol acetyltransferase"
+                     /codon_start=1
+                     /transl_table=1
+                     /standard_name="CmR"
+     regulatory      complement(1958..2061)
+                     /note="Geneious type: promoter"
+                     /note="Promoter for chloramphenicol acetyl transferase"
+                     /regulatory_class="promoter"
                      /standard_name="cat"
-     terminator      2141..2184
-                     /standard_name="Terminator"
+     regulatory      complement(2141..2184)
+                     /note="Geneious type: terminator"
+                     /standard_name="bacterial terminator"
 ORIGIN      
         1 ggtctcggct taagttctcg atctttaaaa tcgttagctc gccagttagc gaggtctgtc
        61 cccacacgac agataatcgg gtgcaactcc cgcccctttt ccgagggtca tcggaacccg
@@ -52,13 +58,13 @@ ORIGIN
      1081 atcaaaaagg atcttcacct agatcctttt aaattaaaaa tgaagtttta aatcaatcta
      1141 aagtatatat gagtaaactt ggtctgacag ctcgaggctt ggattctcac caataaaaaa
      1201 cgcccggcgg caaccgagcg ttctgaacaa atccagatgg agttctgagg tcattactgg
-     1261 atctatcaac aggagtccaa gcgagctcga tatcaaatta cgccccgccc tgccactcat
+     1261 atctatcaac aggagtccaa gcgagctcga tatcaaatta cgccccgccc tgccactcgt
      1321 cgcagtactg ttgtaattca ttaagcattc tgccgacatg gaagccatca caaacggcat
      1381 gatgaacctg aatcgccagc ggcatcagca ccttgtcgcc ttgcgtataa tatttgccca
      1441 tggtgaaaac gggggcgaag aagttgtcca tattggccac gtttaaatca aaactggtga
-     1501 aactcaccca gggattggct gaaacgaaaa acatattctc aataaaccct ttagggaaat
+     1501 aactcaccca gggattggct gatacgaaaa acatattctc aataaaccct ttagggaaat
      1561 aggccaggtt ttcaccgtaa cacgccacat cttgcgaata tatgtgtaga aactgccgga
-     1621 aatcgtcgtg gtattcactc cagagcgatg aaaacgtttc agtttgctca tggaaaacgg
+     1621 aatcgtcgtg gtattcactc cagagtgatg aaaacgtttc agtttgctca tggaaaacgg
      1681 tgtaacaagg gtgaacacta tcccatatca ccagctcacc gtctttcatt gccatacgaa
      1741 attccggatg agcattcatc aggcgggcaa gaatgtgaat aaaggccgga taaaacttgt
      1801 gcttattttt ctttacggtc tttaaaaagg ccgtaatatc cagctgaacg gtctggttat

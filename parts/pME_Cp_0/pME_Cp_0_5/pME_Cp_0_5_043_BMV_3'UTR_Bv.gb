@@ -1,35 +1,41 @@
-LOCUS       pME_Cp_0_5_043_BMV_3'UTR_Bv        2242 bp    DNA     circular UNA 19-APR-2024
+LOCUS       pME_Cp_0_5_043_BMV_3'UTR_Bv        2242 bp    DNA     circular UNA 06-AUG-2025
 DEFINITION  Brome Mosaic Virus 3'UTR.
-ACCESSION   urn.local...6iz-hdu3hg4
-VERSION     urn.local...6iz-hdu3hg4
+ACCESSION   urn.local...ha4-i80ecsi
+VERSION     urn.local...ha4-i80ecsi
 KEYWORDS    .
-SOURCE      
-  ORGANISM  .
-COMMENT     ##pME_Standard-START##                                             
-            Box               :: Cp-5-3'UTR                                    
-            Antibiotic        :: Cam                                           
-            Created by        :: MCB                                           
-            Lvl               :: 0                                             
-            Position          :: E7                                            
-            Part type (Lvl 0) :: 5 - 3'UTR                                     
-            Toolbox           :: Chloroplasts                                  
-            Validated         :: false                                         
-            ##pME_Standard-END##
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct.
 FEATURES             Location/Qualifiers
+     source          1..2242
+                     /organism="synthetic DNA construct"
+                     /mol_type="other DNA"
+     misc_feature    8..11
+                     /standard_name="3'UTR overhang"
      3'UTR           14..144
                      /standard_name="tRNA like structure 3'UTR BMV"
-                     /modified_by="chotelt"
-                     /label="BMV 3'UTR Bv"
-     terminator      186..243
-                     /standard_name="Terminator"
+     misc_feature    complement(145..148)
+                     /standard_name="3'UTR overhang"
+     regulatory      186..243
+                     /note="Geneious type: terminator"
+                     /standard_name="his operon terminator"
      rep_origin      complement(438..1026)
-                     /note="pMB1"
-     terminator      1209..1303
-                     /standard_name="Terminator"
+     regulatory      complement(1209..1303)
+                     /note="Geneious type: terminator"
+                     /standard_name="lambda t0 terminator"
      CDS             complement(1324..1983)
+                     /gene="CmR"
+                     /product="chloramphenicol acetyltransferase"
+                     /codon_start=1
+                     /transl_table=1
+                     /standard_name="CmR"
+     regulatory      complement(1984..2087)
+                     /note="Geneious type: promoter"
+                     /note="Promoter for chloramphenicol acetyl transferase"
+                     /regulatory_class="promoter"
                      /standard_name="cat"
-     terminator      2167..2210
-                     /standard_name="Terminator"
+     regulatory      complement(2167..2210)
+                     /note="Geneious type: terminator"
+                     /standard_name="bacterial terminator"
 ORIGIN      
         1 ggtctcggct taaggtgcct ttgagagtct acttttgctc tcttcggaag aacccttagg
        61 ggttcgtgca tgggcttgca tagcaagtct agatgcgggt accgtacagt gttgaaaaac
@@ -53,12 +59,12 @@ ORIGIN
      1141 taaaaatgaa gttttaaatc aatctaaagt atatatgagt aaacttggtc tgacagctcg
      1201 aggcttggat tctcaccaat aaaaaacgcc cggcggcaac cgagcgttct gaacaaatcc
      1261 agatggagtt ctgaggtcat tactggatct atcaacagga gtccaagcga gctcgatatc
-     1321 aaattacgcc ccgccctgcc actcatcgca gtactgttgt aattcattaa gcattctgcc
+     1321 aaattacgcc ccgccctgcc actcgtcgca gtactgttgt aattcattaa gcattctgcc
      1381 gacatggaag ccatcacaaa cggcatgatg aacctgaatc gccagcggca tcagcacctt
      1441 gtcgccttgc gtataatatt tgcccatggt gaaaacgggg gcgaagaagt tgtccatatt
-     1501 ggccacgttt aaatcaaaac tggtgaaact cacccaggga ttggctgaaa cgaaaaacat
+     1501 ggccacgttt aaatcaaaac tggtgaaact cacccaggga ttggctgata cgaaaaacat
      1561 attctcaata aaccctttag ggaaataggc caggttttca ccgtaacacg ccacatcttg
-     1621 cgaatatatg tgtagaaact gccggaaatc gtcgtggtat tcactccaga gcgatgaaaa
+     1621 cgaatatatg tgtagaaact gccggaaatc gtcgtggtat tcactccaga gtgatgaaaa
      1681 cgtttcagtt tgctcatgga aaacggtgta acaagggtga acactatccc atatcaccag
      1741 ctcaccgtct ttcattgcca tacgaaattc cggatgagca ttcatcaggc gggcaagaat
      1801 gtgaataaag gccggataaa acttgtgctt atttttcttt acggtcttta aaaaggccgt

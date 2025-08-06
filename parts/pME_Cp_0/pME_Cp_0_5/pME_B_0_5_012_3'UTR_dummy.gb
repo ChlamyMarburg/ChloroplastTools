@@ -1,33 +1,43 @@
-LOCUS       pME_Cp_0_5_049_TDummy        2191 bp    DNA     circular UNA 30-APR-2024
-DEFINITION  LVL0_5_Terminator Dummy.
-ACCESSION   urn.local...6i5-hdu3hg4
-VERSION     urn.local...6i5-hdu3hg4
+LOCUS       pME_B_0_5_012_3'UTR_dummy        2191 bp    DNA     circular UNA 06-AUG-2025
+DEFINITION  3'UTR dummy sequence used as a baseline in 3'UTR characterization.
+ACCESSION   urn.local...ha0-i80ecsi
+VERSION     urn.local...ha0-i80ecsi
 KEYWORDS    .
-SOURCE      
-  ORGANISM  .
-COMMENT     ##pME_Standard-START##                                             
-            Box               :: B-5-Term                                      
-            Antibiotic        :: Chloramphenicol                               
-            Created by        :: iGEM 2018                                     
-            Lvl               :: 0                                             
-            Position          :: B2                                            
-            Part type (Lvl 0) :: 5 - 3'UTR                                     
-            Toolbox           :: Bacteria                                      
-            Validated         :: true                                          
-            ##pME_Standard-END##
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct.
 FEATURES             Location/Qualifiers
-     terminator      14..93
-                     /standard_name="Terminator Dummy"
-     terminator      135..192
-                     /standard_name="Terminator"
+     source          1..2191
+                     /organism="synthetic DNA construct"
+                     /mol_type="other DNA"
+     misc_feature    8..11
+                     /standard_name="3'UTR overhang"
+     misc_feature    11..13
+                     /standard_name="STOP codon"
+     misc_feature    14..93
+                     /standard_name="3'UTR Dummy"
+     misc_feature    complement(94..97)
+                     /standard_name="3'UTR overhang"
+     regulatory      135..192
+                     /note="Geneious type: terminator"
+                     /standard_name="his operon terminator"
      rep_origin      complement(387..975)
-                     /note="pMB1"
-     terminator      1158..1252
-                     /standard_name="Terminator"
+     regulatory      complement(1158..1252)
+                     /note="Geneious type: terminator"
+                     /standard_name="lambda t0 terminator"
      CDS             complement(1273..1932)
+                     /gene="CmR"
+                     /product="chloramphenicol acetyltransferase"
+                     /codon_start=1
+                     /transl_table=1
+                     /standard_name="CmR"
+     regulatory      complement(1933..2036)
+                     /note="Geneious type: promoter"
+                     /note="Promoter for chloramphenicol acetyl transferase"
+                     /regulatory_class="promoter"
                      /standard_name="cat"
-     terminator      2116..2159
-                     /standard_name="Terminator"
+     regulatory      complement(2116..2159)
+                     /note="Geneious type: terminator"
+                     /standard_name="bacterial terminator"
 ORIGIN      
         1 ggtctcggct taaactcagt tgtagtaacg agcggataga ttcccagacc caccttcacg
        61 ggcggtagca ggacctcaat aataggattt tcgcgcttga gaccactcat cgcgactagt
@@ -50,13 +60,13 @@ ORIGIN
      1081 cttttaaatt aaaaatgaag ttttaaatca atctaaagta tatatgagta aacttggtct
      1141 gacagctcga ggcttggatt ctcaccaata aaaaacgccc ggcggcaacc gagcgttctg
      1201 aacaaatcca gatggagttc tgaggtcatt actggatcta tcaacaggag tccaagcgag
-     1261 ctcgatatca aattacgccc cgccctgcca ctcatcgcag tactgttgta attcattaag
+     1261 ctcgatatca aattacgccc cgccctgcca ctcgtcgcag tactgttgta attcattaag
      1321 cattctgccg acatggaagc catcacaaac ggcatgatga acctgaatcg ccagcggcat
      1381 cagcaccttg tcgccttgcg tataatattt gcccatggtg aaaacggggg cgaagaagtt
-     1441 gtccatattg gccacgttta aatcaaaact ggtgaaactc acccagggat tggctgaaac
+     1441 gtccatattg gccacgttta aatcaaaact ggtgaaactc acccagggat tggctgatac
      1501 gaaaaacata ttctcaataa accctttagg gaaataggcc aggttttcac cgtaacacgc
      1561 cacatcttgc gaatatatgt gtagaaactg ccggaaatcg tcgtggtatt cactccagag
-     1621 cgatgaaaac gtttcagttt gctcatggaa aacggtgtaa caagggtgaa cactatccca
+     1621 tgatgaaaac gtttcagttt gctcatggaa aacggtgtaa caagggtgaa cactatccca
      1681 tatcaccagc tcaccgtctt tcattgccat acgaaattcc ggatgagcat tcatcaggcg
      1741 ggcaagaatg tgaataaagg ccggataaaa cttgtgctta tttttcttta cggtctttaa
      1801 aaaggccgta atatccagct gaacggtctg gttataggta cattgagcaa ctgactgaaa
