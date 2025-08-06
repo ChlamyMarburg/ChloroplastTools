@@ -1,24 +1,40 @@
-LOCUS       pME_Cp_0_5a_007_mScarlet-I        2804 bp    DNA     circular UNA 29-APR-2024
-DEFINITION  mScarlet-I tag in C-terminal.
-ACCESSION   urn.local...6yo-hdu3hpd
-VERSION     urn.local...6yo-hdu3hpd
+LOCUS       pME_Cp_0_5a_007_mScarlet-I        2805 bp    DNA     circular UNA 06-AUG-2025
+DEFINITION  mScarlet-I C-terminal.
+ACCESSION   urn.local...hb0-i80ecsk
+VERSION     urn.local...hb0-i80ecsk
 KEYWORDS    .
-SOURCE      
-  ORGANISM  .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct.
 FEATURES             Location/Qualifiers
-     CDS             <14..>706
+     source          1..2805
+                     /organism="synthetic DNA construct"
+                     /mol_type="other DNA"
+     CDS             8..709
+                     /product="mScarlet-I"
                      /codon_start=1
-                     /standard_name="mScarlet-I"
-     terminator      748..805
-                     /standard_name="Terminator"
-     rep_origin      complement(1000..1588)
-                     /note="pMB1"
-     terminator      complement(1771..1865)
-                     /standard_name="Terminator"
-     CDS             complement(1886..2545)
+                     /transl_table=1
+                     /standard_name="mScarlet-I C-tag"
+     regulatory      749..806
+                     /note="Geneious type: terminator"
+                     /standard_name="his operon terminator"
+     rep_origin      complement(1001..1589)
+     regulatory      complement(1772..1866)
+                     /note="Geneious type: terminator"
+                     /standard_name="lambda t0 terminator"
+     CDS             complement(1887..2546)
+                     /gene="CmR"
+                     /product="chloramphenicol acetyltransferase"
+                     /codon_start=1
+                     /transl_table=1
+                     /standard_name="CmR"
+     regulatory      complement(2547..2650)
+                     /note="Geneious type: promoter"
+                     /note="Promoter for chloramphenicol acetyl transferase"
+                     /regulatory_class="promoter"
                      /standard_name="cat"
-     terminator      2729..2772
-                     /standard_name="Terminator"
+     regulatory      complement(2730..2773)
+                     /note="Geneious type: terminator"
+                     /standard_name="bacterial terminator"
 ORIGIN      
         1 ggtctcggct ttagtttcaa aaggtgaagc agtaattaaa gaatttatgc gtttcaaagt
        61 tcatatggaa ggttctatga atggtcacga atttgaaatt gaaggtgaag gtgaaggtcg
@@ -31,40 +47,40 @@ ORIGIN
       481 attaaaaggt gatattaaaa tggcattacg tttaaaagat ggtggtcgtt atttagctga
       541 ctttaaaaca acttataaag caaaaaaacc tgttcaaatg cctggtgctt ataacgttga
       601 tcgtaaatta gacattactt cacacaatga agattataca gtagttgaac aatatgaacg
-      661 tagtgaaggt cgtcattcta caggtggtat ggatgaatta tataaaggta tgagaccact
-      721 catcgcgact agtagcggcc gctgcagtcc ggcaaaaaag ggcaaggtgt caccaccctg
-      781 ccctttttct ttaaaaccga aaagattact tcgcgttatg caggcttcct cgctcactga
-      841 ctcgctgcgc tcggtcgttc ggctgcggcg agcggtatca gctcactcaa aggcggtaat
-      901 acggttatcc acagaatcag gggataacgc aggaaagaac atgtgagcaa aaggccagca
-      961 aaaggccagg aaccgtaaaa aggccgcgtt gctggcgttt ttccataggc tccgcccccc
-     1021 tgacgagcat cacaaaaatc gacgctcaag tcagaggtgg cgaaacccga caggactata
-     1081 aagataccag gcgtttcccc ctggaagctc cctcgtgcgc tctcctgttc cgaccctgcc
-     1141 gcttaccgga tacctgtccg cctttctccc ttcgggaagc gtggcgcttt ctcatagctc
-     1201 acgctgtagg tatctcagtt cggtgtaggt cgttcgctcc aagctgggct gtgtgcacga
-     1261 accccccgtt cagcccgacc gctgcgcctt atccggtaac tatcgtcttg agtccaaccc
-     1321 ggtaagacac gacttatcgc cactggcagc agccactggt aacaggatta gcagagcgag
-     1381 gtatgtaggc ggtgctacag agttcttgaa gtggtggcct aactacggct acactagaag
-     1441 aacagtattt ggtatctgcg ctctgctgaa gccagttacc ttcggaaaaa gagttggtag
-     1501 ctcttgatcc ggcaaacaaa ccaccgctgg tagcggtggt ttttttgttt gcaagcagca
-     1561 gattacgcgc agaaaaaaag gatctcaaga agatcctttg atcttttcta cggggtctga
-     1621 cgctcagtgg aacgaaaact cacgttaagg gattttggtc atgagattat caaaaaggat
-     1681 cttcacctag atccttttaa attaaaaatg aagttttaaa tcaatctaaa gtatatatga
-     1741 gtaaacttgg tctgacagct cgaggcttgg attctcacca ataaaaaacg cccggcggca
-     1801 accgagcgtt ctgaacaaat ccagatggag ttctgaggtc attactggat ctatcaacag
-     1861 gagtccaagc gagctcgata tcaaattacg ccccgccctg ccactcatcg cagtactgtt
-     1921 gtaattcatt aagcattctg ccgacatgga agccatcaca aacggcatga tgaacctgaa
-     1981 tcgccagcgg catcagcacc ttgtcgcctt gcgtataata tttgcccatg gtgaaaacgg
-     2041 gggcgaagaa gttgtccata ttggccacgt ttaaatcaaa actggtgaaa ctcacccagg
-     2101 gattggctga aacgaaaaac atattctcaa taaacccttt agggaaatag gccaggtttt
-     2161 caccgtaaca cgccacatct tgcgaatata tgtgtagaaa ctgccggaaa tcgtcgtggt
-     2221 attcactcca gagcgatgaa aacgtttcag tttgctcatg gaaaacggtg taacaagggt
-     2281 gaacactatc ccatatcacc agctcaccgt ctttcattgc catacgaaat tccggatgag
-     2341 cattcatcag gcgggcaaga atgtgaataa aggccggata aaacttgtgc ttatttttct
-     2401 ttacggtctt taaaaaggcc gtaatatcca gctgaacggt ctggttatag gtacattgag
-     2461 caactgactg aaatgcctca aaatgttctt tacgatgcca ttgggatata tcaacggtgg
-     2521 tatatccagt gatttttttc tccattttag cttccttagc tcctgaaaat ctcgataact
-     2581 caaaaaatac gcccggtagt gatcttattt cattatggtg aaagttggaa cctcttacgt
-     2641 gcccgatcaa ctcgagtgcc acctgacgtc taagaaacca ttattatcat gacattaacc
-     2701 tataaaaata ggcgtatcac gaggcagaat ttcagataaa aaaaatcctt agctttcgct
-     2761 aaggatgatt tctggaattc gcggccgctt ctagagcgat gagt
+      661 tagtgaaggt cgtcattcta caggtggtat ggatgaatta tataaagggt atgagaccac
+      721 tcatcgcgac tagtagcggc cgctgcagtc cggcaaaaaa gggcaaggtg tcaccaccct
+      781 gccctttttc tttaaaaccg aaaagattac ttcgcgttat gcaggcttcc tcgctcactg
+      841 actcgctgcg ctcggtcgtt cggctgcggc gagcggtatc agctcactca aaggcggtaa
+      901 tacggttatc cacagaatca ggggataacg caggaaagaa catgtgagca aaaggccagc
+      961 aaaaggccag gaaccgtaaa aaggccgcgt tgctggcgtt tttccacagg ctccgccccc
+     1021 ctgacgagca tcacaaaaat cgacgctcaa gtcagaggtg gcgaaacccg acaggactat
+     1081 aaagatacca ggcgtttccc cctggaagct ccctcgtgcg ctctcctgtt ccgaccctgc
+     1141 cgcttaccgg atacctgtcc gcctttctcc cttcgggaag cgtggcgctt tctcatagct
+     1201 cacgctgtag gtatctcagt tcggtgtagg tcgttcgctc caagctgggc tgtgtgcacg
+     1261 aaccccccgt tcagcccgac cgctgcgcct tatccggtaa ctatcgtctt gagtccaacc
+     1321 cggtaagaca cgacttatcg ccactggcag cagccactgg taacaggatt agcagagcga
+     1381 ggtatgtagg cggtgctaca gagttcttga agtggtggcc taactacggc tacactagaa
+     1441 gaacagtatt tggtatctgc gctctgctga agccagttac cttcggaaaa agagttggta
+     1501 gctcttgatc cggcaaacaa accaccgctg gtagcggtgg tttttttgtt tgcaagcagc
+     1561 agattacgcg cagaaaaaaa ggatctcaag aagatccttt gatcttttct acggggtctg
+     1621 acgctcagtg gaacgaaaac tcacgttaag ggattttggt catgagatta tcaaaaagga
+     1681 tcttcaccta gatcctttta aattaaaaat gaagttttaa atcaatctaa agtatatatg
+     1741 agtaaacttg gtctgacagc tcgaggcttg gattctcacc aataaaaaac gcccggcggc
+     1801 aaccgagcgt tctgaacaaa tccagatgga gttctgaggt cattactgga tctatcaaca
+     1861 ggagtccaag cgagctcgat atcaaattac gccccgccct gccactcgtc gcagtactgt
+     1921 tgtaattcat taagcattct gccgacatgg aagccatcac aaacggcatg atgaacctga
+     1981 atcgccagcg gcatcagcac cttgtcgcct tgcgtataat atttgcccat ggtgaaaacg
+     2041 ggggcgaaga agttgtccat attggccacg tttaaatcaa aactggtgaa actcacccag
+     2101 ggattggctg atacgaaaaa catattctca ataaaccctt tagggaaata ggccaggttt
+     2161 tcaccgtaac acgccacatc ttgcgaatat atgtgtagaa actgccggaa atcgtcgtgg
+     2221 tattcactcc agagtgatga aaacgtttca gtttgctcat ggaaaacggt gtaacaaggg
+     2281 tgaacactat cccatatcac cagctcaccg tctttcattg ccatacgaaa ttccggatga
+     2341 gcattcatca ggcgggcaag aatgtgaata aaggccggat aaaacttgtg cttatttttc
+     2401 tttacggtct ttaaaaaggc cgtaatatcc agctgaacgg tctggttata ggtacattga
+     2461 gcaactgact gaaatgcctc aaaatgttct ttacgatgcc attgggatat atcaacggtg
+     2521 gtatatccag tgattttttt ctccatttta gcttccttag ctcctgaaaa tctcgataac
+     2581 tcaaaaaata cgcccggtag tgatcttatt tcattatggt gaaagttgga acctcttacg
+     2641 tgcccgatca actcgagtgc cacctgacgt ctaagaaacc attattatca tgacattaac
+     2701 ctataaaaat aggcgtatca cgaggcagaa tttcagataa aaaaaatcct tagctttcgc
+     2761 taaggatgat ttctggaatt cgcggccgct tctagagcga tgagt
 //
