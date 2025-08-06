@@ -1,33 +1,57 @@
-LOCUS       pME_Cp_0_3IEE_009_psbF-psbL_IEE_Cr        2719 bp    DNA     circular UNA 19-APR-2024
-DEFINITION  IEE_psbF-psbL.
-ACCESSION   urn.local...668-hdu3gdf
-VERSION     urn.local...668-hdu3gdf
+LOCUS       pME_Cp_0_3IEE_009_psbF-psbL_IEE_Cr        2719 bp    DNA     circular UNA 06-AUG-2025
+DEFINITION  psbF-psbL IEE Chlamydomonas reinhardtii.
+ACCESSION   urn.local...hg6-i80ecst
+VERSION     urn.local...hg6-i80ecst
 KEYWORDS    .
-SOURCE      
-  ORGANISM  .
-COMMENT     ##pME_Standard-START##                                             
-            Box               :: Cp_3IEE                                       
-            Antibiotic        :: Cam                                           
-            Created by        :: MCB                                           
-            Lvl               :: 0                                             
-            Position          :: A9                                            
-            Part type (Lvl 0) :: 3 - 5'UTR                                     
-            Toolbox           :: Chloroplasts                                  
-            ##pME_Standard-END##
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct.
 FEATURES             Location/Qualifiers
+     source          1..2719
+                     /mol_type="other DNA"
+                     /organism="synthetic DNA construct"
+     misc_feature    8..11
+                     /standard_name="5'UTR overhang"
      misc_feature    12..621
-                     /created_by="chotelt"
-                     /label="psbF-psbL IEE"
-     terminator      663..720
-                     /standard_name="Terminator"
+                     /standard_name="psbF-psbL IEE Cr"
+     gene            <12..316
+                     /locus_tag="ChreCp043"
+                     /standard_name="psbF"
+     mRNA            <12..316
+                     /locus_tag="ChreCp043"
+                     /standard_name="psbF"
+     3'UTR           12..316
+                     /standard_name="3'UTR"
+     mRNA            317..>621
+                     /locus_tag="ChreCp044"
+                     /standard_name="psbL"
+     gene            317..>621
+                     /locus_tag="ChreCp044"
+                     /standard_name="psbL"
+     5'UTR           317..621
+                     /standard_name="5'UTR"
+     misc_feature    complement(622..625)
+                     /standard_name="5'UTR overhang"
+     regulatory      663..720
+                     /note="Geneious type: terminator"
+                     /standard_name="his operon terminator"
      rep_origin      complement(915..1503)
-                     /note="pMB1"
-     terminator      complement(1686..1780)
-                     /standard_name="Terminator"
+     regulatory      complement(1686..1780)
+                     /note="Geneious type: terminator"
+                     /standard_name="lambda t0 terminator"
      CDS             complement(1801..2460)
+                     /gene="CmR"
+                     /product="chloramphenicol acetyltransferase"
+                     /codon_start=1
+                     /transl_table=1
+                     /standard_name="CmR"
+     regulatory      complement(2461..2564)
+                     /note="Geneious type: promoter"
+                     /note="Promoter for chloramphenicol acetyl transferase"
+                     /regulatory_class="promoter"
                      /standard_name="cat"
-     terminator      2644..2687
-                     /standard_name="Terminator"
+     regulatory      complement(2644..2687)
+                     /note="Geneious type: terminator"
+                     /standard_name="bacterial terminator"
 ORIGIN      
         1 ggtctcgtac tgtattcgtc cctaaaagaa cgttagtacg ctgtagcgaa atcctttctg
        61 gatatttgta tattccaaag ggcggctgtg gctgtagata tttacatact ccatgctttg
@@ -59,12 +83,12 @@ ORIGIN
      1621 aaatgaagtt ttaaatcaat ctaaagtata tatgagtaaa cttggtctga cagctcgagg
      1681 cttggattct caccaataaa aaacgcccgg cggcaaccga gcgttctgaa caaatccaga
      1741 tggagttctg aggtcattac tggatctatc aacaggagtc caagcgagct cgatatcaaa
-     1801 ttacgccccg ccctgccact catcgcagta ctgttgtaat tcattaagca ttctgccgac
+     1801 ttacgccccg ccctgccact cgtcgcagta ctgttgtaat tcattaagca ttctgccgac
      1861 atggaagcca tcacaaacgg catgatgaac ctgaatcgcc agcggcatca gcaccttgtc
      1921 gccttgcgta taatatttgc ccatggtgaa aacgggggcg aagaagttgt ccatattggc
-     1981 cacgtttaaa tcaaaactgg tgaaactcac ccagggattg gctgaaacga aaaacatatt
+     1981 cacgtttaaa tcaaaactgg tgaaactcac ccagggattg gctgatacga aaaacatatt
      2041 ctcaataaac cctttaggga aataggccag gttttcaccg taacacgcca catcttgcga
-     2101 atatatgtgt agaaactgcc ggaaatcgtc gtggtattca ctccagagcg atgaaaacgt
+     2101 atatatgtgt agaaactgcc ggaaatcgtc gtggtattca ctccagagtg atgaaaacgt
      2161 ttcagtttgc tcatggaaaa cggtgtaaca agggtgaaca ctatcccata tcaccagctc
      2221 accgtctttc attgccatac gaaattccgg atgagcattc atcaggcggg caagaatgtg
      2281 aataaaggcc ggataaaact tgtgcttatt tttctttacg gtctttaaaa aggccgtaat

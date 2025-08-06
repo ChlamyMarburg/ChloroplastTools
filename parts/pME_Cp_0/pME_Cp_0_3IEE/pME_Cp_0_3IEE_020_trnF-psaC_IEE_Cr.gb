@@ -1,34 +1,53 @@
-LOCUS       pME_Cp_0_3IEE_020_trnF-psaC_IEE_Cr        2379 bp    DNA     circular UNA 19-APR-2024
-DEFINITION  IEE_trnF-psaC.
-ACCESSION   urn.local...66e-hdu3gdf
-VERSION     urn.local...66e-hdu3gdf
+LOCUS       pME_Cp_0_3IEE_020_trnF-psaC_IEE_Cr        2379 bp    DNA     circular UNA 06-AUG-2025
+DEFINITION  trnF-psaC IEE Chlamydomonas reinhardtii.
+ACCESSION   urn.local...hg2-i80ecst
+VERSION     urn.local...hg2-i80ecst
 KEYWORDS    .
-SOURCE      
-  ORGANISM  .
-COMMENT     ##pME_Standard-START##                                             
-            Box               :: Cp_3IEE                                       
-            Antibiotic        :: Cam                                           
-            Created by        :: MCB                                           
-            Lvl               :: 0                                             
-            Position          :: C2                                            
-            Part type (Lvl 0) :: 3 - 5'UTR                                     
-            Toolbox           :: Chloroplasts                                  
-            ##pME_Standard-END##
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct.
 FEATURES             Location/Qualifiers
+     source          1..2379
+                     /organism="synthetic DNA construct"
+                     /mol_type="other DNA"
+     misc_feature    8..11
+                     /standard_name="5'UTR overhang"
      misc_feature    12..281
-                     /standard_name="trnF - psaC IEE Chlamy"
-                     /modified_by="chotelt"
-                     /label="trnF-psaC IEE "
-     terminator      323..380
-                     /standard_name="Terminator"
+                     /standard_name="trnF-psaC IEE Cr"
+     tRNA            12..84
+                     /locus_tag="ChreCt027"
+                     /product="tRNA-Phe"
+                     /standard_name="trnF"
+     gene            94..>281
+                     /locus_tag="ChreCp067"
+                     /standard_name="psaC"
+     mRNA            94..>281
+                     /locus_tag="ChreCp067"
+                     /standard_name="psaC"
+     5'UTR           94..281
+                     /standard_name="psaC 5'UTR Chlamy"
+     misc_feature    complement(282..285)
+                     /standard_name="5'UTR overhang"
+     regulatory      323..380
+                     /note="Geneious type: terminator"
+                     /standard_name="his operon terminator"
      rep_origin      complement(575..1163)
-                     /note="pMB1"
-     terminator      complement(1346..1440)
-                     /standard_name="Terminator"
+     regulatory      complement(1346..1440)
+                     /note="Geneious type: terminator"
+                     /standard_name="lambda t0 terminator"
      CDS             complement(1461..2120)
+                     /gene="CmR"
+                     /product="chloramphenicol acetyltransferase"
+                     /codon_start=1
+                     /transl_table=1
+                     /standard_name="CmR"
+     regulatory      complement(2121..2224)
+                     /note="Geneious type: promoter"
+                     /note="Promoter for chloramphenicol acetyl transferase"
+                     /regulatory_class="promoter"
                      /standard_name="cat"
-     terminator      2304..2347
-                     /standard_name="Terminator"
+     regulatory      complement(2304..2347)
+                     /note="Geneious type: terminator"
+                     /standard_name="bacterial terminator"
 ORIGIN      
         1 ggtctcgtac tgccgggata gctcagttgg tagagcaaag cattgaaaat gcttgggtca
        61 ccggttcaag tccggttcct ggcaattccc taatggacca aaagcagtca ttcaaatata
@@ -54,13 +73,13 @@ ORIGIN
      1261 cctagatcct tttaaattaa aaatgaagtt ttaaatcaat ctaaagtata tatgagtaaa
      1321 cttggtctga cagctcgagg cttggattct caccaataaa aaacgcccgg cggcaaccga
      1381 gcgttctgaa caaatccaga tggagttctg aggtcattac tggatctatc aacaggagtc
-     1441 caagcgagct cgatatcaaa ttacgccccg ccctgccact catcgcagta ctgttgtaat
+     1441 caagcgagct cgatatcaaa ttacgccccg ccctgccact cgtcgcagta ctgttgtaat
      1501 tcattaagca ttctgccgac atggaagcca tcacaaacgg catgatgaac ctgaatcgcc
      1561 agcggcatca gcaccttgtc gccttgcgta taatatttgc ccatggtgaa aacgggggcg
      1621 aagaagttgt ccatattggc cacgtttaaa tcaaaactgg tgaaactcac ccagggattg
-     1681 gctgaaacga aaaacatatt ctcaataaac cctttaggga aataggccag gttttcaccg
+     1681 gctgatacga aaaacatatt ctcaataaac cctttaggga aataggccag gttttcaccg
      1741 taacacgcca catcttgcga atatatgtgt agaaactgcc ggaaatcgtc gtggtattca
-     1801 ctccagagcg atgaaaacgt ttcagtttgc tcatggaaaa cggtgtaaca agggtgaaca
+     1801 ctccagagtg atgaaaacgt ttcagtttgc tcatggaaaa cggtgtaaca agggtgaaca
      1861 ctatcccata tcaccagctc accgtctttc attgccatac gaaattccgg atgagcattc
      1921 atcaggcggg caagaatgtg aataaaggcc ggataaaact tgtgcttatt tttctttacg
      1981 gtctttaaaa aggccgtaat atccagctga acggtctggt tataggtaca ttgagcaact

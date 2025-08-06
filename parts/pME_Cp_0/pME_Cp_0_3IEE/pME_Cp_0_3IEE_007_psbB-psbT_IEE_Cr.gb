@@ -1,33 +1,34 @@
-LOCUS       pME_Cp_0_3IEE_007_psbB-psbT_IEE_Cr        2560 bp    DNA     circular UNA 19-APR-2024
-DEFINITION  IEE_psbB-psbT.
-ACCESSION   urn.local...666-hdu3gdf
-VERSION     urn.local...666-hdu3gdf
+LOCUS       pME_Cp_0_3IEE_007_psbB-psbT_IEE_Cr        2560 bp    DNA     circular UNA 06-AUG-2025
+DEFINITION  psbB-psbT IEE Chlamydomonas reinhardtii.
+ACCESSION   urn.local...hfp-i80ecst
+VERSION     urn.local...hfp-i80ecst
 KEYWORDS    .
-SOURCE      
-  ORGANISM  .
-COMMENT     ##pME_Standard-START##                                             
-            Box               :: Cp_3IEE                                       
-            Antibiotic        :: Cam                                           
-            Created by        :: MCB                                           
-            Lvl               :: 0                                             
-            Position          :: A7                                            
-            Part type (Lvl 0) :: 3 - 5'UTR                                     
-            Toolbox           :: Chloroplasts                                  
-            ##pME_Standard-END##
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct.
 FEATURES             Location/Qualifiers
+     source          1..2560
+                     /mol_type="other DNA"
+                     /organism="synthetic DNA construct"
+     misc_feature    8..11
+                     /standard_name="5'UTR overhang"
      misc_feature    12..462
-                     /created_by="chotelt"
-                     /label="psbB-psbT IEE"
-     terminator      504..561
-                     /standard_name="Terminator"
-     rep_origin      complement(756..1344)
-                     /note="pMB1"
-     terminator      complement(1527..1621)
-                     /standard_name="Terminator"
-     CDS             complement(1642..2301)
-                     /standard_name="cat"
-     terminator      2485..2528
-                     /standard_name="Terminator"
+                     /standard_name="psbB-psbT IEE Cr"
+     gene            <12..383
+                     /locus_tag="ChreCp032"
+                     /standard_name="psbB"
+     mRNA            <12..383
+                     /standard_name="psbB"
+     3'UTR           12..383
+                     /standard_name="psbB 3'UTR Chlamy"
+     gene            388..>462
+                     /locus_tag="ChreCp031"
+                     /standard_name="psbT"
+     mRNA            388..>462
+                     /standard_name="psbT"
+     5'UTR           388..462
+                     /standard_name="5'UTR"
+     misc_feature    complement(463..466)
+                     /standard_name="5'UTR overhang"
 ORIGIN      
         1 ggtctcgtac tgtttttctt ttctggcagt tggcagagaa tgtgtttgtc tccttaccga
        61 gtataaaacc actctgcaag tacaactgcc actgtggtcg ccttacgtgg tttagttaca
@@ -56,13 +57,13 @@ ORIGIN
      1441 acctagatcc ttttaaatta aaaatgaagt tttaaatcaa tctaaagtat atatgagtaa
      1501 acttggtctg acagctcgag gcttggattc tcaccaataa aaaacgcccg gcggcaaccg
      1561 agcgttctga acaaatccag atggagttct gaggtcatta ctggatctat caacaggagt
-     1621 ccaagcgagc tcgatatcaa attacgcccc gccctgccac tcatcgcagt actgttgtaa
+     1621 ccaagcgagc tcgatatcaa attacgcccc gccctgccac tcgtcgcagt actgttgtaa
      1681 ttcattaagc attctgccga catggaagcc atcacaaacg gcatgatgaa cctgaatcgc
      1741 cagcggcatc agcaccttgt cgccttgcgt ataatatttg cccatggtga aaacgggggc
      1801 gaagaagttg tccatattgg ccacgtttaa atcaaaactg gtgaaactca cccagggatt
-     1861 ggctgaaacg aaaaacatat tctcaataaa ccctttaggg aaataggcca ggttttcacc
+     1861 ggctgatacg aaaaacatat tctcaataaa ccctttaggg aaataggcca ggttttcacc
      1921 gtaacacgcc acatcttgcg aatatatgtg tagaaactgc cggaaatcgt cgtggtattc
-     1981 actccagagc gatgaaaacg tttcagtttg ctcatggaaa acggtgtaac aagggtgaac
+     1981 actccagagt gatgaaaacg tttcagtttg ctcatggaaa acggtgtaac aagggtgaac
      2041 actatcccat atcaccagct caccgtcttt cattgccata cgaaattccg gatgagcatt
      2101 catcaggcgg gcaagaatgt gaataaaggc cggataaaac ttgtgcttat ttttctttac
      2161 ggtctttaaa aaggccgtaa tatccagctg aacggtctgg ttataggtac attgagcaac
