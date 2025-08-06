@@ -1,25 +1,59 @@
-LOCUS       pME_Cp_0_6_022_rbcl_5'Hom-reversed_Cr        4224 bp    DNA     circular UNA 29-APR-2024
-DEFINITION  rbcL 5'Homology REVERSED Chlamydomonas reinhardtii.
-ACCESSION   urn.local...7bt-hdu3ihd
-VERSION     urn.local...7bt-hdu3ihd
+LOCUS       pME_Cp_0_6_022_rbcL_5'Hom_rev_Cr_        4224 bp    DNA     circular UNA 06-AUG-2025
+DEFINITION  5' Homology rbcL reverse in the M2 position used for genome
+            integration at the rbcL locus .
+ACCESSION   urn.local...hev-i80ecss
+VERSION     urn.local...hev-i80ecss
 KEYWORDS    .
-SOURCE      
-  ORGANISM  .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct.
 FEATURES             Location/Qualifiers
-     5'_Homology     complement(12..2115)
-                     /standard_name="5'Hom_rbcl"
-                     /modified_by="chotelt"
-                     /label="5'Homology rbcL locus"
-     terminator      2168..2225
-                     /standard_name="Terminator"
+     source          1..4224
+                     /organism="synthetic DNA construct"
+                     /mol_type="other DNA"
+     misc_feature    complement(12..2115)
+                     /standard_name="5'Homology rbcL locus"
+     regulatory      76..134
+                     /note="Geneious type: promoter"
+                     /standard_name="rbcL promoter Cr"
+     5'UTR           135..226
+                     /standard_name="rbcL 5'UTR Cr"
+     misc_feature    227..1654
+                     /note="Geneious type: CDS "
+                     /product="Ribulose-1,5-bisphosphate carboxylase/oxygenase
+                     large subunit"
+                     /note="Geneious type: CDS"
+                     /standard_name="rbcL"
+     3'UTR           1655..1869
+                     /standard_name="rbcL 3'UTR Cr"
+     tRNA            1904..1976
+                     /locus_tag="ChreCt021"
+                     /product="tRNA-Gly"
+                     /standard_name="trnG"
+     misc_feature    complement(2116..2119)
+                     /standard_name="lvl2 fusion site"
+     misc_feature    complement(2127..2130)
+                     /standard_name="3' connector overhang"
+     regulatory      2168..2225
+                     /note="Geneious type: terminator"
+                     /standard_name="his operon terminator"
      rep_origin      complement(2420..3008)
-                     /note="pMB1"
-     terminator      3191..3285
-                     /standard_name="Terminator"
+     regulatory      complement(3191..3285)
+                     /note="Geneious type: terminator"
+                     /standard_name="lambda t0 terminator"
      CDS             complement(3306..3965)
+                     /gene="CmR"
+                     /product="chloramphenicol acetyltransferase"
+                     /codon_start=1
+                     /transl_table=1
+                     /standard_name="CmR"
+     regulatory      complement(3966..4069)
+                     /note="Geneious type: promoter"
+                     /note="Promoter for chloramphenicol acetyl transferase"
+                     /regulatory_class="promoter"
                      /standard_name="cat"
-     terminator      4149..4192
-                     /standard_name="Terminator"
+     regulatory      complement(4149..4192)
+                     /note="Geneious type: terminator"
+                     /standard_name="bacterial terminator"
 ORIGIN      
         1 ggtctcgcgc tgtaagtaaa ctgcgtaaga cgaccgacat atacctaaag gccctttcta
        61 tgctcgactg ataagacaag tacataaatt tgctagttta cattattttt tatttctaaa
@@ -76,12 +110,12 @@ ORIGIN
      3121 attaaaaatg aagttttaaa tcaatctaaa gtatatatga gtaaacttgg tctgacagct
      3181 cgaggcttgg attctcacca ataaaaaacg cccggcggca accgagcgtt ctgaacaaat
      3241 ccagatggag ttctgaggtc attactggat ctatcaacag gagtccaagc gagctcgata
-     3301 tcaaattacg ccccgccctg ccactcatcg cagtactgtt gtaattcatt aagcattctg
+     3301 tcaaattacg ccccgccctg ccactcgtcg cagtactgtt gtaattcatt aagcattctg
      3361 ccgacatgga agccatcaca aacggcatga tgaacctgaa tcgccagcgg catcagcacc
      3421 ttgtcgcctt gcgtataata tttgcccatg gtgaaaacgg gggcgaagaa gttgtccata
-     3481 ttggccacgt ttaaatcaaa actggtgaaa ctcacccagg gattggctga aacgaaaaac
+     3481 ttggccacgt ttaaatcaaa actggtgaaa ctcacccagg gattggctga tacgaaaaac
      3541 atattctcaa taaacccttt agggaaatag gccaggtttt caccgtaaca cgccacatct
-     3601 tgcgaatata tgtgtagaaa ctgccggaaa tcgtcgtggt attcactcca gagcgatgaa
+     3601 tgcgaatata tgtgtagaaa ctgccggaaa tcgtcgtggt attcactcca gagtgatgaa
      3661 aacgtttcag tttgctcatg gaaaacggtg taacaagggt gaacactatc ccatatcacc
      3721 agctcaccgt ctttcattgc catacgaaat tccggatgag cattcatcag gcgggcaaga
      3781 atgtgaataa aggccggata aaacttgtgc ttatttttct ttacggtctt taaaaaggcc

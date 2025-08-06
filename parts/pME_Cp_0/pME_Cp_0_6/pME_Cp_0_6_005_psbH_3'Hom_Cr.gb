@@ -1,0 +1,98 @@
+LOCUS       pME_Cp_0_6_005_psbH_3'Hom_Cr        3246 bp    DNA     circular UNA 06-AUG-2025
+DEFINITION  5' Homology psbH in the M2 position used for genome integration at
+            the psbH locus.
+ACCESSION   urn.local...hf1-i80ecss
+VERSION     urn.local...hf1-i80ecss
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct.
+FEATURES             Location/Qualifiers
+     source          1..3246
+                     /organism="synthetic DNA construct"
+                     /mol_type="other DNA"
+     misc_feature    8..11
+                     /standard_name="3' connector overhang"
+     misc_feature    12..1137
+                     /standard_name="3'Homology psbH locus"
+     misc_feature    complement(1138..1141)
+                     /standard_name="lvl2 fusion site"
+     misc_feature    complement(1149..1152)
+                     /standard_name="3' connector overhang"
+     regulatory      1190..1247
+                     /note="Geneious type: terminator"
+                     /standard_name="his operon terminator"
+     rep_origin      complement(1442..2030)
+     regulatory      complement(2213..2307)
+                     /note="Geneious type: terminator"
+                     /standard_name="lambda t0 terminator"
+     CDS             complement(2328..2987)
+                     /gene="CmR"
+                     /product="chloramphenicol acetyltransferase"
+                     /codon_start=1
+                     /transl_table=1
+                     /standard_name="CmR"
+     regulatory      complement(2988..3091)
+                     /note="Geneious type: promoter"
+                     /note="Promoter for chloramphenicol acetyl transferase"
+                     /regulatory_class="promoter"
+                     /standard_name="cat"
+     regulatory      complement(3171..3214)
+                     /note="Geneious type: terminator"
+                     /standard_name="bacterial terminator"
+ORIGIN      
+        1 ggtctcgcgc ttgccactgc cgaatataaa tatggttgag ttgcttagtt taccttagcg
+       61 aaaagaagac ttagcagcta gccttaacaa acagttttat attttatgtt tgtgttaaat
+      121 aaaattaaga aactttagct aaagtttccc aactcataga aacgtcatct aaaattaaag
+      181 aactgttgta aatttctaaa atgattaata agaatgctgc aaataaaagg ataaatacag
+      241 ccattaaaac agttgtaccc cagcctggta atactttacc tgcttctgag ttaagtggac
+      301 gtaataaagt acctaatggt gtaactaaac caggttcttg gaagtctgaa tttacttttg
+      361 atggtttagc tttagaagtt cctgttgcca taattgatta aatgaattaa gcgttattag
+      421 cgctatttta tttactttct gtaaaaaata aggaaaatat tcttcagtgc attccctctc
+      481 aggattataa atactctgag gataacgttc tctcgtcaag gggttgcttc ttgtgagtat
+      541 agaaacctac tagcacaaga aataaattgc ataaaaatgt atttacctag gaccgcagta
+      601 ggcagtccct tttccccttc agaactgcct gctttaaaag aatgaaaaaa ctgccttgtc
+      661 tggtaagtaa aactctttaa ttactcacta aagacgatct agaagttctt tgttcatttt
+      721 ttatttaata taatatttgt tatataaaaa ttaaataatt tttaattaat gtttaacttt
+      781 gtaaggacag tttcaaagtg acatgaatgg ctactgcaaa aacgaagtaa gttattcttt
+      841 ctcagggcaa aattttgagt agattaattt tgtttaaaaa tgtgggacac agtcgtcaag
+      901 tcttttgaac tatctaagag atatgttgaa aagagaataa ttttattatt aaatgagcta
+      961 tggaaagtcc agcttttttc tttacctttt ttttatggtt tcttctgtta agtgtaactg
+     1021 gctattcagt ttatgttagt tttggtccac cttcaaaaaa attacgtgat ccttttgaag
+     1081 aacacgaaga ttaaacaagt taaaaagtac tatttttaca agtgacttcg gtgcctcaga
+     1141 cggagacgag actgagacca ctcatcgcga ctagtagcgg ccgctgcagt ccggcaaaaa
+     1201 agggcaaggt gtcaccaccc tgcccttttt ctttaaaacc gaaaagatta cttcgcgtta
+     1261 tgcaggcttc ctcgctcact gactcgctgc gctcggtcgt tcggctgcgg cgagcggtat
+     1321 cagctcactc aaaggcggta atacggttat ccacagaatc aggggataac gcaggaaaga
+     1381 acatgtgagc aaaaggccag caaaaggcca ggaaccgtaa aaaggccgcg ttgctggcgt
+     1441 ttttccacag gctccgcccc cctgacgagc atcacaaaaa tcgacgctca agtcagaggt
+     1501 ggcgaaaccc gacaggacta taaagatacc aggcgtttcc ccctggaagc tccctcgtgc
+     1561 gctctcctgt tccgaccctg ccgcttaccg gatacctgtc cgcctttctc ccttcgggaa
+     1621 gcgtggcgct ttctcatagc tcacgctgta ggtatctcag ttcggtgtag gtcgttcgct
+     1681 ccaagctggg ctgtgtgcac gaaccccccg ttcagcccga ccgctgcgcc ttatccggta
+     1741 actatcgtct tgagtccaac ccggtaagac acgacttatc gccactggca gcagccactg
+     1801 gtaacaggat tagcagagcg aggtatgtag gcggtgctac agagttcttg aagtggtggc
+     1861 ctaactacgg ctacactaga agaacagtat ttggtatctg cgctctgctg aagccagtta
+     1921 ccttcggaaa aagagttggt agctcttgat ccggcaaaca aaccaccgct ggtagcggtg
+     1981 gtttttttgt ttgcaagcag cagattacgc gcagaaaaaa aggatctcaa gaagatcctt
+     2041 tgatcttttc tacggggtct gacgctcagt ggaacgaaaa ctcacgttaa gggattttgg
+     2101 tcatgagatt atcaaaaagg atcttcacct agatcctttt aaattaaaaa tgaagtttta
+     2161 aatcaatcta aagtatatat gagtaaactt ggtctgacag ctcgaggctt ggattctcac
+     2221 caataaaaaa cgcccggcgg caaccgagcg ttctgaacaa atccagatgg agttctgagg
+     2281 tcattactgg atctatcaac aggagtccaa gcgagctcga tatcaaatta cgccccgccc
+     2341 tgccactcgt cgcagtactg ttgtaattca ttaagcattc tgccgacatg gaagccatca
+     2401 caaacggcat gatgaacctg aatcgccagc ggcatcagca ccttgtcgcc ttgcgtataa
+     2461 tatttgccca tggtgaaaac gggggcgaag aagttgtcca tattggccac gtttaaatca
+     2521 aaactggtga aactcaccca gggattggct gatacgaaaa acatattctc aataaaccct
+     2581 ttagggaaat aggccaggtt ttcaccgtaa cacgccacat cttgcgaata tatgtgtaga
+     2641 aactgccgga aatcgtcgtg gtattcactc cagagtgatg aaaacgtttc agtttgctca
+     2701 tggaaaacgg tgtaacaagg gtgaacacta tcccatatca ccagctcacc gtctttcatt
+     2761 gccatacgaa attccggatg agcattcatc aggcgggcaa gaatgtgaat aaaggccgga
+     2821 taaaacttgt gcttattttt ctttacggtc tttaaaaagg ccgtaatatc cagctgaacg
+     2881 gtctggttat aggtacattg agcaactgac tgaaatgcct caaaatgttc tttacgatgc
+     2941 cattgggata tatcaacggt ggtatatcca gtgatttttt tctccatttt agcttcctta
+     3001 gctcctgaaa atctcgataa ctcaaaaaat acgcccggta gtgatcttat ttcattatgg
+     3061 tgaaagttgg aacctcttac gtgcccgatc aactcgagtg ccacctgacg tctaagaaac
+     3121 cattattatc atgacattaa cctataaaaa taggcgtatc acgaggcaga atttcagata
+     3181 aaaaaaatcc ttagctttcg ctaaggatga tttctggaat tcgcggccgc ttctagagcg
+     3241 atgagt
+//

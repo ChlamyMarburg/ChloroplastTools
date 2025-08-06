@@ -1,27 +1,44 @@
-LOCUS       pME_Cp_0_6_038_3C4SN_v2        2120 bp    DNA     circular UNA 30-APR-2024
-DEFINITION  LVL0_6_3'Con4_L1_v2 , only compatible with the new overhangs.
-ACCESSION   urn.local...7c9-hdu3ihd
-VERSION     urn.local...7c9-hdu3ihd
+LOCUS       pME_G_0_6_019_3C7SR        2120 bp    DNA     circular UNA 06-AUG-2025
+DEFINITION  3' Connector 7 Short Reverse in the M2 position used to dictate
+            position for lvl2 assembly.
+ACCESSION   urn.local...heu-i80ecss
+VERSION     urn.local...heu-i80ecss
 KEYWORDS    .
-SOURCE      
-  ORGANISM  .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct.
 FEATURES             Location/Qualifiers
-     terminator      64..121
-                     /standard_name="Terminator"
-     promoter        complement(125..144)
-                     /standard_name="Seq rv"
+     source          1..2120
+                     /organism="synthetic DNA construct"
+                     /mol_type="other DNA"
+     misc_feature    8..11
+                     /standard_name="3' connector overhang"
+     misc_feature    complement(12..15)
+                     /standard_name="lvl2 fusion site"
+     misc_feature    complement(23..26)
+                     /standard_name="3' connector overhang"
+     regulatory      64..121
+                     /note="Geneious type: terminator"
+                     /standard_name="his operon terminator"
      rep_origin      complement(316..904)
-                     /note="pMB1"
-     terminator      complement(1087..1181)
-                     /standard_name="Terminator"
+     regulatory      complement(1087..1181)
+                     /note="Geneious type: terminator"
+                     /standard_name="lambda t0 terminator"
      CDS             complement(1202..1861)
+                     /gene="CmR"
+                     /product="chloramphenicol acetyltransferase"
+                     /codon_start=1
+                     /transl_table=1
+                     /standard_name="CmR"
+     regulatory      complement(1862..1965)
+                     /note="Geneious type: promoter"
+                     /note="Promoter for chloramphenicol acetyl transferase"
+                     /regulatory_class="promoter"
                      /standard_name="cat"
-     promoter        2016..2041
-                     /standard_name="Seq"
-     terminator      2045..2088
-                     /standard_name="Terminator"
+     regulatory      complement(2045..2088)
+                     /note="Geneious type: terminator"
+                     /standard_name="bacterial terminator"
 ORIGIN      
-        1 ggtctcgcgc tggtaggaga cgagactgag accactcatc gcgactagta gcggccgctg
+        1 ggtctcgcgc ttaccggaga cgagactgag accactcatc gcgactagta gcggccgctg
        61 cagtccggca aaaaagggca aggtgtcacc accctgccct ttttctttaa aaccgaaaag
       121 attacttcgc gttatgcagg cttcctcgct cactgactcg ctgcgctcgg tcgttcggct
       181 gcggcgagcg gtatcagctc actcaaaggc ggtaatacgg ttatccacag aatcagggga
@@ -41,12 +58,12 @@ ORIGIN
      1021 aaaatgaagt tttaaatcaa tctaaagtat atatgagtaa acttggtctg acagctcgag
      1081 gcttggattc tcaccaataa aaaacgcccg gcggcaaccg agcgttctga acaaatccag
      1141 atggagttct gaggtcatta ctggatctat caacaggagt ccaagcgagc tcgatatcaa
-     1201 attacgcccc gccctgccac tcatcgcagt actgttgtaa ttcattaagc attctgccga
+     1201 attacgcccc gccctgccac tcgtcgcagt actgttgtaa ttcattaagc attctgccga
      1261 catggaagcc atcacaaacg gcatgatgaa cctgaatcgc cagcggcatc agcaccttgt
      1321 cgccttgcgt ataatatttg cccatggtga aaacgggggc gaagaagttg tccatattgg
-     1381 ccacgtttaa atcaaaactg gtgaaactca cccagggatt ggctgaaacg aaaaacatat
+     1381 ccacgtttaa atcaaaactg gtgaaactca cccagggatt ggctgatacg aaaaacatat
      1441 tctcaataaa ccctttaggg aaataggcca ggttttcacc gtaacacgcc acatcttgcg
-     1501 aatatatgtg tagaaactgc cggaaatcgt cgtggtattc actccagagc gatgaaaacg
+     1501 aatatatgtg tagaaactgc cggaaatcgt cgtggtattc actccagagt gatgaaaacg
      1561 tttcagtttg ctcatggaaa acggtgtaac aagggtgaac actatcccat atcaccagct
      1621 caccgtcttt cattgccata cgaaattccg gatgagcatt catcaggcgg gcaagaatgt
      1681 gaataaaggc cggataaaac ttgtgcttat ttttctttac ggtctttaaa aaggccgtaa

@@ -1,25 +1,63 @@
-LOCUS       pME_Cp_0_6_023_psbD_5'Hom-reversed_Cr        4439 bp    DNA     circular UNA 29-APR-2024
-DEFINITION  psbD 5'Homology REVERSED Chlamydomonas reinhardtii.
-ACCESSION   urn.local...7bu-hdu3ihd
-VERSION     urn.local...7bu-hdu3ihd
+LOCUS       pME_Cp_0_6_023_psbD_5'Hom_rev_Cr        4439 bp    DNA     circular UNA 06-AUG-2025
+DEFINITION  5' Homology psbD reverse in the M2 position used for genome
+            integration at the psbD locus .
+ACCESSION   urn.local...hek-i80ecsq
+VERSION     urn.local...hek-i80ecsq
 KEYWORDS    .
-SOURCE      
-  ORGANISM  .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct.
 FEATURES             Location/Qualifiers
-     5'_Homology     complement(<12..2330)
-                     /standard_name="psbD_5'Homology"
-                     /modified_by="chotelt"
-                     /label="5'Homology psbD locus"
-     terminator      2383..2440
-                     /standard_name="Terminator"
+     source          1..4439
+                     /organism="synthetic DNA construct"
+                     /mol_type="other DNA"
+     misc_feature    8..11
+                     /standard_name="3' connector overhang"
+     misc_feature    complement(12..2330)
+                     /standard_name="5' Homology psbD locus"
+     CDS             209..1267
+                     /codon_start=1
+                     /locus_tag="ChreCp064"
+                     /product="photosystem II protein D2"
+                     /protein_id="NP_958420.1"
+                     /transl_table=11
+                     /translation="MTIAIGTYQEKRTWFDDADDWLRQDRFVFVGWSGLLLFPCAYFA
+                     LGGWLTGTTFVTSWYTHGLATSYLEGCNFLTAAVSTPANSMAHSLLFVWGPEAQGDFT
+                     RWCQLGGLWAFVALHGAFGLIGFMLRQFEIARSVNLRPYNAIAFSAPIAVFVSVFLIY
+                     PLGQSGWFFAPSFGVAAIFRFILFFQGFHNWTLNPFHMMGVAGVLGAALLCAIHGATV
+                     ENTLFEDGDGANTFRAFNPTQAEETYSMVTANRFWSQIFGVAFSNKRWLHFFMLLVPV
+                     TGLWMSAIGVVGLALNLRAYDFVSQEIRAAEDPEFETFYTKNILLNEGIRAWMAAQDQ
+                     PHERLVFPEEVLPRGNAL"
+                     /standard_name="psbD"
+     CDS             1457..1636
+                     /codon_start=2
+                     /product="photosystem I P700 chlorophyll a apoprotein A1"
+                     /transl_table=11
+                     /standard_name="psaA_exon2"
+     misc_feature    complement(2331..2334)
+                     /standard_name="lvl2 fusion site"
+     misc_feature    complement(2342..2345)
+                     /standard_name="3' connector overhang"
+     regulatory      2383..2440
+                     /note="Geneious type: terminator"
+                     /standard_name="his operon terminator"
      rep_origin      complement(2635..3223)
-                     /note="pMB1"
-     terminator      3406..3500
-                     /standard_name="Terminator"
+     regulatory      complement(3406..3500)
+                     /note="Geneious type: terminator"
+                     /standard_name="lambda t0 terminator"
      CDS             complement(3521..4180)
+                     /gene="CmR"
+                     /product="chloramphenicol acetyltransferase"
+                     /codon_start=1
+                     /transl_table=1
+                     /standard_name="CmR"
+     regulatory      complement(4181..4284)
+                     /note="Geneious type: promoter"
+                     /note="Promoter for chloramphenicol acetyl transferase"
+                     /regulatory_class="promoter"
                      /standard_name="cat"
-     terminator      4364..4407
-                     /standard_name="Terminator"
+     regulatory      complement(4364..4407)
+                     /note="Geneious type: terminator"
+                     /standard_name="bacterial terminator"
 ORIGIN      
         1 ggtctcgcgc tcacaaagca gttctagtcc catatatata actatatata acccgtttaa
        61 agatttattt aaaaatatgt gtgtaaaaaa tgcttatttt taattttatt ttatataagt
@@ -80,12 +118,12 @@ ORIGIN
      3361 ctaaagtata tatgagtaaa cttggtctga cagctcgagg cttggattct caccaataaa
      3421 aaacgcccgg cggcaaccga gcgttctgaa caaatccaga tggagttctg aggtcattac
      3481 tggatctatc aacaggagtc caagcgagct cgatatcaaa ttacgccccg ccctgccact
-     3541 catcgcagta ctgttgtaat tcattaagca ttctgccgac atggaagcca tcacaaacgg
+     3541 cgtcgcagta ctgttgtaat tcattaagca ttctgccgac atggaagcca tcacaaacgg
      3601 catgatgaac ctgaatcgcc agcggcatca gcaccttgtc gccttgcgta taatatttgc
      3661 ccatggtgaa aacgggggcg aagaagttgt ccatattggc cacgtttaaa tcaaaactgg
-     3721 tgaaactcac ccagggattg gctgaaacga aaaacatatt ctcaataaac cctttaggga
+     3721 tgaaactcac ccagggattg gctgatacga aaaacatatt ctcaataaac cctttaggga
      3781 aataggccag gttttcaccg taacacgcca catcttgcga atatatgtgt agaaactgcc
-     3841 ggaaatcgtc gtggtattca ctccagagcg atgaaaacgt ttcagtttgc tcatggaaaa
+     3841 ggaaatcgtc gtggtattca ctccagagtg atgaaaacgt ttcagtttgc tcatggaaaa
      3901 cggtgtaaca agggtgaaca ctatcccata tcaccagctc accgtctttc attgccatac
      3961 gaaattccgg atgagcattc atcaggcggg caagaatgtg aataaaggcc ggataaaact
      4021 tgtgcttatt tttctttacg gtctttaaaa aggccgtaat atccagctga acggtctggt

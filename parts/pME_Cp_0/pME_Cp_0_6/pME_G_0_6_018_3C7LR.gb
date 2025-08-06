@@ -1,0 +1,93 @@
+LOCUS       pME_G_0_6_018_3C7LR        2521 bp    DNA     circular UNA 06-AUG-2025
+DEFINITION  3' Connector 7 Long Reverse in the M2 position used to dictate
+            position for lvl2 assembly.
+ACCESSION   urn.local...hf3-i80ecss
+VERSION     urn.local...hf3-i80ecss
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct.
+FEATURES             Location/Qualifiers
+     source          1..2521
+                     /organism="synthetic DNA construct"
+                     /mol_type="other DNA"
+     misc_feature    8..11
+                     /standard_name="3' connector overhang"
+     misc_feature    12..412
+                     /function="Insulator between TUs"
+                     /standard_name="Spacer007"
+     regulatory      complement(12..63)
+                     /note="Geneious type: terminator"
+                     /standard_name="L3S1P51 "
+     regulatory      361..412
+                     /note="Geneious type: terminator"
+                     /standard_name="L3S1P52 "
+     misc_feature    complement(413..416)
+                     /standard_name="lvl2 fusion site"
+     misc_feature    complement(424..427)
+                     /standard_name="3' connector overhang"
+     regulatory      465..522
+                     /note="Geneious type: terminator"
+                     /standard_name="his operon terminator"
+     rep_origin      complement(717..1305)
+     regulatory      complement(1488..1582)
+                     /note="Geneious type: terminator"
+                     /standard_name="lambda t0 terminator"
+     CDS             complement(1603..2262)
+                     /gene="CmR"
+                     /product="chloramphenicol acetyltransferase"
+                     /codon_start=1
+                     /transl_table=1
+                     /standard_name="CmR"
+     regulatory      complement(2263..2366)
+                     /note="Geneious type: promoter"
+                     /note="Promoter for chloramphenicol acetyl transferase"
+                     /regulatory_class="promoter"
+                     /standard_name="cat"
+     regulatory      complement(2446..2489)
+                     /note="Geneious type: terminator"
+                     /standard_name="bacterial terminator"
+ORIGIN      
+        1 ggtctcgcgc tttttgttat caataaaaaa ggccccccga tttgggaggc cttttttttt
+       61 ggtggtcgca tgaagcaggc ctagtattcc aacgtggtgg ccaattaaca atattccaac
+      121 cccaatctgt aaaaaactgt gccctacgca ggactcagag aacggcggaa ggtaggtact
+      181 cgtcttctaa cccgacgcat taaggctaca gggtgcgaag gccattattg caaacttttt
+      241 gttctcaaca acgtaaatct accgcacttc aggtgtcgtt cttgatgtac gaagacggta
+      301 ggcctatgga ttgccttctg tatcagcaat ttttcatctc cttccaagcg gcatccataa
+      361 tctaactaaa aaggcctccc aaatcggggg gcctttttta ttgataacaa aataccggag
+      421 acgagactga gaccactcat cgcgactagt agcggccgct gcagtccggc aaaaaagggc
+      481 aaggtgtcac caccctgccc tttttcttta aaaccgaaaa gattacttcg cgttatgcag
+      541 gcttcctcgc tcactgactc gctgcgctcg gtcgttcggc tgcggcgagc ggtatcagct
+      601 cactcaaagg cggtaatacg gttatccaca gaatcagggg ataacgcagg aaagaacatg
+      661 tgagcaaaag gccagcaaaa ggccaggaac cgtaaaaagg ccgcgttgct ggcgtttttc
+      721 cacaggctcc gcccccctga cgagcatcac aaaaatcgac gctcaagtca gaggtggcga
+      781 aacccgacag gactataaag ataccaggcg tttccccctg gaagctccct cgtgcgctct
+      841 cctgttccga ccctgccgct taccggatac ctgtccgcct ttctcccttc gggaagcgtg
+      901 gcgctttctc atagctcacg ctgtaggtat ctcagttcgg tgtaggtcgt tcgctccaag
+      961 ctgggctgtg tgcacgaacc ccccgttcag cccgaccgct gcgccttatc cggtaactat
+     1021 cgtcttgagt ccaacccggt aagacacgac ttatcgccac tggcagcagc cactggtaac
+     1081 aggattagca gagcgaggta tgtaggcggt gctacagagt tcttgaagtg gtggcctaac
+     1141 tacggctaca ctagaagaac agtatttggt atctgcgctc tgctgaagcc agttaccttc
+     1201 ggaaaaagag ttggtagctc ttgatccggc aaacaaacca ccgctggtag cggtggtttt
+     1261 tttgtttgca agcagcagat tacgcgcaga aaaaaaggat ctcaagaaga tcctttgatc
+     1321 ttttctacgg ggtctgacgc tcagtggaac gaaaactcac gttaagggat tttggtcatg
+     1381 agattatcaa aaaggatctt cacctagatc cttttaaatt aaaaatgaag ttttaaatca
+     1441 atctaaagta tatatgagta aacttggtct gacagctcga ggcttggatt ctcaccaata
+     1501 aaaaacgccc ggcggcaacc gagcgttctg aacaaatcca gatggagttc tgaggtcatt
+     1561 actggatcta tcaacaggag tccaagcgag ctcgatatca aattacgccc cgccctgcca
+     1621 ctcgtcgcag tactgttgta attcattaag cattctgccg acatggaagc catcacaaac
+     1681 ggcatgatga acctgaatcg ccagcggcat cagcaccttg tcgccttgcg tataatattt
+     1741 gcccatggtg aaaacggggg cgaagaagtt gtccatattg gccacgttta aatcaaaact
+     1801 ggtgaaactc acccagggat tggctgatac gaaaaacata ttctcaataa accctttagg
+     1861 gaaataggcc aggttttcac cgtaacacgc cacatcttgc gaatatatgt gtagaaactg
+     1921 ccggaaatcg tcgtggtatt cactccagag tgatgaaaac gtttcagttt gctcatggaa
+     1981 aacggtgtaa caagggtgaa cactatccca tatcaccagc tcaccgtctt tcattgccat
+     2041 acgaaattcc ggatgagcat tcatcaggcg ggcaagaatg tgaataaagg ccggataaaa
+     2101 cttgtgctta tttttcttta cggtctttaa aaaggccgta atatccagct gaacggtctg
+     2161 gttataggta cattgagcaa ctgactgaaa tgcctcaaaa tgttctttac gatgccattg
+     2221 ggatatatca acggtggtat atccagtgat ttttttctcc attttagctt ccttagctcc
+     2281 tgaaaatctc gataactcaa aaaatacgcc cggtagtgat cttatttcat tatggtgaaa
+     2341 gttggaacct cttacgtgcc cgatcaactc gagtgccacc tgacgtctaa gaaaccatta
+     2401 ttatcatgac attaacctat aaaaataggc gtatcacgag gcagaatttc agataaaaaa
+     2461 aatccttagc tttcgctaag gatgatttct ggaattcgcg gccgcttcta gagcgatgag
+     2521 t
+//
