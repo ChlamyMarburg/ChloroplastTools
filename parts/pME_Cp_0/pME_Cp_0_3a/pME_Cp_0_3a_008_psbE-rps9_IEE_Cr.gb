@@ -1,25 +1,56 @@
-LOCUS       pME_Cp_0_3a_008_psbE-rps9_IEE_Cr        2963 bp    DNA     circular UNA 29-APR-2024
+LOCUS       pME_Cp_0_3a_008_psbE-rps9_IEE_Cr        2963 bp    DNA     circular UNA 06-AUG-2025
 DEFINITION  psbE-rps9 IEE Chlamydomonas reinhardtii.
-ACCESSION   urn.local...5rt-hdu3fpe
-VERSION     urn.local...5rt-hdu3fpe
+ACCESSION   urn.local...hed-i80ecsq
+VERSION     urn.local...hed-i80ecsq
 KEYWORDS    .
-SOURCE      
-  ORGANISM  .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct.
 FEATURES             Location/Qualifiers
+     source          1..2963
+                     /mol_type="other DNA"
+                     /organism="synthetic DNA construct"
+     misc_feature    8..11
+                     /standard_name="5'UTR overhang"
      misc_feature    12..865
-                     /created_by="chotelt"
-                     /modified_by="chotelt"
-                     /label="psbE-rps9 IEE"
-     terminator      907..964
-                     /standard_name="Terminator"
+                     /standard_name="psbE-rps9 IEE Cr"
+     gene            <12..438
+                     /locus_tag="ChreCp040"
+                     /standard_name="psbE"
+     mRNA            <12..438
+                     /standard_name="psbE"
+     3'UTR           12..438
+                     /standard_name="3'UTR"
+     mRNA            439..>865
+                     /locus_tag="ChreCp039"
+                     /standard_name="rps9"
+     gene            439..>865
+                     /locus_tag="ChreCp039"
+                     /standard_name="rps9"
+     5'UTR           439..865
+                     /standard_name="5'UTR"
+     misc_feature    complement(866..869)
+                     /standard_name="5'UTR overhang"
+     regulatory      907..964
+                     /note="Geneious type: terminator"
+                     /standard_name="his operon terminator"
      rep_origin      complement(1159..1747)
-                     /note="pMB1"
-     terminator      complement(1930..2024)
-                     /standard_name="Terminator"
+     regulatory      complement(1930..2024)
+                     /note="Geneious type: terminator"
+                     /standard_name="lambda t0 terminator"
      CDS             complement(2045..2704)
+                     /gene="CmR"
+                     /product="chloramphenicol acetyltransferase"
+                     /codon_start=1
+                     /transl_table=1
+                     /standard_name="CmR"
+     regulatory      complement(2705..2808)
+                     /note="Geneious type: promoter"
+                     /note="Promoter for chloramphenicol acetyl transferase"
+                     /regulatory_class="promoter"
                      /standard_name="cat"
-     terminator      2888..2931
-                     /standard_name="Terminator"
+     regulatory      complement(2888..2931)
+                     /note="Geneious type: terminator"
+                     /standard_name="bacterial terminator"
 ORIGIN      
         1 ggtctcgtac tttaatctaa aaactttttt tacttagaaa attttttcta agtaaaaaaa
        61 gtaccttttc aaaccatcta tataaatctt ggcaaaggca tttaatttgg gtctaccaca
@@ -40,7 +71,7 @@ ORIGIN
       961 aagattactt cgcgttatgc aggcttcctc gctcactgac tcgctgcgct cggtcgttcg
      1021 gctgcggcga gcggtatcag ctcactcaaa ggcggtaata cggttatcca cagaatcagg
      1081 ggataacgca ggaaagaaca tgtgagcaaa aggccagcaa aaggccagga accgtaaaaa
-     1141 ggccgcgttg ctggcgtttt tccataggct ccgcccccct gacgagcatc acaaaaatcg
+     1141 ggccgcgttg ctggcgtttt tccacaggct ccgcccccct gacgagcatc acaaaaatcg
      1201 acgctcaagt cagaggtggc gaaacccgac aggactataa agataccagg cgtttccccc
      1261 tggaagctcc ctcgtgcgct ctcctgttcc gaccctgccg cttaccggat acctgtccgc
      1321 ctttctccct tcgggaagcg tggcgctttc tcatagctca cgctgtaggt atctcagttc
@@ -55,12 +86,12 @@ ORIGIN
      1861 ttaaaaatga agttttaaat caatctaaag tatatatgag taaacttggt ctgacagctc
      1921 gaggcttgga ttctcaccaa taaaaaacgc ccggcggcaa ccgagcgttc tgaacaaatc
      1981 cagatggagt tctgaggtca ttactggatc tatcaacagg agtccaagcg agctcgatat
-     2041 caaattacgc cccgccctgc cactcatcgc agtactgttg taattcatta agcattctgc
+     2041 caaattacgc cccgccctgc cactcgtcgc agtactgttg taattcatta agcattctgc
      2101 cgacatggaa gccatcacaa acggcatgat gaacctgaat cgccagcggc atcagcacct
      2161 tgtcgccttg cgtataatat ttgcccatgg tgaaaacggg ggcgaagaag ttgtccatat
-     2221 tggccacgtt taaatcaaaa ctggtgaaac tcacccaggg attggctgaa acgaaaaaca
+     2221 tggccacgtt taaatcaaaa ctggtgaaac tcacccaggg attggctgat acgaaaaaca
      2281 tattctcaat aaacccttta gggaaatagg ccaggttttc accgtaacac gccacatctt
-     2341 gcgaatatat gtgtagaaac tgccggaaat cgtcgtggta ttcactccag agcgatgaaa
+     2341 gcgaatatat gtgtagaaac tgccggaaat cgtcgtggta ttcactccag agtgatgaaa
      2401 acgtttcagt ttgctcatgg aaaacggtgt aacaagggtg aacactatcc catatcacca
      2461 gctcaccgtc tttcattgcc atacgaaatt ccggatgagc attcatcagg cgggcaagaa
      2521 tgtgaataaa ggccggataa aacttgtgct tatttttctt tacggtcttt aaaaaggccg

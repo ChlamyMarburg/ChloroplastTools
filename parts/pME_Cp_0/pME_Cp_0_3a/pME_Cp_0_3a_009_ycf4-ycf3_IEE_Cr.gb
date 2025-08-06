@@ -1,24 +1,54 @@
-LOCUS       pME_Cp_0_3a_009_ycf4-ycf3_IEE_Cr        2288 bp    DNA     circular UNA 29-APR-2024
+LOCUS       pME_Cp_0_3a_009_ycf4-ycf3_IEE_Cr        2288 bp    DNA     circular UNA 06-AUG-2025
 DEFINITION  ycf4-ycf3 IEE Chlamydomonas reinhardtii.
-ACCESSION   urn.local...5ru-hdu3fpe
-VERSION     urn.local...5ru-hdu3fpe
+ACCESSION   urn.local...hee-i80ecsq
+VERSION     urn.local...hee-i80ecsq
 KEYWORDS    .
-SOURCE      
-  ORGANISM  .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct.
 FEATURES             Location/Qualifiers
+     source          1..2288
+                     /mol_type="other DNA"
+                     /organism="synthetic DNA construct"
+     misc_feature    8..11
+                     /standard_name="5'UTR overhang"
      misc_feature    12..190
-                     /created_by="chotelt"
-                     /label="ycf4-ycf3 IEE"
-     terminator      232..289
-                     /standard_name="Terminator"
+                     /standard_name="ycf4-ycf3 IEE Cr"
+     mRNA            <12..126
+                     /standard_name="ycf4"
+     gene            <12..126
+                     /standard_name="ycf4"
+     3'UTR           12..126
+                     /standard_name="ycf4 3'UTR Chlamy"
+     mRNA            127..>190
+                     /standard_name="ycf3"
+     gene            127..>190
+                     /locus_tag="ChreCp037"
+                     /standard_name="ycf3"
+     5'UTR           127..190
+                     /standard_name="5'UTR"
+     misc_feature    complement(191..194)
+                     /standard_name="5'UTR overhang"
+     regulatory      232..289
+                     /note="Geneious type: terminator"
+                     /standard_name="his operon terminator"
      rep_origin      complement(484..1072)
-                     /note="pMB1"
-     terminator      1255..1349
-                     /standard_name="Terminator"
+     regulatory      complement(1255..1349)
+                     /note="Geneious type: terminator"
+                     /standard_name="lambda t0 terminator"
      CDS             complement(1370..2029)
+                     /gene="CmR"
+                     /product="chloramphenicol acetyltransferase"
+                     /codon_start=1
+                     /transl_table=1
+                     /standard_name="CmR"
+     regulatory      complement(2030..2133)
+                     /note="Geneious type: promoter"
+                     /note="Promoter for chloramphenicol acetyl transferase"
+                     /regulatory_class="promoter"
                      /standard_name="cat"
-     terminator      2213..2256
-                     /standard_name="Terminator"
+     regulatory      complement(2213..2256)
+                     /note="Geneious type: terminator"
+                     /standard_name="bacterial terminator"
 ORIGIN      
         1 ggtctcgtac taatactgat tttaaaattt tatagagatt aaattaaaaa caaaacgtct
        61 aaacagatgt tattaagctg cacctttggc gcagcttaaa aggcacgttg cctaatatta
@@ -43,12 +73,12 @@ ORIGIN
      1201 taaatcaatc taaagtatat atgagtaaac ttggtctgac agctcgaggc ttggattctc
      1261 accaataaaa aacgcccggc ggcaaccgag cgttctgaac aaatccagat ggagttctga
      1321 ggtcattact ggatctatca acaggagtcc aagcgagctc gatatcaaat tacgccccgc
-     1381 cctgccactc atcgcagtac tgttgtaatt cattaagcat tctgccgaca tggaagccat
+     1381 cctgccactc gtcgcagtac tgttgtaatt cattaagcat tctgccgaca tggaagccat
      1441 cacaaacggc atgatgaacc tgaatcgcca gcggcatcag caccttgtcg ccttgcgtat
      1501 aatatttgcc catggtgaaa acgggggcga agaagttgtc catattggcc acgtttaaat
-     1561 caaaactggt gaaactcacc cagggattgg ctgaaacgaa aaacatattc tcaataaacc
+     1561 caaaactggt gaaactcacc cagggattgg ctgatacgaa aaacatattc tcaataaacc
      1621 ctttagggaa ataggccagg ttttcaccgt aacacgccac atcttgcgaa tatatgtgta
-     1681 gaaactgccg gaaatcgtcg tggtattcac tccagagcga tgaaaacgtt tcagtttgct
+     1681 gaaactgccg gaaatcgtcg tggtattcac tccagagtga tgaaaacgtt tcagtttgct
      1741 catggaaaac ggtgtaacaa gggtgaacac tatcccatat caccagctca ccgtctttca
      1801 ttgccatacg aaattccgga tgagcattca tcaggcgggc aagaatgtga ataaaggccg
      1861 gataaaactt gtgcttattt ttctttacgg tctttaaaaa ggccgtaata tccagctgaa
