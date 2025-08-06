@@ -11,15 +11,18 @@ FEATURES             Location/Qualifiers
      misc_feature    12..200
                      /standard_name="rbcL promoter + 5'UTR"
      regulatory      50..108
+                     /note="Geneious type: promoter"
                      /standard_name="rbcL promoter Chlamy"
      5'UTR           109..200
                      /standard_name="rbcL 5'UTR Chlamy"
      misc_feature    complement(201..204)
                      /standard_name="5'UTR overhang"
      regulatory      242..299
+                     /note="Geneious type: terminator"
                      /standard_name="his operon terminator"
      rep_origin      complement(494..1082)
      regulatory      complement(1265..1359)
+                     /note="Geneious type: terminator"
                      /standard_name="lambda t0 terminator"
      CDS             complement(1380..2039)
                      /gene="CmR"
@@ -31,10 +34,12 @@ FEATURES             Location/Qualifiers
                      /mol_type="other DNA"
                      /organism="synthetic DNA construct"
      regulatory      complement(2040..2143)
+                     /note="Geneious type: promoter"
                      /note="Promoter for chloramphenicol acetyl transferase"
                      /regulatory_class="promoter"
                      /standard_name="cat"
      regulatory      complement(2223..2266)
+                     /note="Geneious type: terminator"
                      /standard_name="bacterial terminator"
 ORIGIN      
         1 ggtctcggga gcatatacct aaaggccctt tctatgctcg actgataaga caagtacata

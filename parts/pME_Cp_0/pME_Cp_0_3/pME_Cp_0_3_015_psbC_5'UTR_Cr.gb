@@ -16,9 +16,11 @@ FEATURES             Location/Qualifiers
      misc_feature    complement(559..562)
                      /standard_name="5'UTR overhang"
      regulatory      600..657
+                     /note="Geneious type: terminator"
                      /standard_name="his operon terminator"
      rep_origin      complement(852..1440)
      regulatory      complement(1623..1717)
+                     /note="Geneious type: terminator"
                      /standard_name="lambda t0 terminator"
      CDS             complement(1738..2397)
                      /gene="CmR"
@@ -27,9 +29,12 @@ FEATURES             Location/Qualifiers
                      /transl_table=1
                      /standard_name="CmR"
      regulatory      complement(2398..2501)
+                     /note="Geneious type: promoter"
+                     /note="Promoter for chloramphenicol acetyl transferase"
                      /regulatory_class="promoter"
                      /standard_name="cat"
      regulatory      complement(2581..2624)
+                     /note="Geneious type: terminator"
                      /standard_name="bacterial terminator"
 ORIGIN      
         1 ggtctcgtac ttattttaag tgttacaaag aaattgaatt taatctcaaa atacattttt

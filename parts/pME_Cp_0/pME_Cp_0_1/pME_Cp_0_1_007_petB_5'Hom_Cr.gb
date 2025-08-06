@@ -23,9 +23,11 @@ FEATURES             Location/Qualifiers
                      /function="promoter overhang for lvl1 assembly"
                      /standard_name="5' connector overhang rev"
      regulatory      866..923
+                     /note="Geneious type: terminator"
                      /standard_name="his operon terminator"
      rep_origin      complement(1118..1706)
      regulatory      complement(1889..1983)
+                     /note="Geneious type: terminator"
                      /standard_name="lambda t0 terminator"
      CDS             complement(2004..2663)
                      /gene="CmR"
@@ -34,10 +36,12 @@ FEATURES             Location/Qualifiers
                      /transl_table=1
                      /standard_name="CmR"
      regulatory      complement(2664..2767)
+                     /note="Geneious type: promoter"
                      /note="Promoter for chloramphenicol acetyl transferase"
                      /regulatory_class="promoter"
                      /standard_name="cat"
      regulatory      complement(2847..2890)
+                     /note="Geneious type: terminator"
                      /standard_name="bacterial terminator"
 ORIGIN      
         1 ggtctcgaac acgtctcgaa cagattgacg ttttgcacta gcgccgccag ataaattttc

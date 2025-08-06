@@ -16,19 +16,23 @@ FEATURES             Location/Qualifiers
      misc_feature    19..22
                      /standard_name="lvl2 fusion site"
      regulatory      complement(23..79)
+                     /note="Geneious type: terminator"
                      /standard_name="L3S2P22 "
      misc_feature    23..436
                      /function="Insulator between TUs"
                      /standard_name="Spacer002"
      regulatory      380..436
+                     /note="Geneious type: terminator"
                      /standard_name="L3S2P56 "
      misc_feature    complement(437..440)
                      /function="promoter overhang for lvl1 assembly"
                      /standard_name="5' connector overhang rev"
      regulatory      478..535
+                     /note="Geneious type: terminator"
                      /standard_name="his operon terminator"
      rep_origin      complement(730..1318)
      regulatory      complement(1501..1595)
+                     /note="Geneious type: terminator"
                      /standard_name="lambda t0 terminator"
      CDS             complement(1616..2275)
                      /gene="CmR"
@@ -37,10 +41,12 @@ FEATURES             Location/Qualifiers
                      /transl_table=1
                      /standard_name="CmR"
      regulatory      complement(2276..2379)
+                     /note="Geneious type: promoter"
                      /note="Promoter for chloramphenicol acetyl transferase"
                      /regulatory_class="promoter"
                      /standard_name="cat"
      regulatory      complement(2459..2502)
+                     /note="Geneious type: terminator"
                      /standard_name="bacterial terminator"
 ORIGIN      
         1 ggtctcgaac acgtctcgta ctggaccaaa acgaaaaaag gccgctttcg cggcctcttt
