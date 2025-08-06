@@ -12,8 +12,6 @@ FEATURES             Location/Qualifiers
                      /organism="synthetic DNA construct"
      misc_feature    8..11
                      /function="5'connector overhang used for lvl1 assembly"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="5`connector overhang"
      misc_feature    23..824
                      /standard_name="5'Homology petB locus"
@@ -23,15 +21,11 @@ FEATURES             Location/Qualifiers
                      /standard_name="trnL"
      misc_feature    complement(825..828)
                      /function="promoter overhang for lvl1 assembly"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="5' connector overhang rev"
      regulatory      866..923
-                     /note="Geneious type: terminator"
                      /standard_name="his operon terminator"
      rep_origin      complement(1118..1706)
      regulatory      complement(1889..1983)
-                     /note="Geneious type: terminator"
                      /standard_name="lambda t0 terminator"
      CDS             complement(2004..2663)
                      /gene="CmR"
@@ -40,12 +34,10 @@ FEATURES             Location/Qualifiers
                      /transl_table=1
                      /standard_name="CmR"
      regulatory      complement(2664..2767)
-                     /note="Geneious type: promoter"
                      /note="Promoter for chloramphenicol acetyl transferase"
                      /regulatory_class="promoter"
                      /standard_name="cat"
      regulatory      complement(2847..2890)
-                     /note="Geneious type: terminator"
                      /standard_name="bacterial terminator"
 ORIGIN      
         1 ggtctcgaac acgtctcgaa cagattgacg ttttgcacta gcgccgccag ataaattttc

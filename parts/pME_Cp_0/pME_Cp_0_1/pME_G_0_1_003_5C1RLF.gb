@@ -10,59 +10,37 @@ FEATURES             Location/Qualifiers
      source          1..2529
                      /mol_type="other DNA"
                      /organism="synthetic DNA construct"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
      misc_feature    8..11
                      /function="5'connector overhang used for lvl1 assembly"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="5`connector overhang"
      misc_feature    19..22
                      /standard_name="lvl2 fusion site"
      regulatory      complement(23..79)
-                     /note="Geneious type: terminator"
                      /standard_name="L3S2P55"
      misc_feature    23..431
                      /function="Insulator between TUs"
                      /standard_name="Spacer001"
      regulatory      380..431
-                     /note="Geneious type: terminator"
                      /standard_name="L3S1P53 "
      misc_feature    complement(432..435)
                      /function="promoter overhang for lvl1 assembly"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="5' connector overhang rev"
      regulatory      473..530
-                     /note="Geneious type: terminator"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="his operon terminator"
      rep_origin      complement(725..1313)
      regulatory      complement(1496..1590)
-                     /note="Geneious type: terminator"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="lambda t0 terminator"
      CDS             complement(1611..2270)
                      /gene="CmR"
                      /product="chloramphenicol acetyltransferase"
                      /codon_start=1
                      /transl_table=1
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="CmR"
      regulatory      complement(2271..2374)
-                     /note="Geneious type: promoter"
                      /note="Promoter for chloramphenicol acetyl transferase"
                      /regulatory_class="promoter"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="cat"
      regulatory      complement(2454..2497)
-                     /note="Geneious type: terminator"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="bacterial terminator"
 ORIGIN      
         1 ggtctcgaac acgtctcgaa caggaccaaa acgaaaaaag acgcttttca gcgtcttatt

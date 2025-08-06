@@ -11,11 +11,9 @@ FEATURES             Location/Qualifiers
                      /mol_type="other DNA"
                      /organism="synthetic DNA construct"
      regulatory      15..144
-                     /note="Geneious type: promoter"
                      /note="GlpT promoter"
                      /standard_name="BBa_J72163 GlpT Promoter"
      misc_feature    145..180
-                     /note="Geneious type: RBS"
                      /standard_name="Ribosome Binding Site"
      CDS             181..873
                      /gene="mScarlet-I"
@@ -23,17 +21,14 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /standard_name="mScarlet-I"
      regulatory      877..1005
-                     /note="Geneious type: terminator"
                      /standard_name="BBa_B0015 Terminator"
      regulatory      1050..1107
-                     /note="Geneious type: terminator"
                      /note="This putative transcriptin terminator from the E. 
                      coli his operon has a 2-bp deletion introduced during
                      synthesis. Its efficiency has not been determined."
                      /standard_name="his operon terminator"
      rep_origin      complement(1302..1890)
      regulatory      complement(2073..2167)
-                     /note="Geneious type: terminator"
                      /note="transcription terminator from phage lambda"
                      /standard_name="lambda t0 terminator"
      CDS             complement(2188..2847)
@@ -43,7 +38,6 @@ FEATURES             Location/Qualifiers
                      /note="confers resistance to chloramphenicol"
                      /standard_name="CmR"
      regulatory      complement(3031..3074)
-                     /note="Geneious type: terminator"
                      /note="putative bacterial transcription terminator"
                      /standard_name="bacterial terminator"
 ORIGIN      

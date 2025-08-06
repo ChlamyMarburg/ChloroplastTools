@@ -26,34 +26,24 @@ FEATURES             Location/Qualifiers
                      /standard_name="promoter overhang"
      regulatory      270..327
                      /note="Geneious type: terminator"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="his operon terminator"
      rep_origin      complement(522..1110)
      regulatory      complement(1293..1387)
                      /note="Geneious type: terminator"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="lambda t0 terminator"
      CDS             complement(1408..2067)
                      /gene="CmR"
                      /product="chloramphenicol acetyltransferase"
                      /codon_start=1
                      /transl_table=1
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="CmR"
      regulatory      complement(2068..2171)
                      /note="Geneious type: promoter"
                      /note="Promoter for chloramphenicol acetyl transferase"
                      /regulatory_class="promoter"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="cat"
      regulatory      complement(2251..2294)
                      /note="Geneious type: terminator"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="bacterial terminator"
 ORIGIN      
         1 ggtctcggga gcaggcaaca aatttattta ttgtcccgta aggggaaggg gaaaacaatt

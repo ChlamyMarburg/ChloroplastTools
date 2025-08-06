@@ -12,8 +12,6 @@ FEATURES             Location/Qualifiers
                      /organism="synthetic DNA construct"
      misc_feature    8..11
                      /function="5'connector overhang used for lvl1 assembly"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="5`connector overhang"
      misc_feature    23..2126
                      /standard_name="5'Homology rbcL locus"
@@ -41,39 +39,23 @@ FEATURES             Location/Qualifiers
                      /standard_name="rbcL 5'UTR Chlamy"
      misc_feature    complement(2127..2130)
                      /function="promoter overhang for lvl1 assembly"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="5' connector overhang rev"
      regulatory      2168..2225
-                     /note="Geneious type: terminator"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="his operon terminator"
      rep_origin      complement(2420..3008)
      regulatory      complement(3191..3285)
-                     /note="Geneious type: terminator"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="lambda t0 terminator"
      CDS             complement(3306..3965)
                      /gene="CmR"
                      /product="chloramphenicol acetyltransferase"
                      /codon_start=1
                      /transl_table=1
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="CmR"
      regulatory      complement(3966..4069)
-                     /note="Geneious type: promoter"
                      /note="Promoter for chloramphenicol acetyl transferase"
                      /regulatory_class="promoter"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="cat"
      regulatory      complement(4149..4192)
-                     /note="Geneious type: terminator"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="bacterial terminator"
 ORIGIN      
         1 ggtctcgaac acgtctcgaa cagtaaaaac acataactcc acgtaagcgc attttcttac

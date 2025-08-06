@@ -11,10 +11,8 @@ FEATURES             Location/Qualifiers
                      /mol_type="other DNA"
                      /organism="synthetic DNA construct"
      regulatory      15..144
-                     /note="Geneious type: promoter"
                      /standard_name="BBa_J72163 GlpT Promoter"
      misc_feature    145..180
-                     /note="Geneious type: RBS"
                      /standard_name="sfGFP Ribosome Binding Site"
      CDS             181..897
                      /gene="sfGFP"
@@ -23,14 +21,11 @@ FEATURES             Location/Qualifiers
                      /transl_table=1
                      /standard_name="sfGFP"
      regulatory      898..1026
-                     /note="Geneious type: terminator"
                      /standard_name="BBa_B0015 Terminator"
      regulatory      1071..1128
-                     /note="Geneious type: terminator"
                      /standard_name="his operon terminator"
      rep_origin      complement(1323..1911)
      regulatory      complement(2094..2188)
-                     /note="Geneious type: terminator"
                      /standard_name="lambda t0 terminator"
      CDS             complement(2209..2868)
                      /gene="CmR"
@@ -39,7 +34,6 @@ FEATURES             Location/Qualifiers
                      /transl_table=1
                      /standard_name="CmR"
      regulatory      complement(3052..3095)
-                     /note="Geneious type: terminator"
                      /standard_name="bacterial terminator"
 ORIGIN      
         1 ggtctcgtga gacggaaagt gaaacgtgat ttcatgcgtc attttgaaca ttttgtaaat

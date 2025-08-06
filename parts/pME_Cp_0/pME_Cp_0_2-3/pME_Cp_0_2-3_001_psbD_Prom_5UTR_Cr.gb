@@ -9,57 +9,32 @@ FEATURES             Location/Qualifiers
      source          1..2615
                      /mol_type="other DNA"
                      /organism="synthetic DNA construct"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
      misc_feature    8..11
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="promoter overhang"
      misc_feature    12..517
                      /standard_name="psbD promoter + 5'UTR "
      regulatory      387..442
-                     /note="Geneious type: promoter"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="psbD promoter Chlamy"
      5'UTR           443..517
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="psbD 5'UTR Chlamy"
      misc_feature    complement(518..521)
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="5'UTR overhang"
      regulatory      559..616
-                     /note="Geneious type: terminator"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="his operon terminator"
      rep_origin      complement(811..1399)
      regulatory      complement(1582..1676)
-                     /note="Geneious type: terminator"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="lambda t0 terminator"
      CDS             complement(1697..2356)
                      /gene="CmR"
                      /product="chloramphenicol acetyltransferase"
                      /codon_start=1
                      /transl_table=1
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="CmR"
      regulatory      complement(2357..2460)
-                     /note="Geneious type: promoter"
                      /note="Promoter for chloramphenicol acetyl transferase"
                      /regulatory_class="promoter"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="cat"
      regulatory      complement(2540..2583)
-                     /note="Geneious type: terminator"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="bacterial terminator"
 ORIGIN      
         1 ggtctcggga gccaggcaat tgtcactggc gtcatagtat atcaatattg taacagattg

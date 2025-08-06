@@ -12,40 +12,26 @@ FEATURES             Location/Qualifiers
                      /organism="synthetic DNA construct"
      misc_feature    8..11
                      /function="5'connector overhang used for lvl1 assembly"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="5`connector overhang"
      misc_feature    23..2348
                      /standard_name="5'Homology psbD locus"
      gene            complement(70..1005)
                      /locus_tag="ChreCp019"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="psaA_exon2"
      mRNA            complement(70..1005)
                      /locus_tag="ChreCp019"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="psaA_exon2"
      CDS             complement(<717..>896)
                      /product="photosystem I P700 chlorophyll a apoprotein A1"
                      /transl_table=11
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /codon_start=2
                      /standard_name="psaA_exon2"
      3'UTR           complement(998..1085)
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="psbD 3'UTR Chlamy"
      gene            complement(998..2219)
                      /locus_tag="ChreCp064"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="psbD"
      mRNA            complement(998..2219)
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="psbD"
      CDS             complement(1086..2144)
                      /codon_start=1
@@ -62,49 +48,28 @@ FEATURES             Location/Qualifiers
                      PHERLVFPEEVLPRGNAL"
                      /standard_name="psbD"
      5'UTR           complement(2145..2219)
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="psbD 5'UTR Chlamy"
      regulatory      complement(2220..2275)
-                     /note="Geneious type: promoter"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="psbD promoter Chlamy"
      misc_feature    complement(2349..2352)
                      /function="promoter overhang for lvl1 assembly"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="5' connector overhang rev"
      regulatory      2390..2447
-                     /note="Geneious type: terminator"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="his operon terminator"
      rep_origin      complement(2642..3230)
      regulatory      complement(3413..3507)
-                     /note="Geneious type: terminator"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="lambda t0 terminator"
      CDS             complement(3528..4187)
                      /gene="CmR"
                      /product="chloramphenicol acetyltransferase"
                      /codon_start=1
                      /transl_table=1
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="CmR"
      regulatory      complement(4188..4291)
-                     /note="Geneious type: promoter"
                      /note="Promoter for chloramphenicol acetyl transferase"
                      /regulatory_class="promoter"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="cat"
      regulatory      complement(4371..4414)
-                     /note="Geneious type: terminator"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="bacterial terminator"
 ORIGIN      
         1 ggtctcgaac acgtctcgaa caggtttgga ataataaaaa tcgaaaaaaa gaattcactc

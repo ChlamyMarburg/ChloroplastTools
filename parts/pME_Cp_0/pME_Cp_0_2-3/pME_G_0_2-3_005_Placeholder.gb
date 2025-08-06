@@ -10,74 +10,44 @@ FEATURES             Location/Qualifiers
      source          1..3135
                      /mol_type="other DNA"
                      /organism="synthetic DNA construct"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
      misc_feature    8..11
                      /standard_name="promoter overhang"
      regulatory      19..148
-                     /note="Geneious type: promoter"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="BBa_J72163 GlpT Promoter"
      misc_feature    149..184
-                     /note="Geneious type: RBS"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="sfGFP Ribosome Binding Site"
      CDS             185..901
                      /gene="sfGFP"
                      /product="superfolder GFP"
                      /codon_start=1
                      /transl_table=1
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="sfGFP"
      regulatory      902..1030
-                     /note="Geneious type: terminator"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="BBa_B0015 Terminator"
      misc_feature    complement(1038..1041)
                      /standard_name="5'UTR overhang"
      regulatory      1079..1136
-                     /note="Geneious type: terminator"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="his operon terminator"
      rep_origin      complement(1331..1919)
      regulatory      complement(2102..2196)
-                     /note="Geneious type: terminator"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="lambda t0 terminator"
      CDS             complement(2217..2876)
                      /gene="CmR"
                      /product="chloramphenicol acetyltransferase"
                      /codon_start=1
                      /transl_table=1
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="CmR"
      misc_feature    2238
-                     /note="Geneious type: Editing History Replacement"
                      /standard_name="A"
      misc_feature    2442
-                     /note="Geneious type: Editing History Replacement"
                      /standard_name="A"
      misc_feature    2565
-                     /note="Geneious type: Editing History Replacement"
                      /standard_name="C"
      regulatory      complement(2877..2980)
-                     /note="Geneious type: promoter"
                      /note="Promoter for chloramphenicol acetyl transferase"
                      /regulatory_class="promoter"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="cat"
      regulatory      complement(3060..3103)
-                     /note="Geneious type: terminator"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="bacterial terminator"
 ORIGIN      
         1 agtctcggga gtgagaccga aagtgaaacg tgatttcatg cgtcattttg aacattttgt
