@@ -1,32 +1,44 @@
-LOCUS       pME_Cp_0_3b_025_Hibit-tag        2145 bp    DNA     circular UNA 21-FEB-2024
+LOCUS       pME_Cp_0_3b_025_Hibit-tag        2145 bp    DNA     circular UNA 06-AUG-2025
 DEFINITION  HiBit-tag N-Terminal.
-ACCESSION   urn.local...5wq-hdu3fxv
-VERSION     urn.local...5wq-hdu3fxv
+ACCESSION   urn.local...hdq-i80ecso
+VERSION     urn.local...hdq-i80ecso
 KEYWORDS    .
-SOURCE      
-  ORGANISM  .
-COMMENT     ##pME_Standard-START##                                             
-            Box               :: Cp-Tags                                       
-            Antibiotic        :: Cam                                           
-            Created by        :: RI                                            
-            Lvl               :: 0                                             
-            Position          :: C7                                            
-            Part type (Lvl 0) :: 3b- Tag                                       
-            Toolbox           :: Chloroplasts                                  
-            ##pME_Standard-END##
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct.
 FEATURES             Location/Qualifiers
-     CDS             8..51
-                     /standard_name="Hibit"
-     terminator      89..146
-                     /standard_name="Terminator"
+     source          1..2145
+                     /organism="synthetic DNA construct"
+                     /mol_type="other DNA"
+     misc_feature    8..11
+                     /standard_name="N-tag overhang"
+     CDS             10..48
+                     /product="Hibit"
+                     /codon_start=1
+                     /transl_table=1
+                     /standard_name="Hibit N-tag"
+     misc_feature    complement(48..51)
+                     /standard_name="N-tag overhang"
+     regulatory      89..146
+                     /note="Geneious type: terminator"
+                     /standard_name="his operon terminator"
      rep_origin      complement(341..929)
-                     /note="pMB1"
-     terminator      1112..1206
-                     /standard_name="Terminator"
+     regulatory      complement(1112..1206)
+                     /note="Geneious type: terminator"
+                     /standard_name="lambda t0 terminator"
      CDS             complement(1227..1886)
+                     /gene="CmR"
+                     /product="chloramphenicol acetyltransferase"
+                     /codon_start=1
+                     /transl_table=1
+                     /standard_name="CmR"
+     regulatory      complement(1887..1990)
+                     /note="Geneious type: promoter"
+                     /note="Promoter for chloramphenicol acetyl transferase"
+                     /regulatory_class="promoter"
                      /standard_name="cat"
-     terminator      2070..2113
-                     /standard_name="Terminator"
+     regulatory      complement(2070..2113)
+                     /note="Geneious type: terminator"
+                     /standard_name="bacterial terminator"
 ORIGIN      
         1 ggtctcgcca tggtttctgg ttggcgttta tttaagaaaa tttctggaat gtgagaccac
        61 tcatcgcgac tagtagcggc cgctgcagtc cggcaaaaaa gggcaaggtg tcaccaccct
@@ -48,13 +60,13 @@ ORIGIN
      1021 tcttcaccta gatcctttta aattaaaaat gaagttttaa atcaatctaa agtatatatg
      1081 agtaaacttg gtctgacagc tcgaggcttg gattctcacc aataaaaaac gcccggcggc
      1141 aaccgagcgt tctgaacaaa tccagatgga gttctgaggt cattactgga tctatcaaca
-     1201 ggagtccaag cgagctcgat atcaaattac gccccgccct gccactcatc gcagtactgt
+     1201 ggagtccaag cgagctcgat atcaaattac gccccgccct gccactcgtc gcagtactgt
      1261 tgtaattcat taagcattct gccgacatgg aagccatcac aaacggcatg atgaacctga
      1321 atcgccagcg gcatcagcac cttgtcgcct tgcgtataat atttgcccat ggtgaaaacg
      1381 ggggcgaaga agttgtccat attggccacg tttaaatcaa aactggtgaa actcacccag
-     1441 ggattggctg aaacgaaaaa catattctca ataaaccctt tagggaaata ggccaggttt
+     1441 ggattggctg atacgaaaaa catattctca ataaaccctt tagggaaata ggccaggttt
      1501 tcaccgtaac acgccacatc ttgcgaatat atgtgtagaa actgccggaa atcgtcgtgg
-     1561 tattcactcc agagcgatga aaacgtttca gtttgctcat ggaaaacggt gtaacaaggg
+     1561 tattcactcc agagtgatga aaacgtttca gtttgctcat ggaaaacggt gtaacaaggg
      1621 tgaacactat cccatatcac cagctcaccg tctttcattg ccatacgaaa ttccggatga
      1681 gcattcatca ggcgggcaag aatgtgaata aaggccggat aaaacttgtg cttatttttc
      1741 tttacggtct ttaaaaaggc cgtaatatcc agctgaacgg tctggttata ggtacattga
