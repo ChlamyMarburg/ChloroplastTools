@@ -1,33 +1,45 @@
-LOCUS       pME_Cp_0_4_008_tdTomato        3534 bp    DNA     circular UNA 21-FEB-2024
-DEFINITION  tdTomato reporter gene codon opt. for Cr.
-ACCESSION   urn.local...6ae-hdu3gr9
-VERSION     urn.local...6ae-hdu3gr9
+LOCUS       pME_Cp_0_4_008_tdTomato        3534 bp    DNA     circular UNA 06-AUG-2025
+DEFINITION  tdTomato reporter gene, codon optimized for Chlamydomonas
+            reinhardtii .
+ACCESSION   urn.local...h9b-i80ecsh
+VERSION     urn.local...h9b-i80ecsh
 KEYWORDS    .
-SOURCE      
-  ORGANISM  .
-COMMENT     ##pME_Standard-START##                                             
-            Box               :: Cp-4-CDS                                      
-            Antibiotic        :: Cam                                           
-            Created by        :: RI                                            
-            Lvl               :: 0                                             
-            Position          :: A8                                            
-            Part type (Lvl 0) :: 4 - CDS                                       
-            Toolbox           :: Chloroplasts                                  
-            Codon usage       :: Chlamydomonas reinhardtii                     
-            ##pME_Standard-END##
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct.
 FEATURES             Location/Qualifiers
-     CDS             12..1436
+     source          1..3534
+                     /organism="synthetic DNA construct"
+                     /mol_type="other DNA"
+     misc_feature    8..11
+                     /standard_name="CDS overhang"
+     CDS             9..1439
+                     /product="tdTomato"
+                     /codon_start=1
+                     /transl_table=1
                      /standard_name="tdTomato"
-     terminator      1478..1535
-                     /standard_name="Terminator"
+     misc_feature    complement(1437..1440)
+                     /standard_name="CDS overhang"
+     regulatory      1478..1535
+                     /note="Geneious type: terminator"
+                     /standard_name="his operon terminator"
      rep_origin      complement(1730..2318)
-                     /note="pMB1"
-     terminator      2501..2595
-                     /standard_name="Terminator"
+     regulatory      complement(2501..2595)
+                     /note="Geneious type: terminator"
+                     /standard_name="lambda t0 terminator"
      CDS             complement(2616..3275)
+                     /gene="CmR"
+                     /product="chloramphenicol acetyltransferase"
+                     /codon_start=1
+                     /transl_table=1
+                     /standard_name="CmR"
+     regulatory      complement(3276..3379)
+                     /note="Geneious type: promoter"
+                     /note="Promoter for chloramphenicol acetyl transferase"
+                     /regulatory_class="promoter"
                      /standard_name="cat"
-     terminator      3459..3502
-                     /standard_name="Terminator"
+     regulatory      complement(3459..3502)
+                     /note="Geneious type: terminator"
+                     /standard_name="bacterial terminator"
 ORIGIN      
         1 ggtctcgaat ggtttcaaaa ggtgaagaag taattaaaga attcatgcgt tttaaagtac
        61 gtatggaagg ttctatgaat ggtcatgaat ttgaaattga aggtgaaggt gaaggtcgtc
@@ -72,13 +84,13 @@ ORIGIN
      2401 caaaaaggat cttcacctag atccttttaa attaaaaatg aagttttaaa tcaatctaaa
      2461 gtatatatga gtaaacttgg tctgacagct cgaggcttgg attctcacca ataaaaaacg
      2521 cccggcggca accgagcgtt ctgaacaaat ccagatggag ttctgaggtc attactggat
-     2581 ctatcaacag gagtccaagc gagctcgata tcaaattacg ccccgccctg ccactcatcg
+     2581 ctatcaacag gagtccaagc gagctcgata tcaaattacg ccccgccctg ccactcgtcg
      2641 cagtactgtt gtaattcatt aagcattctg ccgacatgga agccatcaca aacggcatga
      2701 tgaacctgaa tcgccagcgg catcagcacc ttgtcgcctt gcgtataata tttgcccatg
      2761 gtgaaaacgg gggcgaagaa gttgtccata ttggccacgt ttaaatcaaa actggtgaaa
-     2821 ctcacccagg gattggctga aacgaaaaac atattctcaa taaacccttt agggaaatag
+     2821 ctcacccagg gattggctga tacgaaaaac atattctcaa taaacccttt agggaaatag
      2881 gccaggtttt caccgtaaca cgccacatct tgcgaatata tgtgtagaaa ctgccggaaa
-     2941 tcgtcgtggt attcactcca gagcgatgaa aacgtttcag tttgctcatg gaaaacggtg
+     2941 tcgtcgtggt attcactcca gagtgatgaa aacgtttcag tttgctcatg gaaaacggtg
      3001 taacaagggt gaacactatc ccatatcacc agctcaccgt ctttcattgc catacgaaat
      3061 tccggatgag cattcatcag gcgggcaaga atgtgaataa aggccggata aaacttgtgc
      3121 ttatttttct ttacggtctt taaaaaggcc gtaatatcca gctgaacggt ctggttatag

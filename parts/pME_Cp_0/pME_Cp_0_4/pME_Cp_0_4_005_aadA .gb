@@ -1,22 +1,16 @@
-LOCUS       pME_Cp_0_4_005_aadA_with_stop_codon        2980 bp    DNA     circular UNA 19-APR-2024
-DEFINITION  aadA gene confering resistance to spectinomycin/streptomycin.
-ACCESSION   urn.local...6ab-hdu3gr9
-VERSION     urn.local...6ab-hdu3gr9
+LOCUS       pME_Cp_0_4_005_aadA_        2980 bp    DNA     circular UNA 06-AUG-2025
+DEFINITION  Aminoglycoside-3''-9-adenylyltransferase selection gene, codon
+            optimized for Chlamydomonas reinhardtii [stop codon included].
+ACCESSION   urn.local...1oe-ji16nz9
+VERSION     urn.local...1oe-ji16nz9
 KEYWORDS    .
 SOURCE      
   ORGANISM  .
-COMMENT     ##pME_Standard-START##                                             
-            Box               :: Cp-4-CDS                                      
-            Antibiotic        :: Cam                                           
-            Created by        :: RI                                            
-            Lvl               :: 0                                             
-            Position          :: A5                                            
-            Part type (Lvl 0) :: 4 - CDS                                       
-            Toolbox           :: Chloroplasts                                  
-            Codon usage       :: ?                                             
-            ##pME_Standard-END##
 FEATURES             Location/Qualifiers
-     CDS             <12..881
+     source          1..2980
+                     /organism="synthetic DNA construct"
+                     /mol_type="other DNA"
+     CDS             12..881
                      /note="aadA"
                      /translation="MAMRTPEELSNLIKDLIEQYTPEVKMSMAREAVIAEVSTQLSEV
                      VGVIERHLEPTLLAVHLYGSAVDGGLKPHSDIDLLVTVTVRLDETTRRALINDLLETS
@@ -26,17 +20,29 @@ FEATURES             Location/Qualifiers
                      VHYVKGEITKVVGK*"
                      /codon_start=1
                      /transl_table=11
+                     /product="Aminoglycoside-3''-9-adenylyltransferase"
                      /standard_name="aadA"
-     terminator      924..981
-                     /standard_name="Terminator"
+     regulatory      924..981
+                     /note="Geneious type: terminator"
+                     /standard_name="his operon terminator"
      rep_origin      complement(1176..1764)
-                     /note="pMB1"
-     terminator      1947..2041
-                     /standard_name="Terminator"
+     regulatory      complement(1947..2041)
+                     /note="Geneious type: terminator"
+                     /standard_name="lambda t0 terminator"
      CDS             complement(2062..2721)
+                     /gene="CmR"
+                     /product="chloramphenicol acetyltransferase"
+                     /codon_start=1
+                     /transl_table=1
+                     /standard_name="CmR"
+     regulatory      complement(2722..2825)
+                     /note="Geneious type: promoter"
+                     /note="Promoter for chloramphenicol acetyl transferase"
+                     /regulatory_class="promoter"
                      /standard_name="cat"
-     terminator      2905..2948
-                     /standard_name="Terminator"
+     regulatory      complement(2905..2948)
+                     /note="Geneious type: terminator"
+                     /standard_name="bacterial terminator"
 ORIGIN      
         1 ggtctcgaat ggcaatgcgt actccagaag aacttagtaa tcttattaaa gatttaattg
        61 aacaatacac tccagaagtg aaaatgtcca tggctcgtga agcggttatc gccgaagtat
@@ -72,13 +78,13 @@ ORIGIN
      1861 acctagatcc ttttaaatta aaaatgaagt tttaaatcaa tctaaagtat atatgagtaa
      1921 acttggtctg acagctcgag gcttggattc tcaccaataa aaaacgcccg gcggcaaccg
      1981 agcgttctga acaaatccag atggagttct gaggtcatta ctggatctat caacaggagt
-     2041 ccaagcgagc tcgatatcaa attacgcccc gccctgccac tcatcgcagt actgttgtaa
+     2041 ccaagcgagc tcgatatcaa attacgcccc gccctgccac tcgtcgcagt actgttgtaa
      2101 ttcattaagc attctgccga catggaagcc atcacaaacg gcatgatgaa cctgaatcgc
      2161 cagcggcatc agcaccttgt cgccttgcgt ataatatttg cccatggtga aaacgggggc
      2221 gaagaagttg tccatattgg ccacgtttaa atcaaaactg gtgaaactca cccagggatt
-     2281 ggctgaaacg aaaaacatat tctcaataaa ccctttaggg aaataggcca ggttttcacc
+     2281 ggctgatacg aaaaacatat tctcaataaa ccctttaggg aaataggcca ggttttcacc
      2341 gtaacacgcc acatcttgcg aatatatgtg tagaaactgc cggaaatcgt cgtggtattc
-     2401 actccagagc gatgaaaacg tttcagtttg ctcatggaaa acggtgtaac aagggtgaac
+     2401 actccagagt gatgaaaacg tttcagtttg ctcatggaaa acggtgtaac aagggtgaac
      2461 actatcccat atcaccagct caccgtcttt cattgccata cgaaattccg gatgagcatt
      2521 catcaggcgg gcaagaatgt gaataaaggc cggataaaac ttgtgcttat ttttctttac
      2581 ggtctttaaa aaggccgtaa tatccagctg aacggtctgg ttataggtac attgagcaac

@@ -1,32 +1,44 @@
-LOCUS       pME_Cp_0_4_024_CrCD-negative-marker        3387 bp    DNA     circular UNA 21-FEB-2024
-DEFINITION  Cytosine deaminase as a negative selectable marker.
-ACCESSION   urn.local...6ak-hdu3gr9
-VERSION     urn.local...6ak-hdu3gr9
+LOCUS       pME_Cp_0_4_024_CrCD-negative-marker        3387 bp    DNA     circular UNA 06-AUG-2025
+DEFINITION  Cytosine deaminase selection gene, codon optimized for
+            Chlamydomonas reinhardtii .
+ACCESSION   urn.local...h9f-i80ecsh
+VERSION     urn.local...h9f-i80ecsh
 KEYWORDS    .
-SOURCE      
-  ORGANISM  .
-COMMENT     ##pME_Standard-START##                                             
-            Box               :: Cp-4-CDS                                      
-            Antibiotic        :: Cam                                           
-            Created by        :: RI                                            
-            Lvl               :: 0                                             
-            Position          :: C6                                            
-            Part type (Lvl 0) :: 4 - CDS                                       
-            Toolbox           :: Chloroplasts                                  
-            ##pME_Standard-END##
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct.
 FEATURES             Location/Qualifiers
-     CDS             12..1289
-                     /standard_name="CrCD-negative-marker"
-     terminator      1331..1388
-                     /standard_name="Terminator"
+     source          1..3387
+                     /organism="synthetic DNA construct"
+                     /mol_type="other DNA"
+     misc_feature    8..11
+                     /standard_name="CDS overhang"
+     CDS             9..1292
+                     /product="Cytosine deaminase"
+                     /transl_table=1
+                     /standard_name="CrCD"
+     misc_feature    complement(1290..1293)
+                     /standard_name="CDS overhang"
+     regulatory      1331..1388
+                     /note="Geneious type: terminator"
+                     /standard_name="his operon terminator"
      rep_origin      complement(1583..2171)
-                     /note="pMB1"
-     terminator      complement(2354..2448)
-                     /standard_name="Terminator"
+     regulatory      complement(2354..2448)
+                     /note="Geneious type: terminator"
+                     /standard_name="lambda t0 terminator"
      CDS             complement(2469..3128)
+                     /gene="CmR"
+                     /product="chloramphenicol acetyltransferase"
+                     /codon_start=1
+                     /transl_table=1
+                     /standard_name="CmR"
+     regulatory      complement(3129..3232)
+                     /note="Geneious type: promoter"
+                     /note="Promoter for chloramphenicol acetyl transferase"
+                     /regulatory_class="promoter"
                      /standard_name="cat"
-     terminator      3312..3355
-                     /standard_name="Terminator"
+     regulatory      complement(3312..3355)
+                     /note="Geneious type: terminator"
+                     /standard_name="bacterial terminator"
 ORIGIN      
         1 ggtctcgaat gtctaacaac gctttacaaa caattattaa cgctcgttta ccaggtgaag
        61 aaggtttatg gcaaattcac ttacaagacg gtaaaatttc agctattgat gctcaatctg
@@ -69,12 +81,12 @@ ORIGIN
      2281 taaattaaaa atgaagtttt aaatcaatct aaagtatata tgagtaaact tggtctgaca
      2341 gctcgaggct tggattctca ccaataaaaa acgcccggcg gcaaccgagc gttctgaaca
      2401 aatccagatg gagttctgag gtcattactg gatctatcaa caggagtcca agcgagctcg
-     2461 atatcaaatt acgccccgcc ctgccactca tcgcagtact gttgtaattc attaagcatt
+     2461 atatcaaatt acgccccgcc ctgccactcg tcgcagtact gttgtaattc attaagcatt
      2521 ctgccgacat ggaagccatc acaaacggca tgatgaacct gaatcgccag cggcatcagc
      2581 accttgtcgc cttgcgtata atatttgccc atggtgaaaa cgggggcgaa gaagttgtcc
-     2641 atattggcca cgtttaaatc aaaactggtg aaactcaccc agggattggc tgaaacgaaa
+     2641 atattggcca cgtttaaatc aaaactggtg aaactcaccc agggattggc tgatacgaaa
      2701 aacatattct caataaaccc tttagggaaa taggccaggt tttcaccgta acacgccaca
-     2761 tcttgcgaat atatgtgtag aaactgccgg aaatcgtcgt ggtattcact ccagagcgat
+     2761 tcttgcgaat atatgtgtag aaactgccgg aaatcgtcgt ggtattcact ccagagtgat
      2821 gaaaacgttt cagtttgctc atggaaaacg gtgtaacaag ggtgaacact atcccatatc
      2881 accagctcac cgtctttcat tgccatacga aattccggat gagcattcat caggcgggca
      2941 agaatgtgaa taaaggccgg ataaaacttg tgcttatttt tctttacggt ctttaaaaag

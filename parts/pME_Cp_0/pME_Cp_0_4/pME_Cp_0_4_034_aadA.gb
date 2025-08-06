@@ -1,29 +1,46 @@
-LOCUS       pME_Cp_0_4_034_aadA_without_stop_codon        2979 bp    DNA     circular UNA 19-APR-2024
-DEFINITION  aadA gene confering resistance to spectinomycin w/o stop codon.
-ACCESSION   urn.local...6an-hdu3gr9
-VERSION     urn.local...6an-hdu3gr9
+LOCUS       pME_Cp_0_4_034_aadA        2979 bp    DNA     circular UNA 06-AUG-2025
+DEFINITION  Aminoglycoside-3''-9-adenylyltransferase selection gene, codon
+            optimized for Chlamydomonas reinhardtii.
+ACCESSION   urn.local...h9d-i80ecsh
+VERSION     urn.local...h9d-i80ecsh
 KEYWORDS    .
-SOURCE      
-  ORGANISM  .
-COMMENT     ##pME_Standard-START##                                             
-            Validated :: true                                                  
-            ##pME_Standard-END##
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct.
 FEATURES             Location/Qualifiers
-     CDS             <12..>881
+     source          1..2979
+                     /organism="synthetic DNA construct"
+                     /mol_type="other DNA"
+     misc_feature    8..11
+                     /standard_name="CDS overhang"
+     CDS             9..884
                      /note="aadA"
-                     /codon_start=1
                      /transl_table=11
+                     /product="Aminoglycoside-3''-9-adenylyltransferase"
+                     /codon_start=1
                      /standard_name="aadA"
-     terminator      923..980
-                     /standard_name="Terminator"
+     misc_feature    complement(882..885)
+                     /standard_name="CDS overhang"
+     regulatory      923..980
+                     /note="Geneious type: terminator"
+                     /standard_name="his operon terminator"
      rep_origin      complement(1175..1763)
-                     /note="pMB1"
-     terminator      complement(1946..2040)
-                     /standard_name="Terminator"
+     regulatory      complement(1946..2040)
+                     /note="Geneious type: terminator"
+                     /standard_name="lambda t0 terminator"
      CDS             complement(2061..2720)
+                     /gene="CmR"
+                     /product="chloramphenicol acetyltransferase"
+                     /codon_start=1
+                     /transl_table=1
+                     /standard_name="CmR"
+     regulatory      complement(2721..2824)
+                     /note="Geneious type: promoter"
+                     /note="Promoter for chloramphenicol acetyl transferase"
+                     /regulatory_class="promoter"
                      /standard_name="cat"
-     terminator      2904..2947
-                     /standard_name="Terminator"
+     regulatory      complement(2904..2947)
+                     /note="Geneious type: terminator"
+                     /standard_name="bacterial terminator"
 ORIGIN      
         1 ggtctcgaat ggcaatgcgt actccagaag aacttagtaa tcttattaaa gatttaattg
        61 aacaatacac tccagaagtg aaaatgtcca tggctcgtga agcggttatc gccgaagtat
@@ -59,13 +76,13 @@ ORIGIN
      1861 cctagatcct tttaaattaa aaatgaagtt ttaaatcaat ctaaagtata tatgagtaaa
      1921 cttggtctga cagctcgagg cttggattct caccaataaa aaacgcccgg cggcaaccga
      1981 gcgttctgaa caaatccaga tggagttctg aggtcattac tggatctatc aacaggagtc
-     2041 caagcgagct cgatatcaaa ttacgccccg ccctgccact catcgcagta ctgttgtaat
+     2041 caagcgagct cgatatcaaa ttacgccccg ccctgccact cgtcgcagta ctgttgtaat
      2101 tcattaagca ttctgccgac atggaagcca tcacaaacgg catgatgaac ctgaatcgcc
      2161 agcggcatca gcaccttgtc gccttgcgta taatatttgc ccatggtgaa aacgggggcg
      2221 aagaagttgt ccatattggc cacgtttaaa tcaaaactgg tgaaactcac ccagggattg
-     2281 gctgaaacga aaaacatatt ctcaataaac cctttaggga aataggccag gttttcaccg
+     2281 gctgatacga aaaacatatt ctcaataaac cctttaggga aataggccag gttttcaccg
      2341 taacacgcca catcttgcga atatatgtgt agaaactgcc ggaaatcgtc gtggtattca
-     2401 ctccagagcg atgaaaacgt ttcagtttgc tcatggaaaa cggtgtaaca agggtgaaca
+     2401 ctccagagtg atgaaaacgt ttcagtttgc tcatggaaaa cggtgtaaca agggtgaaca
      2461 ctatcccata tcaccagctc accgtctttc attgccatac gaaattccgg atgagcattc
      2521 atcaggcggg caagaatgtg aataaaggcc ggataaaact tgtgcttatt tttctttacg
      2581 gtctttaaaa aggccgtaat atccagctga acggtctggt tataggtaca ttgagcaact

@@ -1,37 +1,45 @@
-LOCUS       pME_Cp_0_4_001_Nanoluc        2619 bp    DNA     circular UNA 21-FEB-2024
-DEFINITION  Nanoluc luciferase reporter gene, codon optimized for Cr.
-ACCESSION   urn.local...6aa-hdu3gr9
-VERSION     urn.local...6aa-hdu3gr9
+LOCUS       pME_Cp_0_4_001_Nanoluc        2619 bp    DNA     circular UNA 06-AUG-2025
+DEFINITION  Nanoluc luciferase reporter gene, codon optimized for Chlamydomonas
+            reinhardtii.
+ACCESSION   urn.local...h97-i80ecsh
+VERSION     urn.local...h97-i80ecsh
 KEYWORDS    .
-SOURCE      
-  ORGANISM  .
-COMMENT     ##pME_Standard-START##                                             
-            Box               :: Cp-4-CDS                                      
-            Antibiotic        :: Cam                                           
-            Created by        :: RI                                            
-            Fusion tag        :: no                                            
-            Part type (Lvl1)  :: -                                             
-            Lvl               :: 0                                             
-            Position          :: A1                                            
-            Part type (Lvl 0) :: 4 - CDS                                       
-            Toolbox           :: Chloroplasts                                  
-            Publication       :: https://doi.org/10.1021/cb3002478             
-            Codon usage       :: Chlamydomonas reinhardtii                     
-            Validated         :: false                                         
-            ##pME_Standard-END##
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct.
 FEATURES             Location/Qualifiers
-     CDS             12..521
+     source          1..2619
+                     /mol_type="other DNA"
+                     /organism="synthetic DNA construct"
+     misc_feature    8..11
+                     /standard_name="CDS overhang"
+     CDS             9..524
+                     /transl_table=1
+                     /codon_start=1
+                     /product="NanoLuc"
                      /standard_name="NanoLuc"
-     terminator      563..620
-                     /standard_name="Terminator"
+     misc_feature    complement(522..525)
+                     /standard_name="CDS overhang"
+     regulatory      563..620
+                     /note="Geneious type: terminator"
+                     /standard_name="his operon terminator"
      rep_origin      complement(815..1403)
-                     /note="pMB1"
-     terminator      1586..1680
-                     /standard_name="Terminator"
+     regulatory      complement(1586..1680)
+                     /note="Geneious type: terminator"
+                     /standard_name="lambda t0 terminator"
      CDS             complement(1701..2360)
+                     /gene="CmR"
+                     /product="chloramphenicol acetyltransferase"
+                     /codon_start=1
+                     /transl_table=1
+                     /standard_name="CmR"
+     regulatory      complement(2361..2464)
+                     /note="Geneious type: promoter"
+                     /note="Promoter for chloramphenicol acetyl transferase"
+                     /regulatory_class="promoter"
                      /standard_name="cat"
-     terminator      2544..2587
-                     /standard_name="Terminator"
+     regulatory      complement(2544..2587)
+                     /note="Geneious type: terminator"
+                     /standard_name="bacterial terminator"
 ORIGIN      
         1 ggtctcgaat ggttttcact ttagaagact tcgtaggtga ctggcgtcaa acagcaggtt
        61 ataatttaga ccaagtttta gaacaaggtg gtgtatcaag tttattccaa aatttaggtg
@@ -61,13 +69,13 @@ ORIGIN
      1501 cctagatcct tttaaattaa aaatgaagtt ttaaatcaat ctaaagtata tatgagtaaa
      1561 cttggtctga cagctcgagg cttggattct caccaataaa aaacgcccgg cggcaaccga
      1621 gcgttctgaa caaatccaga tggagttctg aggtcattac tggatctatc aacaggagtc
-     1681 caagcgagct cgatatcaaa ttacgccccg ccctgccact catcgcagta ctgttgtaat
+     1681 caagcgagct cgatatcaaa ttacgccccg ccctgccact cgtcgcagta ctgttgtaat
      1741 tcattaagca ttctgccgac atggaagcca tcacaaacgg catgatgaac ctgaatcgcc
      1801 agcggcatca gcaccttgtc gccttgcgta taatatttgc ccatggtgaa aacgggggcg
      1861 aagaagttgt ccatattggc cacgtttaaa tcaaaactgg tgaaactcac ccagggattg
-     1921 gctgaaacga aaaacatatt ctcaataaac cctttaggga aataggccag gttttcaccg
+     1921 gctgatacga aaaacatatt ctcaataaac cctttaggga aataggccag gttttcaccg
      1981 taacacgcca catcttgcga atatatgtgt agaaactgcc ggaaatcgtc gtggtattca
-     2041 ctccagagcg atgaaaacgt ttcagtttgc tcatggaaaa cggtgtaaca agggtgaaca
+     2041 ctccagagtg atgaaaacgt ttcagtttgc tcatggaaaa cggtgtaaca agggtgaaca
      2101 ctatcccata tcaccagctc accgtctttc attgccatac gaaattccgg atgagcattc
      2161 atcaggcggg caagaatgtg aataaaggcc ggataaaact tgtgcttatt tttctttacg
      2221 gtctttaaaa aggccgtaat atccagctga acggtctggt tataggtaca ttgagcaact

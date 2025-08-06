@@ -1,34 +1,46 @@
-LOCUS       pME_Cp_0_4_022_aac6-aph2-Tobramycin-marker        3546 bp    DNA     circular UNA 19-APR-2024
-DEFINITION  Tobramycin resistance marker gene, codon optimzed for Cr.
-ACCESSION   urn.local...6ai-hdu3gr9
-VERSION     urn.local...6ai-hdu3gr9
+LOCUS       pME_Cp_0_4_022_aac6-aph2-marker        3546 bp    DNA     circular UNA 06-AUG-2025
+DEFINITION  aac6-aph2 tobramycin resistance gene, codon optimized for
+            Chlamydomonas reinhardtii.
+ACCESSION   urn.local...h9m-i80ecsi
+VERSION     urn.local...h9m-i80ecsi
 KEYWORDS    .
-SOURCE      
-  ORGANISM  .
-COMMENT     ##pME_Standard-START##                                             
-            Box               :: Cp-4-CDS                                      
-            Antibiotic        :: Cam                                           
-            Created by        :: RI                                            
-            Lvl               :: 0                                             
-            Position          :: C4                                            
-            Part type (Lvl 0) :: 4 - CDS                                       
-            Toolbox           :: Chloroplasts                                  
-            ##pME_Standard-END##
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct.
 FEATURES             Location/Qualifiers
-     CDS             12..1448
+     source          1..3546
+                     /organism="synthetic DNA construct"
+                     /mol_type="other DNA"
+     misc_feature    8..11
+                     /standard_name="CDS overhang"
+     CDS             9..1451
+                     /product="aminoglycoside acetyltransferase;
+                     phosphotransferase"
+                     /codon_start=1
+                     /transl_table=1
                      /standard_name="aac6-aph2"
-                     /modified_by="chotelt"
-                     /label="aac6-aph2 Tobramycin"
-     terminator      1490..1547
-                     /standard_name="Terminator"
+     misc_feature    complement(1449..1452)
+                     /standard_name="CDS overhang"
+     regulatory      1490..1547
+                     /note="Geneious type: terminator"
+                     /standard_name="his operon terminator"
      rep_origin      complement(1742..2330)
-                     /note="pMB1"
-     terminator      complement(2513..2607)
-                     /standard_name="Terminator"
+     regulatory      complement(2513..2607)
+                     /note="Geneious type: terminator"
+                     /standard_name="lambda t0 terminator"
      CDS             complement(2628..3287)
+                     /gene="CmR"
+                     /product="chloramphenicol acetyltransferase"
+                     /codon_start=1
+                     /transl_table=1
+                     /standard_name="CmR"
+     regulatory      complement(3288..3391)
+                     /note="Geneious type: promoter"
+                     /note="Promoter for chloramphenicol acetyl transferase"
+                     /regulatory_class="promoter"
                      /standard_name="cat"
-     terminator      3471..3514
-                     /standard_name="Terminator"
+     regulatory      complement(3471..3514)
+                     /note="Geneious type: terminator"
+                     /standard_name="bacterial terminator"
 ORIGIN      
         1 ggtctcgaat ggaaaacatt gttgaaaacg aaatttgtat tcgtacatta attgacgatg
        61 acttcccttt aatgttaaaa tggttaactg atgaacgtgt tttagaattc tatggtggtc
@@ -74,12 +86,12 @@ ORIGIN
      2461 aatcaatcta aagtatatat gagtaaactt ggtctgacag ctcgaggctt ggattctcac
      2521 caataaaaaa cgcccggcgg caaccgagcg ttctgaacaa atccagatgg agttctgagg
      2581 tcattactgg atctatcaac aggagtccaa gcgagctcga tatcaaatta cgccccgccc
-     2641 tgccactcat cgcagtactg ttgtaattca ttaagcattc tgccgacatg gaagccatca
+     2641 tgccactcgt cgcagtactg ttgtaattca ttaagcattc tgccgacatg gaagccatca
      2701 caaacggcat gatgaacctg aatcgccagc ggcatcagca ccttgtcgcc ttgcgtataa
      2761 tatttgccca tggtgaaaac gggggcgaag aagttgtcca tattggccac gtttaaatca
-     2821 aaactggtga aactcaccca gggattggct gaaacgaaaa acatattctc aataaaccct
+     2821 aaactggtga aactcaccca gggattggct gatacgaaaa acatattctc aataaaccct
      2881 ttagggaaat aggccaggtt ttcaccgtaa cacgccacat cttgcgaata tatgtgtaga
-     2941 aactgccgga aatcgtcgtg gtattcactc cagagcgatg aaaacgtttc agtttgctca
+     2941 aactgccgga aatcgtcgtg gtattcactc cagagtgatg aaaacgtttc agtttgctca
      3001 tggaaaacgg tgtaacaagg gtgaacacta tcccatatca ccagctcacc gtctttcatt
      3061 gccatacgaa attccggatg agcattcatc aggcgggcaa gaatgtgaat aaaggccgga
      3121 taaaacttgt gcttattttt ctttacggtc tttaaaaagg ccgtaatatc cagctgaacg

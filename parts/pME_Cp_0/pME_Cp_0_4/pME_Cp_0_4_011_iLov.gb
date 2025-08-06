@@ -1,36 +1,44 @@
-LOCUS       pME_Cp_0_4_011_iLov        2481 bp    DNA     circular UNA 21-FEB-2024
-DEFINITION  iLov gene codon opt. for Cr.
-ACCESSION   urn.local...6ah-hdu3gr9
-VERSION     urn.local...6ah-hdu3gr9
+LOCUS       pME_Cp_0_4_011_iLov        2481 bp    DNA     circular UNA 06-AUG-2025
+DEFINITION  iLov reporter gene, codon optimized for Chlamydomonas reinhardtii.
+ACCESSION   urn.local...h98-i80ecsh
+VERSION     urn.local...h98-i80ecsh
 KEYWORDS    .
-SOURCE      
-  ORGANISM  .
-COMMENT     ##pME_Standard-START##                                             
-            Box               :: Cp-4-CDS                                      
-            Antibiotic        :: Cam                                           
-            Created by        :: TC                                            
-            Fusion tag        :: -                                             
-            Part type (Lvl1)  :: -                                             
-            Lvl               :: 0                                             
-            Position          :: B2                                            
-            Part type (Lvl 0) :: 4 - CDS                                       
-            Toolbox           :: Chloroplasts                                  
-            Codon usage       :: Chlamydomonas reinhardtii                     
-            Validated         :: true                                          
-            ##pME_Standard-END##
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct.
 FEATURES             Location/Qualifiers
-     CDS             9..380
+     source          1..2481
+                     /organism="synthetic DNA construct"
+                     /mol_type="other DNA"
+     misc_feature    5..8
+                     /standard_name="CDS overhang"
+     CDS             6..383
+                     /product="iLov"
+                     /codon_start=1
+                     /transl_table=1
                      /standard_name="iLov"
-     terminator      422..479
-                     /standard_name="Terminator"
+     misc_feature    complement(381..384)
+                     /standard_name="CDS overhang"
+     regulatory      422..479
+                     /note="Geneious type: terminator"
+                     /standard_name="his operon terminator"
      rep_origin      complement(674..1262)
-                     /note="pMB1"
-     terminator      1445..1539
-                     /standard_name="Terminator"
+     regulatory      complement(1445..1539)
+                     /note="Geneious type: terminator"
+                     /standard_name="lambda t0 terminator"
      CDS             complement(1560..2219)
+                     /gene="CmR"
+                     /product="chloramphenicol acetyltransferase"
+                     /codon_start=1
+                     /transl_table=1
+                     /standard_name="CmR"
+     regulatory      complement(2220..2323)
+                     /note="Geneious type: promoter"
+                     /note="Promoter for chloramphenicol acetyl transferase"
+                     /regulatory_class="promoter"
                      /standard_name="cat"
-     terminator      2403..2446
-                     /standard_name="Terminator"
+     regulatory      complement(2403..2446)
+                     /note="Geneious type: terminator"
+                     /standard_name="bacterial terminator"
 ORIGIN      
         1 ctcgaatgat tgaaaaaaat ttcgttatta cagaccctcg tttaccagat aatccaatta
        61 tttttgctag tgatggtttc ttagaattaa cagaatattc acgtgaagaa attttaggtc
@@ -58,12 +66,12 @@ ORIGIN
      1381 aatgaagttt taaatcaatc taaagtatat atgagtaaac ttggtctgac agctcgaggc
      1441 ttggattctc accaataaaa aacgcccggc ggcaaccgag cgttctgaac aaatccagat
      1501 ggagttctga ggtcattact ggatctatca acaggagtcc aagcgagctc gatatcaaat
-     1561 tacgccccgc cctgccactc atcgcagtac tgttgtaatt cattaagcat tctgccgaca
+     1561 tacgccccgc cctgccactc gtcgcagtac tgttgtaatt cattaagcat tctgccgaca
      1621 tggaagccat cacaaacggc atgatgaacc tgaatcgcca gcggcatcag caccttgtcg
      1681 ccttgcgtat aatatttgcc catggtgaaa acgggggcga agaagttgtc catattggcc
-     1741 acgtttaaat caaaactggt gaaactcacc cagggattgg ctgaaacgaa aaacatattc
+     1741 acgtttaaat caaaactggt gaaactcacc cagggattgg ctgatacgaa aaacatattc
      1801 tcaataaacc ctttagggaa ataggccagg ttttcaccgt aacacgccac atcttgcgaa
-     1861 tatatgtgta gaaactgccg gaaatcgtcg tggtattcac tccagagcga tgaaaacgtt
+     1861 tatatgtgta gaaactgccg gaaatcgtcg tggtattcac tccagagtga tgaaaacgtt
      1921 tcagtttgct catggaaaac ggtgtaacaa gggtgaacac tatcccatat caccagctca
      1981 ccgtctttca ttgccatacg aaattccgga tgagcattca tcaggcgggc aagaatgtga
      2041 ataaaggccg gataaaactt gtgcttattt ttctttacgg tctttaaaaa ggccgtaata

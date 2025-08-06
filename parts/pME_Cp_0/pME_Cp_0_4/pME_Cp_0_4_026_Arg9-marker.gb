@@ -1,33 +1,45 @@
-LOCUS       pME_Cp_0_4_026_Arg9-marker        3486 bp    DNA     circular UNA 21-FEB-2024
-DEFINITION  N-Acetyl Ornithine Aminotransferase, allows recovery of arginine
-            auxotroph.
-ACCESSION   urn.local...6al-hdu3gr9
-VERSION     urn.local...6al-hdu3gr9
+LOCUS       pME_Cp_0_4_026_Arg9-marker        3486 bp    DNA     circular UNA 06-AUG-2025
+DEFINITION  N-acetyl ornithine aminotransferase selection gene, codon optimized
+            for Chlamydomonas reinhardtii .
+ACCESSION   urn.local...h9o-i80ecsi
+VERSION     urn.local...h9o-i80ecsi
 KEYWORDS    .
-SOURCE      
-  ORGANISM  .
-COMMENT     ##pME_Standard-START##                                             
-            Box               :: Cp-4-CDS                                      
-            Antibiotic        :: Cam                                           
-            Created by        :: RI                                            
-            Lvl               :: 0                                             
-            Position          :: C8                                            
-            Part type (Lvl 0) :: 4 - CDS                                       
-            Toolbox           :: Chloroplasts                                  
-            ##pME_Standard-END##
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct.
 FEATURES             Location/Qualifiers
-     CDS             12..1388
+     source          1..3486
+                     /organism="synthetic DNA construct"
+                     /mol_type="other DNA"
+     misc_feature    8..11
+                     /standard_name="CDS overhang"
+     CDS             9..1391
+                     /product="N-acetyl ornithine aminotransferase"
+                     /codon_start=1
+                     /transl_table=1
                      /standard_name="Arg9"
-     terminator      1430..1487
-                     /standard_name="Terminator"
+     misc_feature    complement(1389..1392)
+                     /standard_name="CDS overhang"
+     regulatory      1430..1487
+                     /note="Geneious type: terminator"
+                     /standard_name="his operon terminator"
      rep_origin      complement(1682..2270)
-                     /note="pMB1"
-     terminator      complement(2453..2547)
-                     /standard_name="Terminator"
+     regulatory      complement(2453..2547)
+                     /note="Geneious type: terminator"
+                     /standard_name="lambda t0 terminator"
      CDS             complement(2568..3227)
+                     /gene="CmR"
+                     /product="chloramphenicol acetyltransferase"
+                     /codon_start=1
+                     /transl_table=1
+                     /standard_name="CmR"
+     regulatory      complement(3228..3331)
+                     /note="Geneious type: promoter"
+                     /note="Promoter for chloramphenicol acetyl transferase"
+                     /regulatory_class="promoter"
                      /standard_name="cat"
-     terminator      3411..3454
-                     /standard_name="Terminator"
+     regulatory      complement(3411..3454)
+                     /note="Geneious type: terminator"
+                     /standard_name="bacterial terminator"
 ORIGIN      
         1 ggtctcgaat ggcacaatta caacaacatc aaggtcgtgc agctgcagct caacctaaac
        61 gtgctcgtca attagctgtt gctcctcgtg ctgcattaac attcaaccct gcttcattat
@@ -72,12 +84,12 @@ ORIGIN
      2401 aatcaatcta aagtatatat gagtaaactt ggtctgacag ctcgaggctt ggattctcac
      2461 caataaaaaa cgcccggcgg caaccgagcg ttctgaacaa atccagatgg agttctgagg
      2521 tcattactgg atctatcaac aggagtccaa gcgagctcga tatcaaatta cgccccgccc
-     2581 tgccactcat cgcagtactg ttgtaattca ttaagcattc tgccgacatg gaagccatca
+     2581 tgccactcgt cgcagtactg ttgtaattca ttaagcattc tgccgacatg gaagccatca
      2641 caaacggcat gatgaacctg aatcgccagc ggcatcagca ccttgtcgcc ttgcgtataa
      2701 tatttgccca tggtgaaaac gggggcgaag aagttgtcca tattggccac gtttaaatca
-     2761 aaactggtga aactcaccca gggattggct gaaacgaaaa acatattctc aataaaccct
+     2761 aaactggtga aactcaccca gggattggct gatacgaaaa acatattctc aataaaccct
      2821 ttagggaaat aggccaggtt ttcaccgtaa cacgccacat cttgcgaata tatgtgtaga
-     2881 aactgccgga aatcgtcgtg gtattcactc cagagcgatg aaaacgtttc agtttgctca
+     2881 aactgccgga aatcgtcgtg gtattcactc cagagtgatg aaaacgtttc agtttgctca
      2941 tggaaaacgg tgtaacaagg gtgaacacta tcccatatca ccagctcacc gtctttcatt
      3001 gccatacgaa attccggatg agcattcatc aggcgggcaa gaatgtgaat aaaggccgga
      3061 taaaacttgt gcttattttt ctttacggtc tttaaaaagg ccgtaatatc cagctgaacg

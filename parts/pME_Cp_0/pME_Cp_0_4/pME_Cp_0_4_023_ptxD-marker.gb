@@ -1,33 +1,45 @@
-LOCUS       pME_Cp_0_4_023_ptxD-marker        3147 bp    DNA     circular UNA 21-FEB-2024
-DEFINITION  phosphite oxidoreductase gene, allows growth on phosphite for
-            selection.
-ACCESSION   urn.local...6aj-hdu3gr9
-VERSION     urn.local...6aj-hdu3gr9
+LOCUS       pME_Cp_0_4_023_ptxD-marker        3147 bp    DNA     circular UNA 06-AUG-2025
+DEFINITION  Phosphite oxidoreductase selection gene, codon optimized for
+            Chlamydomonas reinhardtii .
+ACCESSION   urn.local...h99-i80ecsh
+VERSION     urn.local...h99-i80ecsh
 KEYWORDS    .
-SOURCE      
-  ORGANISM  .
-COMMENT     ##pME_Standard-START##                                             
-            Box               :: Cp-4-CDS                                      
-            Antibiotic        :: Cam                                           
-            Created by        :: RI                                            
-            Lvl               :: 0                                             
-            Position          :: C5                                            
-            Part type (Lvl 0) :: 4 - CDS                                       
-            Toolbox           :: Chloroplasts                                  
-            ##pME_Standard-END##
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct.
 FEATURES             Location/Qualifiers
-     CDS             12..1049
-                     /standard_name="ptxD-marker"
-     terminator      1091..1148
-                     /standard_name="Terminator"
+     source          1..3147
+                     /organism="synthetic DNA construct"
+                     /mol_type="other DNA"
+     misc_feature    8..11
+                     /standard_name="CDS overhang"
+     CDS             9..1052
+                     /product="phosphite oxidoreductase"
+                     /codon_start=1
+                     /transl_table=1
+                     /standard_name="ptxD"
+     misc_feature    complement(1050..1053)
+                     /standard_name="CDS overhang"
+     regulatory      1091..1148
+                     /note="Geneious type: terminator"
+                     /standard_name="his operon terminator"
      rep_origin      complement(1343..1931)
-                     /note="pMB1"
-     terminator      complement(2114..2208)
-                     /standard_name="Terminator"
+     regulatory      complement(2114..2208)
+                     /note="Geneious type: terminator"
+                     /standard_name="lambda t0 terminator"
      CDS             complement(2229..2888)
+                     /gene="CmR"
+                     /product="chloramphenicol acetyltransferase"
+                     /codon_start=1
+                     /transl_table=1
+                     /standard_name="CmR"
+     regulatory      complement(2889..2992)
+                     /note="Geneious type: promoter"
+                     /note="Promoter for chloramphenicol acetyl transferase"
+                     /regulatory_class="promoter"
                      /standard_name="cat"
-     terminator      3072..3115
-                     /standard_name="Terminator"
+     regulatory      complement(3072..3115)
+                     /note="Geneious type: terminator"
+                     /standard_name="bacterial terminator"
 ORIGIN      
         1 ggtctcgaat gttaccaaaa ttagtaatta ctcaccgtgt tcacgacgaa attttacaat
        61 tattagctcc acactgtgaa ttaatgacaa accaaactga ttctacttta acacgtgaag
@@ -66,12 +78,12 @@ ORIGIN
      2041 taaattaaaa atgaagtttt aaatcaatct aaagtatata tgagtaaact tggtctgaca
      2101 gctcgaggct tggattctca ccaataaaaa acgcccggcg gcaaccgagc gttctgaaca
      2161 aatccagatg gagttctgag gtcattactg gatctatcaa caggagtcca agcgagctcg
-     2221 atatcaaatt acgccccgcc ctgccactca tcgcagtact gttgtaattc attaagcatt
+     2221 atatcaaatt acgccccgcc ctgccactcg tcgcagtact gttgtaattc attaagcatt
      2281 ctgccgacat ggaagccatc acaaacggca tgatgaacct gaatcgccag cggcatcagc
      2341 accttgtcgc cttgcgtata atatttgccc atggtgaaaa cgggggcgaa gaagttgtcc
-     2401 atattggcca cgtttaaatc aaaactggtg aaactcaccc agggattggc tgaaacgaaa
+     2401 atattggcca cgtttaaatc aaaactggtg aaactcaccc agggattggc tgatacgaaa
      2461 aacatattct caataaaccc tttagggaaa taggccaggt tttcaccgta acacgccaca
-     2521 tcttgcgaat atatgtgtag aaactgccgg aaatcgtcgt ggtattcact ccagagcgat
+     2521 tcttgcgaat atatgtgtag aaactgccgg aaatcgtcgt ggtattcact ccagagtgat
      2581 gaaaacgttt cagtttgctc atggaaaacg gtgtaacaag ggtgaacact atcccatatc
      2641 accagctcac cgtctttcat tgccatacga aattccggat gagcattcat caggcgggca
      2701 agaatgtgaa taaaggccgg ataaaacttg tgcttatttt tctttacggt ctttaaaaag

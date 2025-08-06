@@ -1,35 +1,45 @@
-LOCUS       pME_Cp_0_4_007_mScarlet-I        2802 bp    DNA     circular UNA 21-FEB-2024
-DEFINITION  mScarlet-I reporter gene codon opt. for Cr.
-ACCESSION   urn.local...6ad-hdu3gr9
-VERSION     urn.local...6ad-hdu3gr9
+LOCUS       pME_Cp_0_4_007_mScarlet-I        2802 bp    DNA     circular UNA 06-AUG-2025
+DEFINITION  mScarlet-I reporter gene, codon optimized for Chlamydomonas
+            reinhardtii.
+ACCESSION   urn.local...h9c-i80ecsh
+VERSION     urn.local...h9c-i80ecsh
 KEYWORDS    .
-SOURCE      
-  ORGANISM  .
-COMMENT     ##pME_Standard-START##                                             
-            Box               :: Cp-4-CDS                                      
-            Antibiotic        :: Cam                                           
-            Created by        :: RI                                            
-            Lvl               :: 0                                             
-            Position          :: A7                                            
-            Part type (Lvl 0) :: 4 - CDS                                       
-            Toolbox           :: Chloroplasts                                  
-            Codon usage       :: Chlamydomonas reinhardtii                     
-            Validated         :: true                                          
-            ##pME_Standard-END##
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct.
 FEATURES             Location/Qualifiers
-     CDS             <12..>704
+     source          1..2802
+                     /organism="synthetic DNA construct"
+                     /mol_type="other DNA"
+     misc_feature    8..11
+                     /standard_name="CDS overhang"
+     CDS             9..707
+                     /product="mScarlet-I"
                      /codon_start=1
+                     /transl_table=1
                      /standard_name="mScarlet-I"
-     terminator      746..803
-                     /standard_name="Terminator"
+     misc_feature    complement(705..708)
+                     /standard_name="CDS overhang"
+     regulatory      746..803
+                     /note="Geneious type: terminator"
+                     /standard_name="his operon terminator"
      rep_origin      complement(998..1586)
-                     /note="pMB1"
-     terminator      1769..1863
-                     /standard_name="Terminator"
+     regulatory      complement(1769..1863)
+                     /note="Geneious type: terminator"
+                     /standard_name="lambda t0 terminator"
      CDS             complement(1884..2543)
+                     /gene="CmR"
+                     /product="chloramphenicol acetyltransferase"
+                     /codon_start=1
+                     /transl_table=1
+                     /standard_name="CmR"
+     regulatory      complement(2544..2647)
+                     /note="Geneious type: promoter"
+                     /note="Promoter for chloramphenicol acetyl transferase"
+                     /regulatory_class="promoter"
                      /standard_name="cat"
-     terminator      2727..2770
-                     /standard_name="Terminator"
+     regulatory      complement(2727..2770)
+                     /note="Geneious type: terminator"
+                     /standard_name="bacterial terminator"
 ORIGIN      
         1 ggtctcgaat ggtttcaaaa ggtgaagcag taattaaaga atttatgcgt ttcaaagttc
        61 atatggaagg ttctatgaat ggtcacgaat ttgaaattga aggtgaaggt gaaggtcgtc
@@ -62,13 +72,13 @@ ORIGIN
      1681 tcacctagat ccttttaaat taaaaatgaa gttttaaatc aatctaaagt atatatgagt
      1741 aaacttggtc tgacagctcg aggcttggat tctcaccaat aaaaaacgcc cggcggcaac
      1801 cgagcgttct gaacaaatcc agatggagtt ctgaggtcat tactggatct atcaacagga
-     1861 gtccaagcga gctcgatatc aaattacgcc ccgccctgcc actcatcgca gtactgttgt
+     1861 gtccaagcga gctcgatatc aaattacgcc ccgccctgcc actcgtcgca gtactgttgt
      1921 aattcattaa gcattctgcc gacatggaag ccatcacaaa cggcatgatg aacctgaatc
      1981 gccagcggca tcagcacctt gtcgccttgc gtataatatt tgcccatggt gaaaacgggg
      2041 gcgaagaagt tgtccatatt ggccacgttt aaatcaaaac tggtgaaact cacccaggga
-     2101 ttggctgaaa cgaaaaacat attctcaata aaccctttag ggaaataggc caggttttca
+     2101 ttggctgata cgaaaaacat attctcaata aaccctttag ggaaataggc caggttttca
      2161 ccgtaacacg ccacatcttg cgaatatatg tgtagaaact gccggaaatc gtcgtggtat
-     2221 tcactccaga gcgatgaaaa cgtttcagtt tgctcatgga aaacggtgta acaagggtga
+     2221 tcactccaga gtgatgaaaa cgtttcagtt tgctcatgga aaacggtgta acaagggtga
      2281 acactatccc atatcaccag ctcaccgtct ttcattgcca tacgaaattc cggatgagca
      2341 ttcatcaggc gggcaagaat gtgaataaag gccggataaa acttgtgctt atttttcttt
      2401 acggtcttta aaaaggccgt aatatccagc tgaacggtct ggttataggt acattgagca

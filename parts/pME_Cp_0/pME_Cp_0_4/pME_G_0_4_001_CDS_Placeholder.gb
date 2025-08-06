@@ -1,0 +1,107 @@
+LOCUS       pME_G_0_4_001_CDS_Placeholder        3135 bp    DNA     circular UNA 06-AUG-2025
+DEFINITION  Encodes a sfGFP cassette in the CDS position used for placeholder
+            cloning.
+ACCESSION   urn.local...h9k-i80ecsi
+VERSION     urn.local...h9k-i80ecsi
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct.
+FEATURES             Location/Qualifiers
+     misc_feature    1..4
+                     /standard_name="CDS overhang"
+     source          1..3135
+                     /organism="synthetic DNA construct"
+                     /mol_type="other DNA"
+     regulatory      12..141
+                     /note="Geneious type: promoter"
+                     /standard_name="BBa_J72163 GlpT Promoter"
+     misc_feature    142..177
+                     /note="Geneious type: RBS"
+                     /standard_name="sfGFP Ribosome Binding Site"
+     CDS             178..894
+                     /gene="sfGFP"
+                     /product="superfolder GFP"
+                     /codon_start=1
+                     /transl_table=1
+                     /standard_name="sfGFP"
+     regulatory      895..1023
+                     /note="Geneious type: terminator"
+                     /standard_name="BBa_B0015 Terminator"
+     misc_feature    complement(1031..1034)
+                     /standard_name="CDS overhang"
+     regulatory      1072..1129
+                     /note="Geneious type: terminator"
+                     /standard_name="his operon terminator"
+     rep_origin      complement(1324..1912)
+     regulatory      complement(2095..2189)
+                     /note="Geneious type: terminator"
+                     /standard_name="lambda t0 terminator"
+     CDS             complement(2210..2869)
+                     /gene="CmR"
+                     /product="chloramphenicol acetyltransferase"
+                     /codon_start=1
+                     /transl_table=1
+                     /standard_name="CmR"
+     regulatory      complement(2870..2973)
+                     /note="Geneious type: promoter"
+                     /note="Promoter for chloramphenicol acetyl transferase"
+                     /regulatory_class="promoter"
+                     /standard_name="cat"
+     regulatory      complement(3053..3096)
+                     /note="Geneious type: terminator"
+                     /standard_name="bacterial terminator"
+ORIGIN      
+        1 aatgtgagac cgaaagtgaa acgtgatttc atgcgtcatt ttgaacattt tgtaaatctt
+       61 atttaataat gtgtgcggca attcacattt aatttatgaa tgttttctta acatcgcggc
+      121 aactcaagaa acggcaggtt cggatcttag ctactagaga aagaggagaa atactagatg
+      181 cgtaaaggcg aagagctgtt cactggtgtc gtccctattc tggtggaact ggatggtgat
+      241 gtcaacggtc ataagttttc cgtgcgtggc gagggtgaag gtgacgcaac taatggtaaa
+      301 ctgacgctga agttcatctg tactactggt aaactgccgg ttccttggcc gactctggta
+      361 acgacgctga cttatggtgt tcagtgcttt gctcgttatc cggaccatat gaagcagcat
+      421 gacttcttca agtccgccat gccggaaggc tatgtgcagg aacgcacgat ttcctttaag
+      481 gatgacggca cgtacaaaac gcgtgcggaa gtgaaatttg aaggcgatac cctggtaaac
+      541 cgcattgagc tgaaaggcat tgactttaaa gaggacggca atatcctggg ccataagctg
+      601 gaatacaatt ttaacagcca caatgtttac atcaccgccg ataaacaaaa aaatggcatt
+      661 aaagcgaatt ttaaaattcg ccacaacgtg gaggatggca gcgtgcagct ggctgatcac
+      721 taccagcaaa acactccaat cggtgatggt cctgttctgc tgccagacaa tcactatctg
+      781 agcacgcaaa gcgttctgtc taaagatccg aacgagaaac gcgatcatat ggttctgctg
+      841 gagttcgtaa ccgcagcggg catcacgcat ggtatggatg aactgtacaa atgaccaggc
+      901 atcaaataaa acgaaaggct cagtcgaaag actgggcctt tcgttttatc tgttgtttgt
+      961 cggtgaacgc tctctactag agtcacactg gctcaccttc gggtgggcct ttctgcgttt
+     1021 ataggtctca gctttgagaa cactcatcgc gactagtagc ggccgctgca gtccggcaaa
+     1081 aaagggcaag gtgtcaccac cctgcccttt ttctttaaaa ccgaaaagat tacttcgcgt
+     1141 tatgcaggct tcctcgctca ctgactcgct gcgctcggtc gttcggctgc ggcgagcggt
+     1201 atcagctcac tcaaaggcgg taatacggtt atccacagaa tcaggggata acgcaggaaa
+     1261 gaacatgtga gcaaaaggcc agcaaaaggc caggaaccgt aaaaaggccg cgttgctggc
+     1321 gtttttccac aggctccgcc cccctgacga gcatcacaaa aatcgacgct caagtcagag
+     1381 gtggcgaaac ccgacaggac tataaagata ccaggcgttt ccccctggaa gctccctcgt
+     1441 gcgctctcct gttccgaccc tgccgcttac cggatacctg tccgcctttc tcccttcggg
+     1501 aagcgtggcg ctttctcata gctcacgctg taggtatctc agttcggtgt aggtcgttcg
+     1561 ctccaagctg ggctgtgtgc acgaaccccc cgttcagccc gaccgctgcg ccttatccgg
+     1621 taactatcgt cttgagtcca acccggtaag acacgactta tcgccactgg cagcagccac
+     1681 tggtaacagg attagcagag cgaggtatgt aggcggtgct acagagttct tgaagtggtg
+     1741 gcctaactac ggctacacta gaagaacagt atttggtatc tgcgctctgc tgaagccagt
+     1801 taccttcgga aaaagagttg gtagctcttg atccggcaaa caaaccaccg ctggtagcgg
+     1861 tggttttttt gtttgcaagc agcagattac gcgcagaaaa aaaggatctc aagaagatcc
+     1921 tttgatcttt tctacggggt ctgacgctca gtggaacgaa aactcacgtt aagggatttt
+     1981 ggtcatgaga ttatcaaaaa ggatcttcac ctagatcctt ttaaattaaa aatgaagttt
+     2041 taaatcaatc taaagtatat atgagtaaac ttggtctgac agctcgaggc ttggattctc
+     2101 accaataaaa aacgcccggc ggcaaccgag cgttctgaac aaatccagat ggagttctga
+     2161 ggtcattact ggatctatca acaggagtcc aagcgagctc gatatcaaat tacgccccgc
+     2221 cctgccactc gtcgcagtac tgttgtaatt cattaagcat tctgccgaca tggaagccat
+     2281 cacaaacggc atgatgaacc tgaatcgcca gcggcatcag caccttgtcg ccttgcgtat
+     2341 aatatttgcc catggtgaaa acgggggcga agaagttgtc catattggcc acgtttaaat
+     2401 caaaactggt gaaactcacc cagggattgg ctgatacgaa aaacatattc tcaataaacc
+     2461 ctttagggaa ataggccagg ttttcaccgt aacacgccac atcttgcgaa tatatgtgta
+     2521 gaaactgccg gaaatcgtcg tggtattcac tccagagtga tgaaaacgtt tcagtttgct
+     2581 catggaaaac ggtgtaacaa gggtgaacac tatcccatat caccagctca ccgtctttca
+     2641 ttgccatacg aaattccgga tgagcattca tcaggcgggc aagaatgtga ataaaggccg
+     2701 gataaaactt gtgcttattt ttctttacgg tctttaaaaa ggccgtaata tccagctgaa
+     2761 cggtctggtt ataggtacat tgagcaactg actgaaatgc ctcaaaatgt tctttacgat
+     2821 gccattggga tatatcaacg gtggtatatc cagtgatttt tttctccatt ttagcttcct
+     2881 tagctcctga aaatctcgat aactcaaaaa atacgcccgg tagtgatctt atttcattat
+     2941 ggtgaaagtt ggaacctctt acgtgcccga tcaactcgag tgccacctga cgtctaagaa
+     3001 accattatta tcatgacatt aacctataaa aataggcgta tcacgaggca gaatttcaga
+     3061 taaaaaaaat ccttagcttt cgctaaggat gatttctgga attcgcggcc gcttctagag
+     3121 cgatgagtag tctcg
+//
