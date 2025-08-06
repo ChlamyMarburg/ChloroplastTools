@@ -17,6 +17,12 @@ FEATURES             Location/Qualifiers
                      /codon_start=1
                      /transl_table=1
                      /standard_name="ptxD"
+     misc_feature    532..533
+                     /note="Geneious type: Editing History Replacement"
+                     /standard_name="AAG"
+     misc_feature    535
+                     /note="Geneious type: Editing History Insertion"
+                     /standard_name
      misc_feature    complement(1050..1053)
                      /standard_name="CDS overhang"
      regulatory      1091..1148
@@ -49,7 +55,7 @@ ORIGIN
       301 atttattaac agtaccaaca gctgaattag ctattggttt agctgtaggt ttaggtcgtc
       361 acttacgtgc tgctgatgct ttcgtacgtt caggtgaatt ccaaggttgg caaccacaat
       421 tctatggtac tggtttagat aacgctactg taggtatttt aggtatgggt gctattggtt
-      481 tagctatggc tgaccgttta caaggttggg gtgctacttt acaatatcac gaagctaaag
+      481 tagctatggc tgaccgttta caaggttggg gtgctacttt acaatatcac gctcgtaaag
       541 ctttagatac tcaaacagaa caacgtttag gtttacgtca agtagcttgt tcagaattat
       601 ttgcttcttc tgatttcatt ttattagctt taccattaaa cgctgatact caacacttag
       661 taaacgctga attattagct ttagttcgtc caggtgcttt attagttaac ccatgtcgtg
