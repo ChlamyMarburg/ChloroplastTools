@@ -1,0 +1,101 @@
+LOCUS       pME_Cp_0_7-8_006_Kan/ColE1_sfGFP        2808 bp    DNA     circular UNA 06-AUG-2025
+DEFINITION  Kanamycin/ColEI backbone with sfGFP placeholder for lvl2 assembly.
+ACCESSION   urn.local...527-ji1p12l
+VERSION     urn.local...527-ji1p12l
+KEYWORDS    .
+SOURCE      
+  ORGANISM  .
+FEATURES             Location/Qualifiers
+     source          1..2808
+                     /organism="synthetic DNA construct"
+                     /mol_type="other DNA"
+     regulatory      14..143
+                     /note="Geneious type: promoter"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="BBa_J72163 GlpT Promoter"
+     misc_feature    144..179
+                     /note="Geneious type: RBS"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="sfGFP Ribosome Binding Site"
+     CDS             180..896
+                     /gene="sfGFP"
+                     /product="superfolder GFP"
+                     /codon_start=1
+                     /transl_table=1
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="sfGFP"
+     regulatory      897..1025
+                     /note="Geneious type: terminator"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="BBa_B0015 Terminator"
+     regulatory      complement(1046..1072)
+                     /note="Geneious type: terminator"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="KanR Terminator"
+     CDS             complement(1073..1888)
+                     /product="Aph(3') aminoglycoside O-phosphotransferase"
+                     /codon_start=1
+                     /transl_table=1
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="KanR"
+     regulatory      complement(1889..2036)
+                     /note="Geneious type: promoter"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="KanR Promoter"
+     rep_origin      2113..2701
+ORIGIN      
+        1 aacatgagac gaggaaagtg aaacgtgatt tcatgcgtca ttttgaacat tttgtaaatc
+       61 ttatttaata atgtgtgcgg caattcacat ttaatttatg aatgttttct taacatcgcg
+      121 gcaactcaag aaacggcagg ttcggatctt agctactaga gaaagaggag aaatactaga
+      181 tgcgtaaagg cgaagagctg ttcactggtg tcgtccctat tctggtggaa ctggatggtg
+      241 atgtcaacgg tcataagttt tccgtgcgtg gcgagggtga aggtgacgca actaatggta
+      301 aactgacgct gaagttcatc tgtactactg gtaaactgcc ggttccttgg ccgactctgg
+      361 taacgacgct gacttatggt gttcagtgct ttgctcgtta tccggaccat atgaagcagc
+      421 atgacttctt caagtccgcc atgccggaag gctatgtgca ggaacgcacg atttccttta
+      481 aggatgacgg cacgtacaaa acgcgtgcgg aagtgaaatt tgaaggcgat accctggtaa
+      541 accgcattga gctgaaaggc attgacttta aagaggacgg caatatcctg ggccataagc
+      601 tggaatacaa ttttaacagc cacaatgttt acatcaccgc cgataaacaa aaaaatggca
+      661 ttaaagcgaa ttttaaaatt cgccacaacg tggaggatgg cagcgtgcag ctggctgatc
+      721 actaccagca aaacactcca atcggtgatg gtcctgttct gctgccagac aatcactatc
+      781 tgagcacgca aagcgttctg tctaaagatc cgaacgagaa acgcgatcat atggttctgc
+      841 tggagttcgt aaccgcagcg ggcatcacgc atggtatgga tgaactgtac aaatgaccag
+      901 gcatcaaata aaacgaaagg ctcagtcgaa agactgggcc tttcgtttta tctgttgttt
+      961 gtcggtgaac gctctctact agagtcacac tggctcacct tcgggtgggc ctttctgcgt
+     1021 ttatacgtct caagactgcg gccgcgtgtt acaaccaatt aaccaattct gattagaaaa
+     1081 actcatcgag catcaaatga aactgcaatt tattcatatc aggattatca ataccatatt
+     1141 tttgaaaaag ccgtttctgt aatgaaggag aaaactcacc gaggcagttc cataggatgg
+     1201 caagatcctg gtatcggtct gcgattccga ctcgtccaac atcaatacaa cctattaatt
+     1261 tcccctcgtc aaaaataagg ttatcaagtg agaaatcacc atgagtgacg actgaatccg
+     1321 gtgagaatgg caaaagctta tgcatttctt tccagacttg ttcaacaggc cagccattac
+     1381 gctcgtcatc aaaatcactc gcatcaacca aaccgttatt cattcgtgat tgcgcctgag
+     1441 cgaggcgaaa tacgcgatcg ctgttaaaag gacaattaca aacaggaatc gaatgcaacc
+     1501 ggcgcaggaa cactgccagc gcatcaacaa tattttcacc tgaatcagga tattcttcta
+     1561 atacctggaa tgctgttttc ccggggatcg cagtggtgag taaccatgca tcatcaggag
+     1621 tacggataaa atgcttgatg gtcggaagag gcataaattc cgtcagccag tttagtctga
+     1681 ccatctcatc tgtaacatca ttggcaacgc tacctttgcc atgtttcaga aacaactctg
+     1741 gcgcatcggg cttcccatac aatcgataga ttgtcgcacc tgattgcccg acattatcgc
+     1801 gagcccattt atacccatat aaatcagcat ccatgttgga atttaatcgc ggcctggagc
+     1861 aagacgtttc ccgttgaata tggctcataa caccccttgt attactgttt atgtaagcag
+     1921 acagttttat tgttcatgat gatatatttt tatcttgtgc aatgtaacat cagagatttt
+     1981 gagacacaac gtggctttgt tgaataaatc gaacttttgc tgagttgaag gatcagtcat
+     2041 gaccaaaatc ccttaacgtg agttttcgtt ccactgagcg tcagaccccg tagaaaagat
+     2101 caaaggatct tcttgagatc ctttttttct gcgcgtaatc tgctgcttgc aaacaaaaaa
+     2161 accaccgcta ccagcggtgg tttgtttgcc ggatcaagag ctaccaactc tttttccgaa
+     2221 ggtaactggc ttcagcagag cgcagatacc aaatactgtt cttctagtgt agccgtagtt
+     2281 aggccaccac ttcaagaact ctgtagcacc gcctacatac ctcgctctgc taatcctgtt
+     2341 accagtggct gctgccagtg gcgataagtc gtgtcttacc gggttggact caagacgata
+     2401 gttaccggat aaggcgcagc ggtcgggctg aacggggggt tcgtgcacac agcccagctt
+     2461 ggagcgaacg acctacaccg aactgagata cctacagcgt gagctatgag aaagcgccac
+     2521 gcttcccgaa gggagaaagg cggacaggta tccggtaagc ggcagggtcg gaacaggaga
+     2581 gcgcacgagg gagcttccag ggggaaacgc ctggtatctt tatagtcctg tcgggtttcg
+     2641 ccacctctga cttgagcgtc gatttttgtg atgctcgtca ggggggcgga gcctatggaa
+     2701 aaacgccagc aacgcggcct ttttacggtt cctggccttt tgctggcctt ttgctcacat
+     2761 gttctttcct gcgttatccc ctgattctgt ggataaccgt gcggccgc
+//

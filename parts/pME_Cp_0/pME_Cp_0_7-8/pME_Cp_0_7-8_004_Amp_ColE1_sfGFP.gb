@@ -1,0 +1,103 @@
+LOCUS       pME_Cp_0_7-8_004_Amp/ColE1_sfGFP        2904 bp    DNA     circular UNA 06-AUG-2025
+DEFINITION  Ampicillin/ColEI backbone with sfGFP placeholder for lvl1 assembly.
+ACCESSION   urn.local...hfb-i80ecss
+VERSION     urn.local...hfb-i80ecss
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct.
+FEATURES             Location/Qualifiers
+     source          1..2904
+                     /organism="synthetic DNA construct"
+                     /mol_type="other DNA"
+     regulatory      15..144
+                     /note="Geneious type: promoter"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="BBa_J72163 GlpT Promoter"
+     misc_feature    145..180
+                     /note="Geneious type: RBS"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="sfGFP Ribosome Binding Site"
+     CDS             181..897
+                     /gene="sfGFP"
+                     /product="superfolder GFP"
+                     /codon_start=1
+                     /transl_table=1
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="sfGFP"
+     regulatory      898..1026
+                     /note="Geneious type: terminator"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="BBa_B0015 Terminator"
+     regulatory      complement(1047..1143)
+                     /note="Geneious type: terminator"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="AmpR Terminator"
+     CDS             complement(1144..2001)
+                     /product="beta-lactamase"
+                     /codon_start=1
+                     /transl_table=1
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="AmpR"
+     regulatory      complement(2002..2132)
+                     /note="Geneious type: promoter"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="AmpR Promoter"
+     rep_origin      2209..2797
+ORIGIN      
+        1 aacatgagac cagagaaagt gaaacgtgat ttcatgcgtc attttgaaca ttttgtaaat
+       61 cttatttaat aatgtgtgcg gcaattcaca tttaatttat gaatgttttc ttaacatcgc
+      121 ggcaactcaa gaaacggcag gttcggatct tagctactag agaaagagga gaaatactag
+      181 atgcgtaaag gcgaagagct gttcactggt gtcgtcccta ttctggtgga actggatggt
+      241 gatgtcaacg gtcataagtt ttccgtgcgt ggcgagggtg aaggtgacgc aactaatggt
+      301 aaactgacgc tgaagttcat ctgtactact ggtaaactgc cggttccttg gccgactctg
+      361 gtaacgacgc tgacttatgg tgttcagtgc tttgctcgtt atccggacca tatgaagcag
+      421 catgacttct tcaagtccgc catgccggaa ggctatgtgc aggaacgcac gatttccttt
+      481 aaggatgacg gcacgtacaa aacgcgtgcg gaagtgaaat ttgaaggcga taccctggta
+      541 aaccgcattg agctgaaagg cattgacttt aaagaggacg gcaatatcct gggccataag
+      601 ctggaataca attttaacag ccacaatgtt tacatcaccg ccgataaaca aaaaaatggc
+      661 attaaagcga attttaaaat tcgccacaac gtggaggatg gcagcgtgca gctggctgat
+      721 cactaccagc aaaacactcc aatcggtgat ggtcctgttc tgctgccaga caatcactat
+      781 ctgagcacgc aaagcgttct gtctaaagat ccgaacgaga aacgcgatca tatggttctg
+      841 ctggagttcg taaccgcagc gggcatcacg catggtatgg atgaactgta caaatgacca
+      901 ggcatcaaat aaaacgaaag gctcagtcga aagactgggc ctttcgtttt atctgttgtt
+      961 tgtcggtgaa cgctctctac tagagtcaca ctggctcacc ttcgggtggg cctttctgcg
+     1021 tttataggtc tcaagactgc ggccgcgatt atcaaaaagg atcttcacct agatcctttt
+     1081 aaattaaaaa tgaagtttta aatcaatcta aagtatatat gagtaaactt ggtctgacag
+     1141 ttaccaatgc ttaatcagtg aggcacctat ctcagcgatc tgtctatttc gttcatccat
+     1201 agttgcctga ctccccgtcg tgtagataac tacgatacgg gagggcttac catctggccc
+     1261 cagtgctgca atgataccgc gggacccacg ctcaccggct ccagatttat cagcaataaa
+     1321 ccagccagcc ggaagggccg agcgcagaag tggtcctgca actttatccg cctccatcca
+     1381 gtctattaat tgttgccggg aagctagagt aagtagttcg ccagttaata gtttgcgcaa
+     1441 cgttgttgcc attgctacag gcatcgtggt gtcacgctcg tcgtttggta tggcttcatt
+     1501 cagctccggt tcccaacgat caaggcgagt tacatgatcc cccatgttgt gcaaaaaagc
+     1561 ggttagctcc ttcggtcctc cgatcgttgt cagaagtaag ttggccgcag tgttatcact
+     1621 catggttatg gcagcactgc ataattctct tactgtcatg ccatccgtaa gatgcttttc
+     1681 tgtgactggt gagtactcaa ccaagtcatt ctgagaatag tgtatgcggc gaccgagttg
+     1741 ctcttgcccg gcgtcaatac gggataatac cgcgccacat agcagaactt taaaagtgct
+     1801 catcattgga aaacgttctt cggggcgaaa actctcaagg atcttaccgc tgttgagatc
+     1861 cagttcgatg taacccactc gtgcacccaa ctgatcttca gcatctttta ctttcaccag
+     1921 cgtttctggg tgagcaaaaa caggaaggca aaatgccgca aaaaagggaa taagggcgac
+     1981 acggaaatgt tgaatactca tactcttcct ttttcaatat tattgaagca tttatcaggg
+     2041 ttattgtctc atgagcggat acatatttga atgtatttag aaaaataaac aaataggggt
+     2101 tccgcgcaca tttccccgaa aagtgccacc tgtcatgacc aaaatccctt aacgtgagtt
+     2161 ttcgttccac tgagcgtcag accccgtaga aaagatcaaa ggatcttctt gagatccttt
+     2221 ttttctgcgc gtaatctgct gcttgcaaac aaaaaaacca ccgctaccag cggtggtttg
+     2281 tttgccggat caagagctac caactctttt tccgaaggta actggcttca gcagagcgca
+     2341 gataccaaat actgttcttc tagtgtagcc gtagttaggc caccacttca agaactctgt
+     2401 agcaccgcct acatacctcg ctctgctaat cctgttacca gtggctgctg ccagtggcga
+     2461 taagtcgtgt cttaccgggt tggactcaag acgatagtta ccggataagg cgcagcggtc
+     2521 gggctgaacg gggggttcgt gcacacagcc cagcttggag cgaacgacct acaccgaact
+     2581 gagataccta cagcgtgagc tatgagaaag cgccacgctt cccgaaggga gaaaggcgga
+     2641 caggtatccg gtaagcggca gggtcggaac aggagagcgc acgagggagc ttccaggggg
+     2701 aaacgcctgg tatctttata gtcctgtcgg gtttcgccac ctctgacttg agcgtcgatt
+     2761 tttgtgatgc tcgtcagggg ggcggagcct atggaaaaac gccagcaacg cggccttttt
+     2821 acggttcctg gccttttgct ggccttttgc tcacatgttc tttcctgcgt tatcccctga
+     2881 ttctgtggat aaccgtgcgg ccgc
+//
