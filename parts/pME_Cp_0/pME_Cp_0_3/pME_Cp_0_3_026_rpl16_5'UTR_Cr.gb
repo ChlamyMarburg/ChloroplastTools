@@ -1,34 +1,36 @@
-LOCUS       pME_Cp_0_3_026_rpl16_5'UTR_Cr        2670 bp    DNA     circular UNA 19-APR-2024
+LOCUS       pME_Cp_0_3_026_rpl16_5'UTR_Cr        2670 bp    DNA     circular UNA 06-AUG-2025
 DEFINITION  rpl16 5'UTR Chlamydomonas reinhardtii.
-ACCESSION   urn.local...5i3-hdu3fcu
-VERSION     urn.local...5i3-hdu3fcu
+ACCESSION   urn.local...hcr-i80ecsn
+VERSION     urn.local...hcr-i80ecsn
 KEYWORDS    .
-SOURCE      
-  ORGANISM  .
-COMMENT     ##pME_Standard-START##                                             
-            Box               :: Cp-3-5'UTR                                    
-            Antibiotic        :: Cam                                           
-            Created by        :: MCB                                           
-            Lvl               :: 0                                             
-            Position          :: C8                                            
-            Part type (Lvl 0) :: 3 - 5'UTR                                     
-            Toolbox           :: Chloroplasts                                  
-            ##pME_Standard-END##
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct.
 FEATURES             Location/Qualifiers
+     source          1..2670
+                     /mol_type="other DNA"
+                     /organism="synthetic DNA construct"
+     misc_feature    8..11
+                     /standard_name="5'UTR overhang"
      5'UTR           12..572
-                     /standard_name="rpl16 5'UTR Chlamy"
-                     /modified_by="chotelt"
-                     /label="rpl16 5'UTR Cr"
-     terminator      614..671
-                     /standard_name="Terminator"
+                     /standard_name="rpl16 5'UTR Cr"
+     misc_feature    complement(573..576)
+                     /standard_name="5'UTR overhang"
+     regulatory      614..671
+                     /standard_name="his operon terminator"
      rep_origin      complement(866..1454)
-                     /note="pMB1"
-     terminator      complement(1637..1731)
-                     /standard_name="Terminator"
+     regulatory      complement(1637..1731)
+                     /standard_name="lambda t0 terminator"
      CDS             complement(1752..2411)
+                     /gene="CmR"
+                     /product="chloramphenicol acetyltransferase"
+                     /codon_start=1
+                     /transl_table=1
+                     /standard_name="CmR"
+     regulatory      complement(2412..2515)
+                     /regulatory_class="promoter"
                      /standard_name="cat"
-     terminator      2595..2638
-                     /standard_name="Terminator"
+     regulatory      complement(2595..2638)
+                     /standard_name="bacterial terminator"
 ORIGIN      
         1 ggtctcgtac tgattaaact aattttacca taagtattct gttttaataa atttatgccc
        61 atgaacgctg ccaaaggagg cagtggctcg ccactgcccc cttacgggta cataaatgtc
@@ -59,12 +61,12 @@ ORIGIN
      1561 ttttaaatta aaaatgaagt tttaaatcaa tctaaagtat atatgagtaa acttggtctg
      1621 acagctcgag gcttggattc tcaccaataa aaaacgcccg gcggcaaccg agcgttctga
      1681 acaaatccag atggagttct gaggtcatta ctggatctat caacaggagt ccaagcgagc
-     1741 tcgatatcaa attacgcccc gccctgccac tcatcgcagt actgttgtaa ttcattaagc
+     1741 tcgatatcaa attacgcccc gccctgccac tcgtcgcagt actgttgtaa ttcattaagc
      1801 attctgccga catggaagcc atcacaaacg gcatgatgaa cctgaatcgc cagcggcatc
      1861 agcaccttgt cgccttgcgt ataatatttg cccatggtga aaacgggggc gaagaagttg
-     1921 tccatattgg ccacgtttaa atcaaaactg gtgaaactca cccagggatt ggctgaaacg
+     1921 tccatattgg ccacgtttaa atcaaaactg gtgaaactca cccagggatt ggctgatacg
      1981 aaaaacatat tctcaataaa ccctttaggg aaataggcca ggttttcacc gtaacacgcc
-     2041 acatcttgcg aatatatgtg tagaaactgc cggaaatcgt cgtggtattc actccagagc
+     2041 acatcttgcg aatatatgtg tagaaactgc cggaaatcgt cgtggtattc actccagagt
      2101 gatgaaaacg tttcagtttg ctcatggaaa acggtgtaac aagggtgaac actatcccat
      2161 atcaccagct caccgtcttt cattgccata cgaaattccg gatgagcatt catcaggcgg
      2221 gcaagaatgt gaataaaggc cggataaaac ttgtgcttat ttttctttac ggtctttaaa

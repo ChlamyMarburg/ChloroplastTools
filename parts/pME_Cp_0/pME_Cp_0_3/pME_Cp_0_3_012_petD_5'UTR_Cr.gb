@@ -1,34 +1,36 @@
-LOCUS       pME_Cp_0_3_012_petD_5'UTR_Cr        2477 bp    DNA     circular UNA 19-APR-2024
+LOCUS       pME_Cp_0_3_012_petD_5'UTR_Cr        2477 bp    DNA     circular UNA 06-AUG-2025
 DEFINITION  petD 5'UTR Chlamydomonas reinhardtii.
-ACCESSION   urn.local...5hq-hdu3fcu
-VERSION     urn.local...5hq-hdu3fcu
+ACCESSION   urn.local...hc8-i80ecsn
+VERSION     urn.local...hc8-i80ecsn
 KEYWORDS    .
-SOURCE      
-  ORGANISM  .
-COMMENT     ##pME_Standard-START##                                             
-            Box               :: Cp-3-5'UTR                                    
-            Antibiotic        :: Cam                                           
-            Created by        :: MCB                                           
-            Lvl               :: 0                                             
-            Position          :: B3                                            
-            Part type (Lvl 0) :: 3 - 5'UTR                                     
-            Toolbox           :: Chloroplasts                                  
-            ##pME_Standard-END##
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct.
 FEATURES             Location/Qualifiers
+     source          1..2477
+                     /mol_type="other DNA"
+                     /organism="synthetic DNA construct"
+     misc_feature    8..11
+                     /standard_name="5'UTR overhang"
      5'UTR           12..379
-                     /standard_name="petD 5'UTR Chlamy"
-                     /modified_by="chotelt"
-                     /label="petD 5'UTR Cr"
-     terminator      421..478
-                     /standard_name="Terminator"
+                     /standard_name="petD 5'UTR"
+     misc_feature    complement(380..383)
+                     /standard_name="5'UTR overhang"
+     regulatory      421..478
+                     /standard_name="his operon terminator"
      rep_origin      complement(673..1261)
-                     /note="pMB1"
-     terminator      complement(1444..1538)
-                     /standard_name="Terminator"
+     regulatory      complement(1444..1538)
+                     /standard_name="lambda t0 terminator"
      CDS             complement(1559..2218)
+                     /gene="CmR"
+                     /product="chloramphenicol acetyltransferase"
+                     /codon_start=1
+                     /transl_table=1
+                     /standard_name="CmR"
+     regulatory      complement(2219..2322)
+                     /regulatory_class="promoter"
                      /standard_name="cat"
-     terminator      2402..2445
-                     /standard_name="Terminator"
+     regulatory      complement(2402..2445)
+                     /standard_name="bacterial terminator"
 ORIGIN      
         1 ggtctcgtac taaaaatttt tagcatgtaa acattagaaa tacagcataa ttggagtaaa
        61 agaaaaatat taaactttta cattgaaaag tttatggcgt tttggcttta taaaataaaa
@@ -56,12 +58,12 @@ ORIGIN
      1381 atgaagtttt aaatcaatct aaagtatata tgagtaaact tggtctgaca gctcgaggct
      1441 tggattctca ccaataaaaa acgcccggcg gcaaccgagc gttctgaaca aatccagatg
      1501 gagttctgag gtcattactg gatctatcaa caggagtcca agcgagctcg atatcaaatt
-     1561 acgccccgcc ctgccactca tcgcagtact gttgtaattc attaagcatt ctgccgacat
+     1561 acgccccgcc ctgccactcg tcgcagtact gttgtaattc attaagcatt ctgccgacat
      1621 ggaagccatc acaaacggca tgatgaacct gaatcgccag cggcatcagc accttgtcgc
      1681 cttgcgtata atatttgccc atggtgaaaa cgggggcgaa gaagttgtcc atattggcca
-     1741 cgtttaaatc aaaactggtg aaactcaccc agggattggc tgaaacgaaa aacatattct
+     1741 cgtttaaatc aaaactggtg aaactcaccc agggattggc tgatacgaaa aacatattct
      1801 caataaaccc tttagggaaa taggccaggt tttcaccgta acacgccaca tcttgcgaat
-     1861 atatgtgtag aaactgccgg aaatcgtcgt ggtattcact ccagagcgat gaaaacgttt
+     1861 atatgtgtag aaactgccgg aaatcgtcgt ggtattcact ccagagtgat gaaaacgttt
      1921 cagtttgctc atggaaaacg gtgtaacaag ggtgaacact atcccatatc accagctcac
      1981 cgtctttcat tgccatacga aattccggat gagcattcat caggcgggca agaatgtgaa
      2041 taaaggccgg ataaaacttg tgcttatttt tctttacggt ctttaaaaag gccgtaatat

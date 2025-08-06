@@ -1,0 +1,71 @@
+LOCUS       pME_Cp_0_3_092_Synthetic_5'UTR_3_Sy        2139 bp    DNA     circular UNA 06-AUG-2025
+DEFINITION  Synthetic_5'UTR_3.
+ACCESSION   urn.local...hc5-i80ecsm
+VERSION     urn.local...hc5-i80ecsm
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct.
+FEATURES             Location/Qualifiers
+     source          1..2139
+                     /mol_type="other DNA"
+                     /organism="synthetic DNA construct"
+     misc_feature    8..11
+                     /standard_name="5'UTR overhang"
+     5'UTR           12..41
+                     /standard_name="Synthetic 5'UTR 3"
+     misc_feature    complement(42..45)
+                     /standard_name="5'UTR overhang"
+     regulatory      83..140
+                     /standard_name="his operon terminator"
+     rep_origin      complement(335..923)
+     regulatory      complement(1106..1200)
+                     /standard_name="lambda t0 terminator"
+     CDS             complement(1221..1880)
+                     /gene="CmR"
+                     /product="chloramphenicol acetyltransferase"
+                     /codon_start=1
+                     /transl_table=1
+                     /standard_name="CmR"
+     regulatory      complement(1881..1984)
+                     /regulatory_class="promoter"
+                     /standard_name="cat"
+     regulatory      complement(2064..2107)
+                     /standard_name="bacterial terminator"
+ORIGIN      
+        1 ggtctcgtac tatatgatgt agattcattt aggaggaaat aaatgtgaga ccactcatcg
+       61 cgactagtag cggccgctgc agtccggcaa aaaagggcaa ggtgtcacca ccctgccctt
+      121 tttctttaaa accgaaaaga ttacttcgcg ttatgcaggc ttcctcgctc actgactcgc
+      181 tgcgctcggt cgttcggctg cggcgagcgg tatcagctca ctcaaaggcg gtaatacggt
+      241 tatccacaga atcaggggat aacgcaggaa agaacatgtg agcaaaaggc cagcaaaagg
+      301 ccaggaaccg taaaaaggcc gcgttgctgg cgtttttcca caggctccgc ccccctgacg
+      361 agcatcacaa aaatcgacgc tcaagtcaga ggtggcgaaa cccgacagga ctataaagat
+      421 accaggcgtt tccccctgga agctccctcg tgcgctctcc tgttccgacc ctgccgctta
+      481 ccggatacct gtccgccttt ctcccttcgg gaagcgtggc gctttctcat agctcacgct
+      541 gtaggtatct cagttcggtg taggtcgttc gctccaagct gggctgtgtg cacgaacccc
+      601 ccgttcagcc cgaccgctgc gccttatccg gtaactatcg tcttgagtcc aacccggtaa
+      661 gacacgactt atcgccactg gcagcagcca ctggtaacag gattagcaga gcgaggtatg
+      721 taggcggtgc tacagagttc ttgaagtggt ggcctaacta cggctacact agaagaacag
+      781 tatttggtat ctgcgctctg ctgaagccag ttaccttcgg aaaaagagtt ggtagctctt
+      841 gatccggcaa acaaaccacc gctggtagcg gtggtttttt tgtttgcaag cagcagatta
+      901 cgcgcagaaa aaaaggatct caagaagatc ctttgatctt ttctacgggg tctgacgctc
+      961 agtggaacga aaactcacgt taagggattt tggtcatgag attatcaaaa aggatcttca
+     1021 cctagatcct tttaaattaa aaatgaagtt ttaaatcaat ctaaagtata tatgagtaaa
+     1081 cttggtctga cagctcgagg cttggattct caccaataaa aaacgcccgg cggcaaccga
+     1141 gcgttctgaa caaatccaga tggagttctg aggtcattac tggatctatc aacaggagtc
+     1201 caagcgagct cgatatcaaa ttacgccccg ccctgccact cgtcgcagta ctgttgtaat
+     1261 tcattaagca ttctgccgac atggaagcca tcacaaacgg catgatgaac ctgaatcgcc
+     1321 agcggcatca gcaccttgtc gccttgcgta taatatttgc ccatggtgaa aacgggggcg
+     1381 aagaagttgt ccatattggc cacgtttaaa tcaaaactgg tgaaactcac ccagggattg
+     1441 gctgatacga aaaacatatt ctcaataaac cctttaggga aataggccag gttttcaccg
+     1501 taacacgcca catcttgcga atatatgtgt agaaactgcc ggaaatcgtc gtggtattca
+     1561 ctccagagtg atgaaaacgt ttcagtttgc tcatggaaaa cggtgtaaca agggtgaaca
+     1621 ctatcccata tcaccagctc accgtctttc attgccatac gaaattccgg atgagcattc
+     1681 atcaggcggg caagaatgtg aataaaggcc ggataaaact tgtgcttatt tttctttacg
+     1741 gtctttaaaa aggccgtaat atccagctga acggtctggt tataggtaca ttgagcaact
+     1801 gactgaaatg cctcaaaatg ttctttacga tgccattggg atatatcaac ggtggtatat
+     1861 ccagtgattt ttttctccat tttagcttcc ttagctcctg aaaatctcga taactcaaaa
+     1921 aatacgcccg gtagtgatct tatttcatta tggtgaaagt tggaacctct tacgtgcccg
+     1981 atcaactcga gtgccacctg acgtctaaga aaccattatt atcatgacat taacctataa
+     2041 aaataggcgt atcacgaggc agaatttcag ataaaaaaaa tccttagctt tcgctaagga
+     2101 tgatttctgg aattcgcggc cgcttctaga gcgatgagt
+//

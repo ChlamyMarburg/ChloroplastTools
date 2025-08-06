@@ -1,35 +1,36 @@
-LOCUS       pME_Cp_0_3_006_psaA_5'UTR_Cr        2245 bp    DNA     circular UNA 19-APR-2024
+LOCUS       pME_Cp_0_3_006_psaA_5'UTR_Cr        2245 bp    DNA     circular UNA 06-AUG-2025
 DEFINITION  psaA 5'UTR Chlamydomonas reinhardtii.
-ACCESSION   urn.local...5hk-hdu3fcu
-VERSION     urn.local...5hk-hdu3fcu
+ACCESSION   urn.local...hc6-i80ecsn
+VERSION     urn.local...hc6-i80ecsn
 KEYWORDS    .
-SOURCE      
-  ORGANISM  .
-COMMENT     ##pME_Standard-START##                                             
-            Box               :: Cp-3-5'UTR                                    
-            Antibiotic        :: Cam                                           
-            Created by        :: MCB                                           
-            Fusion tag        :: -                                             
-            Lvl               :: 0                                             
-            Position          :: A6                                            
-            Part type (Lvl 0) :: 3 - 5'UTR                                     
-            Toolbox           :: Chloroplasts                                  
-            Codon usage       :: -                                             
-            ##pME_Standard-END##
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct.
 FEATURES             Location/Qualifiers
+     source          1..2245
+                     /mol_type="other DNA"
+                     /organism="synthetic DNA construct"
+     misc_feature    8..11
+                     /standard_name="5'UTR overhang"
      5'UTR           12..147
-                     /standard_name="psaA_5'UTR_Cr"
-                     /modified_by="chotelt"
-     terminator      189..246
-                     /standard_name="Terminator"
+                     /standard_name="psaA 5'UTR Cr"
+     misc_feature    complement(148..151)
+                     /standard_name="5'UTR overhang"
+     regulatory      189..246
+                     /standard_name="his operon terminator"
      rep_origin      complement(441..1029)
-                     /note="pMB1"
-     terminator      complement(1212..1306)
-                     /standard_name="Terminator"
+     regulatory      complement(1212..1306)
+                     /standard_name="lambda t0 terminator"
      CDS             complement(1327..1986)
+                     /gene="CmR"
+                     /product="chloramphenicol acetyltransferase"
+                     /codon_start=1
+                     /transl_table=1
+                     /standard_name="CmR"
+     regulatory      complement(1987..2090)
+                     /regulatory_class="promoter"
                      /standard_name="cat"
-     terminator      2170..2213
-                     /standard_name="Terminator"
+     regulatory      complement(2170..2213)
+                     /standard_name="bacterial terminator"
 ORIGIN      
         1 ggtctcgtac tatatgatgt aaaaaaaact atttgtctaa tttaataacc atgcattttt
        61 tatgaacaca taataattaa aagcgttgct aatggtgtaa ataatgtatt tattaaatta
@@ -53,12 +54,12 @@ ORIGIN
      1141 aattaaaaat gaagttttaa atcaatctaa agtatatatg agtaaacttg gtctgacagc
      1201 tcgaggcttg gattctcacc aataaaaaac gcccggcggc aaccgagcgt tctgaacaaa
      1261 tccagatgga gttctgaggt cattactgga tctatcaaca ggagtccaag cgagctcgat
-     1321 atcaaattac gccccgccct gccactcatc gcagtactgt tgtaattcat taagcattct
+     1321 atcaaattac gccccgccct gccactcgtc gcagtactgt tgtaattcat taagcattct
      1381 gccgacatgg aagccatcac aaacggcatg atgaacctga atcgccagcg gcatcagcac
      1441 cttgtcgcct tgcgtataat atttgcccat ggtgaaaacg ggggcgaaga agttgtccat
-     1501 attggccacg tttaaatcaa aactggtgaa actcacccag ggattggctg aaacgaaaaa
+     1501 attggccacg tttaaatcaa aactggtgaa actcacccag ggattggctg atacgaaaaa
      1561 catattctca ataaaccctt tagggaaata ggccaggttt tcaccgtaac acgccacatc
-     1621 ttgcgaatat atgtgtagaa actgccggaa atcgtcgtgg tattcactcc agagcgatga
+     1621 ttgcgaatat atgtgtagaa actgccggaa atcgtcgtgg tattcactcc agagtgatga
      1681 aaacgtttca gtttgctcat ggaaaacggt gtaacaaggg tgaacactat cccatatcac
      1741 cagctcaccg tctttcattg ccatacgaaa ttccggatga gcattcatca ggcgggcaag
      1801 aatgtgaata aaggccggat aaaacttgtg cttatttttc tttacggtct ttaaaaaggc

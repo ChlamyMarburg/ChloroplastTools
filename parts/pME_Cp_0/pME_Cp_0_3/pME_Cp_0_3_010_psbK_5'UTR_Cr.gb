@@ -1,34 +1,36 @@
-LOCUS       pME_Cp_0_3_010_psbK_5'UTR_Cr        2389 bp    DNA     circular UNA 19-APR-2024
+LOCUS       pME_Cp_0_3_010_psbK_5'UTR_Cr        2389 bp    DNA     circular UNA 06-AUG-2025
 DEFINITION  psbK 5'UTR Chlamydomonas reinhardtii.
-ACCESSION   urn.local...5ho-hdu3fcu
-VERSION     urn.local...5ho-hdu3fcu
+ACCESSION   urn.local...hcs-i80ecsn
+VERSION     urn.local...hcs-i80ecsn
 KEYWORDS    .
-SOURCE      
-  ORGANISM  .
-COMMENT     ##pME_Standard-START##                                             
-            Box               :: Cp-3-5'UTR                                    
-            Antibiotic        :: Cam                                           
-            Created by        :: MCB                                           
-            Fusion tag        :: -                                             
-            Lvl               :: 0                                             
-            Position          :: B1                                            
-            Part type (Lvl 0) :: 3 - 5'UTR                                     
-            Toolbox           :: Chloroplasts                                  
-            Codon usage       :: -                                             
-            ##pME_Standard-END##
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct.
 FEATURES             Location/Qualifiers
+     source          1..2389
+                     /mol_type="other DNA"
+                     /organism="synthetic DNA construct"
+     misc_feature    8..11
+                     /standard_name="5'UTR overhang"
      5'UTR           12..291
-                     /standard_name="psbK_5'UTR_Cr"
-     terminator      333..390
-                     /standard_name="Terminator"
+                     /standard_name="psbK 5'UTR Cr"
+     misc_feature    complement(292..295)
+                     /standard_name="5'UTR overhang"
+     regulatory      333..390
+                     /standard_name="his operon terminator"
      rep_origin      complement(585..1173)
-                     /note="pMB1"
-     terminator      complement(1356..1450)
-                     /standard_name="Terminator"
+     regulatory      complement(1356..1450)
+                     /standard_name="lambda t0 terminator"
      CDS             complement(1471..2130)
+                     /gene="CmR"
+                     /product="chloramphenicol acetyltransferase"
+                     /codon_start=1
+                     /transl_table=1
+                     /standard_name="CmR"
+     regulatory      complement(2131..2234)
+                     /regulatory_class="promoter"
                      /standard_name="cat"
-     terminator      2314..2357
-                     /standard_name="Terminator"
+     regulatory      complement(2314..2357)
+                     /standard_name="bacterial terminator"
 ORIGIN      
         1 ggtctcgtac ttttgatttt agaaagaaaa aacgagcttt aaggtgagct tattttgttg
        61 cgtgtaaatt tttaaaatct aaggtgtata gacaaaaatc tacattttca tatgctaaaa
@@ -54,13 +56,13 @@ ORIGIN
      1261 aggatcttca cctagatcct tttaaattaa aaatgaagtt ttaaatcaat ctaaagtata
      1321 tatgagtaaa cttggtctga cagctcgagg cttggattct caccaataaa aaacgcccgg
      1381 cggcaaccga gcgttctgaa caaatccaga tggagttctg aggtcattac tggatctatc
-     1441 aacaggagtc caagcgagct cgatatcaaa ttacgccccg ccctgccact catcgcagta
+     1441 aacaggagtc caagcgagct cgatatcaaa ttacgccccg ccctgccact cgtcgcagta
      1501 ctgttgtaat tcattaagca ttctgccgac atggaagcca tcacaaacgg catgatgaac
      1561 ctgaatcgcc agcggcatca gcaccttgtc gccttgcgta taatatttgc ccatggtgaa
      1621 aacgggggcg aagaagttgt ccatattggc cacgtttaaa tcaaaactgg tgaaactcac
-     1681 ccagggattg gctgaaacga aaaacatatt ctcaataaac cctttaggga aataggccag
+     1681 ccagggattg gctgatacga aaaacatatt ctcaataaac cctttaggga aataggccag
      1741 gttttcaccg taacacgcca catcttgcga atatatgtgt agaaactgcc ggaaatcgtc
-     1801 gtggtattca ctccagagcg atgaaaacgt ttcagtttgc tcatggaaaa cggtgtaaca
+     1801 gtggtattca ctccagagtg atgaaaacgt ttcagtttgc tcatggaaaa cggtgtaaca
      1861 agggtgaaca ctatcccata tcaccagctc accgtctttc attgccatac gaaattccgg
      1921 atgagcattc atcaggcggg caagaatgtg aataaaggcc ggataaaact tgtgcttatt
      1981 tttctttacg gtctttaaaa aggccgtaat atccagctga acggtctggt tataggtaca

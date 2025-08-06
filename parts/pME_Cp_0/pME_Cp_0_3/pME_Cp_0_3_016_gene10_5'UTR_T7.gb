@@ -1,32 +1,36 @@
-LOCUS       pME_Cp_0_3_016_gene10_5'UTR_T7        2169 bp    DNA     circular UNA 19-APR-2024
+LOCUS       pME_Cp_0_3_016_gene10_5'UTR_T7        2169 bp    DNA     circular UNA 06-AUG-2025
 DEFINITION  gene10 5'UTR T7 Ecoli phage.
-ACCESSION   urn.local...5hu-hdu3fcu
-VERSION     urn.local...5hu-hdu3fcu
+ACCESSION   urn.local...hc9-i80ecsn
+VERSION     urn.local...hc9-i80ecsn
 KEYWORDS    .
-SOURCE      
-  ORGANISM  .
-COMMENT     ##pME_Standard-START##                                             
-            Box               :: Cp-3-5'UTR                                    
-            Antibiotic        :: Cam                                           
-            Created by        :: MCB                                           
-            Lvl               :: 0                                             
-            Position          :: B7                                            
-            Part type (Lvl 0) :: 3 - 5'UTR                                     
-            Toolbox           :: Chloroplasts                                  
-            ##pME_Standard-END##
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct.
 FEATURES             Location/Qualifiers
+     source          1..2169
+                     /mol_type="other DNA"
+                     /organism="synthetic DNA construct"
+     misc_feature    8..11
+                     /standard_name="5'UTR overhang"
      5'UTR           12..71
                      /standard_name="gene10 5'UTR T7"
-     terminator      113..170
-                     /standard_name="Terminator"
+     misc_feature    complement(72..75)
+                     /standard_name="5'UTR overhang"
+     regulatory      113..170
+                     /standard_name="his operon terminator"
      rep_origin      complement(365..953)
-                     /note="pMB1"
-     terminator      1136..1230
-                     /standard_name="Terminator"
+     regulatory      complement(1136..1230)
+                     /standard_name="lambda t0 terminator"
      CDS             complement(1251..1910)
+                     /gene="CmR"
+                     /product="chloramphenicol acetyltransferase"
+                     /codon_start=1
+                     /transl_table=1
+                     /standard_name="CmR"
+     regulatory      complement(1911..2014)
+                     /regulatory_class="promoter"
                      /standard_name="cat"
-     terminator      2094..2137
-                     /standard_name="Terminator"
+     regulatory      complement(2094..2137)
+                     /standard_name="bacterial terminator"
 ORIGIN      
         1 ggtctcgtac tagaccacaa cggtttccct ctagaaataa ttttgtttaa ctttaagaag
        61 gagatataca taatgtgaga ccactcatcg cgactagtag cggccgctgc agtccggcaa
@@ -49,12 +53,12 @@ ORIGIN
      1081 ttaaatcaat ctaaagtata tatgagtaaa cttggtctga cagctcgagg cttggattct
      1141 caccaataaa aaacgcccgg cggcaaccga gcgttctgaa caaatccaga tggagttctg
      1201 aggtcattac tggatctatc aacaggagtc caagcgagct cgatatcaaa ttacgccccg
-     1261 ccctgccact catcgcagta ctgttgtaat tcattaagca ttctgccgac atggaagcca
+     1261 ccctgccact cgtcgcagta ctgttgtaat tcattaagca ttctgccgac atggaagcca
      1321 tcacaaacgg catgatgaac ctgaatcgcc agcggcatca gcaccttgtc gccttgcgta
      1381 taatatttgc ccatggtgaa aacgggggcg aagaagttgt ccatattggc cacgtttaaa
-     1441 tcaaaactgg tgaaactcac ccagggattg gctgaaacga aaaacatatt ctcaataaac
+     1441 tcaaaactgg tgaaactcac ccagggattg gctgatacga aaaacatatt ctcaataaac
      1501 cctttaggga aataggccag gttttcaccg taacacgcca catcttgcga atatatgtgt
-     1561 agaaactgcc ggaaatcgtc gtggtattca ctccagagcg atgaaaacgt ttcagtttgc
+     1561 agaaactgcc ggaaatcgtc gtggtattca ctccagagtg atgaaaacgt ttcagtttgc
      1621 tcatggaaaa cggtgtaaca agggtgaaca ctatcccata tcaccagctc accgtctttc
      1681 attgccatac gaaattccgg atgagcattc atcaggcggg caagaatgtg aataaaggcc
      1741 ggataaaact tgtgcttatt tttctttacg gtctttaaaa aggccgtaat atccagctga

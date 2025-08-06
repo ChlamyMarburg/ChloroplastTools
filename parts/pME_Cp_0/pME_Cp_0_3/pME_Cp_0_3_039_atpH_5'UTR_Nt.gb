@@ -1,34 +1,36 @@
-LOCUS       pME_Cp_0_3_039_atpH_5'UTR_Nt        2492 bp    DNA     circular UNA 19-APR-2024
+LOCUS       pME_Cp_0_3_039_atpH_5'UTR_Nt        2492 bp    DNA     circular UNA 06-AUG-2025
 DEFINITION  atpH 5'UTR Nicotiana tabacum.
-ACCESSION   urn.local...5i9-hdu3fcu
-VERSION     urn.local...5i9-hdu3fcu
+ACCESSION   urn.local...hca-i80ecsn
+VERSION     urn.local...hca-i80ecsn
 KEYWORDS    .
-SOURCE      
-  ORGANISM  .
-COMMENT     ##pME_Standard-START##                                             
-            Box               :: Cp-3-5'UTR                                    
-            Antibiotic        :: Cam                                           
-            Created by        :: MCB                                           
-            Lvl               :: 0                                             
-            Position          :: E3                                            
-            Part type (Lvl 0) :: 3 - 5'UTR                                     
-            Toolbox           :: Chloroplasts                                  
-            ##pME_Standard-END##
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct.
 FEATURES             Location/Qualifiers
+     source          1..2492
+                     /mol_type="other DNA"
+                     /organism="synthetic DNA construct"
+     misc_feature    8..11
+                     /standard_name="5'UTR overhang"
      5'UTR           12..394
-                     /standard_name="atpH 5'UTR Tobacco"
-                     /modified_by="chotelt"
-                     /label="atpH 5'UTR Nt"
-     terminator      436..493
-                     /standard_name="Terminator"
+                     /standard_name="atpH 5'UTR Nt"
+     misc_feature    complement(395..398)
+                     /standard_name="5'UTR overhang"
+     regulatory      436..493
+                     /standard_name="his operon terminator"
      rep_origin      complement(688..1276)
-                     /note="pMB1"
-     terminator      complement(1459..1553)
-                     /standard_name="Terminator"
+     regulatory      complement(1459..1553)
+                     /standard_name="lambda t0 terminator"
      CDS             complement(1574..2233)
+                     /gene="CmR"
+                     /product="chloramphenicol acetyltransferase"
+                     /codon_start=1
+                     /transl_table=1
+                     /standard_name="CmR"
+     regulatory      complement(2234..2337)
+                     /regulatory_class="promoter"
                      /standard_name="cat"
-     terminator      2417..2460
-                     /standard_name="Terminator"
+     regulatory      complement(2417..2460)
+                     /standard_name="bacterial terminator"
 ORIGIN      
         1 ggtctcgtac tgatattgac tagtgctagt tatatatgaa atgaactaaa gatatatttt
        61 actactctag gggattctaa tagactagaa gtccttccgg ccccttgtga ctgtgaattg
@@ -56,13 +58,13 @@ ORIGIN
      1381 ccttttaaat taaaaatgaa gttttaaatc aatctaaagt atatatgagt aaacttggtc
      1441 tgacagctcg aggcttggat tctcaccaat aaaaaacgcc cggcggcaac cgagcgttct
      1501 gaacaaatcc agatggagtt ctgaggtcat tactggatct atcaacagga gtccaagcga
-     1561 gctcgatatc aaattacgcc ccgccctgcc actcatcgca gtactgttgt aattcattaa
+     1561 gctcgatatc aaattacgcc ccgccctgcc actcgtcgca gtactgttgt aattcattaa
      1621 gcattctgcc gacatggaag ccatcacaaa cggcatgatg aacctgaatc gccagcggca
      1681 tcagcacctt gtcgccttgc gtataatatt tgcccatggt gaaaacgggg gcgaagaagt
-     1741 tgtccatatt ggccacgttt aaatcaaaac tggtgaaact cacccaggga ttggctgaaa
+     1741 tgtccatatt ggccacgttt aaatcaaaac tggtgaaact cacccaggga ttggctgata
      1801 cgaaaaacat attctcaata aaccctttag ggaaataggc caggttttca ccgtaacacg
      1861 ccacatcttg cgaatatatg tgtagaaact gccggaaatc gtcgtggtat tcactccaga
-     1921 gcgatgaaaa cgtttcagtt tgctcatgga aaacggtgta acaagggtga acactatccc
+     1921 gtgatgaaaa cgtttcagtt tgctcatgga aaacggtgta acaagggtga acactatccc
      1981 atatcaccag ctcaccgtct ttcattgcca tacgaaattc cggatgagca ttcatcaggc
      2041 gggcaagaat gtgaataaag gccggataaa acttgtgctt atttttcttt acggtcttta
      2101 aaaaggccgt aatatccagc tgaacggtct ggttataggt acattgagca actgactgaa

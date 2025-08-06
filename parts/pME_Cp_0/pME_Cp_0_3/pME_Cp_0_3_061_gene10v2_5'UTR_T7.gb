@@ -1,33 +1,36 @@
-LOCUS       pME_Cp_0_3_061_gene103longer_5'UTR_T7        2172 bp    DNA     circular UNA 19-APR-2024
-DEFINITION  gene10 5'UTR MoChlo version T7.
-ACCESSION   urn.local...5ia-hdu3fcu
-VERSION     urn.local...5ia-hdu3fcu
+LOCUS       pME_Cp_0_3_061_gene10v2_5'UTR_T7        2172 bp    DNA     circular UNA 06-AUG-2025
+DEFINITION  gene10 5'UTR T7 Ecoli phage.
+ACCESSION   urn.local...hcf-i80ecsn
+VERSION     urn.local...hcf-i80ecsn
 KEYWORDS    .
-SOURCE      
-  ORGANISM  .
-COMMENT     ##pME_Standard-START##                                             
-            Box               :: Cp-3-5'UTR                                    
-            Antibiotic        :: Cam                                           
-            Created by        :: MCB                                           
-            Lvl               :: 0                                             
-            Position          :: G7                                            
-            Part type (Lvl 0) :: 3 - 5'UTR                                     
-            Toolbox           :: Chloroplasts                                  
-            ##pME_Standard-END##
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct.
 FEATURES             Location/Qualifiers
+     source          1..2172
+                     /mol_type="other DNA"
+                     /organism="synthetic DNA construct"
+     misc_feature    8..11
+                     /standard_name="5'UTR overhang"
      5'UTR           12..74
-                     /standard_name="Gene10 5'UTR T7"
-                     /modified_by="chotelt"
-     terminator      116..173
-                     /standard_name="Terminator"
+                     /standard_name="gene10 v2 5'UTR T7"
+     misc_feature    complement(75..78)
+                     /standard_name="5'UTR overhang"
+     regulatory      116..173
+                     /standard_name="his operon terminator"
      rep_origin      complement(368..956)
-                     /note="pMB1"
-     terminator      complement(1139..1233)
-                     /standard_name="Terminator"
+     regulatory      complement(1139..1233)
+                     /standard_name="lambda t0 terminator"
      CDS             complement(1254..1913)
+                     /gene="CmR"
+                     /product="chloramphenicol acetyltransferase"
+                     /codon_start=1
+                     /transl_table=1
+                     /standard_name="CmR"
+     regulatory      complement(1914..2017)
+                     /regulatory_class="promoter"
                      /standard_name="cat"
-     terminator      2097..2140
-                     /standard_name="Terminator"
+     regulatory      complement(2097..2140)
+                     /standard_name="bacterial terminator"
 ORIGIN      
         1 ggtctcgtac tggcagacca caacggtttc ccactagaaa taattttgtt taactttaag
        61 aaggagatat acataatgtg agaccactca tcgcgactag tagcggccgc tgcagtccgg
@@ -50,12 +53,12 @@ ORIGIN
      1081 gttttaaatc aatctaaagt atatatgagt aaacttggtc tgacagctcg aggcttggat
      1141 tctcaccaat aaaaaacgcc cggcggcaac cgagcgttct gaacaaatcc agatggagtt
      1201 ctgaggtcat tactggatct atcaacagga gtccaagcga gctcgatatc aaattacgcc
-     1261 ccgccctgcc actcatcgca gtactgttgt aattcattaa gcattctgcc gacatggaag
+     1261 ccgccctgcc actcgtcgca gtactgttgt aattcattaa gcattctgcc gacatggaag
      1321 ccatcacaaa cggcatgatg aacctgaatc gccagcggca tcagcacctt gtcgccttgc
      1381 gtataatatt tgcccatggt gaaaacgggg gcgaagaagt tgtccatatt ggccacgttt
-     1441 aaatcaaaac tggtgaaact cacccaggga ttggctgaaa cgaaaaacat attctcaata
+     1441 aaatcaaaac tggtgaaact cacccaggga ttggctgata cgaaaaacat attctcaata
      1501 aaccctttag ggaaataggc caggttttca ccgtaacacg ccacatcttg cgaatatatg
-     1561 tgtagaaact gccggaaatc gtcgtggtat tcactccaga gcgatgaaaa cgtttcagtt
+     1561 tgtagaaact gccggaaatc gtcgtggtat tcactccaga gtgatgaaaa cgtttcagtt
      1621 tgctcatgga aaacggtgta acaagggtga acactatccc atatcaccag ctcaccgtct
      1681 ttcattgcca tacgaaattc cggatgagca ttcatcaggc gggcaagaat gtgaataaag
      1741 gccggataaa acttgtgctt atttttcttt acggtcttta aaaaggccgt aatatccagc

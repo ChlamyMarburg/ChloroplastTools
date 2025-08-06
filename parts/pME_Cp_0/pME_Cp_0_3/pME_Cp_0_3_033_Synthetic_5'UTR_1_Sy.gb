@@ -1,32 +1,36 @@
-LOCUS       pME_Cp_0_3_033_Synthetic_5'UTR_Sy        2165 bp    DNA     circular UNA 21-FEB-2024
-DEFINITION  Synthetic 5'UTR.
-ACCESSION   urn.local...5i8-hdu3fcu
-VERSION     urn.local...5i8-hdu3fcu
+LOCUS       pME_Cp_0_3_033_Synthetic_5'UTR_1_Sy        2165 bp    DNA     circular UNA 06-AUG-2025
+DEFINITION  Synthetic 5'UTR 1.
+ACCESSION   urn.local...hd0-i80ecsn
+VERSION     urn.local...hd0-i80ecsn
 KEYWORDS    .
-SOURCE      
-  ORGANISM  .
-COMMENT     ##pME_Standard-START##                                             
-            Box               :: Cp-3-5'UTR                                    
-            Antibiotic        :: Cam                                           
-            Created by        :: MCB                                           
-            Lvl               :: 0                                             
-            Position          :: D6                                            
-            Part type (Lvl 0) :: 3 - 5'UTR                                     
-            Toolbox           :: Chloroplasts                                  
-            ##pME_Standard-END##
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct.
 FEATURES             Location/Qualifiers
+     source          1..2165
+                     /mol_type="other DNA"
+                     /organism="synthetic DNA construct"
+     misc_feature    8..11
+                     /standard_name="5'UTR overhang"
      5'UTR           12..67
-                     /standard_name="Synthetic RBS"
-     terminator      109..166
-                     /standard_name="Terminator"
+                     /standard_name="Synthetic 5'UTR"
+     misc_feature    complement(68..71)
+                     /standard_name="5'UTR overhang"
+     regulatory      109..166
+                     /standard_name="his operon terminator"
      rep_origin      complement(361..949)
-                     /note="pMB1"
-     terminator      complement(1132..1226)
-                     /standard_name="Terminator"
+     regulatory      complement(1132..1226)
+                     /standard_name="lambda t0 terminator"
      CDS             complement(1247..1906)
+                     /gene="CmR"
+                     /product="chloramphenicol acetyltransferase"
+                     /codon_start=1
+                     /transl_table=1
+                     /standard_name="CmR"
+     regulatory      complement(1907..2010)
+                     /regulatory_class="promoter"
                      /standard_name="cat"
-     terminator      2090..2133
-                     /standard_name="Terminator"
+     regulatory      complement(2090..2133)
+                     /standard_name="bacterial terminator"
 ORIGIN      
         1 ggtctcgtac taaattcgat agagatgaaa ttggagctct agagaattca gttgtaggga
        61 gggatccaat gtgagaccac tcatcgcgac tagtagcggc cgctgcagtc cggcaaaaaa
@@ -49,12 +53,12 @@ ORIGIN
      1081 atcaatctaa agtatatatg agtaaacttg gtctgacagc tcgaggcttg gattctcacc
      1141 aataaaaaac gcccggcggc aaccgagcgt tctgaacaaa tccagatgga gttctgaggt
      1201 cattactgga tctatcaaca ggagtccaag cgagctcgat atcaaattac gccccgccct
-     1261 gccactcatc gcagtactgt tgtaattcat taagcattct gccgacatgg aagccatcac
+     1261 gccactcgtc gcagtactgt tgtaattcat taagcattct gccgacatgg aagccatcac
      1321 aaacggcatg atgaacctga atcgccagcg gcatcagcac cttgtcgcct tgcgtataat
      1381 atttgcccat ggtgaaaacg ggggcgaaga agttgtccat attggccacg tttaaatcaa
-     1441 aactggtgaa actcacccag ggattggctg aaacgaaaaa catattctca ataaaccctt
+     1441 aactggtgaa actcacccag ggattggctg atacgaaaaa catattctca ataaaccctt
      1501 tagggaaata ggccaggttt tcaccgtaac acgccacatc ttgcgaatat atgtgtagaa
-     1561 actgccggaa atcgtcgtgg tattcactcc agagcgatga aaacgtttca gtttgctcat
+     1561 actgccggaa atcgtcgtgg tattcactcc agagtgatga aaacgtttca gtttgctcat
      1621 ggaaaacggt gtaacaaggg tgaacactat cccatatcac cagctcaccg tctttcattg
      1681 ccatacgaaa ttccggatga gcattcatca ggcgggcaag aatgtgaata aaggccggat
      1741 aaaacttgtg cttatttttc tttacggtct ttaaaaaggc cgtaatatcc agctgaacgg

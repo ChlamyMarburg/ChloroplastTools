@@ -1,34 +1,20 @@
-LOCUS       pME_Cp_0_3_024_clpP_5'UTR_Cr        2325 bp    DNA     circular UNA 19-APR-2024
+LOCUS       pME_Cp_0_3_024_clpP_5'UTR_Cr        2325 bp    DNA     circular UNA 06-AUG-2025
 DEFINITION  clpP 5'UTR Chlamydomonas reinhardtii.
-ACCESSION   urn.local...5i1-hdu3fcu
-VERSION     urn.local...5i1-hdu3fcu
+ACCESSION   urn.local...hd3-i80ecsn
+VERSION     urn.local...hd3-i80ecsn
 KEYWORDS    .
-SOURCE      
-  ORGANISM  .
-COMMENT     ##pME_Standard-START##                                             
-            Box               :: Cp-3-5'UTR                                    
-            Antibiotic        :: Cam                                           
-            Created by        :: MCB                                           
-            Lvl               :: 0                                             
-            Position          :: C6                                            
-            Part type (Lvl 0) :: 3 - 5'UTR                                     
-            Toolbox           :: Chloroplasts                                  
-            ##pME_Standard-END##
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct.
 FEATURES             Location/Qualifiers
+     source          1..2325
+                     /mol_type="other DNA"
+                     /organism="synthetic DNA construct"
+     misc_feature    8..11
+                     /standard_name="5'UTR overhang"
      5'UTR           12..227
-                     /standard_name="clpP 5'UTR Chlamy"
-                     /modified_by="chotelt"
-                     /label="clpP 5'UTR Cr"
-     terminator      269..326
-                     /standard_name="Terminator"
-     rep_origin      complement(521..1109)
-                     /note="pMB1"
-     terminator      complement(1292..1386)
-                     /standard_name="Terminator"
-     CDS             complement(1407..2066)
-                     /standard_name="cat"
-     terminator      2250..2293
-                     /standard_name="Terminator"
+                     /standard_name="clpP 5'UTR Cr"
+     misc_feature    complement(228..231)
+                     /standard_name="5'UTR overhang"
 ORIGIN      
         1 ggtctcgtac ttttaagttt aacgtagagc caatatttgt ttgaatttat ctatttttta
        61 aaccattttg gtttaaaatt tttatttgct tcaaaggagc ctgtaaacgg tactttaatt
@@ -53,13 +39,13 @@ ORIGIN
      1201 tcttcaccta gatcctttta aattaaaaat gaagttttaa atcaatctaa agtatatatg
      1261 agtaaacttg gtctgacagc tcgaggcttg gattctcacc aataaaaaac gcccggcggc
      1321 aaccgagcgt tctgaacaaa tccagatgga gttctgaggt cattactgga tctatcaaca
-     1381 ggagtccaag cgagctcgat atcaaattac gccccgccct gccactcatc gcagtactgt
+     1381 ggagtccaag cgagctcgat atcaaattac gccccgccct gccactcgtc gcagtactgt
      1441 tgtaattcat taagcattct gccgacatgg aagccatcac aaacggcatg atgaacctga
      1501 atcgccagcg gcatcagcac cttgtcgcct tgcgtataat atttgcccat ggtgaaaacg
      1561 ggggcgaaga agttgtccat attggccacg tttaaatcaa aactggtgaa actcacccag
-     1621 ggattggctg aaacgaaaaa catattctca ataaaccctt tagggaaata ggccaggttt
+     1621 ggattggctg atacgaaaaa catattctca ataaaccctt tagggaaata ggccaggttt
      1681 tcaccgtaac acgccacatc ttgcgaatat atgtgtagaa actgccggaa atcgtcgtgg
-     1741 tattcactcc agagcgatga aaacgtttca gtttgctcat ggaaaacggt gtaacaaggg
+     1741 tattcactcc agagtgatga aaacgtttca gtttgctcat ggaaaacggt gtaacaaggg
      1801 tgaacactat cccatatcac cagctcaccg tctttcattg ccatacgaaa ttccggatga
      1861 gcattcatca ggcgggcaag aatgtgaata aaggccggat aaaacttgtg cttatttttc
      1921 tttacggtct ttaaaaaggc cgtaatatcc agctgaacgg tctggttata ggtacattga
