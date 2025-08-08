@@ -11,40 +11,48 @@ FEATURES             Location/Qualifiers
                      /organism="synthetic DNA construct"
                      /mol_type="other DNA"
      misc_feature    8..11
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
                      /standard_name="CDS overhang"
      CDS             9..1052
                      /product="phosphite oxidoreductase"
                      /codon_start=1
                      /transl_table=1
                      /standard_name="ptxD"
-     misc_feature    532..533
-                     /note="Geneious type: Editing History Replacement"
-                     /standard_name="AAG"
-     misc_feature    535
-                     /note="Geneious type: Editing History Insertion"
-                     /standard_name
      misc_feature    complement(1050..1053)
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
                      /standard_name="CDS overhang"
      regulatory      1091..1148
                      /note="Geneious type: terminator"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
                      /standard_name="his operon terminator"
      rep_origin      complement(1343..1931)
      regulatory      complement(2114..2208)
                      /note="Geneious type: terminator"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
                      /standard_name="lambda t0 terminator"
      CDS             complement(2229..2888)
                      /gene="CmR"
                      /product="chloramphenicol acetyltransferase"
                      /codon_start=1
                      /transl_table=1
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
                      /standard_name="CmR"
      regulatory      complement(2889..2992)
                      /note="Geneious type: promoter"
                      /note="Promoter for chloramphenicol acetyl transferase"
                      /regulatory_class="promoter"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
                      /standard_name="cat"
      regulatory      complement(3072..3115)
                      /note="Geneious type: terminator"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
                      /standard_name="bacterial terminator"
 ORIGIN      
         1 ggtctcgaat gttaccaaaa ttagtaatta ctcaccgtgt tcacgacgaa attttacaat

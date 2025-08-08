@@ -1,11 +1,11 @@
-LOCUS       pME_Cp_0_4_033_Firefly-luciferase        3756 bp    DNA     circular UNA 06-AUG-2025
+LOCUS       pME_Cp_0_4_012_FlucS284T        3756 bp    DNA     circular UNA 07-AUG-2025
 DEFINITION  Firefly luciferase (red-shifted), codon optimized for Chlamydomonas
             reinhardtii.
-ACCESSION   urn.local...h9a-i80ecsh
-VERSION     urn.local...h9a-i80ecsh
+ACCESSION   urn.local...7ms-ji4t0im
+VERSION     urn.local...7ms-ji4t0im
 KEYWORDS    .
-SOURCE      synthetic DNA construct
-  ORGANISM  synthetic DNA construct.
+SOURCE      
+  ORGANISM  .
 FEATURES             Location/Qualifiers
      source          1..3756
                      /organism="synthetic DNA construct"
@@ -13,65 +13,72 @@ FEATURES             Location/Qualifiers
      misc_feature    8..11
                      /standard_name="CDS overhang"
      CDS             9..1661
-                     /gene="lucCP"
-                     /note="to use for Chlamydomonas reinhardtii chloroplast
-                     (lucCP)"
-                     /transl_table=11
-                     /product="firefly luciferase"
-                     /protein_id="BAE78577.1"
+                     /product="Firefly luciferase"
+                     /codon_start=1
+                     /transl_table=1
                      /standard_name="Fluc"
      misc_feature    complement(1659..1662)
                      /standard_name="CDS overhang"
      regulatory      1700..1757
                      /note="Geneious type: terminator"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
                      /standard_name="his operon terminator"
      rep_origin      complement(1952..2540)
      regulatory      complement(2723..2817)
                      /note="Geneious type: terminator"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
                      /standard_name="lambda t0 terminator"
      CDS             complement(2838..3497)
                      /gene="CmR"
                      /product="chloramphenicol acetyltransferase"
                      /codon_start=1
                      /transl_table=1
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
                      /standard_name="CmR"
      regulatory      complement(3498..3601)
                      /note="Geneious type: promoter"
                      /note="Promoter for chloramphenicol acetyl transferase"
                      /regulatory_class="promoter"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
                      /standard_name="cat"
      regulatory      complement(3681..3724)
                      /note="Geneious type: terminator"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
                      /standard_name="bacterial terminator"
 ORIGIN      
-        1 ggtctcgaat ggaagatgct aaaaatatta aaaaaggtcc agctccattt tatccattag
-       61 aagatggtac agctggtgaa caattacata aagctatgaa acgttatgct ttagttccag
-      121 gtacaattgc ttttacagat gctcatattg aagttgatat tacatatgct gaatattttg
-      181 aaatgtcagt tcgtttagct gaagctatga aacgttatgg tttaaataca aatcatcgta
-      241 ttgttgtttg ttcagaaaat tcattacaat tttttatgcc agttttaggt gctttattta
-      301 ttggtgttgc tgttgctcca gctaatgata tttataatga acgtgaatta ttaaattcaa
-      361 tgggtatttc acaaccaaca gttgtttttg tttcaaaaaa aggtttacaa aaaattttaa
-      421 atgttcaaaa aaaattacca attattcaaa aaattattat tatggattca aaaacagatt
-      481 atcaaggttt tcaatcaatg tatacatttg ttacatcaca tttaccacca ggttttaatg
-      541 aatatgattt tgttccagaa tcatttgatc gtgataaaac aattgcttta attatgaatt
-      601 catcaggttc aacaggttta ccaaaaggtg ttgctttacc acatcgtaca gcttgtgttc
-      661 gtttttcaca tgctcgtgat ccaatttttg gtaatcaaat tattccagat acagctattt
-      721 tatcagttgt tccatttcat catggttttg gtatgtttac aacattaggt tatttaattt
-      781 gtggttttcg tgttgtttta atgtatcgtt ttgaagaaga attattttta cgttcattac
-      841 aagattataa aattcaatca gctttattag ttccaacatt attttcattt tttgctaaat
-      901 caacattaat tgataaatat gatttatcaa atttacatga aattgcttca ggtggtgctc
-      961 cattatcaaa agaagttggt gaagctgttg ctaaacgttt tcatttacca ggtattcgtc
-     1021 aaggttatgg tttaacagaa acaacatcag ctattttaat tacaccagaa ggtgatgata
-     1081 aaccaggtgc tgttggtaaa gttgttccat tttttgaagc taaagttgtt gatttagata
-     1141 caggtaaaac attaggtgtt aatcaacgtg gtgaattatg tgttcgtggt ccaatgatta
-     1201 tgtcaggtta tgttaataat ccagaagcta caaatgcttt aattgataaa gatggttggt
-     1261 tacattcagg tgatattgct tattgggatg aagatgaaca tttttttatt gttgatcgtt
-     1321 taaaatcatt aattaaatat aaaggttatc aagttgctcc agctgaatta gaatcaattt
-     1381 tattacaaca tccaaatatt tttgatgctg gtgttgctgg tttaccagat gatgatgctg
-     1441 gtgaattacc agctgctgtt gttgttttag aacatggtaa aacaatgaca gaaaaagaaa
-     1501 ttgttgatta tgttgcttca caagttacaa cagctaaaaa attacgtggt ggtgttgttt
-     1561 ttgttgatga agttccaaaa ggtttaacag gtaaattaga tgctcgtaaa attcgtgaaa
-     1621 ttttaattaa agctaaaaaa ggtggtaaaa ttgctgttgc tttgagacca ctcatcgcga
+        1 ggtctcgaat ggaagatgcc aaaaacatta agaagggccc agcgccattc tacccactcg
+       61 aagacgggac cgccggcgag cagctgcaca aagccatgaa gcgctacgcc ctggtgcccg
+      121 gcaccatcgc ctttaccgac gcacatatcg aggtggacat tacctacgcc gagtacttcg
+      181 agatgagcgt tcggctggca gaagctatga agcgctatgg gctgaataca aaccatcgga
+      241 tcgtggtgtg cagcgagaat agcttgcagt tcttcatgcc cgtgttgggt gccctgttca
+      301 tcggtgtggc tgtggcccca gctaacgaca tctacaacga gcgcgagctg ctgaacagca
+      361 tgggcatcag ccagcccacc gtcgtattcg tgagcaagaa agggctgcaa aagatcctca
+      421 acgtgcaaaa gaagctaccg atcatacaaa agatcatcat catggatagc aagaccgact
+      481 accagggctt ccaaagcatg tacaccttcg tgacttccca tttgccaccc ggcttcaacg
+      541 agtacgactt cgtgcccgag agcttcgacc gggacaaaac catcgccctg atcatgaaca
+      601 gtagtggcag taccggattg cccaagggcg tagccctacc gcaccgcacc gcttgtgtcc
+      661 gattcagtca tgcccgcgac cccatcttcg gcaaccagat catccccgac accgctatcc
+      721 tcagcgtggt gccatttcac cacggcttcg gcatgttcac cacgctgggc tacttgatct
+      781 gcggctttcg ggtcgtgctc atgtaccgct tcgaggagga gctattcttg cgcagcttgc
+      841 aagactataa gattcaaact gccctgctgg tgcccacact atttagcttc ttcgctaaga
+      901 gcactctcat cgacaagtac gacctaagca acttgcacga gatcgccagc ggcggggcgc
+      961 cgctcagcaa ggaggtaggt gaggccgtgg ccaaacgctt ccacctacca ggcatccgcc
+     1021 agggctacgg cctgacagaa acaaccagcg ccattctgat cacccccgaa ggggacgaca
+     1081 agcctggcgc agtaggcaag gtggtgccct tcttcgaggc taaggtggtg gacttggaca
+     1141 ccggtaagac actgggtgtg aaccagcgcg gcgagctgtg cgtccgtggc cccatgatca
+     1201 tgagcggcta cgttaacaac cccgaggcta caaacgctct catcgacaag gacggctggc
+     1261 tgcacagcgg cgacatcgcc tactgggacg aggacgagca cttcttcatc gtggaccggc
+     1321 tgaagagcct gatcaaatac aagggctacc aggtagcccc agccgaactg gagagcatcc
+     1381 tgctgcaaca ccccaacatc ttcgacgccg gggtcgccgg cctgcccgac gacgatgccg
+     1441 gcgagctgcc cgccgcagtc gtcgtgctgg aacacggtaa aaccatgacc gagaaggaga
+     1501 tcgtggacta tgtggccagc caggttacaa ccgccaagaa gctgcgcggt ggtgttgtgt
+     1561 tcgtggacga ggtgcctaaa ggactgaccg gcaagttgga cgcccgcaag atccgcgaga
+     1621 ttctcattaa ggccaagaag ggcggcaaga tcgccgtggc tttgagacca ctcatcgcga
      1681 ctagtagcgg ccgctgcagt ccggcaaaaa agggcaaggt gtcaccaccc tgcccttttt
      1741 ctttaaaacc gaaaagatta cttcgcgtta tgcaggcttc ctcgctcact gactcgctgc
      1801 gctcggtcgt tcggctgcgg cgagcggtat cagctcactc aaaggcggta atacggttat
