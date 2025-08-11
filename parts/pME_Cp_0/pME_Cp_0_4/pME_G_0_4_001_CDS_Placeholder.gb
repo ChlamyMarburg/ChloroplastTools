@@ -1,4 +1,4 @@
-LOCUS       pME_G_0_4_001_CDS_Placeholder        3135 bp    DNA     circular UNA 06-AUG-2025
+LOCUS       pME_G_0_4_001_CDS_Placeholder        3135 bp    DNA     circular UNA 09-AUG-2025
 DEFINITION  Encodes a sfGFP cassette in the CDS position used for placeholder
             cloning.
 ACCESSION   urn.local...h9k-i80ecsi
@@ -8,69 +8,47 @@ SOURCE      synthetic DNA construct
   ORGANISM  synthetic DNA construct.
 FEATURES             Location/Qualifiers
      misc_feature    1..4
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="CDS overhang"
      source          1..3135
                      /organism="synthetic DNA construct"
                      /mol_type="other DNA"
      regulatory      12..141
                      /note="Geneious type: promoter"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="BBa_J72163 GlpT Promoter"
      misc_feature    142..177
                      /note="Geneious type: RBS"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="sfGFP Ribosome Binding Site"
      CDS             178..894
                      /gene="sfGFP"
                      /product="superfolder GFP"
                      /codon_start=1
                      /transl_table=1
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="sfGFP"
      regulatory      895..1023
                      /note="Geneious type: terminator"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="BBa_B0015 Terminator"
      misc_feature    complement(1031..1034)
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="CDS overhang"
      regulatory      1072..1129
                      /note="Geneious type: terminator"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="his operon terminator"
      rep_origin      complement(1324..1912)
      regulatory      complement(2095..2189)
                      /note="Geneious type: terminator"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="lambda t0 terminator"
      CDS             complement(2210..2869)
                      /gene="CmR"
                      /product="chloramphenicol acetyltransferase"
                      /codon_start=1
                      /transl_table=1
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="CmR"
      regulatory      complement(2870..2973)
                      /note="Geneious type: promoter"
                      /note="Promoter for chloramphenicol acetyl transferase"
                      /regulatory_class="promoter"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="cat"
      regulatory      complement(3053..3096)
                      /note="Geneious type: terminator"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="bacterial terminator"
 ORIGIN      
         1 aatgtgagac cgaaagtgaa acgtgatttc atgcgtcatt ttgaacattt tgtaaatctt

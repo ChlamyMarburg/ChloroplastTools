@@ -1,4 +1,4 @@
-LOCUS       pME_Cp_0_2_081_WendyII_promoter__Cr        2155 bp    DNA     circular UNA 05-AUG-2025
+LOCUS       pME_Cp_0_2_081_WendyII_promoter__Cr        2155 bp    DNA     circular UNA 09-AUG-2025
 DEFINITION  WendyII promoter Chlamydomonas reinhardtii.
 ACCESSION   urn.local...hbg-i80ecsl
 VERSION     urn.local...hbg-i80ecsl
@@ -14,7 +14,7 @@ FEATURES             Location/Qualifiers
                      /standard_name="promoter overhang"
      regulatory      12..57
                      /note="Geneious type: promoter"
-                     /standard_name="Wendy II promoter Chlamy"
+                     /standard_name="Wendy II promoter Cr"
      regulatory      23..28
                      /note="Geneious type: promoter"
                      /standard_name="-35"

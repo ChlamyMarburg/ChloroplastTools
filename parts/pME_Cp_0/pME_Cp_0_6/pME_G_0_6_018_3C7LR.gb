@@ -17,10 +17,10 @@ FEATURES             Location/Qualifiers
                      /standard_name="Spacer007"
      regulatory      complement(12..63)
                      /note="Geneious type: terminator"
-                     /standard_name="L3S1P51 "
+                     /standard_name="L3S1P51"
      regulatory      361..412
                      /note="Geneious type: terminator"
-                     /standard_name="L3S1P52 "
+                     /standard_name="L3S1P52"
      misc_feature    complement(413..416)
                      /standard_name="lvl2 fusion site"
      misc_feature    complement(424..427)

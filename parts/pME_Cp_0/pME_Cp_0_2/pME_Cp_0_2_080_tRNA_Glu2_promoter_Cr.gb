@@ -1,4 +1,4 @@
-LOCUS       pME_Cp_0_2_080_tRNA_Glu2_promoter_Cr        2165 bp    DNA     circular UNA 05-AUG-2025
+LOCUS       pME_Cp_0_2_080_tRNA_Glu2_promoter_Cr        2165 bp    DNA     circular UNA 09-AUG-2025
 DEFINITION  tRNA Glu2 promoter Chlamydomonas reinhardtii.
 ACCESSION   urn.local...hb5-i80ecsk
 VERSION     urn.local...hb5-i80ecsk
@@ -24,6 +24,13 @@ FEATURES             Location/Qualifiers
      misc_feature    complement(68..71)
                      /function="promoter overhang for lvl1 assembly"
                      /standard_name="promoter overhang"
+     regulatory      109..166
+                     /note="Geneious type: terminator"
+                     /standard_name="his operon terminator"
+     rep_origin      complement(361..949)
+     regulatory      complement(1132..1226)
+                     /note="Geneious type: terminator"
+                     /standard_name="lambda t0 terminator"
      CDS             complement(1247..1906)
                      /gene="CmR"
                      /product="chloramphenicol acetyltransferase"

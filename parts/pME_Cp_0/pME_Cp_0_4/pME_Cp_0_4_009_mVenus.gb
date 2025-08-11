@@ -1,4 +1,4 @@
-LOCUS       pME_Cp_0_4_009_mVenus        2799 bp    DNA     circular UNA 06-AUG-2025
+LOCUS       pME_Cp_0_4_009_mVenus        2799 bp    DNA     circular UNA 09-AUG-2025
 DEFINITION  mVenus reporter gene, codon optimized for Chlamydomonas reinhardtii
             .
 ACCESSION   urn.local...h9i-i80ecsi
@@ -11,8 +11,6 @@ FEATURES             Location/Qualifiers
                      /organism="synthetic DNA construct"
                      /mol_type="other DNA"
      misc_feature    8..11
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="CDS overhang"
      CDS             9..728
                      /codon_start=1
@@ -20,39 +18,27 @@ FEATURES             Location/Qualifiers
                      /product="mVenus"
                      /standard_name="mVenus"
      misc_feature    complement(726..729)
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="CDS overhang"
      regulatory      743..800
                      /note="Geneious type: terminator"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="his operon terminator"
      rep_origin      complement(995..1583)
      regulatory      complement(1766..1860)
                      /note="Geneious type: terminator"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="lambda t0 terminator"
      CDS             complement(1881..2540)
                      /gene="CmR"
                      /product="chloramphenicol acetyltransferase"
                      /codon_start=1
                      /transl_table=1
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="CmR"
      regulatory      complement(2541..2644)
                      /note="Geneious type: promoter"
                      /note="Promoter for chloramphenicol acetyl transferase"
                      /regulatory_class="promoter"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="cat"
      regulatory      complement(2724..2767)
                      /note="Geneious type: terminator"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="bacterial terminator"
 ORIGIN      
         1 ggtctcaaat ggtttctaaa ggtgaagaat tattcactgg tgttgtacca attttagttg

@@ -1,4 +1,4 @@
-LOCUS       pME_Cp_0_4_026_Arg9-marker        3486 bp    DNA     circular UNA 06-AUG-2025
+LOCUS       pME_Cp_0_4_026_Arg9-marker        3486 bp    DNA     circular UNA 09-AUG-2025
 DEFINITION  N-acetyl ornithine aminotransferase selection gene, codon optimized
             for Chlamydomonas reinhardtii .
 ACCESSION   urn.local...h9o-i80ecsi
@@ -11,8 +11,6 @@ FEATURES             Location/Qualifiers
                      /organism="synthetic DNA construct"
                      /mol_type="other DNA"
      misc_feature    8..11
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="CDS overhang"
      CDS             9..1391
                      /product="N-acetyl ornithine aminotransferase"
@@ -20,39 +18,27 @@ FEATURES             Location/Qualifiers
                      /transl_table=1
                      /standard_name="Arg9"
      misc_feature    complement(1389..1392)
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="CDS overhang"
      regulatory      1430..1487
                      /note="Geneious type: terminator"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="his operon terminator"
      rep_origin      complement(1682..2270)
      regulatory      complement(2453..2547)
                      /note="Geneious type: terminator"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="lambda t0 terminator"
      CDS             complement(2568..3227)
                      /gene="CmR"
                      /product="chloramphenicol acetyltransferase"
                      /codon_start=1
                      /transl_table=1
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="CmR"
      regulatory      complement(3228..3331)
                      /note="Geneious type: promoter"
                      /note="Promoter for chloramphenicol acetyl transferase"
                      /regulatory_class="promoter"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="cat"
      regulatory      complement(3411..3454)
                      /note="Geneious type: terminator"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="bacterial terminator"
 ORIGIN      
         1 ggtctcgaat ggcacaatta caacaacatc aaggtcgtgc agctgcagct caacctaaac

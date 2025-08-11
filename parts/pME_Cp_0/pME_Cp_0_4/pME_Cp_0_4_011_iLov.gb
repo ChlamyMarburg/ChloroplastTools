@@ -1,4 +1,4 @@
-LOCUS       pME_Cp_0_4_011_iLov        2481 bp    DNA     circular UNA 06-AUG-2025
+LOCUS       pME_Cp_0_4_011_iLov        2481 bp    DNA     circular UNA 09-AUG-2025
 DEFINITION  iLov reporter gene, codon optimized for Chlamydomonas reinhardtii.
 ACCESSION   urn.local...h98-i80ecsh
 VERSION     urn.local...h98-i80ecsh
@@ -10,8 +10,6 @@ FEATURES             Location/Qualifiers
                      /organism="synthetic DNA construct"
                      /mol_type="other DNA"
      misc_feature    5..8
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="CDS overhang"
      CDS             6..383
                      /product="iLov"
@@ -19,39 +17,27 @@ FEATURES             Location/Qualifiers
                      /transl_table=1
                      /standard_name="iLov"
      misc_feature    complement(381..384)
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="CDS overhang"
      regulatory      422..479
                      /note="Geneious type: terminator"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="his operon terminator"
      rep_origin      complement(674..1262)
      regulatory      complement(1445..1539)
                      /note="Geneious type: terminator"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="lambda t0 terminator"
      CDS             complement(1560..2219)
                      /gene="CmR"
                      /product="chloramphenicol acetyltransferase"
                      /codon_start=1
                      /transl_table=1
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="CmR"
      regulatory      complement(2220..2323)
                      /note="Geneious type: promoter"
                      /note="Promoter for chloramphenicol acetyl transferase"
                      /regulatory_class="promoter"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="cat"
      regulatory      complement(2403..2446)
                      /note="Geneious type: terminator"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="bacterial terminator"
 ORIGIN      
         1 ctcgaatgat tgaaaaaaat ttcgttatta cagaccctcg tttaccagat aatccaatta

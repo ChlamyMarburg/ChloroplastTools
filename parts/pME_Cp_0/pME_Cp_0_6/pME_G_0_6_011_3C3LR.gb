@@ -15,10 +15,10 @@ FEATURES             Location/Qualifiers
                      /standard_name="Spacer003"
      regulatory      complement(12..68)
                      /note="Geneious type: terminator"
-                     /standard_name="L3S2P53 "
+                     /standard_name="L3S2P53"
      regulatory      369..420
                      /note="Geneious type: terminator"
-                     /standard_name="L3S1P53 "
+                     /standard_name="L3S1P53"
      regulatory      473..530
                      /note="Geneious type: terminator"
                      /standard_name="his operon terminator"

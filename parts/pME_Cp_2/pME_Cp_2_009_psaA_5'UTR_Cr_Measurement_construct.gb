@@ -1,122 +1,202 @@
-LOCUS       pME_Cp_2_009_psaA_5'UTR_Cr_Measurement_construct        6874 bp    DNA     circular UNA 08-AUG-2025
-DEFINITION  Lvl2 psaA 5'UTR Chlamydomonas reinhardtii.
-ACCESSION   urn.local...86y-ji53031
-VERSION     urn.local...86y-ji53031
+LOCUS       pME_Cp_2_009_psaA_5'UTR_Cr_Measurement_construct        6874 bp    DNA     circular UNA 09-AUG-2025
+DEFINITION  Lvl2_psaA_5'UTR_Cr_Measurement_construct.
+ACCESSION   urn.local...tow-jic41jd
+VERSION     urn.local...tow-jic41jd
 KEYWORDS    .
-SOURCE      
+SOURCE      synthetic DNA construct
   ORGANISM  synthetic DNA construct.
 FEATURES             Location/Qualifiers
      source          1..6874
                      /organism="synthetic DNA construct"
                      /mol_type="other DNA"
      misc_feature    1..4
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
                      /standard_name="lvl2 fusion site"
      misc_feature    5..715
                      /function="5' Homology psbH locus; used for recombination
                      into the chloroplast of Chlamydomonas reinhardtii CC-125"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
                      /standard_name="5'Homology psbH locus"
      misc_feature    complement(716..719)
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
                      /standard_name="3' connector overhang"
      misc_feature    716..719
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
                      /standard_name="3'UTR overhang"
      3'UTR           complement(720..977)
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
                      /standard_name="rbcL 3'UTR Cr"
      CDS             complement(978..>1126)
                      /product="Ribulose-1,5-bisphosphat-carboxylase/oxygenase
                      large subunit"
                      /transl_table=11
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
                      /codon_start=1
                      /standard_name="rbcL"
      misc_feature    complement(1129..1132)
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
                      /standard_name="3'UTR overhang"
      misc_feature    1129..1132
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
                      /standard_name="CDS overhang"
      CDS             complement(1134..2006)
                      /note="aadA"
                      /transl_table=11
                      /product="Aminoglycoside-3''-9-adenylyltransferase"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
                      /standard_name="aadA"
-     misc_feature    complement(2004..2007)
-                     /standard_name="CDS overhang"
      misc_feature    2004..2007
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
                      /standard_name="5'UTR overhang"
+     misc_feature    complement(2004..2007)
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="CDS overhang"
      5'UTR           complement(2008..2432)
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
                      /standard_name="atpA 5'UTR Cr"
      misc_feature    complement(2008..2546)
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
                      /standard_name="atpA promoter + 5'UTR"
      regulatory      complement(2433..2490)
                      /note="Geneious type: promoter"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
                      /standard_name="atpA promoter Cr"
      misc_feature    2547..2550
                      /function="promoter overhang for lvl1 assembly"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
                      /standard_name="5' connector overhang rev"
      misc_feature    complement(2547..2550)
+                     /function="promoter overhang for lvl1 assembly"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
                      /standard_name="promoter overhang"
      misc_feature    2551..2554
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
                      /standard_name="lvl2 fusion site"
      misc_feature    complement(2551..2554)
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
                      /standard_name="lvl2 fusion site"
      regulatory      complement(2555..2611)
                      /note="Geneious type: terminator"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
                      /standard_name="L3S2P22"
      misc_feature    2555..2968
                      /function="Insulator between TUs"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
                      /standard_name="Spacer002"
      regulatory      2912..2968
                      /note="Geneious type: terminator"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
                      /standard_name="L3S2P56"
      misc_feature    complement(2969..2972)
                      /function="promoter overhang for lvl1 assembly"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
                      /standard_name="5' connector overhang rev"
      misc_feature    2969..2972
                      /function="promoter overhang for lvl1 assembly"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
                      /standard_name="promoter overhang"
      regulatory      2973..3189
                      /note="Geneious type: promoter"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
                      /standard_name="rrn16_prom_Cr"
-     misc_feature    complement(3190..3193)
-                     /function="promoter overhang for lvl1 assembly"
-                     /standard_name="promoter overhang"
      misc_feature    3190..3193
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
                      /standard_name="5'UTR overhang"
+     misc_feature    complement(3190..3193)
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="lvl2 fusion site"
      5'UTR           3194..3329
                      /standard_name="psaA 5'UTR Cr"
      misc_feature    complement(3330..3333)
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
                      /standard_name="5'UTR overhang"
      misc_feature    3330..3333
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
                      /standard_name="CDS overhang"
      CDS             3331..3846
                      /transl_table=1
                      /codon_start=1
                      /product="NanoLuc"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
                      /standard_name="NanoLuc"
-     misc_feature    complement(3844..3847)
-                     /standard_name="CDS overhang"
      misc_feature    3844..3847
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
                      /standard_name="3'UTR overhang"
-     3'UTR           3856..3969
+     misc_feature    complement(3844..3847)
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="CDS overhang"
+     3'UTR           3848..3969
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
                      /standard_name="psbA 3'UTR Cr"
      misc_feature    <3856..>3961
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
                      /standard_name="IRa"
-     misc_feature    complement(3970..3973)
-                     /standard_name="3'UTR overhang"
      misc_feature    3970..3973
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
                      /standard_name="3' connector overhang"
+     misc_feature    complement(3970..3973)
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
+                     /standard_name="3'UTR overhang"
      misc_feature    3974..5099
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
                      /standard_name="3'Homology psbH locus"
      misc_feature    complement(5100..5103)
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
                      /standard_name="lvl2 fusion site"
      rep_origin      complement(5211..5799)
      regulatory      5876..6023
                      /note="Geneious type: promoter"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
                      /standard_name="KanR Promoter"
      CDS             6024..6839
                      /product="Aph(3') aminoglycoside O-phosphotransferase"
                      /codon_start=1
                      /transl_table=1
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
                      /standard_name="KanR"
      regulatory      6840..6866
                      /note="Geneious type: terminator"
+                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
+                     from Database' based on nucleotide similarity"
                      /standard_name="KanR Terminator"
 ORIGIN      
         1 aacagaattg tcaattttta atgtacactt agttgaaagt gcccctgtcc ccttggccat

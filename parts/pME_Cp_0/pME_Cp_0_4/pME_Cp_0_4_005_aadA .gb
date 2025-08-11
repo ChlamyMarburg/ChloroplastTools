@@ -1,15 +1,17 @@
-LOCUS       pME_Cp_0_4_005_aadA_        2980 bp    DNA     circular UNA 06-AUG-2025
+LOCUS       pME_Cp_0_4_005_aadA_        2980 bp    DNA     circular UNA 09-AUG-2025
 DEFINITION  Aminoglycoside-3''-9-adenylyltransferase selection gene, codon
             optimized for Chlamydomonas reinhardtii [stop codon included].
 ACCESSION   urn.local...1oe-ji16nz9
 VERSION     urn.local...1oe-ji16nz9
 KEYWORDS    .
-SOURCE      
-  ORGANISM  .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct.
 FEATURES             Location/Qualifiers
      source          1..2980
                      /organism="synthetic DNA construct"
                      /mol_type="other DNA"
+     misc_feature    8..11
+                     /standard_name="CDS overhang"
      CDS             12..881
                      /note="aadA"
                      /translation="MAMRTPEELSNLIKDLIEQYTPEVKMSMAREAVIAEVSTQLSEV
@@ -22,36 +24,28 @@ FEATURES             Location/Qualifiers
                      /transl_table=11
                      /product="Aminoglycoside-3''-9-adenylyltransferase"
                      /standard_name="aadA"
+     misc_feature    complement(882..885)
+                     /standard_name="CDS overhang"
      regulatory      924..981
                      /note="Geneious type: terminator"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="his operon terminator"
      rep_origin      complement(1176..1764)
      regulatory      complement(1947..2041)
                      /note="Geneious type: terminator"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="lambda t0 terminator"
      CDS             complement(2062..2721)
                      /gene="CmR"
                      /product="chloramphenicol acetyltransferase"
                      /codon_start=1
                      /transl_table=1
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="CmR"
      regulatory      complement(2722..2825)
                      /note="Geneious type: promoter"
                      /note="Promoter for chloramphenicol acetyl transferase"
                      /regulatory_class="promoter"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="cat"
      regulatory      complement(2905..2948)
                      /note="Geneious type: terminator"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="bacterial terminator"
 ORIGIN      
         1 ggtctcgaat ggcaatgcgt actccagaag aacttagtaa tcttattaaa gatttaattg

@@ -1,8 +1,8 @@
-LOCUS       pME_B_0_2_020_Pdummy        2124 bp    DNA     circular UNA 05-AUG-2025
+LOCUS       pME_B_0_2_020_Pdummy        2124 bp    DNA     circular UNA 08-AUG-2025
 DEFINITION  Promoter dummy sequence used as a baseline for promoter
             characterization.
-ACCESSION   urn.local...hbb-i80ecsk
-VERSION     urn.local...hbb-i80ecsk
+ACCESSION   urn.local...pqs-jibo8qa
+VERSION     urn.local...pqs-jibo8qa
 KEYWORDS    .
 SOURCE      synthetic DNA construct
   ORGANISM  synthetic DNA construct.
@@ -13,6 +13,8 @@ FEATURES             Location/Qualifiers
      misc_feature    8..11
                      /function="promoter overhang for lvl1 assembly"
                      /standard_name="promoter overhang"
+     misc_feature    12..26
+                     /standard_name="Promoter Dummy"
      misc_feature    complement(27..30)
                      /function="promoter overhang for lvl1 assembly"
                      /standard_name="promoter overhang"

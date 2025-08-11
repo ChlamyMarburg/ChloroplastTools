@@ -20,7 +20,7 @@ FEATURES             Location/Qualifiers
                      /standard_name="L3S2P55"
      regulatory      369..420
                      /note="Geneious type: terminator"
-                     /standard_name="L3S1P53 "
+                     /standard_name="L3S1P53"
      misc_feature    complement(421..424)
                      /standard_name="lvl2 fusion site"
      misc_feature    complement(432..435)

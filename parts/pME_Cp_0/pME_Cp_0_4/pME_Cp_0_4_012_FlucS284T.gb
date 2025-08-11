@@ -1,11 +1,11 @@
-LOCUS       pME_Cp_0_4_012_FlucS284T        3756 bp    DNA     circular UNA 07-AUG-2025
+LOCUS       pME_Cp_0_4_012_FlucS284T        3756 bp    DNA     circular UNA 09-AUG-2025
 DEFINITION  Firefly luciferase (red-shifted), codon optimized for Chlamydomonas
             reinhardtii.
 ACCESSION   urn.local...7ms-ji4t0im
 VERSION     urn.local...7ms-ji4t0im
 KEYWORDS    .
-SOURCE      
-  ORGANISM  .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct.
 FEATURES             Location/Qualifiers
      source          1..3756
                      /organism="synthetic DNA construct"
@@ -21,34 +21,24 @@ FEATURES             Location/Qualifiers
                      /standard_name="CDS overhang"
      regulatory      1700..1757
                      /note="Geneious type: terminator"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="his operon terminator"
      rep_origin      complement(1952..2540)
      regulatory      complement(2723..2817)
                      /note="Geneious type: terminator"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="lambda t0 terminator"
      CDS             complement(2838..3497)
                      /gene="CmR"
                      /product="chloramphenicol acetyltransferase"
                      /codon_start=1
                      /transl_table=1
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="CmR"
      regulatory      complement(3498..3601)
                      /note="Geneious type: promoter"
                      /note="Promoter for chloramphenicol acetyl transferase"
                      /regulatory_class="promoter"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="cat"
      regulatory      complement(3681..3724)
                      /note="Geneious type: terminator"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="bacterial terminator"
 ORIGIN      
         1 ggtctcgaat ggaagatgcc aaaaacatta agaagggccc agcgccattc tacccactcg

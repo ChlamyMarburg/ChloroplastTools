@@ -1,4 +1,4 @@
-LOCUS       pME_Cp_0_4_001_Nanoluc        2619 bp    DNA     circular UNA 06-AUG-2025
+LOCUS       pME_Cp_0_4_001_Nanoluc        2619 bp    DNA     circular UNA 09-AUG-2025
 DEFINITION  Nanoluc luciferase reporter gene, codon optimized for Chlamydomonas
             reinhardtii.
 ACCESSION   urn.local...h97-i80ecsh
@@ -21,34 +21,24 @@ FEATURES             Location/Qualifiers
                      /standard_name="CDS overhang"
      regulatory      563..620
                      /note="Geneious type: terminator"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="his operon terminator"
      rep_origin      complement(815..1403)
      regulatory      complement(1586..1680)
                      /note="Geneious type: terminator"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="lambda t0 terminator"
      CDS             complement(1701..2360)
                      /gene="CmR"
                      /product="chloramphenicol acetyltransferase"
                      /codon_start=1
                      /transl_table=1
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="CmR"
      regulatory      complement(2361..2464)
                      /note="Geneious type: promoter"
                      /note="Promoter for chloramphenicol acetyl transferase"
                      /regulatory_class="promoter"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="cat"
      regulatory      complement(2544..2587)
                      /note="Geneious type: terminator"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="bacterial terminator"
 ORIGIN      
         1 ggtctcgaat ggttttcact ttagaagact tcgtaggtga ctggcgtcaa acagcaggtt
