@@ -1,4 +1,4 @@
-LOCUS       pME_Cp_0_3b_026_Flag-tag        2190 bp    DNA     circular UNA 06-AUG-2025
+LOCUS       pME_Cp_0_3b_026_Flag-tag        2190 bp    DNA     circular UNA 11-AUG-2025
 DEFINITION  Flag-tag N-terminal.
 ACCESSION   urn.local...hd7-i80ecso
 VERSION     urn.local...hd7-i80ecso
@@ -11,23 +11,9 @@ FEATURES             Location/Qualifiers
                      /organism="synthetic DNA construct"
      misc_feature    8..11
                      /standard_name="N-tag overhang"
-     CDS             10..93
+     CDS             10..>93
                      /standard_name="3xFlag N-tag"
-     CDS             13..36
-                     /transl_table=1
-                     /codon_start=1
-                     /product="Flag tag"
-                     /standard_name="Flag tag"
-     CDS             40..63
-                     /transl_table=1
-                     /codon_start=1
-                     /product="Flag tag"
-                     /standard_name="Flag tag"
-     CDS             67..90
-                     /product="Flag tag"
-                     /transl_table=1
-                     /codon_start=1
-                     /standard_name="Flag tag"
+                     /product="3xFlag-tag"
      misc_feature    complement(93..96)
                      /standard_name="N-tag overhang"
      regulatory      134..191

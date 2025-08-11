@@ -1,4 +1,4 @@
-LOCUS       pME_Cp_0_5_021_psbA_3'UTR_Cr        2217 bp    DNA     circular UNA 06-AUG-2025
+LOCUS       pME_Cp_0_5_021_psbA_3'UTR_Cr        2217 bp    DNA     circular UNA 11-AUG-2025
 DEFINITION  psbA 3'UTR Chlamydomonas reinhardtii.
 ACCESSION   urn.local...h9p-i80ecsi
 VERSION     urn.local...h9p-i80ecsi
@@ -11,14 +11,6 @@ FEATURES             Location/Qualifiers
                      /mol_type="other DNA"
      misc_feature    8..11
                      /standard_name="3'UTR overhang"
-     mRNA            <14..50
-                     /locus_tag="ChreCp021"
-                     /Note="copy 1"
-                     /standard_name="psbA"
-     gene            <14..50
-                     /locus_tag="ChreCp021"
-                     /Note="copy 1"
-                     /standard_name="psbA"
      3'UTR           14..50
                      /standard_name="3'UTR"
      misc_feature    complement(120..123)

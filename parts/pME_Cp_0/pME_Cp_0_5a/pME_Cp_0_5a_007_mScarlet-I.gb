@@ -1,4 +1,4 @@
-LOCUS       pME_Cp_0_5a_007_mScarlet-I        2805 bp    DNA     circular UNA 06-AUG-2025
+LOCUS       pME_Cp_0_5a_007_mScarlet-I        2805 bp    DNA     circular UNA 11-AUG-2025
 DEFINITION  mScarlet-I C-terminal.
 ACCESSION   urn.local...hb0-i80ecsk
 VERSION     urn.local...hb0-i80ecsk
@@ -9,7 +9,7 @@ FEATURES             Location/Qualifiers
      source          1..2805
                      /organism="synthetic DNA construct"
                      /mol_type="other DNA"
-     CDS             8..709
+     CDS             <8..>709
                      /product="mScarlet-I"
                      /codon_start=1
                      /transl_table=1

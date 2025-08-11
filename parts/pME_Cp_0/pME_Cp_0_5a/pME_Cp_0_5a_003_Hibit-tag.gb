@@ -1,4 +1,4 @@
-LOCUS       pME_Cp_0_5a_003_Hibit-tag        2145 bp    DNA     circular UNA 06-AUG-2025
+LOCUS       pME_Cp_0_5a_003_Hibit-tag        2145 bp    DNA     circular UNA 11-AUG-2025
 DEFINITION  Hibit-tag in C-terminal.
 ACCESSION   urn.local...hb2-i80ecsk
 VERSION     urn.local...hb2-i80ecsk
@@ -9,7 +9,7 @@ FEATURES             Location/Qualifiers
      source          1..2145
                      /organism="synthetic DNA construct"
                      /mol_type="other DNA"
-     CDS             8..49
+     CDS             <8..>49
                      /product="Hibit-tag"
                      /transl_table=1
                      /codon_start=1

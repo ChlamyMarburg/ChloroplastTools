@@ -1,4 +1,4 @@
-LOCUS       pME_Cp_0_3b_025_Hibit-tag        2145 bp    DNA     circular UNA 06-AUG-2025
+LOCUS       pME_Cp_0_3b_025_Hibit-tag        2145 bp    DNA     circular UNA 11-AUG-2025
 DEFINITION  HiBit-tag N-Terminal.
 ACCESSION   urn.local...hdq-i80ecso
 VERSION     urn.local...hdq-i80ecso
@@ -11,7 +11,7 @@ FEATURES             Location/Qualifiers
                      /mol_type="other DNA"
      misc_feature    8..11
                      /standard_name="N-tag overhang"
-     CDS             10..48
+     CDS             10..>48
                      /product="Hibit"
                      /codon_start=1
                      /transl_table=1

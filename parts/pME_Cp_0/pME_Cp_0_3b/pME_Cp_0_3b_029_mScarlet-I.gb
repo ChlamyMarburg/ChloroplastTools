@@ -1,4 +1,4 @@
-LOCUS       pME_Cp_0_3b_029_mScarlet-I        2781 bp    DNA     circular UNA 06-AUG-2025
+LOCUS       pME_Cp_0_3b_029_mScarlet-I        2781 bp    DNA     circular UNA 11-AUG-2025
 DEFINITION  mScarlet-I N-terminal.
 ACCESSION   urn.local...hdn-i80ecso
 VERSION     urn.local...hdn-i80ecso
@@ -11,7 +11,7 @@ FEATURES             Location/Qualifiers
                      /organism="synthetic DNA construct"
      misc_feature    8..11
                      /standard_name="N-tag overhang"
-     CDS             10..708
+     CDS             10..>708
                      /product="mScarlet-I"
                      /codon_start=1
                      /transl_table=1

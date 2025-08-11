@@ -1,4 +1,4 @@
-LOCUS       pME_Cp_0_5a_004_flag-tag        2190 bp    DNA     circular UNA 06-AUG-2025
+LOCUS       pME_Cp_0_5a_004_Flag-tag        2190 bp    DNA     circular UNA 11-AUG-2025
 DEFINITION  Flag-tag in C-terminal.
 ACCESSION   urn.local...hax-i80ecsk
 VERSION     urn.local...hax-i80ecsk
@@ -9,26 +9,11 @@ FEATURES             Location/Qualifiers
      source          1..2190
                      /organism="synthetic DNA construct"
                      /mol_type="other DNA"
-     CDS             8..94
+     CDS             <8..>94
                      /codon_start=1
                      /product="3x Flag-tag"
                      /transl_table=1
                      /standard_name="3x Flag C-tag"
-     CDS             14..37
-                     /transl_table=1
-                     /codon_start=1
-                     /product="Flag tag"
-                     /standard_name="Flag tag"
-     CDS             41..64
-                     /transl_table=1
-                     /codon_start=1
-                     /product="Flag tag"
-                     /standard_name="Flag tag"
-     CDS             68..91
-                     /product="Flag tag"
-                     /transl_table=1
-                     /codon_start=1
-                     /standard_name="Flag tag"
      regulatory      134..191
                      /note="Geneious type: terminator"
                      /standard_name="his operon terminator"

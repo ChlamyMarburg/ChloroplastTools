@@ -1,4 +1,4 @@
-LOCUS       pME_Cp_0_4_006_mScarlet        2802 bp    DNA     circular UNA 09-AUG-2025
+LOCUS       pME_Cp_0_4_006_mScarlet        2802 bp    DNA     circular UNA 11-AUG-2025
 DEFINITION  mScarlet reporter gene, codon optimized for Chlamydomonas
             reinhardtii.
 ACCESSION   urn.local...h9n-i80ecsi
@@ -12,7 +12,7 @@ FEATURES             Location/Qualifiers
                      /mol_type="other DNA"
      misc_feature    8..11
                      /standard_name="CDS overhang"
-     CDS             9..707
+     CDS             9..>707
                      /codon_start=1
                      /transl_table=1
                      /product="mScarlet"

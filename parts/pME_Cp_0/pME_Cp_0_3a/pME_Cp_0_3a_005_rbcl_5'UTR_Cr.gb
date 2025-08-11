@@ -1,4 +1,4 @@
-LOCUS       pME_Cp_0_3a_005_rbcl_5'UTR_Cr        2201 bp    DNA     circular UNA 06-AUG-2025
+LOCUS       pME_Cp_0_3a_005_rbcl_5'UTR_Cr        2201 bp    DNA     circular UNA 11-AUG-2025
 DEFINITION  rbcL 5'UTR Chlamydomonas reinhardtii.
 ACCESSION   urn.local...he6-i80ecsq
 VERSION     urn.local...he6-i80ecsq
@@ -13,13 +13,6 @@ FEATURES             Location/Qualifiers
                      /standard_name="5'UTR overhang"
      5'UTR           12..103
                      /standard_name="rbcL 5'UTR Cr"
-     mRNA            12..>103
-                     /standard_name="rbcL"
-     gene            12..>103
-                     /locus_tag="ChreCp049"
-                     /standard_name="rbcL"
-     5'UTR           12..103
-                     /standard_name="rbcL 5'UTR Chlamy"
      misc_feature    complement(104..107)
                      /standard_name="5'UTR overhang"
      regulatory      145..202

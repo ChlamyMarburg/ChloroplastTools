@@ -1,4 +1,4 @@
-LOCUS       pME_Cp_0_2_066_Synthetic_promoter_10        2155 bp    DNA     circular UNA 05-AUG-2025
+LOCUS       pME_Cp_0_2_066_Synthetic_promoter_10        2155 bp    DNA     circular UNA 11-AUG-2025
 DEFINITION  Synthetic promoter 10 based on Chlamydomonas rrn16 promoter.
 ACCESSION   urn.local...hb8-i80ecsk
 VERSION     urn.local...hb8-i80ecsk
@@ -13,7 +13,6 @@ FEATURES             Location/Qualifiers
                      /function="promoter overhang for lvl1 assembly"
                      /standard_name="promoter overhang"
      regulatory      12..57
-                     /note="Geneious type: Promoter"
                      /note="Geneious type: promoter"
                      /standard_name="Synthetic promoter 10"
      regulatory      23..28

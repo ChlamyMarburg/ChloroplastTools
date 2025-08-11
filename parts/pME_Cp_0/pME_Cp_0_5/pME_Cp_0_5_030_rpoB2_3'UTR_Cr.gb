@@ -1,4 +1,4 @@
-LOCUS       pME_Cp_0_5_030_rpoB2_3'UTR_Cr        2883 bp    DNA     circular UNA 06-AUG-2025
+LOCUS       pME_Cp_0_5_030_rpoB2_3'UTR_Cr        2883 bp    DNA     circular UNA 11-AUG-2025
 DEFINITION  rpoB2 3'UTR Chlamydomonas reinhardtii.
 ACCESSION   urn.local...haa-i80ecsi
 VERSION     urn.local...haa-i80ecsi
@@ -11,12 +11,6 @@ FEATURES             Location/Qualifiers
                      /mol_type="other DNA"
      misc_feature    8..11
                      /standard_name="3'UTR overhang"
-     gene            <14..742
-                     /locus_tag="ChreCp041"
-                     /standard_name="rpoB2"
-     mRNA            <14..742
-                     /locus_tag="ChreCp041"
-                     /standard_name="rpoB2"
      3'UTR           14..742
                      /standard_name="rpoB2 3'UTR Cr"
      misc_feature    complement(786..789)

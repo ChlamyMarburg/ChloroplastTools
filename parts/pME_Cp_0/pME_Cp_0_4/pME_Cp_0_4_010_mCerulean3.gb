@@ -1,6 +1,6 @@
-LOCUS       pME_Cp_0_4_010_mCerulean3        2823 bp    DNA     circular UNA 09-AUG-2025
+LOCUS       pME_Cp_0_4_010_mCerulean3        2823 bp    DNA     circular UNA 11-AUG-2025
 DEFINITION  mCerulean3 reporter gene, codon optimized for Chlamydomonas
-            reinhardtii .
+            reinhardtii.
 ACCESSION   urn.local...h9e-i80ecsh
 VERSION     urn.local...h9e-i80ecsh
 KEYWORDS    .
@@ -13,7 +13,7 @@ FEATURES             Location/Qualifiers
      misc_feature    7
                      /note="Geneious type: Editing History Replacement"
                      /standard_name="A"
-     CDS             9..728
+     CDS             9..>728
                      /product="mCerulean3"
                      /transl_table=1
                      /codon_start=1

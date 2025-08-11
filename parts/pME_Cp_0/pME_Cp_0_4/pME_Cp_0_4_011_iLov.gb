@@ -1,4 +1,4 @@
-LOCUS       pME_Cp_0_4_011_iLov        2481 bp    DNA     circular UNA 09-AUG-2025
+LOCUS       pME_Cp_0_4_011_iLov        2481 bp    DNA     circular UNA 11-AUG-2025
 DEFINITION  iLov reporter gene, codon optimized for Chlamydomonas reinhardtii.
 ACCESSION   urn.local...h98-i80ecsh
 VERSION     urn.local...h98-i80ecsh
@@ -11,7 +11,7 @@ FEATURES             Location/Qualifiers
                      /mol_type="other DNA"
      misc_feature    5..8
                      /standard_name="CDS overhang"
-     CDS             6..383
+     CDS             6..>383
                      /product="iLov"
                      /codon_start=1
                      /transl_table=1

@@ -1,5 +1,5 @@
-LOCUS       pME_Cp_0_3a_010_IEE5        2531 bp    DNA     circular UNA 06-AUG-2025
-DEFINITION  IEE5 Chlamydomonas reinhardtii.
+LOCUS       pME_Cp_0_3a_010_tscA-chlN_IEE_Cr        2531 bp    DNA     circular UNA 11-AUG-2025
+DEFINITION  tscA-chlN IEE Chlamydomonas reinhardtii.
 ACCESSION   urn.local...he8-i80ecsq
 VERSION     urn.local...he8-i80ecsq
 KEYWORDS    .

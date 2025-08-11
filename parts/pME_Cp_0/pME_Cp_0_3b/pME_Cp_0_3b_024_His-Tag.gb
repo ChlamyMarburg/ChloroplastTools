@@ -1,4 +1,4 @@
-LOCUS       pME_Cp_0_3b_024_His-Tag        2130 bp    DNA     circular UNA 06-AUG-2025
+LOCUS       pME_Cp_0_3b_024_His-Tag        2130 bp    DNA     circular UNA 11-AUG-2025
 DEFINITION  His-tag N-Terminal.
 ACCESSION   urn.local...hdv-i80ecso
 VERSION     urn.local...hdv-i80ecso
@@ -11,10 +11,9 @@ FEATURES             Location/Qualifiers
                      /organism="synthetic DNA construct"
      misc_feature    8..11
                      /standard_name="N-tag overhang"
-     CDS             13..33
+     CDS             10..>33
                      /product="His-Tag"
                      /transl_table=1
-                     /codon_start=1
                      /standard_name="His N-tag"
      misc_feature    complement(33..36)
                      /standard_name="N-tag overhang"

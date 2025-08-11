@@ -1,5 +1,5 @@
-LOCUS       pME_Cp_0_3IEE_003_chlL-rpl36_IEE_Cr        2573 bp    DNA     circular UNA 06-AUG-2025
-DEFINITION  chlL-rpl36 IEE Chlamydomonas reinhardtii .
+LOCUS       pME_Cp_0_3IEE_003_chlL-rpl36_IEE_Cr        2573 bp    DNA     circular UNA 11-AUG-2025
+DEFINITION  chlL-rpl36 IEE Chlamydomonas reinhardtii.
 ACCESSION   urn.local...hfq-i80ecst
 VERSION     urn.local...hfq-i80ecst
 KEYWORDS    .
@@ -11,20 +11,8 @@ FEATURES             Location/Qualifiers
                      /organism="synthetic DNA construct"
      misc_feature    8..11
                      /standard_name="5'UTR overhang"
-     mRNA            <12..309
-                     /locus_tag="ChreCp009"
-                     /standard_name="chlL"
-     gene            <12..309
-                     /locus_tag="ChreCp009"
-                     /standard_name="chlL"
      3'UTR           12..309
                      /standard_name="3'UTR"
-     mRNA            310..>475
-                     /locus_tag="ChreCp010"
-                     /standard_name="rpl36"
-     gene            310..>475
-                     /locus_tag="ChreCp010"
-                     /standard_name="rpl36"
      5'UTR           310..475
                      /standard_name="5'UTR"
      misc_feature    complement(476..479)

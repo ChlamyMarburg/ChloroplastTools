@@ -1,4 +1,4 @@
-LOCUS       pME_Cp_0_2-3a_002_psbD_Prom+5'UTR_Cr        2615 bp    DNA     circular UNA 05-AUG-2025
+LOCUS       pME_Cp_0_2-3a_002_psbD_Prom+5'UTR_Cr        2615 bp    DNA     circular UNA 11-AUG-2025
 DEFINITION  psbD promoter + 5'UTR Chlamydomonas reinhardtii 2-3a.
 ACCESSION   urn.local...heh-i80ecsq
 VERSION     urn.local...heh-i80ecsq
@@ -12,7 +12,7 @@ FEATURES             Location/Qualifiers
      misc_feature    8..11
                      /standard_name="promoter overhang"
      misc_feature    12..517
-                     /standard_name="psbD promoter + 5'UTR "
+                     /standard_name="psbD promoter + 5'UTR"
      regulatory      387..442
                      /note="Geneious type: promoter"
                      /standard_name="psbD promoter Chlamy"

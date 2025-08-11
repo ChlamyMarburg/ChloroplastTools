@@ -1,4 +1,4 @@
-LOCUS       pME_Cp_0_5a_005_HA-tag        2199 bp    DNA     circular UNA 06-AUG-2025
+LOCUS       pME_Cp_0_5a_005_HA-tag        2199 bp    DNA     circular UNA 11-AUG-2025
 DEFINITION  HA-tag in C-terminal.
 ACCESSION   urn.local...haw-i80ecsk
 VERSION     urn.local...haw-i80ecsk
@@ -9,26 +9,11 @@ FEATURES             Location/Qualifiers
      source          1..2199
                      /organism="synthetic DNA construct"
                      /mol_type="other DNA"
-     CDS             8..103
+     CDS             <8..>103
                      /transl_table=1
                      /codon_start=1
                      /product="3x HA-tag"
                      /standard_name="3x HA C-tag"
-     CDS             14..40
-                     /product="HA tag"
-                     /transl_table=1
-                     /codon_start=1
-                     /standard_name="HA tag"
-     CDS             44..70
-                     /product="HA tag"
-                     /transl_table=1
-                     /codon_start=1
-                     /standard_name="HA tag"
-     CDS             74..100
-                     /transl_table=1
-                     /codon_start=1
-                     /product="HA tag"
-                     /standard_name="HA tag"
      regulatory      143..200
                      /note="Geneious type: terminator"
                      /standard_name="his operon terminator"

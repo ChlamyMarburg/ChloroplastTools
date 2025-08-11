@@ -1,4 +1,4 @@
-LOCUS       pME_Cp_0_4_005_aadA_        2980 bp    DNA     circular UNA 09-AUG-2025
+LOCUS       pME_Cp_0_4_005_aadA        2980 bp    DNA     circular UNA 11-AUG-2025
 DEFINITION  Aminoglycoside-3''-9-adenylyltransferase selection gene, codon
             optimized for Chlamydomonas reinhardtii [stop codon included].
 ACCESSION   urn.local...1oe-ji16nz9
@@ -12,15 +12,8 @@ FEATURES             Location/Qualifiers
                      /mol_type="other DNA"
      misc_feature    8..11
                      /standard_name="CDS overhang"
-     CDS             12..881
+     CDS             9..881
                      /note="aadA"
-                     /translation="MAMRTPEELSNLIKDLIEQYTPEVKMSMAREAVIAEVSTQLSEV
-                     VGVIERHLEPTLLAVHLYGSAVDGGLKPHSDIDLLVTVTVRLDETTRRALINDLLETS
-                     ASPGESEILRAVEVTIVVHDDIIPWRYPAKRELQFGEWQRNDILAGIFEPATIDIDLA
-                     ILLTKAREHSVALVGPAAEELFDPVPEQDLFEALNETLTLWNSPPDWAGDERNVVLTL
-                     SRIWYSAVTGKIAPKDVAADWAMERLPAQYQPVILEARQAYLGQEDRLASRADQLEEF
-                     VHYVKGEITKVVGK*"
-                     /codon_start=1
                      /transl_table=11
                      /product="Aminoglycoside-3''-9-adenylyltransferase"
                      /standard_name="aadA"

@@ -1,4 +1,4 @@
-LOCUS       pME_Cp_0_5_039_tufA_3'UTR_Cr        2332 bp    DNA     circular UNA 06-AUG-2025
+LOCUS       pME_Cp_0_5_039_tufA_3'UTR_Cr        2332 bp    DNA     circular UNA 11-AUG-2025
 DEFINITION  tufA 3'UTR Chlamydomonas reinhardtii.
 ACCESSION   urn.local...ha7-i80ecsi
 VERSION     urn.local...ha7-i80ecsi
@@ -13,11 +13,6 @@ FEATURES             Location/Qualifiers
                      /standard_name="3'UTR overhang"
      3'UTR           14..210
                      /standard_name="tufA 3'UTR Cr"
-     mRNA            <14..210
-                     /standard_name="tufA"
-     gene            <14..210
-                     /locus_tag="ChreCp005"
-                     /standard_name="tufA"
      misc_feature    complement(235..238)
                      /standard_name="3'UTR overhang"
      regulatory      276..333

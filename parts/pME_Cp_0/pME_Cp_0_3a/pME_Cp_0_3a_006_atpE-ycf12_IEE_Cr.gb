@@ -1,4 +1,4 @@
-LOCUS       pME_Cp_0_3a_006_atpE-ycf12_IEE_Cr        2303 bp    DNA     circular UNA 06-AUG-2025
+LOCUS       pME_Cp_0_3a_006_atpE-ycf12_IEE_Cr        2303 bp    DNA     circular UNA 11-AUG-2025
 DEFINITION  atpE-ycf12 IEE Chlamydomonas reinhardtii.
 ACCESSION   urn.local...he9-i80ecsq
 VERSION     urn.local...he9-i80ecsq
@@ -11,19 +11,10 @@ FEATURES             Location/Qualifiers
                      /organism="synthetic DNA construct"
      misc_feature    8..11
                      /standard_name="5'UTR overhang"
-     misc_feature    12..205
-                     /standard_name="atpE-ycf12 IEE Cr"
-     gene            <12..119
-                     /locus_tag="ChreCp023"
-                     /standard_name="atpE"
-     mRNA            <12..119
-                     /standard_name="atpE"
      3'UTR           12..119
                      /standard_name="atpE 3'UTR Chlamy"
-     mRNA            144..>205
-                     /standard_name="ycf12"
-     gene            144..>205
-                     /standard_name="ycf12"
+     misc_feature    12..205
+                     /standard_name="atpE-ycf12 IEE Cr"
      5'UTR           144..205
                      /standard_name="ycf12"
      misc_feature    complement(206..209)

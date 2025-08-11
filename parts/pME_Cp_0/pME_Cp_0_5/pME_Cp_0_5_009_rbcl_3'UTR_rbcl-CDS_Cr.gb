@@ -1,4 +1,4 @@
-LOCUS       pME_Cp_0_5_009_rbcl_3'UTR+rbcl-CDS_Cr        2518 bp    DNA     circular UNA 06-AUG-2025
+LOCUS       pME_Cp_0_5_009_rbcl_3'UTR+rbcl-CDS_Cr        2518 bp    DNA     circular UNA 11-AUG-2025
 DEFINITION  rbcL 3'UTR + rbcL CDS Chlamydomonas reinhardtii.
 ACCESSION   urn.local...hal-i80ecsk
 VERSION     urn.local...hal-i80ecsk
@@ -11,7 +11,7 @@ FEATURES             Location/Qualifiers
                      /mol_type="other DNA"
      misc_feature    8..11
                      /standard_name="3'UTR overhang"
-     CDS             <14..162
+     CDS             <14..87
                      /product="Ribulose-1,5-bisphosphat-carboxylase/oxygenase
                      large subunit"
                      /codon_start=3

@@ -1,4 +1,4 @@
-LOCUS       pME_Cp_0_3IEE_018_rps14-rps7_IEE_Cr        2438 bp    DNA     circular UNA 06-AUG-2025
+LOCUS       pME_Cp_0_3IEE_018_rps14-rps7_IEE_Cr        2438 bp    DNA     circular UNA 11-AUG-2025
 DEFINITION  rps14-rps7 IEE Chlamydomonas reinhardtii.
 ACCESSION   urn.local...hg5-i80ecst
 VERSION     urn.local...hg5-i80ecst
@@ -11,21 +11,10 @@ FEATURES             Location/Qualifiers
                      /organism="synthetic DNA construct"
      misc_feature    8..11
                      /standard_name="5'UTR overhang"
-     misc_feature    12..340
-                     /standard_name="rps14-rps7 IEE Cr"
-     mRNA            <12..286
-                     /standard_name="rps14"
-     gene            <12..286
-                     /locus_tag="ChreCp025"
-                     /standard_name="rps14"
      3'UTR           12..286
                      /standard_name="rps14"
-     mRNA            287..>340
-                     /locus_tag="ChreCp024"
-                     /standard_name="rps7"
-     gene            287..>340
-                     /locus_tag="ChreCp024"
-                     /standard_name="rps7"
+     misc_feature    12..340
+                     /standard_name="rps14-rps7 IEE Cr"
      5'UTR           287..340
                      /standard_name="rps7"
      misc_feature    complement(341..344)

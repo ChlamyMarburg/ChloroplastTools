@@ -1,4 +1,4 @@
-LOCUS       pME_Cp_0_5_017_petD_3'UTR_Cr        2310 bp    DNA     circular UNA 06-AUG-2025
+LOCUS       pME_Cp_0_5_017_petD_3'UTR_Cr        2310 bp    DNA     circular UNA 11-AUG-2025
 DEFINITION  petD 3'UTR Chlamydomonas reinhardtii.
 ACCESSION   urn.local...hak-i80ecsk
 VERSION     urn.local...hak-i80ecsk
@@ -11,12 +11,6 @@ FEATURES             Location/Qualifiers
                      /mol_type="other DNA"
      misc_feature    8..11
                      /standard_name="3'UTR overhang"
-     gene            <14..194
-                     /locus_tag="ChreCp002"
-                     /standard_name="petD"
-     mRNA            <14..194
-                     /locus_tag="ChreCp002"
-                     /standard_name="petD"
      3'UTR           14..194
                      /standard_name="petD 3'UTR Cr"
      misc_feature    complement(213..216)

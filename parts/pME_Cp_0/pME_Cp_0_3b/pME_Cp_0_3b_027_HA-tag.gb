@@ -1,4 +1,4 @@
-LOCUS       pME_Cp_0_3b_027_HA-tag        2199 bp    DNA     circular UNA 06-AUG-2025
+LOCUS       pME_Cp_0_3b_027_HA-tag        2199 bp    DNA     circular UNA 11-AUG-2025
 DEFINITION  HA-tag N-terminal.
 ACCESSION   urn.local...hdh-i80ecso
 VERSION     urn.local...hdh-i80ecso
@@ -11,26 +11,11 @@ FEATURES             Location/Qualifiers
                      /organism="synthetic DNA construct"
      misc_feature    8..11
                      /standard_name="N-tag overhang"
-     CDS             10..102
+     CDS             10..>102
                      /codon_start=1
                      /transl_table=1
                      /product="3x HA tag"
                      /standard_name="3x HA N-tag"
-     CDS             13..39
-                     /product="HA tag"
-                     /transl_table=1
-                     /codon_start=1
-                     /standard_name="HA tag"
-     CDS             43..69
-                     /product="HA tag"
-                     /transl_table=1
-                     /codon_start=1
-                     /standard_name="HA tag"
-     CDS             73..99
-                     /transl_table=1
-                     /codon_start=1
-                     /product="HA tag"
-                     /standard_name="HA tag"
      misc_feature    complement(102..105)
                      /standard_name="N-tag overhang"
      regulatory      143..200

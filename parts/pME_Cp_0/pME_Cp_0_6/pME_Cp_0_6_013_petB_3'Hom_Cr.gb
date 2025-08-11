@@ -1,4 +1,4 @@
-LOCUS       pME_Cp_0_6_013_petB_3'Hom_Cr        3908 bp    DNA     circular UNA 06-AUG-2025
+LOCUS       pME_Cp_0_6_013_petB_3'Hom_Cr        3908 bp    DNA     circular UNA 11-AUG-2025
 DEFINITION  3' Homology petB in the M2 position used for genome integration at
             the petB locus.
 ACCESSION   urn.local...hf0-i80ecss
@@ -16,12 +16,6 @@ FEATURES             Location/Qualifiers
                      /standard_name="3' Homology petB locus"
      3'UTR           complement(167..310)
                      /standard_name="petB 3'UTR Chlamy"
-     gene            complement(167..1052)
-                     /locus_tag="ChreCp008"
-                     /standard_name="petB"
-     mRNA            complement(167..1052)
-                     /locus_tag="ChreCp008"
-                     /standard_name="petB"
      CDS             complement(311..958)
                      /codon_start=1
                      /locus_tag="ChreCp008"

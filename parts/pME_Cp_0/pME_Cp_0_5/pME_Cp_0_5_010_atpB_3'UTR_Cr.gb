@@ -1,4 +1,4 @@
-LOCUS       pME_Cp_0_5_010_atpB_3'UTR_Cr        2197 bp    DNA     circular UNA 06-AUG-2025
+LOCUS       pME_Cp_0_5_010_atpB_3'UTR_Cr        2197 bp    DNA     circular UNA 11-AUG-2025
 DEFINITION  atpB 3'UTR Chlamydomonas reinhardtii.
 ACCESSION   urn.local...hah-i80ecsk
 VERSION     urn.local...hah-i80ecsk
@@ -13,11 +13,6 @@ FEATURES             Location/Qualifiers
                      /standard_name="3'UTR overhang"
      3'UTR           14..99
                      /standard_name="atpB 3'UTR Cr"
-     gene            <14..83
-                     /locus_tag="ChreCp058"
-                     /standard_name="atpB"
-     mRNA            <14..83
-                     /standard_name="atpB"
      3'UTR           14..83
                      /standard_name="3'UTR"
      misc_feature    complement(100..103)

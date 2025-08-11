@@ -1,4 +1,4 @@
-LOCUS       pME_Cp_0_5_040_ycf1_3'UTR_Cr        2197 bp    DNA     circular UNA 06-AUG-2025
+LOCUS       pME_Cp_0_5_040_ycf1_3'UTR_Cr        2197 bp    DNA     circular UNA 11-AUG-2025
 DEFINITION  ycf1 3'UTR Chlamydomonas reinhardtii.
 ACCESSION   urn.local...h9t-i80ecsi
 VERSION     urn.local...h9t-i80ecsi
@@ -11,11 +11,6 @@ FEATURES             Location/Qualifiers
                      /mol_type="other DNA"
      misc_feature    8..11
                      /standard_name="3'UTR overhang"
-     gene            <14..91
-                     /locus_tag="ChreCp059"
-                     /standard_name="ycf1"
-     mRNA            <14..91
-                     /standard_name="ycf1"
      3'UTR           14..91
                      /standard_name="ycf1 3'UTR Cr"
      misc_feature    complement(100..103)

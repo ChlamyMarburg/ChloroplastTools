@@ -1,4 +1,4 @@
-LOCUS       pME_Cp_0_3IEE_015_rpl23-rpl2_IEE_Cr        2836 bp    DNA     circular UNA 06-AUG-2025
+LOCUS       pME_Cp_0_3IEE_015_rpl23-rpl2_IEE_Cr        2836 bp    DNA     circular UNA 11-AUG-2025
 DEFINITION  rpl23-rpl2 IEE Chlamydomonas reinhardtii.
 ACCESSION   urn.local...hg3-i80ecst
 VERSION     urn.local...hg3-i80ecst
@@ -11,22 +11,10 @@ FEATURES             Location/Qualifiers
                      /mol_type="other DNA"
      misc_feature    8..11
                      /standard_name="5'UTR overhang"
-     misc_feature    12..738
-                     /standard_name="rpl23-rpl2 IEE Cr"
-     mRNA            <12..284
-                     /locus_tag="ChreCp011"
-                     /standard_name="rpl23"
-     gene            <12..284
-                     /locus_tag="ChreCp011"
-                     /standard_name="rpl23"
      3'UTR           12..284
                      /standard_name="rpl23 3'UTR Chlamy"
-     mRNA            314..>738
-                     /locus_tag="ChreCp012"
-                     /standard_name="rpl2"
-     gene            314..>738
-                     /locus_tag="ChreCp012"
-                     /standard_name="rpl2"
+     misc_feature    12..738
+                     /standard_name="rpl23-rpl2 IEE Cr"
      5'UTR           314..738
                      /standard_name="rpl2 5'UTR Chlamy"
      misc_feature    complement(739..742)

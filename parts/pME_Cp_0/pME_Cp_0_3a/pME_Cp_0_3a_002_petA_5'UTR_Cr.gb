@@ -1,4 +1,4 @@
-LOCUS       pME_Cp_0_3a_002_petA_5'UTR_Cr        2370 bp    DNA     circular UNA 06-AUG-2025
+LOCUS       pME_Cp_0_3a_002_petA_5'UTR_Cr        2370 bp    DNA     circular UNA 11-AUG-2025
 DEFINITION  petA 5'UTR Chlamydomonas reinhardtii.
 ACCESSION   urn.local...he7-i80ecsq
 VERSION     urn.local...he7-i80ecsq
@@ -13,14 +13,6 @@ FEATURES             Location/Qualifiers
                      /standard_name="5'UTR overhang"
      5'UTR           12..272
                      /standard_name="petA 5'UTR Cr"
-     gene            12..>272
-                     /locus_tag="ChreCp001"
-                     /standard_name="petA"
-     mRNA            12..>272
-                     /locus_tag="ChreCp001"
-                     /standard_name="petA"
-     5'UTR           12..272
-                     /standard_name="petA 5'UTR Chlamy"
      misc_feature    complement(273..276)
                      /standard_name="5'UTR overhang"
      regulatory      314..371

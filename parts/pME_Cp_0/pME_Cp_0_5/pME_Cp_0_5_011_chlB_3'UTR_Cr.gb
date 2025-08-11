@@ -1,4 +1,4 @@
-LOCUS       pME_Cp_0_5_011_chlB_3'UTR_Cr        2181 bp    DNA     circular UNA 06-AUG-2025
+LOCUS       pME_Cp_0_5_011_chlB_3'UTR_Cr        2181 bp    DNA     circular UNA 11-AUG-2025
 DEFINITION  chlB 3'UTR Chlamydomonas reinhardtii.
 ACCESSION   urn.local...ha2-i80ecsi
 VERSION     urn.local...ha2-i80ecsi
@@ -11,12 +11,6 @@ FEATURES             Location/Qualifiers
                      /mol_type="other DNA"
      misc_feature    8..11
                      /standard_name="3'UTR overhang"
-     gene            <14..>83
-                     /locus_tag="ChreCp003"
-                     /standard_name="chlB"
-     mRNA            <14..>83
-                     /locus_tag="ChreCp003"
-                     /standard_name="chlB"
      3'UTR           14..>83
                      /standard_name="chlB 3'UTR Cr"
      misc_feature    complement(84..87)

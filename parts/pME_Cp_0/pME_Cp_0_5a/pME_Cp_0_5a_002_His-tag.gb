@@ -1,4 +1,4 @@
-LOCUS       pME_Cp_0_5a_002_His-tag        2130 bp    DNA     circular UNA 06-AUG-2025
+LOCUS       pME_Cp_0_5a_002_His-tag        2130 bp    DNA     circular UNA 11-AUG-2025
 DEFINITION  His-tag in C-terminal.
 ACCESSION   urn.local...hb1-i80ecsk
 VERSION     urn.local...hb1-i80ecsk
@@ -9,7 +9,7 @@ FEATURES             Location/Qualifiers
      source          1..2130
                      /organism="synthetic DNA construct"
                      /mol_type="other DNA"
-     CDS             8..34
+     CDS             <8..>34
                      /transl_table=1
                      /codon_start=1
                      /product="His-tag"

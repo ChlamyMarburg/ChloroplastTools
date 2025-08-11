@@ -1,4 +1,4 @@
-LOCUS       pME_Cp_0_5b_003_petL_3'UTR_Cr        2266 bp    DNA     circular UNA 06-AUG-2025
+LOCUS       pME_Cp_0_5b_003_petL_3'UTR_Cr        2266 bp    DNA     circular UNA 11-AUG-2025
 DEFINITION  petL 3'UTR Chlamydomonas reinhardtii.
 ACCESSION   urn.local...has-i80ecsk
 VERSION     urn.local...has-i80ecsk
@@ -15,12 +15,6 @@ FEATURES             Location/Qualifiers
                      /standard_name="stop codon"
      3'UTR           13..168
                      /standard_name="petL 3'UTR Cr"
-     mRNA            <13..>168
-                     /locus_tag="ChreCp068"
-                     /standard_name="petL"
-     gene            <13..>168
-                     /locus_tag="ChreCp068"
-                     /standard_name="petL"
      3'UTR           13..>168
                      /standard_name="3'UTR"
      misc_feature    complement(169..172)

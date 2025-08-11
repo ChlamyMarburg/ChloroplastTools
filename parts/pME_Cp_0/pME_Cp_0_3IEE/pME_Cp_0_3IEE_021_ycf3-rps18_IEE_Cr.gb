@@ -1,4 +1,4 @@
-LOCUS       pME_Cp_0_3IEE_021_ycf3-rps18_IEE_Cr        2471 bp    DNA     circular UNA 06-AUG-2025
+LOCUS       pME_Cp_0_3IEE_021_ycf3-rps18_IEE_Cr        2471 bp    DNA     circular UNA 11-AUG-2025
 DEFINITION  ycf3-rps18 IEE Chlamydomonas reinhardtii.
 ACCESSION   urn.local...hg4-i80ecst
 VERSION     urn.local...hg4-i80ecst
@@ -11,24 +11,35 @@ FEATURES             Location/Qualifiers
                      /mol_type="other DNA"
      misc_feature    8..11
                      /standard_name="5'UTR overhang"
-     misc_feature    12..373
-                     /standard_name="ycf3-rps18 IEE Cr"
-     mRNA            <12..165
-                     /standard_name="ycf3"
-     gene            <12..165
-                     /locus_tag="ChreCp037"
-                     /standard_name="ycf3"
      3'UTR           12..165
                      /standard_name="ycf3 3'UTR Chlamy"
-     mRNA            193..>373
-                     /standard_name="rps18"
-     gene            193..>373
-                     /locus_tag="ChreCp036"
-                     /standard_name="rps18"
+     misc_feature    12..373
+                     /standard_name="ycf3-rps18 IEE Cr"
      5'UTR           193..373
                      /standard_name="5'UTR"
      misc_feature    complement(374..377)
                      /standard_name="5'UTR overhang"
+     regulatory      415..472
+                     /note="Geneious type: terminator"
+                     /standard_name="his operon terminator"
+     rep_origin      complement(667..1255)
+     regulatory      complement(1438..1532)
+                     /note="Geneious type: terminator"
+                     /standard_name="lambda t0 terminator"
+     CDS             complement(1553..2212)
+                     /gene="CmR"
+                     /product="chloramphenicol acetyltransferase"
+                     /codon_start=1
+                     /transl_table=1
+                     /standard_name="CmR"
+     regulatory      complement(2213..2316)
+                     /note="Geneious type: promoter"
+                     /note="Promoter for chloramphenicol acetyl transferase"
+                     /regulatory_class="promoter"
+                     /standard_name="cat"
+     regulatory      complement(2396..2439)
+                     /note="Geneious type: terminator"
+                     /standard_name="bacterial terminator"
 ORIGIN      
         1 ggtctcgtac taaaagatgt tgaccctttt gacttgaagt tgccagattg atttttactc
        61 ttctctaagc catattttaa tactttgtaa ggaaaatata aatacctatt gatataaatt

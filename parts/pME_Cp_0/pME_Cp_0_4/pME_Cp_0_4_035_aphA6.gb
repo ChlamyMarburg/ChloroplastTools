@@ -1,4 +1,4 @@
-LOCUS       pME_Cp_0_4_035_aphA6        2889 bp    DNA     circular UNA 09-AUG-2025
+LOCUS       pME_Cp_0_4_035_aphA6        2889 bp    DNA     circular UNA 11-AUG-2025
 DEFINITION  Aminoglycoside-3'-phosphotransferase selection gene, codon
             optimized for Chlamydomonas reinhardtii.
 ACCESSION   urn.local...h9j-i80ecsi
@@ -12,7 +12,7 @@ FEATURES             Location/Qualifiers
                      /mol_type="other DNA"
      misc_feature    8..11
                      /standard_name="CDS overhang"
-     CDS             9..794
+     CDS             9..>794
                      /codon_start=1
                      /transl_table=1
                      /product="Aminoglycoside-3'-phosphotransferase"

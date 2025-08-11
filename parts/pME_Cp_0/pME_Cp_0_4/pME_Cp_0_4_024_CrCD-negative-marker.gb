@@ -1,6 +1,6 @@
-LOCUS       pME_Cp_0_4_024_CrCD-negative-marker        3387 bp    DNA     circular UNA 09-AUG-2025
+LOCUS       pME_Cp_0_4_024_CrCD-negative-marker        3387 bp    DNA     circular UNA 11-AUG-2025
 DEFINITION  Cytosine deaminase selection gene, codon optimized for
-            Chlamydomonas reinhardtii .
+            Chlamydomonas reinhardtii.
 ACCESSION   urn.local...h9f-i80ecsh
 VERSION     urn.local...h9f-i80ecsh
 KEYWORDS    .
@@ -12,7 +12,7 @@ FEATURES             Location/Qualifiers
                      /mol_type="other DNA"
      misc_feature    8..11
                      /standard_name="CDS overhang"
-     CDS             9..1292
+     CDS             9..>1292
                      /product="Cytosine deaminase"
                      /transl_table=1
                      /standard_name="CrCD"
