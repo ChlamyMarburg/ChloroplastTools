@@ -17,13 +17,13 @@ FEATURES             Location/Qualifiers
                      /standard_name="lvl2 fusion site"
      regulatory      complement(23..74)
                      /note="Geneious type: terminator"
-                     /standard_name="L3S1P51 "
+                     /standard_name="L3S1P51"
      misc_feature    23..426
                      /function="Insulator between TUs"
                      /standard_name="Spacer007"
      regulatory      375..426
                      /note="Geneious type: terminator"
-                     /standard_name="L3S1P52 "
+                     /standard_name="L3S1P52"
      misc_feature    complement(427..430)
                      /function="promoter overhang for lvl1 assembly"
                      /standard_name="5' connector overhang rev"

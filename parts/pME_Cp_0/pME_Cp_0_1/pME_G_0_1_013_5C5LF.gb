@@ -1,6 +1,6 @@
 LOCUS       pME_G_0_1_013_5C5LF        2529 bp    DNA     circular UNA 05-AUG-2025
 DEFINITION  5' Connector 5 Long Forward in the M1 position used to dictate
-            position for lvl2 assembly .
+            position for lvl2 assembly.
 ACCESSION   urn.local...h8w-i80ecsh
 VERSION     urn.local...h8w-i80ecsh
 KEYWORDS    .
@@ -17,13 +17,13 @@ FEATURES             Location/Qualifiers
                      /standard_name="lvl2 fusion site"
      regulatory      complement(23..79)
                      /note="Geneious type: terminator"
-                     /standard_name="L3S2P52 "
+                     /standard_name="L3S2P52"
      misc_feature    23..431
                      /function="Insulator between TUs"
                      /standard_name="Spacer005"
      regulatory      380..431
                      /note="Geneious type: terminator"
-                     /standard_name="L3S1P56 "
+                     /standard_name="L3S1P56"
      misc_feature    complement(432..435)
                      /function="promoter overhang for lvl1 assembly"
                      /standard_name="5' connector overhang rev"

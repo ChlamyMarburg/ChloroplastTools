@@ -23,7 +23,7 @@ FEATURES             Location/Qualifiers
                      /standard_name="Spacer001"
      regulatory      380..431
                      /note="Geneious type: terminator"
-                     /standard_name="L3S1P53 "
+                     /standard_name="L3S1P53"
      misc_feature    complement(432..435)
                      /function="promoter overhang for lvl1 assembly"
                      /standard_name="5' connector overhang rev"

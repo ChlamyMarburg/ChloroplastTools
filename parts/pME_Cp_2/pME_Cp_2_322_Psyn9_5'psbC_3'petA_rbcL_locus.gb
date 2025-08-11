@@ -1,4 +1,4 @@
-LOCUS       pME_Cp_2_322_Psyn9_5'psbC_3'petA_rbcL_locus        8820 bp    DNA     circular UNA 09-AUG-2025
+LOCUS       pME_Cp_2_322_Psyn9_5'psbC_3'petA_rbcL_locus        8820 bp    DNA     circular UNA 11-AUG-2025
 DEFINITION  Lvl2_Psyn9_5'psbC_3'petA_rbcL_locus.
 ACCESSION   urn.local...owm-jiaph98
 VERSION     urn.local...owm-jiaph98
@@ -10,215 +10,125 @@ FEATURES             Location/Qualifiers
                      /organism="synthetic DNA construct"
                      /mol_type="other DNA"
      misc_feature    1..4
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="lvl2 fusion site"
      misc_feature    5..2108
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="5'Homology rbcL locus"
      tRNA            complement(144..216)
                      /locus_tag="ChreCt021"
                      /product="tRNA-Gly"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="trnG"
      3'UTR           complement(251..465)
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="rbcL 3'UTR Cr"
      CDS             complement(466..1893)
                      /product="Ribulose-1,5-bisphosphate carboxylase/oxygenase
                      large subunit"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="rbcL"
      5'UTR           complement(1894..1985)
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="rbcL 5'UTR Cr"
      regulatory      complement(1986..2044)
                      /note="Geneious type: promoter"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="rbcL promoter Cr"
      misc_feature    complement(2109..2112)
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="3' connector overhang"
      misc_feature    2109..2112
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="3'UTR overhang"
      3'UTR           complement(2113..2370)
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="rbcL 3'UTR Cr"
-     CDS             complement(2371..>2519)
+     CDS             complement(2466..>2519)
                      /product="Ribulose-1,5-bisphosphat-carboxylase/oxygenase
                      large subunit"
                      /transl_table=11
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /codon_start=1
                      /standard_name="rbcL"
      misc_feature    complement(2522..2525)
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="3'UTR overhang"
      misc_feature    2522..2525
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="CDS overhang"
-     CDS             complement(2527..3396)
+     CDS             complement(2527..3399)
                      /note="aadA"
                      /codon_start=1
                      /transl_table=11
                      /product="Aminoglycoside-3''-9-adenylyltransferase"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="aadA"
      misc_feature    3397..3400
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="5'UTR overhang"
      misc_feature    complement(3397..3400)
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="CDS overhang"
      5'UTR           complement(3401..3825)
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="atpA 5'UTR Cr"
      misc_feature    complement(3401..3939)
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="atpA promoter + 5'UTR"
      regulatory      complement(3826..3883)
                      /note="Geneious type: promoter"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="atpA promoter Cr"
      misc_feature    3940..3943
                      /function="promoter overhang for lvl1 assembly"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="5' connector overhang"
      misc_feature    complement(3940..3943)
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="promoter overhang"
      misc_feature    3944..3947
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="lvl2 fusion site"
      misc_feature    complement(3944..3947)
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="lvl2 fusion site"
      regulatory      complement(3948..4004)
                      /note="Geneious type: terminator"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="L3S2P22"
      misc_feature    3948..4361
                      /function="Insulator between TUs"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="Spacer002"
      regulatory      4305..4361
                      /note="Geneious type: terminator"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="L3S2P56"
      misc_feature    complement(4362..4365)
                      /function="promoter overhang for lvl1 assembly"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="5' connector overhang rev"
      misc_feature    4362..4365
                      /function="promoter overhang for lvl1 assembly"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="promoter overhang"
      regulatory      4366..4411
                      /note="Geneious type: promoter"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="Synthetic promoter 9"
      misc_feature    complement(4412..4415)
                      /function="promoter overhang for lvl1 assembly"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="promoter overhang"
      misc_feature    4412..4415
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="5'UTR overhang"
      5'UTR           4416..4962
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="psbC 5'UTR Cr"
      misc_feature    complement(4963..4966)
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="5'UTR overhang"
      misc_feature    4963..4966
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="CDS overhang"
      CDS             4964..5479
                      /transl_table=1
                      /codon_start=1
                      /product="NanoLuc"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="NanoLuc"
      misc_feature    complement(5477..5480)
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="CDS overhang"
      misc_feature    5477..5480
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="3'UTR overhang"
      3'UTR           5483..>6131
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="petA 3'UTR Cr"
      misc_feature    6132..6135
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="3' connector overhang"
      misc_feature    complement(6132..6135)
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="3'UTR overhang"
      misc_feature    6136..7044
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="3' Homology rbcL locus"
      misc_feature    complement(7045..7048)
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="lvl2 fusion site"
      rep_origin      complement(7157..7745)
      regulatory      7822..7969
                      /note="Geneious type: promoter"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="KanR Promoter"
      CDS             7970..8785
                      /product="Aph(3') aminoglycoside O-phosphotransferase"
                      /codon_start=1
                      /transl_table=1
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="KanR"
      regulatory      8786..8812
                      /note="Geneious type: terminator"
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="KanR Terminator"
 ORIGIN      
         1 aacagtaaaa acacataact ccacgtaagc gcattttctt acaatcaaag aatgccaatt

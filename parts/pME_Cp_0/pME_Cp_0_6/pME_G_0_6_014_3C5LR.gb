@@ -22,8 +22,6 @@ FEATURES             Location/Qualifiers
                      /note="Geneious type: terminator"
                      /standard_name="L3S1P56 "
      misc_feature    complement(421..424)
-                     /note="Derived using Geneious Prime 2025.1.3 'Annotate
-                     from Database' based on nucleotide similarity"
                      /standard_name="lvl2 fusion site"
      misc_feature    complement(432..435)
                      /standard_name="3' connector overhang"
