@@ -33,6 +33,7 @@ To apply synthetic biology techniques to chloroplast engineering in Chlamydomona
 <p>
 The following sections provide a detailed explanation of our cloning system.
 </p>
+<br>
 
 ### The general Modular cloning scheme
 <p>
@@ -62,13 +63,25 @@ Next, 2–7 transcriptional units are integrated into a Level 2 multigene casset
 <p>
 To enable selection of successfully assembled plasmids, different antibiotic markers are used at each assembly stage. In our system, Level 0 employs chloramphenicol, Level 1 uses carbenicillin (or ampicillin), and Level 2 utilizes kanamycin selection.
 </p>
+<br>
 
 ### Domesticating new Level 0 parts
 <p>
 New Level 0 parts are generated using PCR products or synthesized DNA. These linear sequences are then assembled into a single standardized universal acceptor vector. 
 In contrast to other methods that require multiple acceptor vectors, only one is needed because standardized overhangs are incorporated into the PCR primers or synthesized sequence. The specific overhangs are detailed in Table 1.
 </p>
+<br>
 
-![Hierarchical_MoClo_scheme](../images/parts/Fig2.png)
-*<b>Figure 2</b> Domesticating new Level 0 Parts 
-PCR or DNA synthesis fragments that include standardized overhangs and BsmBI recognition sites are assembled into the Universal Acceptor vector. This vector features an mScarlet placeholder, enabling pink/white colony screening.*
+<html>
+<figure>
+    <img src="../images/parts/Fig3.png"
+         alt="Domesticating new Level 0 Parts ">
+    <figcaption>
+<b>Figure 3</b> Domesticating new Level 0 Parts <br>
+PCR or DNA synthesis fragments that include standardized overhangs and BsmBI recognition sites are assembled into the Universal Acceptor vector. This vector features an mScarlet placeholder, enabling pink/white colony screening.</figcaption>
+</figure>
+</html>
+<br><br>
+
+<p>
+The unique overhangs assign the position within the Level 1 assembly for the subsequent cloning steps. For some overhangs, additional nucleotides are appended. For example, overhangs in the 3’UTR position (<html><font color="blue">GCTT</font><font color="green">AA</font></html>, GGTAA) incorporate stop codons, while those at the tag positions (CCATG, GGAATG, GCTTTA) include extra bases to ensure that fusion tags remain in frame.
