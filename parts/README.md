@@ -98,7 +98,7 @@ For most Level 0 assemblies, the BsmBI enzyme is used. However, for new Connecto
 
 | Position | Sequence |
 |:------|:-----|
-| 1_5'Homology_Connector_fwd | $$\text{AA}{\color{brown}{\text{CACCTGC}}}\text{ATATCTCG}{\color{blue}{\text{AACA}}}{\color{pink}{\text{CGTCTC}}}\text{GNNNN}$$ |
+| 1_5'Homology_Connector_fwd | $$\text{AA}{\color{orange}{\text{CACCTGC}}}\text{ATATCTCG}{\color{blue}{\text{AACA}}}{\color{brown}{\text{CGTCTC}}}\text{GNNNN}$$ |
 | 1_5'Homology_Connector_rv              |               |
 | 2_Promoter_fwd                | AA**CGTCTC**GCTCG**GGAG**                    |
 | 2_Promoter_rv                 | **TACT**TGAGG**GAGACG**AA                    |
@@ -123,6 +123,6 @@ For most Level 0 assemblies, the BsmBI enzyme is used. However, for new Connecto
 
 
 **Table 1** Overhangs for creating new Level 0 parts via DNA synthesis/PCR<br>
-Level 1 overhangs are  indicated in blue. BsmBI sites ($${\color{brown}{\text{CGTCTC}}}/{{\color{brown}{\text{GAGACG}}}}$$) 
-are indicated. For connector overhangs PaqCI sites are used.
+Level 1 overhangs are  indicated in $${\color{blue}\text{blue}}$$. BsmBI sites ($${\color{brown}{\text{CGTCTC}}}/{{\color{brown}{\text{GAGACG}}}}$$) 
+are indicated in $${\color{brown}\text{brown}}$$. For connector overhangs PaqCI sites ($${\color{orange}{\text{CACCTGC}}}/{{\color{orange}{\text{GCAGGTG}}}}$$) are used and indicated in $${\color{orange}\text{orange}}$$.
 <br>
