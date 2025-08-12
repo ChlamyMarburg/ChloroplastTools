@@ -3,8 +3,10 @@
 ## Type IIs restriction enzymes
 <p>
 Unlike conventional Type II restriction enzymes, which cleave DNA within their recognition sequences, Type IIS restriction enzymes cut outside their recognition sequences at defined distances (Figure 1). This property allows for the flexible design of overhangs, enabling a single enzyme to generate up to 256 distinct 4-base pair overhangs. This capability has led to the development of the Golden Gate cloning technique, now one of the most widely used cloning methods. Commonly used Type IIS enzymes include BsaI, BsmBI, BpiI (BbsI), PaqCI (AarI), and SapI.
-<br>
 </p>
+<br>
+
+
 <html>
 <figure>
     <img src="../images/parts/Fig1.png"
@@ -15,9 +17,12 @@ While Type II restriction enzymes cleave DNA within their recognition sequence, 
 </figure>
 </html>
 <br><br>
+
+
 <p>
 Golden Gate cloning allows these enzymes to be combined in a single "one-pot" reaction with T4 ligase, eliminating the need for separate restriction and ligation steps. Because the recognition sites for Type IIS enzymes are cleaved off during digestion and are not included in the final assembly (Figure 1), correctly assembled constructs are not cleaved further. This feature enables the cycling of restriction enzyme digestion and ligation steps, which increases the efficiency of obtaining correctly assembled constructs.
 </p>
+<br>
 
 ### General introduction
 <p>
@@ -33,9 +38,18 @@ The following sections provide a detailed explanation of our cloning system.
 <p>
 In our hierarchical cloning scheme, individual Level 0 parts are first cloned into a universal acceptor vector. A Level 0 part represents the DNA sequence of a fundamental genetic element—such as a promoter, 5’UTR, coding sequence, or 3’UTR—flanked by a standardized 4-bp overhang and BsaI recognition sites.
 </p>
+<br>
 
-![Hierarchical_MoClo_scheme](../images/parts/Fig2.png)
-*<b>Figure 2</b> New parts are first domesticated and assembled into a universal acceptor vector (Level 0). These parts can then be combined in a one-pot reaction to create Level 1 plasmid containing a single transcriptional unit. Optionally, these single transcriptional units can be further assembled into a multigene cassette (Level 2).*
+<html>
+<figure>
+    <img src="../images/parts/Fig2.png"
+         alt="The hierarchical modular cloning scheme">
+    <figcaption>
+<b>Figure 2</b> The hierarchical modular cloning scheme<br>
+New parts are first domesticated and assembled into a universal acceptor vector (Level 0). These parts can then be combined in a one-pot reaction to create Level 1 plasmid containing a single transcriptional unit. Optionally, these single transcriptional units can be further assembled into a multigene cassette (Level 2).</figcaption>
+</figure>
+</html>
+<br><br>
 
 <p>
 These parts are then assembled into a single transcriptional unit using a one-pot Golden Gate reaction with BsaI, combining 5–9 Level 0 parts into a Level 1 assembly. 
