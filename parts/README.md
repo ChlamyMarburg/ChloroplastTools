@@ -2,7 +2,8 @@
 
 ## Type IIs restriction enzymes
 <p>
-Unlike conventional Type II restriction enzymes, which cleave DNA within their recognition sequences, Type IIS restriction enzymes cut outside their recognition sequences at defined distances (Figure 1) This property allows for the flexible design of overhangs, enabling a single enzyme to generate up to 256 distinct 4-base pair overhangs. This capability has led to the development of the Golden Gate cloning technique, now one of the most widely used cloning methods. Commonly used Type IIS enzymes include BsaI, BsmBI, BpiI (BbsI), PaqCI (AarI), and SapI.
+Unlike conventional Type II restriction enzymes, which cleave DNA within their recognition sequences, Type IIS restriction enzymes cut outside their recognition sequences at defined distances (Figure 1). This property allows for the flexible design of overhangs, enabling a single enzyme to generate up to 256 distinct 4-base pair overhangs. This capability has led to the development of the Golden Gate cloning technique, now one of the most widely used cloning methods. Commonly used Type IIS enzymes include BsaI, BsmBI, BpiI (BbsI), PaqCI (AarI), and SapI.
+<br>
 </p>
 <html>
 <figure>
@@ -13,7 +14,7 @@ Unlike conventional Type II restriction enzymes, which cleave DNA within their r
 While Type II restriction enzymes cleave DNA within their recognition sequence, Type IIS restriction enzymes cut DNA adjacent to their recognition sites, allowing the 4-base pair cut site to be freely chosen. </figcaption>
 </figure>
 </html>
-
+<br><br>
 <p>
 Golden Gate cloning allows these enzymes to be combined in a single "one-pot" reaction with T4 ligase, eliminating the need for separate restriction and ligation steps. Because the recognition sites for Type IIS enzymes are cleaved off during digestion and are not included in the final assembly (Figure 1), correctly assembled constructs are not cleaved further. This feature enables the cycling of restriction enzyme digestion and ligation steps, which increases the efficiency of obtaining correctly assembled constructs.
 </p>
