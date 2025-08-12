@@ -4,9 +4,15 @@
 <p>
 Unlike conventional Type II restriction enzymes, which cleave DNA within their recognition sequences, Type IIS restriction enzymes cut outside their recognition sequences at defined distances (Figure 1) This property allows for the flexible design of overhangs, enabling a single enzyme to generate up to 256 distinct 4-base pair overhangs. This capability has led to the development of the Golden Gate cloning technique, now one of the most widely used cloning methods. Commonly used Type IIS enzymes include BsaI, BsmBI, BpiI (BbsI), PaqCI (AarI), and SapI.
 </p>
-
-![TypeIIs](../images/parts/Fig1.png)
-*<b>Figure 1</b> General principle of Type IIs restriction enzymes. While Type II restriction enzymes cleave DNA within their recognition sequence, Type IIS restriction enzymes cut DNA adjacent to their recognition sites, allowing the 4-base pair cut site to be freely chosen.*
+<html>
+<figure>
+    <img src="../images/parts/Fig1.png"
+         alt="General principle of Type IIs restriction enzymes">
+    <figcaption>
+<b>Figure 1</b> General principle of Type IIs restriction enzymes<br>
+While Type II restriction enzymes cleave DNA within their recognition sequence, Type IIS restriction enzymes cut DNA adjacent to their recognition sites, allowing the 4-base pair cut site to be freely chosen. </figcaption>
+</figure>
+</html>
 
 <p>
 Golden Gate cloning allows these enzymes to be combined in a single "one-pot" reaction with T4 ligase, eliminating the need for separate restriction and ligation steps. Because the recognition sites for Type IIS enzymes are cleaved off during digestion and are not included in the final assembly (Figure 1), correctly assembled constructs are not cleaved further. This feature enables the cycling of restriction enzyme digestion and ligation steps, which increases the efficiency of obtaining correctly assembled constructs.
@@ -27,5 +33,27 @@ The following sections provide a detailed explanation of our cloning system.
 In our hierarchical cloning scheme, individual Level 0 parts are first cloned into a universal acceptor vector. A Level 0 part represents the DNA sequence of a fundamental genetic element—such as a promoter, 5’UTR, coding sequence, or 3’UTR—flanked by a standardized 4-bp overhang and BsaI recognition sites.
 </p>
 
-![TypeIIs](../images/parts/Fig2.png)
+![Hierarchical_MoClo_scheme](../images/parts/Fig2.png)
 *<b>Figure 2</b> New parts are first domesticated and assembled into a universal acceptor vector (Level 0). These parts can then be combined in a one-pot reaction to create Level 1 plasmid containing a single transcriptional unit. Optionally, these single transcriptional units can be further assembled into a multigene cassette (Level 2).*
+
+<p>
+These parts are then assembled into a single transcriptional unit using a one-pot Golden Gate reaction with BsaI, combining 5–9 Level 0 parts into a Level 1 assembly. 
+</p>
+
+<p>
+Next, 2–7 transcriptional units are integrated into a Level 2 multigene cassette via another one-pot Golden Gate reaction using BsmBI. In our system, the arrangement and order of transcription units are defined by the chosen connectors (detailed explanation below), rather than by the acceptor vectors used in the Level 1 assembly.
+</p>
+
+<p>
+To enable selection of successfully assembled plasmids, different antibiotic markers are used at each assembly stage. In our system, Level 0 employs chloramphenicol, Level 1 uses carbenicillin (or ampicillin), and Level 2 utilizes kanamycin selection.
+</p>
+
+### Domesticating new Level 0 parts
+<p>
+New Level 0 parts are generated using PCR products or synthesized DNA. These linear sequences are then assembled into a single standardized universal acceptor vector. 
+In contrast to other methods that require multiple acceptor vectors, only one is needed because standardized overhangs are incorporated into the PCR primers or synthesized sequence. The specific overhangs are detailed in Table 1.
+</p>
+
+![Hierarchical_MoClo_scheme](../images/parts/Fig2.png)
+*<b>Figure 2</b> Domesticating new Level 0 Parts 
+PCR or DNA synthesis fragments that include standardized overhangs and BsmBI recognition sites are assembled into the Universal Acceptor vector. This vector features an mScarlet placeholder, enabling pink/white colony screening.*
