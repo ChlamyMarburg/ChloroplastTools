@@ -100,5 +100,7 @@ For most Level 0 assemblies, the BsmBI enzyme is used. However, for new Connecto
 |:------|:-----|
 | 1_5`Homology_Connector_fwd | $${\text{AA}}{\color{blue}{\text{CACCTGC}}\text{ATATCTCG}{\color{blue}{\text{AACA}}{\color{brown}{\text{CGTCTC}\text{GNNN}}}}}$$ |
 
-[Table caption]
+[**Table 1** Overhangs for creating new Level 0 parts via DNA synthesis/PCR<br>
+Level 1 overhangs are  indicated in blue. BsmBI sites ($${\color{brown}{\text{CGTCTC}/\color{brown}{\text{GAGACG}}}$$) 
+are indicated. For connector overhangs PaqCI sites are used.]
 <br>
