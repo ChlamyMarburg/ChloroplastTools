@@ -84,7 +84,10 @@ PCR or DNA synthesis fragments that include standardized overhangs and BsmBI rec
 <br><br>
 
 <p>
-The unique overhangs assign the position within the Level 1 assembly for the subsequent cloning steps. For some overhangs, additional nucleotides are appended. For example, overhangs in the 3’UTR position ($${\color{blue}GCTT}{\color{green}AA},{\color{blue}GGTA}{\color{green}A}$$) incorporate stop codons, while those at the tag positions ($${\color{blue}CCAT}{\color{green}G},{\color{green}GG}{\color{blue}AATG},{\color{blue}GCTT}{\color{green}TA}$$) include extra bases to ensure that fusion tags remain in frame.
+The unique overhangs assign the position within the Level 1 assembly for the subsequent cloning steps. For some overhangs, additional nucleotides are appended. For example, overhangs in the 3’UTR position 
+<code style="color : aqua">test</code>
+
+($${\color{blue}GCTT}{\color{green}AA},{\color{blue}GGTA}{\color{green}A}$$) incorporate stop codons, while those at the tag positions ($${\color{blue}CCAT}{\color{green}G},{\color{green}GG}{\color{blue}AATG},{\color{blue}GCTT}{\color{green}TA}$$) include extra bases to ensure that fusion tags remain in frame.
 </p>
 
 <p>
@@ -92,5 +95,5 @@ For the domestication of new coding sequences, the original start and stop codon
 </p>
 
 <p>
-For most Level 0 assemblies, the BsmBI enzyme is used. However, for new Connector/Integration site homology parts, the enzyme PaqCI is required along with the alternative Universal acceptor vector. This is because these parts contain BsmBI recognition sites, which are necessary for the subsequent assembly of multi-gene constructs.
+For most Level 0 assemblies, the BsmBI enzyme is used. However, for new Connector/Integration site homology parts, the enzyme PaqCI is required along with the alternative Universal acceptor vector (pME_G_E_007_UAV_sfGFP_PaqCI). This is because these parts contain BsmBI recognition sites, which are necessary for the subsequent assembly of multi-gene constructs.
 </p>
