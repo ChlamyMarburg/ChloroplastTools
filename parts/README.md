@@ -98,9 +98,31 @@ For most Level 0 assemblies, the BsmBI enzyme is used. However, for new Connecto
 
 | Position | Sequence |
 |:------|:-----|
-| 1_5`Homology_Connector_fwd | $${\text{AA}}{\color{blue}{\text{CACCTGC}}\text{ATATCTCG}{\color{blue}{\text{AACA}}{\color{brown}{\text{CGTCTC}\text{GNNN}}}}}$$ |
+| 1_5'Homology_Connector_fwd | $$\text{AA}{\color{brown}{\text{CACCTGC}}}\text{ATATCTCG}{\color{blue}{\text{AACA}}}{\color{pink}{\text{CGTCTC}}}\text{GNNNN}$$ |
+| 1_5'Homology_Connector_rv              |               |
+| 2_Promoter_fwd                | AA**CGTCTC**GCTCG**GGAG**                    |
+| 2_Promoter_rv                 | **TACT**TGAGG**GAGACG**AA                    |
+| 3_5'UTR_fwd                   | AA**CGTCTC**GCTCG**TACT**                    |
+| 3_5'UTR_rv                    | **AATG**TGAGG**GAGACG**AA                    |
+| 3a_5'UTR_fwd                  | AA**CGTCTC**GCTCG**TACT**                    |
+| 3a_5'UTR_rv                   | **CCAT**TGAGG**GAGACG**AA                    |
+| 3b_N-tag_fwd                  | AA**CGTCTC**GCTCG**CCAT****G**               |
+| 3b_N-tag_rv                   | **GG****AATG**TGAGG**GAGACG**AA              |
+| 4_CDS_fwd                     | AA**CGTCTC**GCTCG**AATG**                    |
+| 4_CDS_rv                      | **GCTT**TGAGG**GAGACG**AA                    |
+| 5_3'UTR+Terminator_fwd        | AA**CGTCTC**GCTCG**GCTT****AA**              |
+| 5_3'UTR+Terminator_rv         | **CGCT**TGAGG**GAGACG**AA                    |
+| 5a_C-tag_fwd                  | AA**CGTCTC**GCTCG**GCTT****TA**              |
+| 5a_C-tag_rv                   | **GGTA**TGAGG**GAGACG**AA                    |
+| 5b_3'UTR+Terminator_fwd       | AA**CGTCTC**GCTCG**GGTA****A**               |
+| 5b_3'UTR+Terminator_rv        | **CGCT**TGAGG**GAGACG**AA                    |
+| 6_3'Homology_Connector_fwd             | AA**CACCTGC**ATATCTCG**CGCT**                |
+| 6_3'Homology_Connector_rv              | NNNNG**GAGACG****AGAC**TGAGATAT**GCAGGTG**TT |
+| 7-8_E.coli_ORI-Resistance_fwd | AA**CGTCTC**GCTCG**AGAC**                    |
+| 7-8_E.coli_ORI-Resistance_rv  | **AACA**TGAGG**GAGACG**AA                    |
 
-[**Table 1** Overhangs for creating new Level 0 parts via DNA synthesis/PCR<br>
-Level 1 overhangs are  indicated in blue. BsmBI sites ($${\color{brown}{\text{CGTCTC}/\color{brown}{\text{GAGACG}}}}$$) 
-are indicated. For connector overhangs PaqCI sites are used.]
+
+**Table 1** Overhangs for creating new Level 0 parts via DNA synthesis/PCR<br>
+Level 1 overhangs are  indicated in blue. BsmBI sites ($${\color{brown}{\text{CGTCTC}}}/{{\color{brown}{\text{GAGACG}}}}$$) 
+are indicated. For connector overhangs PaqCI sites are used.
 <br>
