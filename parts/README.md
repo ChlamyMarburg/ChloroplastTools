@@ -95,6 +95,11 @@ For the domestication of new coding sequences, the original start and stop codon
 For most Level 0 assemblies, the BsmBI enzyme is used. However, for new Connector/Integration site homology parts, the enzyme PaqCI is required along with the alternative Universal acceptor vector (pME_G_E_007_UAV_sfGFP_PaqCI). This is because these parts contain BsmBI recognition sites, which are necessary for the subsequent assembly of multi-gene constructs.
 </p>
 <br>
+
+<html>
+<p style="color:red;">red</p>
+</html>
+
 <html>
 <table>
   <caption>
