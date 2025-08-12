@@ -100,26 +100,26 @@ For most Level 0 assemblies, the BsmBI enzyme is used. However, for new Connecto
 |:------|:-----|
 | 1_5'Homology_Connector_fwd | $$\text{AA}{\color{orange}{\text{CACCTGC}}}\text{ATATCTCG}{\color{blue}{\text{AACA}}}{\color{brown}{\text{CGTCTC}}}\text{GNNNN}$$ |
 | 1_5'Homology_Connector_rv              | $${\color{blue}{\text{GGAG}}}\text{TGAGATAT}{\color{orange}{\text{GCAGGTG}}}\text{TT}$$             |
-| 2_Promoter_fwd                | $\text{AA}{\color{brown}{\text{CGTCTC}}}\text{GCTCG}{\color{blue}{\text{GGAG}}}$              |
-| 2_Promoter_rv                 | ${\color{blue}{\text{TACT}}}\text{TGAGG}{\color{brown}{\text{GAGACG}}}\text{AA}$                    |
-| 3_5'UTR_fwd                   | $\text{AA}{\color{brown}{\text{CGTCTC}}}\text{GCTCG}{\color{blue}{\text{TACT}}}$                    |
-| 3_5'UTR_rv                    | ${\color{blue}{\text{AATG}}}\text{TGAGG}{\color{brown}{\text{GAGACG}}}\text{AA}$                    |
-| 3a_5'UTR_fwd                  | $\text{AA}{\color{brown}{\text{CGTCTC}}}\text{GCTCG}{\color{blue}{\text{CCAT}}}{\color{green}{\text{G}}}$                    |
-| 3a_5'UTR_rv                   | ${\color{blue}{\text{CCAT}}}\text{TGAGG}{\color{brown}{\text{GAGACG}}}\text{AA}$                    |
-| 3b_N-tag_fwd                  | AA**CGTCTC**GCTCG**CCAT****G**               |
-| 3b_N-tag_rv                   | **GG****AATG**TGAGG**GAGACG**AA              |
-| 4_CDS_fwd                     | AA**CGTCTC**GCTCG**AATG**                    |
-| 4_CDS_rv                      | **GCTT**TGAGG**GAGACG**AA                    |
-| 5_3'UTR+Terminator_fwd        | AA**CGTCTC**GCTCG**GCTT****AA**              |
-| 5_3'UTR+Terminator_rv         | **CGCT**TGAGG**GAGACG**AA                    |
-| 5a_C-tag_fwd                  | AA**CGTCTC**GCTCG**GCTT****TA**              |
-| 5a_C-tag_rv                   | **GGTA**TGAGG**GAGACG**AA                    |
-| 5b_3'UTR+Terminator_fwd       | AA**CGTCTC**GCTCG**GGTA****A**               |
-| 5b_3'UTR+Terminator_rv        | **CGCT**TGAGG**GAGACG**AA                    |
-| 6_3'Homology_Connector_fwd             | AA**CACCTGC**ATATCTCG**CGCT**                |
-| 6_3'Homology_Connector_rv              | NNNNG**GAGACG****AGAC**TGAGATAT**GCAGGTG**TT |
-| 7-8_E.coli_ORI-Resistance_fwd | AA**CGTCTC**GCTCG**AGAC**                    |
-| 7-8_E.coli_ORI-Resistance_rv  | **AACA**TGAGG**GAGACG**AA                    |
+| 2_Promoter_fwd                | $$\text{AA}{\color{brown}{\text{CGTCTC}}}\text{GCTCG}{\color{blue}{\text{GGAG}}}$$              |
+| 2_Promoter_rv                 | $${\color{blue}{\text{TACT}}}\text{TGAGG}{\color{brown}{\text{GAGACG}}}\text{AA}$$                    |
+| 3_5'UTR_fwd                   | $$\text{AA}{\color{brown}{\text{CGTCTC}}}\text{GCTCG}{\color{blue}{\text{TACT}}}$$                    |
+| 3_5'UTR_rv                    | $${\color{blue}{\text{AATG}}}\text{TGAGG}{\color{brown}{\text{GAGACG}}}\text{AA}$$                    |
+| 3a_5'UTR_fwd                  | $$\text{AA}{\color{brown}{\text{CGTCTC}}}\text{GCTCG}{\color{blue}{\text{TACT}}}$$                   |
+| 3a_5'UTR_rv                   | $${\color{blue}{\text{CCAT}}}\text{TGAGG}{\color{brown}{\text{GAGACG}}}\text{AA}$$                    |
+| 3b_N-tag_fwd                  |   $$\text{AA}{\color{brown}{\text{CGTCTC}}}\text{GCTCG}{\color{blue}{\text{CCAT}}}{\color{green}{\text{G}}}$$             |
+| 3b_N-tag_rv                   | $${\color{green}{\text{GG}}}{\color{blue}{\text{AATG}}}\text{TGAGG}{\color{brown}{\text{GAGACG}}}\text{AA}$$              |
+| 4_CDS_fwd                     | $$\text{AA}{\color{brown}{\text{CGTCTC}}}\text{GCTCG}{\color{blue}{\text{AATG}}}$$                    |
+| 4_CDS_rv                      | $${\color{blue}{\text{GCTT}}}\text{TGAGG}{\color{brown}{\text{GAGACG}}}\text{AA}$$                   |
+| 5_3'UTR+Terminator_fwd        | $$\text{AA}{\color{brown}{\text{CGTCTC}}}\text{GCTCG}{\color{blue}{\text{GCTT}}}{\color{green}{\text{AA}}}$$              |
+| 5_3'UTR+Terminator_rv         | $${\color{blue}{\text{CGCT}}}\text{TGAGG}{\color{brown}{\text{GAGACG}}}\text{AA}$$                    |
+| 5a_C-tag_fwd                  | $$\text{AA}{\color{brown}{\text{CGTCTC}}}\text{GCTCG}{\color{blue}{\text{GCTT}}}{\color{green}{\text{TA}}}$$              |
+| 5a_C-tag_rv                   | $${\color{blue}{\text{GGTA}}}\text{TGAGG}{\color{brown}{\text{GAGACG}}}\text{AA}$$                   |
+| 5b_3'UTR+Terminator_fwd       | $$\text{AA}{\color{brown}{\text{CGTCTC}}}\text{GCTCG}{\color{blue}{\text{GGTA}}}{\color{green}{\text{A}}}$$              |
+| 5b_3'UTR+Terminator_rv        | $${\color{blue}{\text{CGCT}}}\text{TGAGG}{\color{brown}{\text{GAGACG}}}\text{AA}$$                    |
+| 6_3'Homology_Connector_fwd             | $$\text{AA}{\color{orange}{\text{CACCTGC}}}\text{ATATCTCG}{\color{blue}{\text{CGCT}}}$$                |
+| 6_3'Homology_Connector_rv              | $$\text{NNNNG}{\color{brown}{\text{GAGACG}}}{\color{blue}{\text{AGAC}}}\text{TGAGATAT}{\color{orange}{\text{GCAGGTG}}}\text{TT}$$ |
+| 7-8_E.coli_ORI-Resistance_fwd | $$\text{AA}{\color{brown}{\text{CGTCTC}}}\text{GCTCG}{\color{blue}{\text{AGAC}}}$$                    |
+| 7-8_E.coli_ORI-Resistance_rv  | $${\color{blue}{\text{AACA}}}\text{TGAGG}{\color{brown}{\text{GAGACG}}}\text{AA}$$                   |
 
 
 **Table 1** Overhangs for creating new Level 0 parts via DNA synthesis/PCR<br>
