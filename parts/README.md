@@ -84,4 +84,4 @@ PCR or DNA synthesis fragments that include standardized overhangs and BsmBI rec
 <br><br>
 
 <p>
-The unique overhangs assign the position within the Level 1 assembly for the subsequent cloning steps. For some overhangs, additional nucleotides are appended. For example, overhangs in the 3’UTR position (<html><font color="blue">GCTT</font><font color="green">AA</font></html>, GGTAA) incorporate stop codons, while those at the tag positions (CCATG, GGAATG, GCTTTA) include extra bases to ensure that fusion tags remain in frame.
+The unique overhangs assign the position within the Level 1 assembly for the subsequent cloning steps. For some overhangs, additional nucleotides are appended. For example, overhangs in the 3’UTR position (<p style="color:blue">GCTT</p><font color="green">AA</font></html>, GGTAA) incorporate stop codons, while those at the tag positions (CCATG, GGAATG, GCTTTA) include extra bases to ensure that fusion tags remain in frame.
