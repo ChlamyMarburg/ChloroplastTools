@@ -98,7 +98,7 @@ For most Level 0 assemblies, the BsmBI enzyme is used. However, for new Connecto
 
 | Position | Sequence |
 |:------|:-----|
-| 1_5`Homology_Connector_fwd | AA |
+| 1_5`Homology_Connector_fwd | AA$${\color{blue}{\text{CACCTGC}}\text{ATATCTCG}{\color{blue}{\text{AACA}}{\color{brown}{\text{CGTCTC}\text{GNNN}}}}} |
 
 [Table caption]
 <br>
