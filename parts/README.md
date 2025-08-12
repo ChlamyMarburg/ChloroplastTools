@@ -99,13 +99,13 @@ For most Level 0 assemblies, the BsmBI enzyme is used. However, for new Connecto
 | Position | Sequence |
 |:------|:-----|
 | 1_5'Homology_Connector_fwd | $$\text{AA}{\color{orange}{\text{CACCTGC}}}\text{ATATCTCG}{\color{blue}{\text{AACA}}}{\color{brown}{\text{CGTCTC}}}\text{GNNNN}$$ |
-| 1_5'Homology_Connector_rv              |  $$\text{AA}{\color{brown}{\text{CACCTGC}}}\text{ATATCTCG}{\color{blue}{\text{AACA}}}{\color{pink}{\text{CGTCTC}}}\text{GNNNN},{\color{blue}{\text{GGAG}}}\text{TGAGATAT}{\color{orange}{\text{GCAGGTG}}}\text{TT}$$             |
-| 2_Promoter_fwd                | AA**CGTCTC**GCTCG**GGAG**                    |
-| 2_Promoter_rv                 | **TACT**TGAGG**GAGACG**AA                    |
-| 3_5'UTR_fwd                   | AA**CGTCTC**GCTCG**TACT**                    |
-| 3_5'UTR_rv                    | **AATG**TGAGG**GAGACG**AA                    |
-| 3a_5'UTR_fwd                  | AA**CGTCTC**GCTCG**TACT**                    |
-| 3a_5'UTR_rv                   | **CCAT**TGAGG**GAGACG**AA                    |
+| 1_5'Homology_Connector_rv              | $${\color{blue}{\text{GGAG}}}\text{TGAGATAT}{\color{orange}{\text{GCAGGTG}}}\text{TT}$$             |
+| 2_Promoter_fwd                | $\text{AA}{\color{brown}{\text{CGTCTC}}}\text{GCTCG}{\color{blue}{\text{GGAG}}}$              |
+| 2_Promoter_rv                 | ${\color{blue}{\text{TACT}}}\text{TGAGG}{\color{brown}{\text{GAGACG}}}\text{AA}$                    |
+| 3_5'UTR_fwd                   | $\text{AA}{\color{brown}{\text{CGTCTC}}}\text{GCTCG}{\color{blue}{\text{TACT}}}$                    |
+| 3_5'UTR_rv                    | ${\color{blue}{\text{AATG}}}\text{TGAGG}{\color{brown}{\text{GAGACG}}}\text{AA}$                    |
+| 3a_5'UTR_fwd                  | $\text{AA}{\color{brown}{\text{CGTCTC}}}\text{GCTCG}{\color{blue}{\text{CCAT}}}{\color{green}{\text{G}}}$                    |
+| 3a_5'UTR_rv                   | ${\color{blue}{\text{CCAT}}}\text{TGAGG}{\color{brown}{\text{GAGACG}}}\text{AA}$                    |
 | 3b_N-tag_fwd                  | AA**CGTCTC**GCTCG**CCAT****G**               |
 | 3b_N-tag_rv                   | **GG****AATG**TGAGG**GAGACG**AA              |
 | 4_CDS_fwd                     | AA**CGTCTC**GCTCG**AATG**                    |
