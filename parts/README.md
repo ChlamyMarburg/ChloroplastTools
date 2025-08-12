@@ -84,7 +84,7 @@ PCR or DNA synthesis fragments that include standardized overhangs and BsmBI rec
 <br><br>
 
 <p>
-The unique overhangs assign the position within the Level 1 assembly for the subsequent cloning steps. For some overhangs, additional nucleotides are appended. For example, overhangs in the 3’UTR position ($${\color{blue}{\text{GCTT}}\color{green}{\text{AA}}},{\color{blue}{\text{GGTA}}\color{green}{\text{A}}}$$) incorporate stop codons, while those at the tag positions ($${\color{blue}{\text{CCAT}}\color{green}{\text{G}},\color{green}{\text{GG}}\color{blue}{\text{AATG}},\color{blue}{\text{GCTT}}\color{green}{\text{TA}}}$$) include extra bases to ensure that fusion tags remain in frame.
+The unique overhangs assign the position within the Level 1 assembly for the subsequent cloning steps. For some overhangs, additional nucleotides are appended. For example, overhangs in the 3’UTR position ($${\color{blue}{\text{GCTT}}\color{green}{\text{AA}}},{\color{blue}{\text{GGTA}}\color{green}{\text{A}}}$$) incorporate stop codons, while those at the tag positions ($${\color{blue}{\text{CCAT}}\color{green}{\text{G}},\color{green}{\text{GG}}\color{blue}{\text{AATG}},{\color{blue}{\text{GCTT}}\color{green}{\text{TA}}}}$$) include extra bases to ensure that fusion tags remain in frame.
 </p>
 
 <p>
@@ -99,7 +99,7 @@ For most Level 0 assemblies, the BsmBI enzyme is used. However, for new Connecto
 | Position | Sequence |
 |:------|:-----|
 | 1_5'Homology_Connector_fwd | $$\text{AA}{\color{orange}{\text{CACCTGC}}}\text{ATATCTCG}{\color{blue}{\text{AACA}}}{\color{brown}{\text{CGTCTC}}}\text{GNNNN}$$ |
-| 1_5'Homology_Connector_rv              |               |
+| 1_5'Homology_Connector_rv              |  $$\text{AA}{\color{brown}{\text{CACCTGC}}}\text{ATATCTCG}{\color{blue}{\text{AACA}}}{\color{pink}{\text{CGTCTC}}}\text{GNNNN},{\color{blue}{\text{GGAG}}}\text{TGAGATAT}{\color{orange}{\text{GCAGGTG}}}\text{TT}$$             |
 | 2_Promoter_fwd                | AA**CGTCTC**GCTCG**GGAG**                    |
 | 2_Promoter_rv                 | **TACT**TGAGG**GAGACG**AA                    |
 | 3_5'UTR_fwd                   | AA**CGTCTC**GCTCG**TACT**                    |
