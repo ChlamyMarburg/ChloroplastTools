@@ -1,7 +1,7 @@
 # LVL-0 GoldenGate Parts
 
 ## Overview
-![MoClo Overview](../../imgs/moclo_overview.png)
+![MoClo Overview](../../images/moclo_overview.png)
 
 ## Nomenclature
 | Nomenclature | Position | Part Type | Description | Left Overhang | Right Overhang | 
