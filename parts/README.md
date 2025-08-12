@@ -84,10 +84,7 @@ PCR or DNA synthesis fragments that include standardized overhangs and BsmBI rec
 <br><br>
 
 <p>
-The unique overhangs assign the position within the Level 1 assembly for the subsequent cloning steps. For some overhangs, additional nucleotides are appended. For example, overhangs in the 3’UTR position 
-
-
-($${\color{blue}{\text{GCTT}}\color{green}{\text{AA}}},{\color{blue}{\text{GGTA}}\color{green}{\text{A}}}$$) incorporate stop codons, while those at the tag positions ($${\color{blue}{\text{CCAT}}\color{green}{\text{G}},\color{green}{\text{GG}}\color{blue}{\text{AATG}},\color{blue}{\text{GCTT}}\color{green}{\text{TA}}}$$) include extra bases to ensure that fusion tags remain in frame.
+The unique overhangs assign the position within the Level 1 assembly for the subsequent cloning steps. For some overhangs, additional nucleotides are appended. For example, overhangs in the 3’UTR position ($${\color{blue}{\text{GCTT}}\color{green}{\text{AA}}},{\color{blue}{\text{GGTA}}\color{green}{\text{A}}}$$) incorporate stop codons, while those at the tag positions ($${\color{blue}{\text{CCAT}}\color{green}{\text{G}},\color{green}{\text{GG}}\color{blue}{\text{AATG}},\color{blue}{\text{GCTT}}\color{green}{\text{TA}}}$$) include extra bases to ensure that fusion tags remain in frame.
 </p>
 
 <p>
@@ -97,3 +94,34 @@ For the domestication of new coding sequences, the original start and stop codon
 <p>
 For most Level 0 assemblies, the BsmBI enzyme is used. However, for new Connector/Integration site homology parts, the enzyme PaqCI is required along with the alternative Universal acceptor vector (pME_G_E_007_UAV_sfGFP_PaqCI). This is because these parts contain BsmBI recognition sites, which are necessary for the subsequent assembly of multi-gene constructs.
 </p>
+<br>
+<html>
+<table>
+  <caption>
+    <b>Table 1</b> Overhangs for creating new Level 0 parts via DNA synthesis/PCR<br>
+    Level 1 overhangs are  indicated in blue. BsmBI sites (<p style="color:brown">CGTCTC</p>/<p style="color:brown">GAGACG</p>) 
+are indicated. For connector overhangs PaqCI sites are used.
+  </caption>
+  <tr>
+    <td></td>
+    <th scope="col" class="heman">He-Man</th>
+    <th scope="col" class="skeletor">Skeletor</th>
+  </tr>
+  <tr>
+    <th scope="row">Role</th>
+    <td>Hero</td>
+    <td>Villain</td>
+  </tr>
+  <tr>
+    <th scope="row">Weapon</th>
+    <td>Power Sword</td>
+    <td>Havoc Staff</td>
+  </tr>
+  <tr>
+    <th scope="row">Dark secret</th>
+    <td>Expert florist</td>
+    <td>Cries at romcoms</td>
+  </tr>
+</table>
+</html>
+<br>
