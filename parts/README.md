@@ -129,7 +129,7 @@ are indicated in $${\color{brown}\text{brown}}$$. For connector overhangs PaqCI 
 
 <p>
 Our version of the universally acceptor vector, allows for pink/white selection after cloning and transformation, due to the mScarlet placeholder cassette in the vector.
-Except of this mScarlet placeholder cassette this vector is sequence identical to the commonly used (in the plant synthetic biology community) Universal acceptor vector ([Addgene #68161](https://www.addgene.org/68161/)).
+Except of this mScarlet placeholder cassette this vector is sequence identical to the commonly used (in the plant synthetic biology community) Universal acceptor vector [(Addgene #68161)](https://www.addgene.org/68161/).
 </p>
 <p>
 Another aspect, which needs to be considered when creating new Level 0 Part is that  internal  enzyme recognition sites for at least BsaI and BsmBI have to be removed within the part sequence to not interfere with the subsequent cloning process.
