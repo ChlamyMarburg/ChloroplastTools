@@ -75,7 +75,7 @@ In contrast to other methods that require multiple acceptor vectors, only one is
 <html>
 <figure>
     <img src="../images/parts/Fig3.png"
-         alt="Domesticating new Level 0 Parts ">
+         alt="Domesticating new Level 0 Parts">
     <figcaption>
 <b>Figure 3</b> Domesticating new Level 0 Parts <br>
 PCR or DNA synthesis fragments that include standardized overhangs and BsmBI recognition sites are assembled into the Universal Acceptor vector. This vector features an mScarlet placeholder, enabling pink/white colony screening.</figcaption>
@@ -135,3 +135,28 @@ Except of this mScarlet placeholder cassette this vector is sequence identical t
 <p>
 Another aspect, which needs to be considered when creating new Level 0 Part is that  internal  enzyme recognition sites for at least BsaI and BsmBI have to be removed within the part sequence to not interfere with the subsequent cloning process.
 </p>
+
+### Assembly of Level 1 Transcription Units
+<p>
+To construct a single transcriptional unit (Level 1), 5–9 Level 0 parts are assembled in a one-pot reaction using BsaI. The overhangs on these parts adhere to the widely adopted Phytobrick standard, which is also employed in the modular cloning system for nuclear engineering in Chlamydomonas, including the A1–C1 overhangs (Figure 4).
+</p>
+<br>
+<html>
+<figure>
+    <img src="../images/parts/Fig4.png"
+         alt="Part types and positioning of the chloroplast modular cloning system">
+    <figcaption>
+<b>Figure 4</b> Part types and positioning of the chloroplast modular cloning system<br>
+The modular design of the system provides high flexibility by offering 5’UTRs, promoters, IEEs, and tags as separate, independently selectable parts. The chloroplast modular cloning systems adheres to the widely adopted Phytobrick standard, including the A1-C1 overhangs. These overhangs are complemented by two additional overhangs for the connectors/homology parts, as well as the E. coli marker and origin.</figcaption>
+</figure>
+</html>
+<br><br>
+
+<p>
+Compared to the modular cloning system for nuclear engineering in Chlamydomonas, our system brings several new features, such as the additional connector/homology parts, the possibility of building polycistronic transcription units via IEEs and a few more. 
+</p>
+
+<p>
+Our system differs from the traditional modular cloning architecture by not using the conventional Level 1 and Level 2 acceptor vectors to dictate the placement of the transcription units in subsequent assembly steps. Instead, this function is performed by connector parts that contain BsmBI sites and specific overhangs to define the arrangement of multigene constructs. The following sections provide a detailed explanation of these homology parts/connectors and other new features.
+</p>
+
