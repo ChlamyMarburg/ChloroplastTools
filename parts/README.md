@@ -1,6 +1,6 @@
 # Manual for the Chloroplast Modular Cloning System
 
-[[_TOC_]]
+[TOC]
 
 # Table of Contents
 * [Type IIs restriction enzymes](#type-iis-restriction-enzymes)
