@@ -2,6 +2,10 @@
 
 # Table of Contents
 * [Type IIs restriction enzymes](#type-iis-restriction-enzymes)
+* [General Introduction](#general-introduction)
+* [The general Modular cloning scheme](#the-general-modular-cloning-scheme)
+* [Domesticating new Level 0 parts](#domesticating-new-level-0-parts)
+* [Assembly of Level 1 Transcription Units](#assembly-of-level-1-transcription-units)
 
 ## Type IIs restriction enzymes
 <p>
@@ -139,7 +143,7 @@ Except of this mScarlet placeholder cassette this vector is sequence identical t
 Another aspect, which needs to be considered when creating new Level 0 Part is that  internal  enzyme recognition sites for at least BsaI and BsmBI have to be removed within the part sequence to not interfere with the subsequent cloning process.
 </p>
 
-### Assembly of Level 1 Transcription Units
+## Assembly of Level 1 Transcription Units
 <p>
 To construct a single transcriptional unit (Level 1), 5–9 Level 0 parts are assembled in a one-pot reaction using BsaI. The overhangs on these parts adhere to the widely adopted Phytobrick standard, which is also employed in the modular cloning system for nuclear engineering in Chlamydomonas, including the A1–C1 overhangs (Figure 4).
 </p>
@@ -162,4 +166,47 @@ Compared to the modular cloning system for nuclear engineering in Chlamydomonas,
 <p>
 Our system differs from the traditional modular cloning architecture by not using the conventional Level 1 and Level 2 acceptor vectors to dictate the placement of the transcription units in subsequent assembly steps. Instead, this function is performed by connector parts that contain BsmBI sites and specific overhangs to define the arrangement of multigene constructs. The following sections provide a detailed explanation of these homology parts/connectors and other new features.
 </p>
+
+### New in our Chloroplast Modular cloning System: Chloroplast genome homology parts and connectors
+<p>
+To adapt the Modular Cloning (MoClo) approach for chloroplast engineering, the standard MoClo positions have been extended with additional Connector/Homology positions. These extensions enable site-directed integration into the plastome and support multigene assembly. Four specific regions of the chloroplast genome are available as homology sites for precise, site-specific integration. For multigene assemblies, the 5’ homology region is incorporated into the first transcription unit and the 3’ homology region into the last transcription unit. Alternatively, these homology parts can be used within a single transcription unit to integrate a single gene of interest.
+</p>
+<br>
+<html>
+<figure>
+    <img src="../images/parts/Fig5.png"
+         alt="Homology parts of the chloroplast genome of Chlamydomonas reinhardtii">
+    <figcaption>
+<b>Figure 5</b> Homology parts of the chloroplast genome of <i>Chlamydomonas reinhardtii</i><br>
+Chloroplast regions for four distinct integration sites are provided as homology parts within the extended Modular Cloning framework, supplementing the standard Phytobrick part positions. Notably, one homology part also includes a photosynthetic gene, which can be leveraged for photosynthetic selection strategies.</figcaption>
+</figure>
+</html>
+<br><br>
+
+<p>
+The same modular cloning position as the homology parts (M1 and M2) are also used for the connector parts. These connector parts are used within a Level 1 assembly  to define the order of transcription units within a multigene Level 2 assembly. These parts include BsmBI sites and the different overhangs for the respective position of the transcription unit.
+</p>
+
+<p>
+Our system features several types of connector parts—including short, long, and reverse connectors (detailed below). Each type comprises seven distinct connectors corresponding to the seven positions in a Level 2 multigene assembly. 
+</p>
+
+<p>
+One advantage of connector-based assembly is its increased flexibility: no end linkers are required, and new functions can be easily incorporated into the connector parts. The 5’ and 3’ connectors are selected independently to construct a Level 1 plasmid, allowing one to seven Level 1 plasmids to be combined into a Level 2 plasmid without needing the end linkers that other modular cloning systems require.
+</p>
+
+<p>
+To design and assemble multigene constructs, the rule for selecting connectors is as follows: 5′Con(N) connects to 3′Con(N–1). For example, the 5′ connector of the second transcription unit (5′Connector_2) must connect to the 3′ connector of the first transcription unit (3′Connector_1). Additionally, the total number of transcription units in the final assembly must be considered, since the last unit must end with 3′Homology for the integration in the chloroplast genome and to properly connect to the Level 2 backbone.
+</p>
+
+<br>
+<html>
+<figure>
+    <img src="../images/parts/Fig6.png"
+         alt="Example for the assembly of a Level 2 Multi-gene constructs">
+    <figcaption>
+<b>Figure 6</b> Example for the assembly of a Level 2 Multi-gene constructs</figcaption>
+</figure>
+</html>
+<br><br>
 
