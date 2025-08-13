@@ -1,18 +1,19 @@
 # Manual for the Chloroplast Modular Cloning System
 
-[TOC]
-
 # Table of Contents
-* [Type IIs restriction enzymes](#type-iis-restriction-enzymes)
-* [General Introduction](#general-introduction)
-* [The general Modular cloning scheme](#the-general-modular-cloning-scheme)
-* [Domesticating new Level 0 parts](#domesticating-new-level-0-parts)
-* [Assembly of Level 1 Transcription Units](#assembly-of-level-1-transcription-units)
-* [Assembly of Level 2 Multi-gene constructs](#assembly-of-level-2-multi-gene-constructs)
-+ [Example for the Assembly of a Level 2 Multi-gene construct](#example-for-the-assembly-of-a-level-2-multi-gene-construct)
-+ [Additional features: Reversing of Transcription Units](#additional-features-reversing-of-transcription-units)
-+ [Additional features: Building polycistronic operons via Intercistronic expression elements (IEEs) and operon connectors](#additional-features-building-polycistronic-operons-via-intercistronic-expression-elements-iees-and-operon-connectors)
-+ [Additional features: Placeholder parts](#additional-features-placeholder-parts)
+- [Manual for the Chloroplast Modular Cloning System](#manual-for-the-chloroplast-modular-cloning-system)
+- [Table of Contents](#table-of-contents)
+  - [Type IIs restriction enzymes](#type-iis-restriction-enzymes)
+  - [General introduction](#general-introduction)
+  - [The general Modular cloning scheme](#the-general-modular-cloning-scheme)
+  - [Domesticating new Level 0 parts](#domesticating-new-level-0-parts)
+  - [Assembly of Level 1 Transcription Units](#assembly-of-level-1-transcription-units)
+    - [New in our Chloroplast Modular cloning System: Chloroplast genome homology parts and connectors](#new-in-our-chloroplast-modular-cloning-system-chloroplast-genome-homology-parts-and-connectors)
+  - [Assembly of Level 2 Multi-gene constructs](#assembly-of-level-2-multi-gene-constructs)
+    - [Example for the Assembly of a Level 2 Multi-gene construct](#example-for-the-assembly-of-a-level-2-multi-gene-construct)
+    - [Additional features: Reversing of Transcription Units](#additional-features-reversing-of-transcription-units)
+    - [Additional features: Building polycistronic operons via Intercistronic expression elements (IEEs) and operon connectors](#additional-features-building-polycistronic-operons-via-intercistronic-expression-elements-iees-and-operon-connectors)
+    - [Additional features: Placeholder parts](#additional-features-placeholder-parts)
 
 
 ## Type IIs restriction enzymes
