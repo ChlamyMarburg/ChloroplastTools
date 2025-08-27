@@ -19,7 +19,7 @@ Subfolders contain individual `GenBank` files for the following sequences/parts/
 - **Overhangs**  
   > Defined overhangs for each part type, in both `forward` and `reverse` orientations.
 - **pME_Cp_0**  
-  > MoClo level-0 parts, organized by part type (promoters, UTRs, CDS/tags, IEEs, terminators, backbones).
+  > MoClo level-0 parts, organized by part type (promoters, UTRs, CDS/tags, IEEs, etc.).
 - **pME_Cp_2**  
   > MoClo level-2 constructs used in this publication, primarily measurement constructs.
 - **pME_Cp_E**  
