@@ -176,7 +176,7 @@ Compared to the modular cloning system for nuclear engineering in Chlamydomonas,
 Our system differs from the traditional modular cloning architecture by not using the conventional Level 1 and Level 2 acceptor vectors to dictate the placement of the transcription units in subsequent assembly steps. Instead, this function is performed by connector parts that contain BsmBI sites and specific overhangs to define the arrangement of multigene constructs. The following sections provide a detailed explanation of these homology parts/connectors and other new features.
 </p>
 
-### New in our Chloroplast Modular cloning System: Chloroplast genome homology parts and connectors
+## New in our Chloroplast Modular cloning System: Chloroplast genome homology parts and connectors
 <p>
 To adapt the Modular Cloning (MoClo) approach for chloroplast engineering, the standard MoClo positions have been extended with additional Connector/Homology positions. These extensions enable site-directed integration into the plastome and support multigene assembly. Four specific regions of the chloroplast genome are available as homology sites for precise, site-specific integration. For multigene assemblies, the 5’ homology region is incorporated into the first transcription unit and the 3’ homology region into the last transcription unit. Alternatively, these homology parts can be used within a single transcription unit to integrate a single gene of interest.
 </p>
@@ -186,7 +186,7 @@ To adapt the Modular Cloning (MoClo) approach for chloroplast engineering, the s
     <img src="../images/parts/Fig5.png"
          alt="Homology parts of the chloroplast genome of Chlamydomonas reinhardtii">
     <figcaption>
-<b>Figure 5</b> Homology parts of the chloroplast genome of <i>Chlamydomonas reinhardtii</i><br>
+<b>Figure 5</b> Homology parts of the chloroplast genome of <i>Chlamydomonas reinhardtii</i>.<br>
 Chloroplast regions for four distinct integration sites are provided as homology parts within the extended Modular Cloning framework, supplementing the standard Phytobrick part positions. Notably, one homology part also includes a photosynthetic gene, which can be leveraged for photosynthetic selection strategies.</figcaption>
 </figure>
 </html>
@@ -201,7 +201,7 @@ Our system features several types of connector parts—including short, long, an
 </p>
 
 <p>
-One advantage of connector-based assembly is its increased flexibility: no end linkers are required, and new functions can be easily incorporated into the connector parts. The 5’ and 3’ connectors are selected independently to construct a Level 1 plasmid, allowing one to seven Level 1 plasmids to be combined into a Level 2 plasmid without needing the end linkers that other modular cloning systems require.
+One advantage of connector-based assembly is its increased flexibility: no end linkers are required, and new functions can be easily incorporated into the connector parts. The 5’ and 3’ connectors are selected independently to construct a Level 1 plasmid, allowing one to seven Level 1 plasmids to be combined into a Level 2 plasmid without needing the end linkers that other modular cloning systems require (Figure 6).
 </p>
 
 <p>
@@ -214,14 +214,28 @@ To design and assemble multigene constructs, the rule for selecting connectors i
     <img src="../images/parts/Fig6.png"
          alt="Connector parts define the position of transcription units within a multigene assembly">
     <figcaption>
-<b>Figure 6</b> Connector parts define the position of transcription units within a multigene assembly</figcaption>
+<b>Figure 6</b> Connector parts define the position of transcription units (TU) within a multigene assembly.<br>
+The position of the Level 1 transcription units within a multigene Level 2 assembly is dictated by the 4bp BsmBI overhangs withing the connector parts. Our cloning systems allows assembly for up to 7 TU´s but the number of TU´s can be chosen highly flexibly, by the selection of the specific connector parts in the Level 1 assembly. The first TU always includes the 5’Homology and the last TU always includes the 3’homology for the integration into the chloroplast genome
+</figcaption>
 </figure>
 </html>
 <br><br>
 
-## Assembly of Level 2 Multi-gene constructs
+## Example for the Assembly of a Level 2 Multi-gene construct
 
-### Example for the Assembly of a Level 2 Multi-gene construct
+<br>
+<html>
+<figure>
+    <img src="../images/parts/Fig7.png"
+         alt="Example of a multigene assembly with three transcription units">
+    <figcaption>
+<b>Figure 7</b> Example of a multigene assembly with three transcription units.<br>
+The first transcription unit (TU1) uses a 5′ homology part (selected from one of four chloroplast integration sites) combined with 3′ Connector-1. The second transcription unit (TU2) is built with 5′ Connector-2 and 3′ Connector-2. The third transcription unit (TU3) incorporates 5′ Connector-3 paired with the corresponding 3′ homology part matching the chosen 5′ homology site.
+</figcaption>
+</figure>
+</html>
+<br><br>
+
 <p>
 An example of assembling a Level 2 multigene construct is as follows:
 </p>
@@ -242,10 +256,10 @@ An example of assembling a Level 2 multigene construct is as follows:
 <br>
 
 <p>
-These three Level 1 plasmids are subsequently combined with a Level 2 acceptor vector in a BsmBI Golden Gate reaction. The connectors selected during the Level 1 assembly determine the final order of transcription units in the multigene construct.
+These three Level 1 plasmids are subsequently combined with a Level 2 acceptor vector in a BsmBI Golden Gate reaction. The connectors selected during the Level 1 assembly determine the final order of transcription units in the multigene construct (Figure 7).
 </p>
 
-### Additional features: Reversing of Transcription Units
+## Additional features: Reversing of Transcription Units
 <p>
 Our modular cloning system also includes a set of reverse connectors that allow the orientation of transcription units to be switched. This is particularly important because natural 3′UTRs often lack strong termination signals, leading to read-through transcription. Such read-through can produce antisense RNA that interferes with the expression of neighboring genes. By inverting the direction of transcription units, this issue can be circumvented. Additionally, homology parts for plastome integration have been designed with an inversion option for all available integration sites as well.
 </p>
@@ -253,20 +267,33 @@ Our modular cloning system also includes a set of reverse connectors that allow 
 <br>
 <html>
 <figure>
-    <img src="../images/parts/Fig7.png"
-         alt="Reverse connectors allow reverse orientation of transcription units within Level 2 assemblies">
+    <img src="../images/parts/Fig8.png"
+         alt="Reverse connectors allow switching of the transcription unit directionality. In this example TU1 and TU3 are in the reverse orientation">
     <figcaption>
-<b>Figure 7</b> Reverse connectors allow reverse orientation of transcription units within Level 2 assemblies</figcaption>
+<b>Figure 8</b> Reverse connectors allow switching of the transcription unit directionality. In this example TU1 and TU3 are in the reverse orientation.</figcaption>
+</figure>
+</html>
+<br><br>
+
+<br>
+<html>
+<figure>
+    <img src="../images/parts/Fig9.png"
+         alt="Example of reverse connector usage">
+    <figcaption>
+<b>Figure 9</b> Example of reverse connector usage.<br>
+For assembling reverse transcription units, reverse connectors and reverse homologies are employed. In the first transcription unit, a 5′ homology part is paired with a reversed 5′Connector-1 (serving as the 3′ connector). The second transcription unit uses a reversed 5′Connector-2 along with a reversed 3′Connector. The third transcription unit, oriented in the forward direction, is constructed using the standard 5′Connector-3 and 3′Connector-3. These three Level 1 transcription units are subsequently combined in a Level 2 assembly.</figcaption>
 </figure>
 </html>
 <br><br>
 
 <p>
-For reverse transcription unit assembly, the same naming scheme and rules apply, with each connector number corresponding to its position in the multigene assembly. The only difference is that the reversed versions of the 5′ and 3′ connectors must be used. This approach allows the orientation of up to seven transcription units to be independently selected.
+For reverse transcription unit assembly, the same naming scheme and rules apply, with each connector number corresponding to its position in the multigene assembly    
+(Figure 9). The only difference is that the inverted versions of the 5′ and 3′ connectors must be used. This approach allows the orientation of up to seven transcription units to be independently selected.
 </p>
 <br>
 
-### Additional features: Building polycistronic operons via Intercistronic expression elements (IEEs) and operon connectors
+## Additional features: Building polycistronic operons via Intercistronic expression elements (IEEs) and operon connectors
 <p>
 One feature that has not traditionally been incorporated into the Modular Cloning approach is the construction of polycistronic operon structures. Standard Modular Cloning assemblies rely on separate transcription units composed of promoters, 5′UTRs, coding sequences, and 3′UTRs/terminators. To integrate polycistronic design into this framework, a method was needed to “skip” the promoter and terminator positions. This was achieved by extending the connector position to bypass these regions. In this work, 14 novel operon connectors were designed and constructed, enabling the assembly of operons with up to seven genes expressed from a single polycistronic mRNA. These new operon connector parts can be adapted for any Modular Cloning toolkit designed for bacterial chassis, thereby facilitating polycistronic expression. 
 </p>
@@ -274,10 +301,10 @@ One feature that has not traditionally been incorporated into the Modular Clonin
 <br>
 <html>
 <figure>
-    <img src="../images/parts/Fig8.png"
+    <img src="../images/parts/Fig10.png"
          alt="Reverse connectors allow reverse orientation of transcription units within Level 2 assemblies">
     <figcaption>
-<b>Figure 8</b> Operon connectors and IEE parts enable the construction of polycistronic multigene assemblies<br>
+<b>Figure 10</b> Operon connectors and IEE parts enable the construction of polycistronic multigene assemblies<br>
 Operon parts are included in our modular cloning system to “skip” promoter and 3’UTR/Terminator positions. When combined with intercistronic expression elements (IEEs), these parts enable the assembly of polycistronic multigene constructs.</figcaption>
 </figure>
 </html>
@@ -288,8 +315,12 @@ Although polycistronic expression is native to chloroplasts due to their bacteri
 For example, a polycistronic construct can be built by designing the first transcription unit to include a promoter and a 3′ operon connector, while the second transcription unit contains a 5′ operon connector, one of 11 distinct IEE parts, and a 3′UTR. This configuration allows two genes of interest to be expressed from a single polycistronic transcript.
 </p>
 
+<p>
+For example, a polycistronic construct can be built by designing the first transcription unit to include a promoter and a 3′ operon connector, while the second transcription unit contains a 5′ operon connector, one of 11 distinct IEE parts, and a 3′UTR. This configuration allows two genes of interest to be expressed from a single polycistronic transcript.
+</p>
 
-### Additional features: Placeholder parts
+
+## Additional features: Placeholder parts
 <p>
 To facilitate the characterization of entire libraries of a specific part type, it would be ideal to pre-build Level 2 assemblies with a placeholder that can later be exchanged with library elements. However, exchangeable parts have not been implemented within the Modular Cloning framework. Therefore we have designed and constructed placeholder parts that can be removed after the assembly process. In standard Golden Gate cloning, the recognition sites are eliminated in the final construct; therefore, these placeholders must be designed to retain BsaI recognition sites after assembly. This was  be achieved by incorporating the reverse BsaI recognition sequence.
 </p>
@@ -301,10 +332,10 @@ To simplify the identification of correct assemblies, a GFP cassette—expressed
 <br>
 <html>
 <figure>
-    <img src="../images/parts/Fig9.png"
-         alt="Design and function of modular placeholder parts  ">
+    <img src="../images/parts/Fig11.png"
+         alt="Design and function of modular placeholder parts">
     <figcaption>
-<b>Figure 9</b> Design and function of modular placeholder parts  <br>
+<b>Figure 11</b> Design and function of modular placeholder parts  <br>
 BsaI is a Type IIS restriction enzyme that cuts outside of its recognition sequence. In the standard Golden Gate cloning approach (a), the recognition site is removed during assembly. By contrast, using the reverse BsaI recognition sequence (b) allows the site to remain in the final construct. This retained recognition site enables the design of placeholder parts that can be removed in subsequent cloning rounds.</figcaption>
 </figure>
 </html>
