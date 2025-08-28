@@ -6,12 +6,12 @@
 - [The general Modular cloning scheme](#the-general-modular-cloning-scheme)
 - [Domesticating new Level 0 parts](#domesticating-new-level-0-parts)
 - [Assembly of Level 1 Transcription Units](#assembly-of-level-1-transcription-units)
-  - [New in our Chloroplast Modular cloning System: Chloroplast genome homology parts and connectors](#new-in-our-chloroplast-modular-cloning-system-chloroplast-genome-homology-parts-and-connectors)
+- [New in our Chloroplast Modular cloning System: Chloroplast genome homology parts and connectors](#new-in-our-chloroplast-modular-cloning-system-chloroplast-genome-homology-parts-and-connectors)
 - [Assembly of Level 2 Multi-gene constructs](#assembly-of-level-2-multi-gene-constructs)
-  - [Example for the Assembly of a Level 2 Multi-gene construct](#example-for-the-assembly-of-a-level-2-multi-gene-construct)
-  - [Additional features: Reversing of Transcription Units](#additional-features-reversing-of-transcription-units)
-  - [Additional features: Building polycistronic operons via Intercistronic expression elements (IEEs) and operon connectors](#additional-features-building-polycistronic-operons-via-intercistronic-expression-elements-iees-and-operon-connectors)
-  - [Additional features: Placeholder parts](#additional-features-placeholder-parts)
+- [Example for the Assembly of a Level 2 Multi-gene construct](#example-for-the-assembly-of-a-level-2-multi-gene-construct)
+- [Additional features: Reversing of Transcription Units](#additional-features-reversing-of-transcription-units)
+- [Additional features: Building polycistronic operons via Intercistronic expression elements (IEEs) and operon connectors](#additional-features-building-polycistronic-operons-via-intercistronic-expression-elements-iees-and-operon-connectors)
+- [Additional features: Placeholder parts](#additional-features-placeholder-parts)
 
 
 ## Type IIs restriction enzymes
