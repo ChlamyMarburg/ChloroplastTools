@@ -1,3 +1,5 @@
+[![Addgene](https://img.shields.io/badge/Addgene-ChloroModas_Kit-blue)](https://www.addgene.org/kits/erb-chloromodas/)
+[![DOI](https://img.shields.io/badge/Nature%20Plants-10.1038%2Fs41477--025--02126--2-green)](https://doi.org/10.1038/s41477-025-02126-2)
 # Advancing chloroplast synthetic biology through high-throughput plastome engineering of *Chlamydomonas reinhardtii*
 
 ## Abstract
@@ -13,6 +15,7 @@ More information on each file can be found [here](https://github.com/ChlamyMarbu
 
 ### Parts
 Contains the manual for our chloroplast modular cloning system and the curated parts library:  
+
 ➡️ **Start here**: [parts/README.md](https://github.com/ChlamyMarburg/ChloroplastTools/blob/main/parts/README.md)
 
 Subfolders contain individual `GenBank` files for the following sequences/parts/constructs:
@@ -34,14 +37,30 @@ Contains automation workflows for generating, handling, and analysing thousands 
 
 *Note*: If you intend to use the pipeline, install the required dependencies listed in `pyproject.toml`. Before running the script, make sure to edit the corresponding `config.py`.
 
+## Availability
+The physical plasmid kit (**CHLOROMODAS**) containing the parts and vectors described in this study is available for distribution via Addgene:
+
+🧬 **[View Kit at Addgene](https://www.addgene.org/kits/erb-chloromodas/)**
+
 ## Citation
-Cite [this work](https://doi.org/10.1101/2024.05.08.593163)
+If you use the tools or parts in your work, please cite the following publication:
+
+>**A modular high-throughput approach for advancing synthetic biology in the chloroplast of Chlamydomonas.**   
+>Inckemann, R.M., Chotel, T., Burgis, M. et al.   
+>Nat. Plants (2025). [https://doi.org/10.1038/s41477-025-02126-2](https://doi.org/10.1038/s41477-025-02126-2)
+   
+**BibTeX:**
 ```bibtex
-@article{ChlamyMoClo,
-  title = {Advancing chloroplast synthetic biology through high-throughput plastome engineering of Chlamydomonas reinhardtii},
-  url = {http://dx.doi.org/10.1101/2024.05.08.593163},
-  DOI = {10.1101/2024.05.08.593163},
-  author = {Inckemann,  René and Chotel,  Tanguy and Burgis,  Michael and Brinkmann,  Cedric K. and Andreas,  Laura and Baumann,  Jessica and Sharma,  Priyati and Klose,  Melanie and Barrett,  James and Ries,  Fabian and Paczia,  Nicole and Glatter,  Timo and Willmund,  Felix and Mackinder,  Luke C. M. and Erb,  Tobias J.},
+@article{chloromodas2025,
+  title     = {A modular high-throughput approach for advancing synthetic biology in the chloroplast of Chlamydomonas},
+  ISSN      = {2055-0278},
+  url       = {http://dx.doi.org/10.1038/s41477-025-02126-2},
+  DOI       = {10.1038/s41477-025-02126-2},
+  journal   = {Nature Plants},
+  publisher = {Springer Science and Business Media LLC},
+  author    = {Inckemann,  René M. and Chotel,  Tanguy and Burgis,  Michael and Brinkmann,  Cedric K. and Andreas,  Laura and Baumann,  Jessica and Sharma,  Priyati and Klose,  Melanie and Barrett,  James and Ries,  Fabian and Paczia,  Nicole and Glatter,  Timo and Mackinder,  Luke C. M. and Willmund,  Felix and Erb,  Tobias J.},
+  year      = {2025},
+  month     = nov 
 }
 ```
 
